@@ -40,9 +40,9 @@ def tableCashClosing():
     print(len(rows))
     for row in rows:
         if len(row.query_selector_all("a"))==7:
-            tipe="agencia"
-        elif len(row.query_selector_all("a"))==5:
             tipe="distribuidora"
+        elif len(row.query_selector_all("a"))==5:
+            tipe="agencia"
         else:
             tipe="otro"
         xpathArceoCajaBs="a[data-original-title='Arqueo de Caja Bs. EXCEL']"
@@ -50,11 +50,11 @@ def tableCashClosing():
         xpathFirstExcel="a[data-original-title='Descargar EXCEL']"
         fields=[y.inner_text() for y in row.query_selector_all("td")]
         cashCode=fields[0]
-        if tipe=="agencia":
+        if tipe=="distribuidora":
             download_file(f"{cashCode}_arceoCajaBs.xls",xpathArceoCajaBs)
             download_file(f"{cashCode}_arceoCajaUs.xls",xpathArceoCajaUs)
             download_file(f"{cashCode}_firstExcel.xls",xpathFirstExcel)
-        elif tipe=="distribuidora":
+        elif tipe=="agencia":
             download_file(f"{cashCode}_arceoCajaBs.xls",xpathArceoCajaBs)
             download_file(f"{cashCode}_arceoCajaUs.xls",xpathArceoCajaUs)
         else:
@@ -73,9 +73,13 @@ def tableCashClosing():
             headersTable[9]:tipe
         }
         table.append(rowDict)
-    return pd.DataFrame(table)
+    return table
 def evaluate_month(monthdate_obj,dExcel,cssDate):
     tday=dExcel.strftime("%B %Y")
+    if cssDate=="input#startDate":
+        prevSelector="div.datepicker-days th.prev"
+    elif cssDate=="input#endDate":
+        prevSelector="div:nth-child(11) div.datepicker-days th.prev"
     if monthdate_obj.strftime("%B %Y")==tday:
         print("same month")
         set_day(dExcel,cssDate)
@@ -87,7 +91,7 @@ def evaluate_month(monthdate_obj,dExcel,cssDate):
         #monthdate=w.find_element(By.CSS_SELECTOR,"div.datepicker-days th.datepicker-switch").text
     elif monthdate_obj>dExcel:
         print("previous month")
-        page.query_selector("div.datepicker-days th.prev").click()
+        page.query_selector(prevSelector).click()
         return False
 def found_date(dExcel,cssDate):
     page.query_selector(cssDate).click()
@@ -96,6 +100,7 @@ def found_date(dExcel,cssDate):
         monthdate=monthdate.replace("Septiembre","Setiembre")
         monthdate_obj=datetime.strptime(monthdate,"%B %Y")
     elif cssDate=="input#endDate":
+        page.wait_for_selector("body > div:nth-child(11) > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch")
         monthdate=page.query_selector("body > div:nth-child(11) > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch").inner_text()
         monthdate=monthdate.replace("Septiembre","Setiembre")
         print(monthdate)
@@ -135,6 +140,7 @@ def main():
     dinit=ws["B2"].value
     dEnd=ws["B3"].value
     locale.setlocale(locale.LC_TIME, '')
+    globalList=[]
     with sync_playwright() as p:
         global browser,context,page
         browser = p.chromium.launch(headless=False)
@@ -146,8 +152,16 @@ def main():
         found_date(dinit,"input#startDate")
         time.sleep(1)
         found_date(dEnd,"input#endDate")
-        df=tableCashClosing()
-        print(df)
+        page.mouse.wheel(0,200)
+        #page.pause()
+        page.wait_for_selector("li[class='paginate_button next'] a")
+        npaginations=len(page.query_selector_all("ul.pagination li"))-2
+        #view if element is clickable or not
+        for i in range(npaginations):
+            print(f"page{i+1}")
+            #globalList.extend(tableCashClosing())
+            #  time.sleep(3)
+            page.query_selector("[id='cashierClosings_next'] a").click()
         page.pause()
 if __name__ == "__main__":
     main()

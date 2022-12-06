@@ -1,0 +1,41 @@
+{
+    "Agencia": {
+        "Vales": {
+            "Bs": "",
+            "Bs.": "",
+            "Cantidad": "",
+            "Cliente": ""
+        },
+        "VentasEfectuadas": {
+            "alContado": {
+                "Bs": "1",
+                "Us": "2"
+            },
+            "alCredito": {
+                "Bs": "3",
+                "Us": "4"
+            },
+            "total": {
+                "Bs": "",
+                "Us": ""
+            },
+            "totalEfectivo": {
+                "Eq Bs": "",
+                "Us": ""
+            }
+        },
+        "VoucherTarjetas": {
+            "Bs.": "",
+            "Fecha": "",
+            "Nro. Cl": "",
+            "Nro. Ref": ""
+        },
+        "depositoFijo": {
+            "Depositante": "",
+            "Monto Bs": "",
+            "N Voucher": "",
+            "fecha": "",
+            "nro de cta bancaria": ""
+        }
+    }
+}
