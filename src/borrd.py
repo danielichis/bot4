@@ -30,7 +30,7 @@ def set_day(dExcel,cssDate):
     else:
         return
     for d in dates:
-        if d.inner_text()==dExcel.strftime("%d"):
+        if int(d.inner_text())==int(dExcel.strftime("%d")):
             d.click()
             break
 def tableCashClosing():
@@ -96,10 +96,12 @@ def evaluate_month(monthdate_obj,dExcel,cssDate):
 def found_date(dExcel,cssDate):
     page.query_selector(cssDate).click()
     if cssDate=="input#startDate":
+        monthSelector="div.datepicker-days th.datepicker-switch"
         monthdate=page.query_selector("body > div:nth-child(10) > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch").inner_text()
         monthdate=monthdate.replace("Septiembre","Setiembre")
         monthdate_obj=datetime.strptime(monthdate,"%B %Y")
     elif cssDate=="input#endDate":
+        monthSelector="div:nth-child(11) div.datepicker-days th.datepicker-switch"
         page.wait_for_selector("body > div:nth-child(11) > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch")
         monthdate=page.query_selector("body > div:nth-child(11) > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch").inner_text()
         monthdate=monthdate.replace("Septiembre","Setiembre")
@@ -112,7 +114,7 @@ def found_date(dExcel,cssDate):
             dateNotfound=False
             print("date found")
         else:
-            monthdate=page.query_selector("div.datepicker-days th.datepicker-switch").inner_text()
+            monthdate=page.query_selector(monthSelector).inner_text()
             monthdate=monthdate.replace("Septiembre","Setiembre")
             monthdate_obj=datetime.strptime(monthdate,"%B %Y")
 
@@ -159,7 +161,7 @@ def main():
         #view if element is clickable or not
         for i in range(npaginations):
             print(f"page{i+1}")
-            #globalList.extend(tableCashClosing())
+            globalList.extend(tableCashClosing())
             #  time.sleep(3)
             page.query_selector("[id='cashierClosings_next'] a").click()
         page.pause()
