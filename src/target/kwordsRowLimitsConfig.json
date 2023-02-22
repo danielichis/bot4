@@ -1,0 +1,106 @@
+{
+    "distribuidora": {
+        "Bs": {
+            "billetes": {
+                "superior": "Billetes",
+                "inferior": "Total Billetes en Bs."
+            },
+            "Monedas": {
+                "superior": "Monedas",
+                "inferior": "Total Monedas en Bs.:"
+            },
+            "transferencias": {
+                "superior": "Transferencias y/o Dep\u00f3sitos",
+                "inferior": "Total Dep\u00f3sitos"
+            },
+            "Cheques": {
+                "superior": "Cheques",
+                "inferior": "Total Cheques"
+            }
+        },
+        "d\u00f3lar": {
+            "billetes": {
+                "superior": "Billetes",
+                "inferior": "Total Billetes en US$.:"
+            },
+            "transferencias": {
+                "superior": "Transferencias y/o Dep\u00f3sitos",
+                "inferior": "Total Dep\u00f3sitos"
+            },
+            "Cheques": {
+                "superior": "Cheques",
+                "inferior": "Total Cheques"
+            }
+        },
+        "ambos": {
+            "reporte": {
+                "superior": "Saldo Anterior",
+                "inferior": "Cobranza del D\u00eda"
+            }
+        }
+    },
+    "agencia": {
+        "Bs": {
+            "voucher": {
+                "superior": "Voucher de Tarjetas",
+                "inferior": "Total vouchers"
+            },
+            "vales": {
+                "superior": "Vales",
+                "inferior": "Total vales"
+            },
+            "QR": {
+                "superior": "fecha",
+                "inferior": "Q"
+            },
+            "billetes": {
+                "superior": "Billetes",
+                "inferior": "Total Billetes en Bs."
+            },
+            "Monedas": {
+                "superior": "Monedas",
+                "inferior": "Total Monedas en Bs.:"
+            },
+            "diferencias": {
+                "superior": "Concepto",
+                "inferior": "Total Diferencia"
+            }
+        },
+        "d\u00f3lar": {
+            "billetes": {
+                "superior": "Corte",
+                "inferior": "Total Billetes en US$.:"
+            },
+            "voucher": {
+                "superior": "Voucher de Tarjetas",
+                "inferior": "Total Voucher de tarjetas"
+            },
+            "QR": {
+                "superior": "Pagos QR",
+                "inferior": "Total Voucher de qrs"
+            }
+        },
+        "Bs00": {
+            "billetes": {
+                "superior": "Billetes",
+                "inferior": "Total Billetes en Bs."
+            },
+            "Monedas": {
+                "superior": "Monedas",
+                "inferior": "Total Monedas en Bs.:"
+            },
+            "voucher": {
+                "superior": "Voucher de Tarjetas",
+                "inferior": "Total vouchers"
+            },
+            "vales": {
+                "superior": "Vales",
+                "inferior": "Total vales"
+            },
+            "QR": {
+                "superior": "fecha",
+                "inferior": "Q"
+            }
+        }
+    }
+}

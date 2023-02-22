@@ -1,0 +1,207 @@
+{
+    "distribuidora": {
+        "Detalle Operaciones": {
+            "Bs": {
+                "efectivo": {
+                    "billetes": {
+                        "valor": 3,
+                        "Cantidad": 6,
+                        "subtotal": 7,
+                        "total": 3
+                    },
+                    "Monedas": {
+                        "valor": 12,
+                        "Cantidad": 15,
+                        "subtotal": 18,
+                        "total": 10
+                    }
+                },
+                "bancario": {
+                    "transferencias": {
+                        "fecha": 14,
+                        "NroDocumento": 16,
+                        "Banco": 15,
+                        "subtotal": 20,
+                        "total": 17
+                    },
+                    "Cheques": {
+                        "fecha": 2,
+                        "NroDocumento": 4,
+                        "Banco": 5,
+                        "subtotal": 8,
+                        "total": 5
+                    }
+                }
+            },
+            "d\u00f3lar": {
+                "efectivo": {
+                    "billetes": {
+                        "valor": 7,
+                        "Cantidad": 10,
+                        "subtotal": 13,
+                        "total": 7
+                    }
+                },
+                "bancario": {
+                    "Cheques": {
+                        "fecha": 2,
+                        "NroDocumento": 3,
+                        "Banco": 5,
+                        "subtotal": 9,
+                        "total": 5
+                    },
+                    "transferencias": {
+                        "fecha": 12,
+                        "NroDocumento": 14,
+                        "Banco": 16,
+                        "subtotal": 17,
+                        "total": 16
+                    }
+                }
+            }
+        },
+        "Reporte Cobrador": {
+            "ambos": {
+                "reporte": {
+                    "reporte": {
+                        "codigo": 1,
+                        "cobrador": 2,
+                        "Fecha de Rend.": 4,
+                        "Fecha Recibo Emitido": 5,
+                        "NroRecibo": 6,
+                        "EfectivoDolar": 7,
+                        "EfectivoBs": 8,
+                        "ChequesDolar": 10,
+                        "ChequesBs": 11,
+                        "TotalEfectivoUs": 12,
+                        "TotalEfectivoEqBs": 14,
+                        "TotalEfectivoBs": 15,
+                        "TransfUs": 17,
+                        "TransfEqBs": 18,
+                        "TransfBs": 19,
+                        "CobradoUs": 20,
+                        "CobradoEqBs": 21,
+                        "CobradoBs": 22,
+                        "CobradoTotal": 23
+                    }
+                }
+            }
+        }
+    },
+    "agencia": {
+        "Detalle Operaciones": {
+            "Bs": {
+                "efectivo": {
+                    "billetes": {
+                        "valor": 4,
+                        "Cantidad": 7,
+                        "subtotal": 9,
+                        "total": 4
+                    },
+                    "Monedas": {
+                        "valor": 19,
+                        "Cantidad": 22,
+                        "subtotal": 25,
+                        "total": 17
+                    }
+                },
+                "contabilidad": {
+                    "diferencias": {
+                        "Concepto": 2,
+                        "Motivo": 10,
+                        "subtotalDolar": 20,
+                        "subtotalBs": 24,
+                        "TotalBs": 26,
+                        "TotalDiferencia": 2
+                    }
+                },
+                "eqEfectivo": {
+                    "voucher": {
+                        "fecha": 1,
+                        "Nro. Ref": 3,
+                        "Nro. CI.": 4,
+                        "subtotal": 8,
+                        "total": 1
+                    },
+                    "vales": {
+                        "Cantidad": 17,
+                        "Cliente": 21,
+                        "subtotal": 28,
+                        "total": 17
+                    },
+                    "QR": {
+                        "fecha": 27,
+                        "Nro. Ref": 32,
+                        "Nombre": 35,
+                        "subtotal": 37,
+                        "total": 38
+                    }
+                }
+            },
+            "Bs00": {
+                "efectivo": {
+                    "billetes": {
+                        "valor": 2,
+                        "Cantidad": 5,
+                        "subtotal": 7,
+                        "total": 2
+                    },
+                    "Monedas": {
+                        "valor": 16,
+                        "Cantidad": 18,
+                        "subtotal": 20,
+                        "total": 14
+                    }
+                },
+                "eqEfectivo": {
+                    "voucher": {
+                        "fecha": 1,
+                        "Nro. Ref": 3,
+                        "Nro. CI.": 4,
+                        "subtotal": 8,
+                        "total": 1
+                    },
+                    "vales": {
+                        "Cantidad": 14,
+                        "Cliente": 17,
+                        "subtotal": 22,
+                        "total": 14
+                    },
+                    "QR": {
+                        "fecha": 27,
+                        "Nro. Ref": 32,
+                        "Nombre": 35,
+                        "subtotal": 37,
+                        "total": 38
+                    }
+                }
+            },
+            "d\u00f3lar": {
+                "efectivo": {
+                    "billetes": {
+                        "valor": 7,
+                        "Cantidad": 10,
+                        "subtotal": 13,
+                        "total": 7
+                    }
+                },
+                "eqEfectivo": {
+                    "voucher": {
+                        "fecha": 2,
+                        "Nro. Ref": 3,
+                        "Nro. CI.": 6,
+                        "subtotal": 9,
+                        "total": 2
+                    },
+                    "QR": {
+                        "fecha": 12,
+                        "Nro. Ref": 14,
+                        "Nombre": 16,
+                        "subtotal": 17,
+                        "total": 12
+                    }
+                }
+            }
+        }
+    }
+}

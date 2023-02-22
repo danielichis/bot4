@@ -5,21 +5,25 @@ import pandas as pd
 from pathlib import Path
 import openpyxl
 import os
+import json
 import time
+from utils import get_current_path
 import locale
 def init_page():
     # Go to https://www.borrd.com/
     page.goto("http://sgv.grupo-venado.com/venado/login.jsf")
-    page.get_by_placeholder("Usuario").click()
-    page.get_by_placeholder("Usuario").fill("BOT.ADMINISTRACION.LP")
-    page.get_by_placeholder("Contraseña").click()
-    page.get_by_placeholder("Contraseña").fill("venadobot")
-    page.get_by_role("button", name="Iniciar Sesión").click()
+    #page.pause()
+    page.locator("[placeholder=\"Usuario\"]").click()
+    page.locator("[placeholder=\"Usuario\"]").fill("BOT.ADMINISTRACION.LP")
+    page.locator("[placeholder=\"Contraseña\"]").click()
+    page.locator("[placeholder=\"Contraseña\"]").fill("venadobot")
+    page.locator("input:has-text(\"Iniciar Sesión\")").click()
     page.wait_for_load_state()
 
 def goto_bills():
-    page.get_by_role("link", name="  Cobranza").click()
-    page.get_by_role("link", name=" Cierres de Caja").click()
+    #page.pause()
+    page.locator("a:has-text(\"Cobranza\")").first.click()
+    page.locator("a:has-text(\"Cierres de Caja\")").first.click()
     page.wait_for_load_state()
 
 def set_day(dExcel,cssDate):
@@ -33,12 +37,25 @@ def set_day(dExcel,cssDate):
         if int(d.inner_text())==int(dExcel.strftime("%d")):
             d.click()
             break
+
+def download_file(nameFile,cssSelector,row):
+    with page.expect_download() as download_info:
+        row.query_selector(cssSelector).click()
+    download = download_info.value
+    nameFile=os.path.join(in_folder("descargas"),nameFile)
+    download.save_as(nameFile)
+    xlsFilesList.append(nameFile)
+
 def tableCashClosing():
     table=[]
+    time.sleep(1)
+    page.wait_for_load_state()
     headersTable=[x.inner_text() for x in page.query_selector_all("table#cashierClosings thead th")]
     rows=page.query_selector_all("table#cashierClosings tbody tr")
     print(len(rows))
+    global xlsFilesList
     for row in rows:
+        xlsFilesList=[]
         if len(row.query_selector_all("a"))==7:
             tipe="distribuidora"
         elif len(row.query_selector_all("a"))==5:
@@ -51,12 +68,12 @@ def tableCashClosing():
         fields=[y.inner_text() for y in row.query_selector_all("td")]
         cashCode=fields[0]
         if tipe=="distribuidora":
-            download_file(f"{cashCode}_arceoCajaBs.xls",xpathArceoCajaBs)
-            download_file(f"{cashCode}_arceoCajaUs.xls",xpathArceoCajaUs)
-            download_file(f"{cashCode}_firstExcel.xls",xpathFirstExcel)
+            download_file(f"{cashCode}_arceoCajaBs_dist.xls",xpathArceoCajaBs,row)
+            download_file(f"{cashCode}_arceoCajaUs_dist.xls",xpathArceoCajaUs,row)
+            download_file(f"{cashCode}_firstExcel_dist.xls",xpathFirstExcel,row)
         elif tipe=="agencia":
-            download_file(f"{cashCode}_arceoCajaBs.xls",xpathArceoCajaBs)
-            download_file(f"{cashCode}_arceoCajaUs.xls",xpathArceoCajaUs)
+            download_file(f"{cashCode}_arceoCajaBs_ag.xls",xpathArceoCajaBs,row)
+            download_file(f"{cashCode}_arceoCajaUs_ag.xls",xpathArceoCajaUs,row)
         else:
             pass 
         
@@ -70,7 +87,8 @@ def tableCashClosing():
             headersTable[6]:fields[6],
             headersTable[7]:fields[7],
             headersTable[8]:fields[8],
-            headersTable[9]:tipe
+            headersTable[9]:tipe,
+            "xlsFilesList":xlsFilesList
         }
         table.append(rowDict)
     return table
@@ -118,27 +136,17 @@ def found_date(dExcel,cssDate):
             monthdate=monthdate.replace("Septiembre","Setiembre")
             monthdate_obj=datetime.strptime(monthdate,"%B %Y")
 
-def set_dates(dinit,dEnd):
-    found_date(dinit,"input#startDate")
-    time.sleep(1)
-    found_date(dEnd,"input#endDate")
-
-    page.get_by_placeholder("Fecha inicial").click()
 def in_folder(nameFolder):
     folderParent = os.getcwd()
     #folderParent=Path(folderParent).parent
     folderParent=os.path.join(folderParent,nameFolder)
     return folderParent
-def download_file(nameFile,cssSelector):
-    with page.expect_download() as download_info:
-        page.query_selector(cssSelector).click()
-    download = download_info.value
-    nameFile=os.path.join(in_folder("descargas"),nameFile)
-    download.save_as(nameFile)
 
-def main():
-    wb=openpyxl.load_workbook("src\config.xlsx")
-    ws=wb["Hoja1"]
+    
+
+def downloadSgv():
+    wb=openpyxl.load_workbook(os.path.join(get_current_path(),"config.xlsx"))
+    ws=wb["login"]
     dinit=ws["B2"].value
     dEnd=ws["B3"].value
     locale.setlocale(locale.LC_TIME, '')
@@ -154,9 +162,12 @@ def main():
         found_date(dinit,"input#startDate")
         time.sleep(1)
         found_date(dEnd,"input#endDate")
+        page.wait_for_url("http://sgv.grupo-venado.com/venado/cashierclosings/cashierclosing_list.jsf")
+        page.wait_for_load_state("networkidle")
+        time.sleep(2)
         page.mouse.wheel(0,200)
         #page.pause()
-        page.wait_for_selector("li[class='paginate_button next'] a")
+        #page.wait_for_selector("li[class='paginate_button next'] a")
         npaginations=len(page.query_selector_all("ul.pagination li"))-2
         #view if element is clickable or not
         for i in range(npaginations):
@@ -164,6 +175,10 @@ def main():
             globalList.extend(tableCashClosing())
             #  time.sleep(3)
             page.query_selector("[id='cashierClosings_next'] a").click()
-        page.pause()
+        listofFilesData={}
+        listofFilesData["data"]=globalList
+        with open(r'src\target\CashClosingInfo.json', "w") as outfile: 
+            json.dump(listofFilesData, outfile,indent=4)
+        #page.pause()
 if __name__ == "__main__":
-    main()
+    downloadSgv()

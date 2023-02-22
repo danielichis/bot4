@@ -1,0 +1,714 @@
+{
+    "data": [
+        {
+            "C\u00f3digo": "55070",
+            "Recibo": "CCAJ-LP01/74/23",
+            "Fecha": "15/02/2023",
+            "Fecha de Cierre": "15/02/2023",
+            "Total (Bs.)": "7,227.71",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55070_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55070_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55069",
+            "Recibo": "CCAJ-LP07/37/23",
+            "Fecha": "15/02/2023",
+            "Fecha de Cierre": "15/02/2023",
+            "Total (Bs.)": "9,647.00",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55069_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55069_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55067",
+            "Recibo": "CCAJ-LP08/37/23",
+            "Fecha": "15/02/2023",
+            "Fecha de Cierre": "15/02/2023",
+            "Total (Bs.)": "6,980.14",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55067_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55067_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55066",
+            "Recibo": "CCAJ-LP01/73/23",
+            "Fecha": "15/02/2023",
+            "Fecha de Cierre": "15/02/2023",
+            "Total (Bs.)": "2,935.00",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55066_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55066_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55065",
+            "Recibo": "CCAJ-LP02/74/2023",
+            "Fecha": "15/02/2023",
+            "Fecha de Cierre": "15/02/2023",
+            "Total (Bs.)": "547,451.61",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55065_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55065_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55065_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55052",
+            "Recibo": "CCAJ-LP02/73/2023",
+            "Fecha": "15/02/2023",
+            "Fecha de Cierre": "15/02/2023",
+            "Total (Bs.)": "256,286.10",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55052_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55052_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55052_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55045",
+            "Recibo": "CCAJ-LP07/36/23",
+            "Fecha": "14/02/2023",
+            "Fecha de Cierre": "14/02/2023",
+            "Total (Bs.)": "8,857.40",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55045_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55045_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55038",
+            "Recibo": "CCAJ-LP01/72/23",
+            "Fecha": "14/02/2023",
+            "Fecha de Cierre": "14/02/2023",
+            "Total (Bs.)": "7,099.71",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55038_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55038_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55037",
+            "Recibo": "CCAJ-LP08/36/23",
+            "Fecha": "14/02/2023",
+            "Fecha de Cierre": "14/02/2023",
+            "Total (Bs.)": "8,411.66",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55037_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55037_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55036",
+            "Recibo": "CCAJ-LP01/71/23",
+            "Fecha": "14/02/2023",
+            "Fecha de Cierre": "14/02/2023",
+            "Total (Bs.)": "4,795.80",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55036_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55036_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55026",
+            "Recibo": "CCAJ-LP02/72/2023",
+            "Fecha": "14/02/2023",
+            "Fecha de Cierre": "14/02/2023",
+            "Total (Bs.)": "104,378.08",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55026_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55026_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55026_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55021",
+            "Recibo": "CCAJ-LP02/71/2023",
+            "Fecha": "14/02/2023",
+            "Fecha de Cierre": "14/02/2023",
+            "Total (Bs.)": "105,350.20",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55021_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55021_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55021_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55007",
+            "Recibo": "CCAJ-LP07/35/23",
+            "Fecha": "13/02/2023",
+            "Fecha de Cierre": "13/02/2023",
+            "Total (Bs.)": "8,210.00",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55007_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55007_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55005",
+            "Recibo": "CCAJ-LP01/70/23",
+            "Fecha": "13/02/2023",
+            "Fecha de Cierre": "13/02/2023",
+            "Total (Bs.)": "7,735.80",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55005_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55005_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55004",
+            "Recibo": "CCAJ-LP01/69/23",
+            "Fecha": "13/02/2023",
+            "Fecha de Cierre": "13/02/2023",
+            "Total (Bs.)": "3,349.50",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55004_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55004_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55003",
+            "Recibo": "CCAJ-LP08/35/23",
+            "Fecha": "13/02/2023",
+            "Fecha de Cierre": "13/02/2023",
+            "Total (Bs.)": "23,285.55",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55003_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55003_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "55000",
+            "Recibo": "CCAJ-LP02/70/2023",
+            "Fecha": "13/02/2023",
+            "Fecha de Cierre": "13/02/2023",
+            "Total (Bs.)": "127,766.39",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\55000_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55000_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\55000_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54990",
+            "Recibo": "CCAJ-LP02/69/2023",
+            "Fecha": "13/02/2023",
+            "Fecha de Cierre": "13/02/2023",
+            "Total (Bs.)": "264,879.40",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54990_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54990_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54990_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54982",
+            "Recibo": "CCAJ-LP02/68/2023",
+            "Fecha": "11/02/2023",
+            "Fecha de Cierre": "11/02/2023",
+            "Total (Bs.)": "187,516.66",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54982_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54982_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54982_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54976",
+            "Recibo": "CCAJ-LP01/68/23",
+            "Fecha": "11/02/2023",
+            "Fecha de Cierre": "11/02/2023",
+            "Total (Bs.)": "4,584.93",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54976_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54976_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54973",
+            "Recibo": "CCAJ-LP08/34/23",
+            "Fecha": "11/02/2023",
+            "Fecha de Cierre": "11/02/2023",
+            "Total (Bs.)": "6,275.26",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54973_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54973_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54970",
+            "Recibo": "CCAJ-LP07/34/23",
+            "Fecha": "11/02/2023",
+            "Fecha de Cierre": "11/02/2023",
+            "Total (Bs.)": "8,384.66",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54970_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54970_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54967",
+            "Recibo": "CCAJ-LP01/67/23",
+            "Fecha": "11/02/2023",
+            "Fecha de Cierre": "11/02/2023",
+            "Total (Bs.)": "2,143.20",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54967_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54967_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54962",
+            "Recibo": "CCAJ-LP02/67/2023",
+            "Fecha": "10/02/2023",
+            "Fecha de Cierre": "10/02/2023",
+            "Total (Bs.)": "191,542.43",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54962_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54962_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54962_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54952",
+            "Recibo": "CCAJ-LP01/66/23",
+            "Fecha": "10/02/2023",
+            "Fecha de Cierre": "10/02/2023",
+            "Total (Bs.)": "9,128.10",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54952_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54952_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54951",
+            "Recibo": "CCAJ-LP07/33/23",
+            "Fecha": "10/02/2023",
+            "Fecha de Cierre": "10/02/2023",
+            "Total (Bs.)": "19,259.70",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54951_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54951_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54950",
+            "Recibo": "CCAJ-LP01/65/23",
+            "Fecha": "10/02/2023",
+            "Fecha de Cierre": "10/02/2023",
+            "Total (Bs.)": "2,564.30",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54950_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54950_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54948",
+            "Recibo": "CCAJ-LP08/33/23",
+            "Fecha": "10/02/2023",
+            "Fecha de Cierre": "10/02/2023",
+            "Total (Bs.)": "9,250.30",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54948_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54948_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54935",
+            "Recibo": "CCAJ-LP02/66/2023",
+            "Fecha": "10/02/2023",
+            "Fecha de Cierre": "10/02/2023",
+            "Total (Bs.)": "201,164.23",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54935_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54935_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54935_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54924",
+            "Recibo": "CCAJ-LP01/64/23",
+            "Fecha": "09/02/2023",
+            "Fecha de Cierre": "09/02/2023",
+            "Total (Bs.)": "7,327.92",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54924_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54924_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54922",
+            "Recibo": "CCAJ-LP01/63/23",
+            "Fecha": "09/02/2023",
+            "Fecha de Cierre": "09/02/2023",
+            "Total (Bs.)": "3,993.70",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54922_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54922_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54920",
+            "Recibo": "CCAJ-LP07/32/23",
+            "Fecha": "09/02/2023",
+            "Fecha de Cierre": "09/02/2023",
+            "Total (Bs.)": "8,175.10",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54920_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54920_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54919",
+            "Recibo": "CCAJ-LP08/32/23",
+            "Fecha": "09/02/2023",
+            "Fecha de Cierre": "09/02/2023",
+            "Total (Bs.)": "7,426.40",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54919_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54919_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54916",
+            "Recibo": "CCAJ-LP02/65/2023",
+            "Fecha": "09/02/2023",
+            "Fecha de Cierre": "09/02/2023",
+            "Total (Bs.)": "150,739.75",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54916_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54916_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54916_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54904",
+            "Recibo": "CCAJ-LP02/64/2023",
+            "Fecha": "09/02/2023",
+            "Fecha de Cierre": "09/02/2023",
+            "Total (Bs.)": "170,114.90",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54904_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54904_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54904_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54894",
+            "Recibo": "CCAJ-LP01/62/23",
+            "Fecha": "08/02/2023",
+            "Fecha de Cierre": "08/02/2023",
+            "Total (Bs.)": "8,823.80",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54894_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54894_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54892",
+            "Recibo": "CCAJ-LP07/31/23",
+            "Fecha": "08/02/2023",
+            "Fecha de Cierre": "08/02/2023",
+            "Total (Bs.)": "9,945.40",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54892_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54892_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54891",
+            "Recibo": "CCAJ-LP01/61/23",
+            "Fecha": "08/02/2023",
+            "Fecha de Cierre": "08/02/2023",
+            "Total (Bs.)": "3,450.10",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54891_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54891_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54889",
+            "Recibo": "CCAJ-LP08/31/23",
+            "Fecha": "08/02/2023",
+            "Fecha de Cierre": "08/02/2023",
+            "Total (Bs.)": "5,882.73",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54889_arceoCajaBs_ag.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54889_arceoCajaUs_ag.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54887",
+            "Recibo": "CCAJ-LP02/63/2023",
+            "Fecha": "08/02/2023",
+            "Fecha de Cierre": "08/02/2023",
+            "Total (Bs.)": "296,412.78",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54887_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54887_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54887_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        },
+        {
+            "C\u00f3digo": "54873",
+            "Recibo": "CCAJ-LP02/62/2023",
+            "Fecha": "08/02/2023",
+            "Fecha de Cierre": "08/02/2023",
+            "Total (Bs.)": "136,392.20",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                "C:\\DanielBots\\bot4\\descargas\\54873_arceoCajaBs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54873_arceoCajaUs_dist.xls",
+                "C:\\DanielBots\\bot4\\descargas\\54873_firstExcel_dist.xls"
+            ],
+            "NuevaData": {}
+        }
+    ]
+}
