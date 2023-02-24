@@ -44,10 +44,10 @@ class scrapTablesExcel:
         typeDistribution=self.distributionType
         nameTable="billetes"
         columnsTableDict=self.indexColumns[typeDistribution]["Detalle Operaciones"][typeCurrency]["efectivo"][nameTable]
-        columBill=columnsTableDict["valor"]-self.gap
-        columQantityBill=columnsTableDict["Cantidad"]-self.gap
-        ColumnAmountBill=columnsTableDict["subtotal"]-self.gap
-        columTotalBill=columnsTableDict["total"]-self.gap
+        columBill=columnsTableDict["valor"]
+        columQantityBill=columnsTableDict["Cantidad"]
+        ColumnAmountBill=columnsTableDict["subtotal"]
+        columTotalBill=columnsTableDict["total"]
         billsTable=[]
         downLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["inferior"]
         moneyType="efectivo"
@@ -76,8 +76,9 @@ class scrapTablesExcel:
         ColumnCurrencyAmount=columnsTableDict["subtotal"]
         ColumnTotalCurrency=columnsTableDict["total"]
         i=self.get_left_up_vertex_table(nameTable,"efectivo")
+        downLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["inferior"]
         coinsTable=[]
-        while sh.cell(i,ColumnTotalCurrency).value !=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["inferior"]:
+        while sh.cell(i,ColumnTotalCurrency).value !=downLimitWord:
             coinsDict={
                 "coinValue":sh.cell(i,ColumCurrency).value,
                 "coinQuantity":sh.cell(i,ColumnCurrencyQuantity).value,
@@ -92,19 +93,25 @@ class scrapTablesExcel:
     def getChecksTable(self):
         sh=self.sh
         nameTable="Cheques"
-        filterCheckWords=["Cheques",None]
+        moneyType="bancario"
+        filterCheckWords=["Fecha",None,"Cheques"]
         typeCurrency=self.currency
-        columnsTableDict=self.indexColumns[typeCurrency][nameTable]
-        ColumCheck=columnsTableDict["fecha"]
-        ColumCheckDocument=columnsTableDict["Nrodocumento"]
+        typeDistribution=self.distributionType
+        columnsTableDict=self.indexColumns[typeDistribution]["Detalle Operaciones"][typeCurrency][moneyType][nameTable]
+        ColumDate=columnsTableDict["fecha"]
+        ColumCheckDocument=columnsTableDict["NroDocumento"]
         ColumnCheckBank=columnsTableDict["Banco"]
         ColumCheckAmount=columnsTableDict["subtotal"]
         ColumCheckTotal=columnsTableDict["total"]
-        i=self.get_left_up_vertex_table(nameTable)
+        uplimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["superior"]
+        downLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["inferior"]
         checkTable=[]
-        while sh.cell(i,ColumCheckTotal).value !=self.kwordsRowLimits[typeCurrency][nameTable]["inferior"]:
+        i=1
+        while sh.cell(i,ColumDate).value !=uplimitWord:
+            i=i+1
+        while sh.cell(i,ColumCheckTotal).value !=downLimitWord:
             checkDict={
-                "Date":sh.cell(i,ColumCheck).value,
+                "Date":sh.cell(i,ColumDate).value,
                 "DocumentNumber":sh.cell(i,ColumCheckDocument).value,
                 "Bank":sh.cell(i,ColumnCheckBank).value,
                 "Amount":sh.cell(i,ColumCheckAmount).value
@@ -118,17 +125,22 @@ class scrapTablesExcel:
         sh=self.sh
         nameTable="transferencias"
         typeCurrency=self.currency
+        moneyType="bancario"
         filterTransferWords=["Transferencias y/o Depósitos","Total Depósitos","Fecha",None]
-        columnsTableDict=self.indexColumns[typeCurrency][nameTable]
+        columnsTableDict=self.indexColumns[self.distributionType]["Detalle Operaciones"][typeCurrency][moneyType][nameTable]
         ColumBankTransfer=columnsTableDict["fecha"]
-        ColumBankTransferDocument=columnsTableDict["Nrodocumento"]
+        ColumBankTransferDocument=columnsTableDict["NroDocumento"]
         ColumBankTransferBank=columnsTableDict["Banco"]
         ColumBankTransferAmount=columnsTableDict["subtotal"]
         ColumBankTransferTotal=columnsTableDict["total"]
-        i=self.get_left_up_vertex_table(nameTable)
+        i=1
+        upLimitWord=self.kwordsRowLimits[self.distributionType][typeCurrency][nameTable]["superior"]
+        downLimitWord=self.kwordsRowLimits[self.distributionType][typeCurrency][nameTable]["inferior"]
+        while sh.cell(i,ColumBankTransfer).value !=upLimitWord:
+            i=i+1
 
         bankTransferTable=[]
-        while sh.cell(i,ColumBankTransferTotal).value !=self.kwordsRowLimits[typeCurrency][nameTable]["inferior"]:
+        while sh.cell(i,ColumBankTransferTotal).value !=downLimitWord:
             bankTransferDict={
                 "Date":sh.cell(i,ColumBankTransfer).value,
                 "DocumentNumber":sh.cell(i,ColumBankTransferDocument).value,
@@ -142,7 +154,7 @@ class scrapTablesExcel:
         return pd.DataFrame(bankTransferTable)
     def getSummaryTable(self):
         sh=self.sh
-        columnsTableDict=self.indexColumns["Distribuidora"]["Reporte Cobrador"]["ambos"]["reporte"]["reporte"]
+        columnsTableDict=self.indexColumns["distribuidora"]["Reporte Cobrador"]["ambos"]["reporte"]["reporte"]
         ColumCode=columnsTableDict["codigo"]
         ColumChecker=columnsTableDict["cobrador"]
         ColumRendDate=columnsTableDict["Fecha de Rend."]
@@ -163,11 +175,11 @@ class scrapTablesExcel:
         ColumTotalBs=columnsTableDict["CobradoBs"]
         ColumTotal=columnsTableDict["CobradoTotal"]
         
-        upLimitWord=self.kwordsRowLimits["ambos"]["superior"]
-        downLimitWord=self.kwordsRowLimits["ambos"]["inferior"]
+        upLimitWord=self.kwordsRowLimits["distribuidora"]["ambos"]["reporte"]["superior"]
+        downLimitWord=self.kwordsRowLimits["distribuidora"]["ambos"]["reporte"]["inferior"]
         i=1
         summaryTable=[]
-        filterkeyWords=[None,"Fecha de Rend."]
+        filterkeyWords=[None,"Fecha de Rend.","Saldo Anterior"]
         while sh.cell(i,ColumRendDate).value !=upLimitWord:
             i=i+1
 
@@ -195,7 +207,8 @@ class scrapTablesExcel:
             }
             if summaryDict["FechaRend"] not in filterkeyWords:
                 summaryTable.append(summaryDict)
-            i=i+1        
+            i=i+1
+        print(pd.DataFrame(summaryTable))        
         return pd.DataFrame(summaryTable)
 
     def get_vouchers_table(self):
@@ -331,11 +344,14 @@ class scrapTablesExcel:
         print(pd.DataFrame(diferencesTable))
         return pd.DataFrame(diferencesTable)
 
-def scrapXlsxFile(fileName,distributionType):
-    
+def scrapXlsxFile(fileName):
+    if fileName.find("dist")!=-1:
+        distributionType="distribuidora"
+    elif fileName.find("ag")!=-1:
+        distributionType="agencia"
     scrapyxlsx=scrapTablesExcel(fileName,distributionType)
     if distributionType=="distribuidora":
-        if fileName.find("First")!=-1:
+        if fileName.find("first")!=-1:
             summaryTable=scrapyxlsx.getSummaryTable()
         elif fileName.find("Us")!=-1:
             billTable=scrapyxlsx.getBillstable()
@@ -373,10 +389,11 @@ def scrapDolarOperationsXls():
             print(path)
             scrapXlsxFile(path,row["Acciones"])
 def test_scrapDolarOperationsXls():
-    xlsxFilesList=os.listdir(r"descargasXlsx")
+    #list of .xlsx files in the directory
+    xlsxFilesList=[x for x in os.listdir(r"descargasXlsx") if x.endswith(".xlsx")]
     for xlsxFile in xlsxFilesList:
         print(xlsxFile)
-        scrapXlsxFile(xlsxFile,"agencia")
+        scrapXlsxFile(xlsxFile)
         #scrapXlsxFile(r"src\target\descargasXlsx\\"+xlsxFile,"agencia")             
         
 #scrapDolarOperationsXls()
