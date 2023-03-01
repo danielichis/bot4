@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import pyexcel
 import json
+import pandas as pd
 def get_current_path():
     config_name = 'myapp.cfg'
     # determine if application is a script file or frozen exe
@@ -82,5 +83,78 @@ def writeJson():
         row['NuevaData']={}
     with open(r'src\target\CashClosingInfo.json',"w") as json_file:
         json.dump(data,json_file,indent=4)
+def configToJson():
+    configxlsxPath=os.path.join(get_current_path(),"config.xlsx")
+    indexColumnsPathJson=os.path.join(get_current_path(),"src","target","indexColumnsConfig.json")
+    kwordsRowLimitsPathJson=os.path.join(get_current_path(),"src","target","kwordsRowLimitsConfig.json")
 
-writeJson()
+    dfC=pd.read_excel(configxlsxPath,sheet_name="columnas")
+    #print(df)
+    #conver the df into collection of dictionaries
+    dataColumns=dfC.values.tolist()
+    columnsDict = {}
+    for d in dataColumns:
+        if d[0] not in columnsDict:
+            columnsDict[d[0]] = {}
+        if d[1] not in columnsDict[d[0]]:
+            columnsDict[d[0]][d[1]] = {}
+        if d[2] not in columnsDict[d[0]][d[1]]:
+            columnsDict[d[0]][d[1]][d[2]] = {}
+        if d[3] not in columnsDict[d[0]][d[1]][d[2]]:
+            columnsDict[d[0]][d[1]][d[2]][d[3]] = {}
+        if d[4] not in columnsDict[d[0]][d[1]][d[2]][d[3]]:
+            columnsDict[d[0]][d[1]][d[2]][d[3]][d[4]] = {}
+        columnsDict[d[0]][d[1]][d[2]][d[3]][d[4]][d[5]] = d[6]
+    with open(indexColumnsPathJson, 'w') as outfile:
+        json.dump(columnsDict, outfile,indent=4)
+
+
+    dfKwords=pd.read_excel(configxlsxPath,sheet_name="kwords")
+    dataKeywords=dfKwords.values.tolist()
+    kwordsDict = {}
+    for d in dataKeywords:
+        if d[0] not in kwordsDict:
+            kwordsDict[d[0]] = {}
+        if d[1] not in kwordsDict[d[0]]:
+            kwordsDict[d[0]][d[1]] = {}
+        if d[2] not in kwordsDict[d[0]][d[1]]:
+            kwordsDict[d[0]][d[1]][d[2]] = {}
+        kwordsDict[d[0]][d[1]][d[2]][d[3]] = d[4]
+
+    with open(kwordsRowLimitsPathJson, 'w') as outfile:
+        json.dump(kwordsDict, outfile,indent=4)
+def findsums():
+# Definimos las listas A y B
+    A = [4, 2, 3, 8, 5]
+    B = [13, 9]
+
+    # Creamos una lista vacía para guardar la lista C
+    C = []
+
+    # Recorremos cada elemento de la lista B
+    for b in B:
+        # Creamos una lista vacía para guardar los elementos de A que suman b
+        sublista = []
+        # Inicializamos una variable para guardar la suma parcial
+        suma = 0
+        # Recorremos cada elemento de la lista A desde el principio hasta el final
+        for a in A:
+            # Si la suma parcial más el elemento actual es menor o igual que b
+            if suma + a <= b:
+                # Añadimos el elemento a la sublista y actualizamos la suma parcial
+                sublista.append(a)
+                suma += a
+                # Si la suma parcial es igual que b
+                if suma == b:
+                    # Añadimos la sublista a la lista C y salimos del bucle interno
+                    C.append(sublista)
+                    break
+            # Si la suma parcial más el elemento actual es mayor que b
+            else:
+                # Vaciamos la sublista y reiniciamos la suma parcial a cero
+                sublista = []
+                suma = 0
+    return C
+    # Imprimimos la lista C como resultado final
+
+print(findsums())

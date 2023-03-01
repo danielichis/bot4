@@ -1,5 +1,5 @@
 import openpyxl
-from utils import get_current_path,get_index_columns_config,get_currency,get_kwords_rowLimits_config
+from utils import get_current_path,get_index_columns_config,get_currency,get_kwords_rowLimits_config,configToJson
 import os
 import re
 import json
@@ -62,7 +62,7 @@ class scrapTablesExcel:
                 billsTable.append(billsDict)
             i=i+1
         print(pd.DataFrame(billsTable))
-        return pd.DataFrame(billsTable)
+        return billsTable
 
     def getCoinsTable(self):
         sh=self.sh
@@ -89,7 +89,7 @@ class scrapTablesExcel:
             i=i+1
 
         print(pd.DataFrame(coinsTable))
-        return pd.DataFrame(coinsTable)
+        return coinsTable
     def getChecksTable(self):
         sh=self.sh
         nameTable="Cheques"
@@ -120,7 +120,7 @@ class scrapTablesExcel:
                 checkTable.append(checkDict)
             i=i+1
         print(pd.DataFrame(checkTable))
-        return pd.DataFrame(checkTable)
+        return checkTable
     def getBankTransfersTable(self):
         sh=self.sh
         nameTable="transferencias"
@@ -151,7 +151,7 @@ class scrapTablesExcel:
                 bankTransferTable.append(bankTransferDict)
             i=i+1
         print(pd.DataFrame(bankTransferTable))
-        return pd.DataFrame(bankTransferTable)
+        return bankTransferTable
     def getSummaryTable(self):
         sh=self.sh
         columnsTableDict=self.indexColumns["distribuidora"]["Reporte Cobrador"]["ambos"]["reporte"]["reporte"]
@@ -209,7 +209,7 @@ class scrapTablesExcel:
                 summaryTable.append(summaryDict)
             i=i+1
         print(pd.DataFrame(summaryTable))        
-        return pd.DataFrame(summaryTable)
+        return summaryTable
 
     def get_vouchers_table(self):
         sh=self.sh
@@ -241,7 +241,7 @@ class scrapTablesExcel:
                 voucherTable.append(voucherDict)
             i=i+1
         print(pd.DataFrame(voucherTable))
-        return pd.DataFrame(voucherTable)
+        return voucherTable
     def get_coupon_table(self):
         sh=self.sh
         nameTable="vales"
@@ -272,7 +272,7 @@ class scrapTablesExcel:
             couponTable.append(couponDict)
             
         print(pd.DataFrame(couponTable))
-        return pd.DataFrame(couponTable)
+        return couponTable
     def get_qr_table(self):
         sh=self.sh
         nameTable="QR"
@@ -304,7 +304,7 @@ class scrapTablesExcel:
                 qrTable.append(qrDict)
             i=i+1
         print(pd.DataFrame(qrTable))
-        return pd.DataFrame(qrTable)
+        return qrTable
     def get_diferences_table(self):
         typeCurrency=self.currency
         typeDistribution=self.distributionType
@@ -312,7 +312,7 @@ class scrapTablesExcel:
         nameTable="diferencias"
         if typeCurrency=="Bs00":
             print(pd.DataFrame([]))
-            return pd.DataFrame([])
+            return []
         columnstableDict=self.indexColumns[typeDistribution]["Detalle Operaciones"][typeCurrency]["contabilidad"][nameTable]
         columConcept=columnstableDict["Concepto"]
         columMotive=columnstableDict["Motivo"]
@@ -342,9 +342,10 @@ class scrapTablesExcel:
                 diferencesTable.append(diferencesDict)
             i=i+1
         print(pd.DataFrame(diferencesTable))
-        return pd.DataFrame(diferencesTable)
+        return diferencesTable
 
 def scrapXlsxFile(fileName):
+    dicts=[]
     if fileName.find("dist")!=-1:
         distributionType="distribuidora"
     elif fileName.find("ag")!=-1:
@@ -353,15 +354,18 @@ def scrapXlsxFile(fileName):
     if distributionType=="distribuidora":
         if fileName.find("first")!=-1:
             summaryTable=scrapyxlsx.getSummaryTable()
+            dictsTable={"summaryTable":summaryTable}    
         elif fileName.find("Us")!=-1:
             billTable=scrapyxlsx.getBillstable()
             checkTable=scrapyxlsx.getChecksTable()
             bankTransferTable=scrapyxlsx.getBankTransfersTable()
+            dictsTable={"billTable":billTable,"checkTable":checkTable,"bankTransferTable":bankTransferTable}
         elif fileName.find("Bs")!=-1:
             billTable=scrapyxlsx.getBillstable()
             coinsTable=scrapyxlsx.getCoinsTable()
             checkTable=scrapyxlsx.getChecksTable()
             bankTransferTable=scrapyxlsx.getBankTransfersTable()
+            dictsTable={"billTable":billTable,"coinsTable":coinsTable,"checkTable":checkTable,"bankTransferTable":bankTransferTable}
         else:
             print("Error en el nombre del archivo")
     elif distributionType=="agencia":
@@ -369,6 +373,7 @@ def scrapXlsxFile(fileName):
             billTable=scrapyxlsx.getBillstable()
             voucherTable=scrapyxlsx.get_vouchers_table()
             qrTable=scrapyxlsx.get_qr_table()
+            dictsTable={"billTable":billTable,"voucherTable":voucherTable,"qrTable":qrTable}
         elif fileName.find("Bs")!=-1:
             scrapyxlsx.updateCurrency()
             billTable=scrapyxlsx.getBillstable()
@@ -376,25 +381,35 @@ def scrapXlsxFile(fileName):
             voucherTable=scrapyxlsx.get_vouchers_table()
             cuoponTable=scrapyxlsx.get_coupon_table()
             diferencesTable=scrapyxlsx.get_diferences_table()
-            
+            dictsTable={"billTable":billTable,"coinsTable":coinsTable,"voucherTable":voucherTable,"cuoponTable":cuoponTable,"diferencesTable":diferencesTable}
         else:
             print("Error en el nombre del archivo")
-def scrapDolarOperationsXls():
+    dataReturn={"distributionType":distributionType,"data":dictsTable,"typeMoney":scrapyxlsx.currency}
+    return dataReturn
+def scrapFiles():
+    configToJson()
     with open(r'src\target\CashClosingInfo.json',"r") as json_file:
         data = json.load(json_file)
-    for row in data['data']:
-        print(row['Código'])
-        for path in row["xlsFilesList"]:
+    for i,row in enumerate(data['data']):
+        for j,path in enumerate(row["xlsFilesList"]):
             path=path.replace("descargas","descargasXlsx").replace("xls","xlsx")
-            print(path)
-            scrapXlsxFile(path,row["Acciones"])
+            vd=scrapXlsxFile(path)
+            data['data'][i]["xlsFilesList"][j]={}
+            data['data'][i]["xlsFilesList"][j]["file"]=path
+            data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
+            data['data'][i]["xlsFilesList"][j]["data"]=vd["data"]
+            print(row['Código'])
+            #except:
+                #pass
+    with open(r'src\target\FullExcelData.json', 'w') as outfile:
+        json.dump(data, outfile,indent=4)
 def test_scrapDolarOperationsXls():
     #list of .xlsx files in the directory
     xlsxFilesList=[x for x in os.listdir(r"descargasXlsx") if x.endswith(".xlsx")]
     for xlsxFile in xlsxFilesList:
         print(xlsxFile)
-        scrapXlsxFile(xlsxFile)
-        #scrapXlsxFile(r"src\target\descargasXlsx\\"+xlsxFile,"agencia")             
-        
-#scrapDolarOperationsXls()
-test_scrapDolarOperationsXls()
+        vd=scrapXlsxFile(xlsxFile)
+
+if __name__ == "__main__":
+    scrapFiles()
+    #test_scrapDolarOperationsXls()

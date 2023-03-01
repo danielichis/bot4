@@ -1,0 +1,4 @@
+countrName;CountryCode;CountryLanguage;PIB
+Peru;PE;Spanish;1000
+Chile;CL;Spanish;2000
+Colombia;CO;Spanish;3000
