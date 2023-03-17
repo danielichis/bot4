@@ -82,7 +82,8 @@ class scraperCierreCobrador():
         upperLimit=tableKwords['superior']
         lowerLimit=tableKwords['inferior']
         
-        filtersKwords=['Nro APP','Nº de APP']
+        filtersKwords=['Recepción en caja',"Efectivo","Bs."]
+
         cashBs=tableColumns['Bs']['efectivo']['recepcion en caja']['Bs']
         cashUs=tableColumns['Us']['efectivo']['recepcion en caja']['Us']
         cashEqBs=tableColumns['Bs']['efectivo']['recepcion en caja']['EqBs']
@@ -96,14 +97,35 @@ class scraperCierreCobrador():
         usTransfer=tableColumns['Us']['transferencia']['recepcion en caja']['Us']
         EqBsTransfer=tableColumns['Bs']['transferencia']['recepcion en caja']['EqBs']
         totalBs=tableColumns['Bs']['total']['recepcion en caja']['Bs']
+        
+        upperLimit=tableKwords['superior']
+        botomLimit=tableKwords['inferior']
 
-
+        receiptBoxTable=[]
         i=1
-        #while self.sh.cell(row=i,column=leftColumn).value!=upperLimit:
-            #i+=1
+        while self.sh.cell(row=i,column=11).value!=upperLimit:
+            i+=1
 
-
-
+        while self.sh.cell(row=i,column=5).value!=botomLimit:
+            ditTable={
+                "CashBs":self.sh.cell(row=i,column=cashBs).value,
+                "CashUs":self.sh.cell(row=i,column=cashUs).value,
+                "CashEqBs":self.sh.cell(row=i,column=cashEqBs).value,
+                "CheckBs":self.sh.cell(row=i,column=checkBs).value,
+                "CheckUs":self.sh.cell(row=i,column=checkUs).value,
+                "CheckEqBs":self.sh.cell(row=i,column=checkEqBs).value,
+                "TransferDate":self.sh.cell(row=i,column=dateTransfer).value,
+                "TransferBank":self.sh.cell(row=i,column=bankTransfer).value,
+                "TransferBs":self.sh.cell(row=i,column=bsTransfer).value,
+                "TransferUs":self.sh.cell(row=i,column=usTransfer).value,
+                "TransferEqBs":self.sh.cell(row=i,column=EqBsTransfer).value,
+                "TotalBs":self.sh.cell(row=i,column=totalBs).value, 
+            }
+            if self.sh.cell(row=i,column=cashBs).value!=None and self.sh.cell(row=i,column=cashBs).value not in filtersKwords:
+                receiptBoxTable.append(ditTable)
+            i+=1
+        #print(pd.DataFrame(receiptBoxTable))
+        return receiptBoxTable
 def scrap_CierreCobrador():
     print(os.path.join(get_current_path()))
     cierreCobradorFiles=os.listdir(os.path.join(get_current_path(),"Cierres de Cobrador","formatoxlsx"))
@@ -111,7 +133,7 @@ def scrap_CierreCobrador():
         if file.endswith(".xlsx"):
             scob=scraperCierreCobrador(file)
             q=scob.ClientToCollectorTable()
-
+            p=scob.CollectorToBoxTable()
 if __name__ == "__main__":
     scrap_CierreCobrador()
             

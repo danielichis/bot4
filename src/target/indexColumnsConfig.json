@@ -108,6 +108,10 @@
                     "recibo de caja": {
                         "Fecha Transferencia": 37,
                         "Banco Transferencia": 40
+                    },
+                    "recepcion en caja": {
+                        "Fecha Transferencia": 34,
+                        "banco": 37
                     }
                 }
             },
@@ -127,7 +131,6 @@
                     },
                     "recepcion en caja": {
                         "Bs": 22,
-                        "Us": 26,
                         "EqBs": 30
                     }
                 },
@@ -136,12 +139,8 @@
                         "Bs": 44
                     },
                     "recepcion en caja": {
-                        "fecha": 34,
-                        "banco": 37,
                         "Bs": 42,
-                        "Us": 46,
-                        "EqBs": 50,
-                        "total": 54
+                        "EqBs": 50
                     }
                 },
                 "subtotal": {
@@ -153,6 +152,9 @@
                 "total": {
                     "recibo de caja": {
                         "Bs": 61
+                    },
+                    "recepcion en caja": {
+                        "Bs": 54
                     }
                 }
             },
@@ -168,11 +170,17 @@
                 "Cheque": {
                     "recibo de caja": {
                         "Us": 32
+                    },
+                    "recepcion en caja": {
+                        "Us": 26
                     }
                 },
                 "transferencia": {
                     "recibo de caja": {
                         "Us": 48
+                    },
+                    "recepcion en caja": {
+                        "Us": 46
                     }
                 },
                 "subtotal": {
