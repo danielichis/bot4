@@ -1,0 +1,27 @@
+{
+    "Calendar":{
+        "initDatePicker":"//div[@id='startDate-datepicker']//i[@class='fa fa-calendar']",
+        "endDatePicker":"//div[@id='endDate-datepicker']//i[@class='fa fa-calendar']"
+
+    },
+    "Cierre de Caja": {
+
+    },
+    "collectorClosing": {
+        "dailyClosingCollectorTable":{"XPATH":"//table[@id='dailyClosings']/tbody",
+                                "CSS":"table#dailyClosings tbody"},
+        "rowTable":{"XPATH":"//table[@id='dailyClosings']/tbody/tr",
+                    "CSS":"table#dailyClosings tbody tr"},
+        "excelDonwloadBtn":{"XPATH":"//i[@class='fa fa-download']",
+                            "CSS":""}
+    
+    },
+    "cashOut": {
+        "cashOutBtn":{"XPATH":"//span[contains(text(),'Salida de Efectivo')]",
+                             "CSS":""},
+        "CashOutTable":{"XPATH":"//table[@id='cashOuts']",
+                        "CSS":"table#cashOuts"}}
+                            
+        
+    }
+

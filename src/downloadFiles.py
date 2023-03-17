@@ -8,6 +8,7 @@ import os
 import json
 import time
 from utils import get_current_path
+from doomDirections import sgvPaths
 import locale
 def init_page():
     # Go to https://www.borrd.com/
@@ -42,9 +43,7 @@ def download_file(nameFile,cssSelector,row):
     with page.expect_download() as download_info:
         row.query_selector(cssSelector).click()
     download = download_info.value
-    nameFile=os.path.join(in_folder("descargas"),nameFile)
     download.save_as(nameFile)
-    xlsFilesList.append(nameFile)
 
 def tableCashClosing():
     table=[]
@@ -68,12 +67,13 @@ def tableCashClosing():
         fields=[y.inner_text() for y in row.query_selector_all("td")]
         cashCode=fields[0]
         if tipe=="distribuidora":
-            download_file(f"{cashCode}_arceoCajaBs_dist.xls",xpathArceoCajaBs,row)
-            download_file(f"{cashCode}_arceoCajaUs_dist.xls",xpathArceoCajaUs,row)
-            download_file(f"{cashCode}_firstExcel_dist.xls",xpathFirstExcel,row)
+            download_file(os.path.join(in_folder("Cierres de Caja"),f"{cashCode}_arceoCajaBs_dist.xls"),xpathArceoCajaBs,row)
+            download_file(os.path.join(in_folder("Cierres de Caja"),f"{cashCode}_arceoCajaUs_dist.xls"),xpathArceoCajaUs,row)
+            download_file(os.path.join(in_folder("Cierres de Caja"),f"{cashCode}_firstExcel_dist.xls"),xpathFirstExcel,row)
         elif tipe=="agencia":
-            download_file(f"{cashCode}_arceoCajaBs_ag.xls",xpathArceoCajaBs,row)
-            download_file(f"{cashCode}_arceoCajaUs_ag.xls",xpathArceoCajaUs,row)
+            download_file(os.path.join(in_folder("Cierres de Caja"),f"{cashCode}_arceoCajaBs_ag.xls"),xpathArceoCajaBs,row)
+            download_file(os.path.join(in_folder("Cierres de Caja"),f"{cashCode}_arceoCajaUs_ag.xls"),xpathArceoCajaUs,row)
+            
         else:
             pass 
         
@@ -180,5 +180,82 @@ def downloadSgv():
         with open(r'src\target\CashClosingInfo.json', "w") as outfile: 
             json.dump(listofFilesData, outfile,indent=4)
         #page.pause()
+
+def collectorClosingFrame():
+    sgvp=sgvPaths()
+    page.locator(sgvp.collections['XPATH']).first.click()
+    page.locator(sgvp.collectorClosingBtn['XPATH']).first.click()
+    page.wait_for_load_state()
+
+def tableCollectorClosing():
+    sgvp=sgvPaths()
+    closingTable=[]
+    page.wait_for_selector(sgvp.collectorClosing.dailyClosingCollectorTable['CSS'])
+    time.sleep(2)
+    closingTableFrame=page.query_selector_all(sgvp.collectorClosing.dailyClosingCollectorTable['CSS'])
+    for row in closingTableFrame:
+        date=row.query_selector("//td[3]").inner_text().replace("/","")
+        amount=str(row.query_selector("//td[6]").inner_text()).replace(",","")
+        uniqueId=row.query_selector("//td[5]").inner_text()+"_"+date+"_"+amount
+        nameFile=f"{uniqueId}.xls"
+        closingTableDict={
+            "codigo":row.query_selector("//td[1]").inner_text(),
+            "Recibo":row.query_selector("//td[2]").inner_text(),
+            "Fecha de Creacion":row.query_selector("//td[3]").inner_text(),
+            "Correspondiente al":row.query_selector("//td[4]").inner_text(),
+            "Cobrador":row.query_selector("//td[5]").inner_text(),
+            "Total (Bs)":row.query_selector("//td[6]").inner_text(),
+            "Estado":row.query_selector("//td[7]").inner_text(),
+            "Nombre del archivo":nameFile,
+            "UniqueID":uniqueId
+        }
+        #row.query_selector(sgvp.collectorClosing.excelDonwloadBtn["CSS"]).click(timeout=5000)
+        
+        pathFile=os.path.join(in_folder("Cierres de cobrador"),nameFile)
+        download_file(pathFile,sgvp.collectorClosing.excelDonwloadBtn["CSS"],row)
+        closingTable.append(closingTableDict)
+    return closingTable
+def downloadCollectorClosing():
+    pass
+    sgvp=sgvPaths()
+    wb=openpyxl.load_workbook(os.path.join(get_current_path(),"config.xlsx"))
+    ws=wb["login"]
+    dinit=ws["B2"].value
+    dEnd=ws["B3"].value
+    locale.setlocale(locale.LC_TIME, '')
+    globalList2=[]
+    with sync_playwright() as p:
+        global browser,context,page
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context()
+                # Open new page
+        page = context.new_page()
+        init_page()
+        collectorClosingFrame()
+        found_date(dinit,"input#startDate")
+        time.sleep(1)
+        found_date(dEnd,"input#endDate")
+        page.wait_for_load_state("networkidle")
+        page.mouse.wheel(0,200)
+        #page.pause()
+        #page.wait_for_selector("li[class='paginate_button next'] a")
+        npaginations=len(page.query_selector_all("ul.pagination li"))-2
+        #view if element is clickable or not
+        i=0
+        n=len(page.query_selector_all("li[class='paginate_button next'] a"))
+        print(n)
+        while n>0:
+            n=len(page.query_selector_all("li[class='paginate_button next'] a"))
+            print(f"page{i+1}")
+            globalList2.extend(tableCollectorClosing())
+            i=i+1
+            page.query_selector("[id='dailyClosings_next'] a").click()
+
+        listofFilesData={}
+        listofFilesData["data"]=globalList2
+        with open(r'src\target\CollectorClosingFilesDonwload.json', "w") as outfile: 
+            json.dump(listofFilesData, outfile,indent=4)
+        #page.pause()
 if __name__ == "__main__":
     downloadSgv()
+    downloadCollectorClosing()

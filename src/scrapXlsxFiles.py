@@ -403,13 +403,21 @@ def scrapFiles():
                 #pass
     with open(r'src\target\FullExcelData.json', 'w') as outfile:
         json.dump(data, outfile,indent=4)
-def test_scrapDolarOperationsXls():
+def scrapCierresDeCaja():
     #list of .xlsx files in the directory
     xlsxFilesList=[x for x in os.listdir(r"descargasXlsx") if x.endswith(".xlsx")]
     for xlsxFile in xlsxFilesList:
         print(xlsxFile)
         vd=scrapXlsxFile(xlsxFile)
 
+
+def scrapCierresDeCobrador():
+    #list of .xlsx files in the directory
+    xlsxFilesList=[x for x in os.listdir(r"Cierres de Cobrador") if x.endswith(".xls")]
+    for xlsxFile in xlsxFilesList:
+        print(xlsxFile)
+
 if __name__ == "__main__":
-    scrapFiles()
+    #scrapFiles()
+    scrapCierresDeCobrador()
     #test_scrapDolarOperationsXls()

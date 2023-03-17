@@ -86,6 +86,101 @@
                     }
                 }
             }
+        },
+        "Cierre de cobrador": {
+            "ambos": {
+                "recibo de caja": {
+                    "recibo de caja": {
+                        "Nro APP": 1,
+                        "Fecha Recibo": 3,
+                        "Cod Cliente": 5,
+                        "Nombre cliente": 7
+                    }
+                },
+                "Cheque": {
+                    "recibo de caja": {
+                        "fechaCheque": 15,
+                        "Nro Cheque": 19,
+                        "Banco Cheque": 24
+                    }
+                },
+                "transferencia": {
+                    "recibo de caja": {
+                        "Fecha Transferencia": 37,
+                        "Banco Transferencia": 40
+                    }
+                }
+            },
+            "Bs": {
+                "efectivo": {
+                    "recibo de caja": {
+                        "Bs": 9
+                    },
+                    "recepcion en caja": {
+                        "Bs": 11,
+                        "EqBs": 17
+                    }
+                },
+                "Cheque": {
+                    "recibo de caja": {
+                        "Bs": 28
+                    },
+                    "recepcion en caja": {
+                        "Bs": 22,
+                        "Us": 26,
+                        "EqBs": 30
+                    }
+                },
+                "transferencia": {
+                    "recibo de caja": {
+                        "Bs": 44
+                    },
+                    "recepcion en caja": {
+                        "fecha": 34,
+                        "banco": 37,
+                        "Bs": 42,
+                        "Us": 46,
+                        "EqBs": 50,
+                        "total": 54
+                    }
+                },
+                "subtotal": {
+                    "recibo de caja": {
+                        "Bs": 52,
+                        "EqBs": 58
+                    }
+                },
+                "total": {
+                    "recibo de caja": {
+                        "Bs": 61
+                    }
+                }
+            },
+            "Us": {
+                "efectivo": {
+                    "recibo de caja": {
+                        "Us": 12
+                    },
+                    "recepcion en caja": {
+                        "Us": 14
+                    }
+                },
+                "Cheque": {
+                    "recibo de caja": {
+                        "Us": 32
+                    }
+                },
+                "transferencia": {
+                    "recibo de caja": {
+                        "Us": 48
+                    }
+                },
+                "subtotal": {
+                    "recibo de caja": {
+                        "Us": 55
+                    }
+                }
+            }
         }
     },
     "agencia": {

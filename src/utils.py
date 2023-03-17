@@ -32,27 +32,19 @@ def delete_xlsFiles(folderPath):
                 os.remove(os.path.join(folderPathXlsx, path))
                 #print("txt file deleted")
 def convert_xls(pathFolder):    
-    donwloadFolder=os.path.join(pathFolder,"descargas")
-    #C:\DanielBots\bot4\descargasXlsx
-    filesInfolder=os.listdir(donwloadFolder)
-    #filesFolder2=os.listdir(r"C:\DanielBots\bot4\descargasXlsx")
+    filesInfolder=os.listdir(pathFolder)
     e=""
     for file in filesInfolder:
         if file.endswith(".xls"):
             try:
                 print(file)
                 #name of file 
-                xls=os.path.join(donwloadFolder,file)
-                xlsx=os.path.join(pathFolder,"descargasXlsx",file.replace(".xls",".xlsx"))
-                #xlsx=pathFolder+"\\descargasXlsx"+file.replace(".xls",".xlsx")
-                #print(xls)
-                #print(xlsx)
+                xls=os.path.join(pathFolder,file)
+                xlsx=os.path.join(pathFolder,"formatoxlsx",file.replace(".xls",".xlsx"))
                 pyexcel.save_book_as(file_name=xls, dest_file_name=xlsx)
             except Exception as e:
                 print(e)
                 os.remove(xlsx)
-                #write_log(f"")
-            #os.remove(xls)
     return e
 
 def get_index_columns_config():
@@ -123,38 +115,5 @@ def configToJson():
 
     with open(kwordsRowLimitsPathJson, 'w') as outfile:
         json.dump(kwordsDict, outfile,indent=4)
-def findsums():
-# Definimos las listas A y B
-    A = [4, 2, 3, 8, 5]
-    B = [13, 9]
-
-    # Creamos una lista vacía para guardar la lista C
-    C = []
-
-    # Recorremos cada elemento de la lista B
-    for b in B:
-        # Creamos una lista vacía para guardar los elementos de A que suman b
-        sublista = []
-        # Inicializamos una variable para guardar la suma parcial
-        suma = 0
-        # Recorremos cada elemento de la lista A desde el principio hasta el final
-        for a in A:
-            # Si la suma parcial más el elemento actual es menor o igual que b
-            if suma + a <= b:
-                # Añadimos el elemento a la sublista y actualizamos la suma parcial
-                sublista.append(a)
-                suma += a
-                # Si la suma parcial es igual que b
-                if suma == b:
-                    # Añadimos la sublista a la lista C y salimos del bucle interno
-                    C.append(sublista)
-                    break
-            # Si la suma parcial más el elemento actual es mayor que b
-            else:
-                # Vaciamos la sublista y reiniciamos la suma parcial a cero
-                sublista = []
-                suma = 0
-    return C
-    # Imprimimos la lista C como resultado final
-
-print(findsums())
+if __name__ == '__main__':
+    configToJson()

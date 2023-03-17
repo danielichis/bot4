@@ -36,6 +36,14 @@
             "reporte": {
                 "superior": "Saldo Anterior",
                 "inferior": "Cobranza del D\u00eda"
+            },
+            "recibo de cobranza": {
+                "inferior": "Total Cobrado:",
+                "superior": "N\u00ba de APP"
+            },
+            "recepcion en caja": {
+                "superior": "Recepci\u00f3n en caja",
+                "inferior": "Total efectivo recibido"
             }
         }
     },
