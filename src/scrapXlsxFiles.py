@@ -1,5 +1,5 @@
 import openpyxl
-from utils import get_current_path,get_index_columns_config,get_currency,get_kwords_rowLimits_config,configToJson
+from utils import get_current_path,get_index_columns_config,get_currency,get_kwords_rowLimits_config,configToJson,get_tables_path
 import os
 import re
 import json
@@ -7,12 +7,13 @@ import pandas as pd
 
 class scrapTablesExcel:
     def __init__(self,fileName,distributionType) -> None:
-        self.XlsxPath=os.path.join(get_current_path(),"descargasXlsx")
+        self.XlsxPath=os.path.join(get_current_path(),"Cierres de Caja","formatoxlsx")
         self.indexColumns=get_index_columns_config()
         self.kwordsRowLimits=get_kwords_rowLimits_config()
-        self.sh=openpyxl.load_workbook(os.path.join(get_current_path(),"descargasXlsx",fileName)).worksheets[0]
+        self.sh=openpyxl.load_workbook(os.path.join(get_current_path(),"Cierres de Caja","formatoxlsx",fileName)).worksheets[0]
         self.currency=get_currency(fileName)
         self.distributionType=distributionType
+        self.fileName=fileName
         self.gap=0
     def get_left_up_vertex_table(self,tableName,moneyType):
         sh=self.sh
@@ -54,6 +55,7 @@ class scrapTablesExcel:
         i=self.get_left_up_vertex_table(nameTable,moneyType)
         while sh.cell(i,columTotalBill).value !=downLimitWord:
             billsDict={
+                "ruta":self.fileName,
                 "billValue":sh.cell(i,columBill).value,
                 "billQuantity":sh.cell(i,columQantityBill).value,
                 "Amount":sh.cell(i,ColumnAmountBill).value
@@ -80,6 +82,7 @@ class scrapTablesExcel:
         coinsTable=[]
         while sh.cell(i,ColumnTotalCurrency).value !=downLimitWord:
             coinsDict={
+                "ruta":self.fileName,
                 "coinValue":sh.cell(i,ColumCurrency).value,
                 "coinQuantity":sh.cell(i,ColumnCurrencyQuantity).value,
                 "Amount":sh.cell(i,ColumnCurrencyAmount).value
@@ -111,6 +114,7 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumCheckTotal).value !=downLimitWord:
             checkDict={
+                "ruta":self.fileName,
                 "Date":sh.cell(i,ColumDate).value,
                 "DocumentNumber":sh.cell(i,ColumCheckDocument).value,
                 "Bank":sh.cell(i,ColumnCheckBank).value,
@@ -142,6 +146,7 @@ class scrapTablesExcel:
         bankTransferTable=[]
         while sh.cell(i,ColumBankTransferTotal).value !=downLimitWord:
             bankTransferDict={
+                "ruta":self.fileName,
                 "Date":sh.cell(i,ColumBankTransfer).value,
                 "DocumentNumber":sh.cell(i,ColumBankTransferDocument).value,
                 "Bank":sh.cell(i,ColumBankTransferBank).value,
@@ -184,7 +189,12 @@ class scrapTablesExcel:
             i=i+1
 
         while sh.cell(i,ColumRendDate).value !=downLimitWord:
+            formatedDate=str(sh.cell(i,ColumReceiptDate).value).replace("/","")
+            totalFormat=str(sh.cell(i,ColumTotal).value).replace(",","")
+            checker=str(sh.cell(i,ColumChecker).value)
             summaryDict={
+                "uniqKey":"",
+                "ruta":self.fileName,
                 "Code":sh.cell(i,ColumCode).value,
                 "Checker":sh.cell(i,ColumChecker).value,
                 "FechaRend":sh.cell(i,ColumRendDate).value,
@@ -202,10 +212,11 @@ class scrapTablesExcel:
                 "TransferBs":sh.cell(i,ColumTransferBs).value,
                 "TotalUs":sh.cell(i,ColumTotalUs).value,
                 "TotalEqBs":sh.cell(i,ColumTotalEqBs).value,
-                "TotalBs":sh.cell(i,ColumTotalBs).value,
-                "Total":sh.cell(i,ColumTotal).value
+                "TotalCCAJ":sh.cell(i,ColumTotalBs).value,
             }
             if summaryDict["FechaRend"] not in filterkeyWords:
+                totalFormat="{:.2f}".format(float(totalFormat))
+                summaryDict["uniqKey"]=checker+"_"+formatedDate+"_"+totalFormat
                 summaryTable.append(summaryDict)
             i=i+1
         print(pd.DataFrame(summaryTable))        
@@ -231,6 +242,7 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             voucherDict={
+                "ruta":self.fileName,
                 "Date":sh.cell(i,columDate).value,
                 "NroRef":sh.cell(i,columnNroRef).value,
                 "NroClient":sh.cell(i,ColumNroClient).value,
@@ -263,6 +275,7 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             couponDict={
+                "ruta":self.fileName,
                 "Quantity":sh.cell(i,columQuantity).value,
                 "Client":sh.cell(i,columClient).value,
                 "Subtotal":sh.cell(i,ColumSubtotal).value,
@@ -295,6 +308,7 @@ class scrapTablesExcel:
         
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             qrDict={
+                "ruta":self.fileName,
                 "Date":sh.cell(i,columDate).value,
                 "NroRef":sh.cell(i,columNroRef).value,
                 "NroClient":sh.cell(i,ColumNroClient).value,
@@ -331,6 +345,7 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             diferencesDict={
+                "ruta":self.fileName,
                 "Concept":sh.cell(i,columConcept).value,
                 "Motive":sh.cell(i,columMotive).value,
                 "SubtotalUs":sh.cell(i,ColumSubtotalUs).value,
@@ -346,6 +361,15 @@ class scrapTablesExcel:
 
 def scrapXlsxFile(fileName):
     dicts=[]
+    billTable=None
+    checkTable=None
+    bankTransferTable=None
+    voucherTable=None
+    cuoponTable=None
+    qrTable=None
+    coinsTable=None
+    diferencesTable=None
+    summaryTable=None
     if fileName.find("dist")!=-1:
         distributionType="distribuidora"
     elif fileName.find("ag")!=-1:
@@ -384,6 +408,24 @@ def scrapXlsxFile(fileName):
             dictsTable={"billTable":billTable,"coinsTable":coinsTable,"voucherTable":voucherTable,"cuoponTable":cuoponTable,"diferencesTable":diferencesTable}
         else:
             print("Error en el nombre del archivo")
+    if billTable!=None:
+        billst.extend(billTable)
+    if checkTable!=None:
+        checkstable.extend(checkTable)
+    if bankTransferTable!=None:
+        bankTransferstable.extend(bankTransferTable)
+    if coinsTable!=None:
+        coinssTable.extend(coinsTable)
+    if voucherTable!=None:
+        vouchersTable.extend(voucherTable)
+    if qrTable!=None:
+        qrsTable.extend(qrTable)
+    if cuoponTable!=None:
+        cuoponsTable.extend(cuoponTable)
+    if diferencesTable!=None:
+        diferencessTable.extend(diferencesTable)
+    if summaryTable!=None:
+        summariesTable.extend(summaryTable)
     dataReturn={"distributionType":distributionType,"data":dictsTable,"typeMoney":scrapyxlsx.currency}
     return dataReturn
 def scrapFiles():
@@ -394,6 +436,7 @@ def scrapFiles():
         for j,path in enumerate(row["xlsFilesList"]):
             path=path.replace("descargas","descargasXlsx").replace("xls","xlsx")
             vd=scrapXlsxFile(path)
+
             data['data'][i]["xlsFilesList"][j]={}
             data['data'][i]["xlsFilesList"][j]["file"]=path
             data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
@@ -403,13 +446,51 @@ def scrapFiles():
                 #pass
     with open(r'src\target\FullExcelData.json', 'w') as outfile:
         json.dump(data, outfile,indent=4)
+    
+    df_bills=pd.DataFrame(billst)
+    df_bills.to_csv(os.path.join(get_current_path(),"billsTable.csv"),index=False,sep=";")
+
+
 def scrapCierresDeCaja():
     #list of .xlsx files in the directory
-    xlsxFilesList=[x for x in os.listdir(r"descargasXlsx") if x.endswith(".xlsx")]
+    xlsxFilesList=[x for x in os.listdir(r"Cierres de Caja\formatoxlsx") if x.endswith(".xlsx")]
+    global billst,checkstable,bankTransferstable,coinssTable,vouchersTable,qrsTable,cuoponsTable,diferencessTable,summariesTable
+    billst=[]
+    checkstable=[]
+    bankTransferstable=[]
+    vouchersTable=[]
+    coinssTable=[]
+    vouchersTable=[]
+    qrsTable=[]
+    cuoponsTable=[]
+    diferencessTable=[]
+    summariesTable=[]
     for xlsxFile in xlsxFilesList:
         print(xlsxFile)
         vd=scrapXlsxFile(xlsxFile)
+    df_bt=pd.DataFrame(billst)
+    df_bt.to_csv(os.path.join(get_tables_path(),"billsTable.csv"),index=False,sep=";")
 
+    df_checks=pd.DataFrame(checkstable)
+    df_checks.to_csv(os.path.join(get_tables_path(),"checksTable.csv"),index=False,sep=";")
+
+    df_bankTransfers=pd.DataFrame(bankTransferstable)
+    df_bankTransfers.to_csv(os.path.join(get_tables_path(),"bankTransfersTable.csv"),index=False,sep=";")
+
+    df_coins=pd.DataFrame(coinssTable)
+    df_coins.to_csv(os.path.join(get_tables_path(),"coinsTable.csv"),index=False,sep=";")
+
+    df_voucher=pd.DataFrame(vouchersTable)
+    df_voucher.to_csv(os.path.join(get_tables_path(),"voucherTable.csv"),index=False,sep=";")
+
+    df_qr=pd.DataFrame(qrsTable)
+    df_qr.to_csv(os.path.join(get_tables_path(),"qrTable.csv"),index=False,sep=";")
+
+    df_cuopon=pd.DataFrame(cuoponsTable)
+    df_cuopon.to_csv(os.path.join(get_tables_path(),"cuoponTable.csv"),index=False,sep=";")
+
+    df_summaries=pd.DataFrame(summariesTable)
+    df_summaries.to_csv(os.path.join(get_tables_path(),"summariesTable.csv"),index=False,sep=";")
 
 def scrapCierresDeCobrador():
     #list of .xlsx files in the directory
@@ -419,5 +500,6 @@ def scrapCierresDeCobrador():
 
 if __name__ == "__main__":
     #scrapFiles()
-    scrapCierresDeCobrador()
+    scrapCierresDeCaja()
+    #scrapCierresDeCobrador()
     #test_scrapDolarOperationsXls()

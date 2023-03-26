@@ -13,24 +13,30 @@ def get_current_path():
         application_path = os.path.dirname(__file__)
     application_path2 = Path(application_path)
     return application_path2.parent.absolute()
+def get_tables_path():
+    config_name = 'myapp.cfg'
+    # determine if application is a script file or frozen exe
+    if getattr(sys, 'frozen', False):
+        application_path = os.path.dirname(sys.executable)
+    elif __file__:
+        application_path = os.path.dirname(__file__)
+    application_path2 = Path(application_path)
+    return os.path.join(application_path2.parent.absolute(),"Tablas")
 
+
+def remove_files(folderPath):
+    for path in os.listdir(folderPath):
+    # check if current path is a file
+        if os.path.isfile(os.path.join(folderPath, path)):
+            if path[-4:]==".xls" or path[-5:]==".xlsx":
+                #if path=="auszug.txt" or path=="umsatz.txt":
+                os.remove(os.path.join(folderPath, path))
+                #print("txt file deleted")
 def delete_xlsFiles(folderPath):
-    folderPathxls=os.path.join(folderPath,"descargas")
-    for path in os.listdir(folderPathxls):
-        # check if current path is a file
-        if os.path.isfile(os.path.join(folderPathxls, path)):
-            if path[-4:]==".xls" or path[-5:]==".xlsx":
-                #if path=="auszug.txt" or path=="umsatz.txt":
-                os.remove(os.path.join(folderPathxls, path))
-                #print("txt file deleted")
-    folderPathXlsx=os.path.join(folderPath,"descargasXlsx")
-    for path in os.listdir(folderPathXlsx):
-        # check if current path is a file
-        if os.path.isfile(os.path.join(folderPathXlsx, path)):
-            if path[-4:]==".xls" or path[-5:]==".xlsx":
-                #if path=="auszug.txt" or path=="umsatz.txt":
-                os.remove(os.path.join(folderPathXlsx, path))
-                #print("txt file deleted")
+    remove_files(os.path.join(folderPath,"Cierres de Caja"))
+    remove_files(os.path.join(folderPath,"Cierres de Caja","formatoxlsx"))
+    remove_files(os.path.join(folderPath,"Cierres de Cobrador"))
+    remove_files(os.path.join(folderPath,"Cierres de Cobrador","formatoxlsx"))
 def convert_xls(pathFolder):    
     filesInfolder=os.listdir(pathFolder)
     e=""
