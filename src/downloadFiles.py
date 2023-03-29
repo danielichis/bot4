@@ -10,14 +10,14 @@ import time
 from utils import get_current_path
 from doomDirections import sgvPaths
 import locale
-def init_page():
+def init_page(user):
     # Go to https://www.borrd.com/
     page.goto("http://sgv.grupo-venado.com/venado/login.jsf")
     #page.pause()
     page.locator("[placeholder=\"Usuario\"]").click()
-    page.locator("[placeholder=\"Usuario\"]").fill("BOT.ADMINISTRACION.LP")
+    page.locator("[placeholder=\"Usuario\"]").fill(user["user"])
     page.locator("[placeholder=\"Contraseña\"]").click()
-    page.locator("[placeholder=\"Contraseña\"]").fill("venadobot")
+    page.locator("[placeholder=\"Contraseña\"]").fill(user["password"])
     page.locator("input:has-text(\"Iniciar Sesión\")").click()
     page.wait_for_load_state()
 
@@ -144,11 +144,9 @@ def in_folder(nameFolder):
 
     
 
-def downloadSgv():
-    wb=openpyxl.load_workbook(os.path.join(get_current_path(),"config.xlsx"))
-    ws=wb["login"]
-    dinit=ws["B2"].value
-    dEnd=ws["B3"].value
+def downloadCcaj(user,loginInfo):
+    dinit=loginInfo['dates']['dInit']
+    dEnd=loginInfo['dates']['dEnd']
     locale.setlocale(locale.LC_TIME, '')
     globalList=[]
     with sync_playwright() as p:
@@ -157,7 +155,7 @@ def downloadSgv():
         context = browser.new_context()
                 # Open new page
         page = context.new_page()
-        init_page()
+        init_page(user)
         goto_bills()
         found_date(dinit,"input#startDate")
         time.sleep(1)
@@ -218,10 +216,9 @@ def tableCollectorClosing():
 def downloadCollectorClosing():
     pass
     sgvp=sgvPaths()
-    wb=openpyxl.load_workbook(os.path.join(get_current_path(),"config.xlsx"))
-    ws=wb["login"]
-    dinit=ws["B2"].value
-    dEnd=ws["B3"].value
+    configInfo=configData()
+    dinit=configInfo["dInit"]
+    dEnd=configInfo["dEnd"]
     locale.setlocale(locale.LC_TIME, '')
     globalList2=[]
     with sync_playwright() as p:
@@ -256,6 +253,11 @@ def downloadCollectorClosing():
         with open(r'src\target\CollectorClosingFilesDonwload.json', "w") as outfile: 
             json.dump(listofFilesData, outfile,indent=4)
         #page.pause()
+
+def entireProcess(loginInfo):
+    users=loginInfo["users"]
+    for user in users:
+        downloadCcaj(user,loginInfo)
+        downloadCollectorClosing(user,loginInfo)
 if __name__ == "__main__":
-    downloadSgv()
-    downloadCollectorClosing()
+    entireProcess()

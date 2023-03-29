@@ -2,8 +2,10 @@ import sys
 import os
 from pathlib import Path
 import pyexcel
+import openpyxl
 import json
 import pandas as pd
+import re
 def get_current_path():
     config_name = 'myapp.cfg'
     # determine if application is a script file or frozen exe
@@ -81,6 +83,49 @@ def writeJson():
         row['NuevaData']={}
     with open(r'src\target\CashClosingInfo.json',"w") as json_file:
         json.dump(data,json_file,indent=4)
+def getSgvData(fileName):
+    code=re.findall(r'(\d{5})_', fileName)[0]
+    with open(r'src\target\FullExcelData.json',"r") as json_file:
+        data = json.load(json_file)
+    for d in data["data"]:
+        if d['Código']==code:
+            return d
+def normalizeTable():
+    df_bills=pd.read_csv(r'Tablas\billsTable.csv',sep=';')
+    df_coins=pd.read_csv(r'Tablas\coinsTable.csv',sep=';')
+    df_transfers=pd.read_csv(r'Tablas\banktransfersTable.csv',sep=';')
+    df_vouchers=pd.read_csv(r'Tablas\voucherTable.csv',sep=';')
+
+    df_all=pd.concat([df_bills,df_coins,df_transfers,df_vouchers],ignore_index=True)
+    
+    allData=df_all.to_dict('records')
+    for d in allData:
+        if d['Amount']=="-":
+            d['Amount']=0
+    df_all=pd.DataFrame(allData)
+    df_all.to_csv(r'Tablas\allTable.csv',index=False,sep=';',header=True)
+
+def loginInfo():
+    wb=openpyxl.load_workbook(os.path.join(get_current_path(),"config.xlsx"))
+    configDat={}
+    ws=wb["login"]
+    configDat['dates']={}
+    configDat['dates']['dInit']=ws["B2"].value
+    configDat['dates']['dEnd']=ws["B3"].value
+    configDat['users']={}
+
+    maxRow=ws.max_row
+    for i in range(2,maxRow+1):
+        if ws["G"+str(i)].value!=None and ws["F"+str(i)].value=="SI":
+            configDat['users'][ws["G"+str(i)].value]={}
+            configDat['users'][ws["G"+str(i)].value]['user']=ws["H"+str(i)].value
+            configDat['users'][ws["G"+str(i)].value]['password']=ws["I"+str(i)].value
+
+    configDat['flags']={}
+    configDat['flags']['flow']=ws["B5"].value
+    configDat['flags']['cumulative']=ws["B6"].value
+    return configDat
+
 def configToJson():
     configxlsxPath=os.path.join(get_current_path(),"config.xlsx")
     indexColumnsPathJson=os.path.join(get_current_path(),"src","target","indexColumnsConfig.json")
@@ -122,4 +167,4 @@ def configToJson():
     with open(kwordsRowLimitsPathJson, 'w') as outfile:
         json.dump(kwordsDict, outfile,indent=4)
 if __name__ == '__main__':
-    configToJson()
+    configData()

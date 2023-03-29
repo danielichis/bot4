@@ -1,73 +1,73 @@
-ruta;coinValue;coinQuantity;Amount
-55021_arceoCajaBs_dist.xlsx;5;91;455.00
-55021_arceoCajaBs_dist.xlsx;2;70;140.00
-55021_arceoCajaBs_dist.xlsx;1;88;88.00
-55021_arceoCajaBs_dist.xlsx;0.50;123;61.50
-55021_arceoCajaBs_dist.xlsx;0.20;213;42.60
-55021_arceoCajaBs_dist.xlsx;0.10;31;3.10
-55026_arceoCajaBs_dist.xlsx;5;;-
-55026_arceoCajaBs_dist.xlsx;2;;-
-55026_arceoCajaBs_dist.xlsx;1;7;7.00
-55026_arceoCajaBs_dist.xlsx;0.50;;-
-55026_arceoCajaBs_dist.xlsx;0.20;2;0.40
-55026_arceoCajaBs_dist.xlsx;0.10;;-
-55036_arceoCajaBs_ag.xlsx;5;21;105.00
-55036_arceoCajaBs_ag.xlsx;2;2;4.00
-55036_arceoCajaBs_ag.xlsx;1;31;31.00
-55036_arceoCajaBs_ag.xlsx;0.50;31;15.50
-55036_arceoCajaBs_ag.xlsx;0.20;;-
-55036_arceoCajaBs_ag.xlsx;0.10;3;0.30
-55037_arceoCajaBs_ag.xlsx;5;86;430.00
-55037_arceoCajaBs_ag.xlsx;2;120;240.00
-55037_arceoCajaBs_ag.xlsx;1;111;111.00
-55037_arceoCajaBs_ag.xlsx;0.50;63;31.50
-55037_arceoCajaBs_ag.xlsx;0.20;60;12.00
-55037_arceoCajaBs_ag.xlsx;0.10;70;7.00
-55038_arceoCajaBs_ag.xlsx;5;25;125.00
-55038_arceoCajaBs_ag.xlsx;2;20;40.00
-55038_arceoCajaBs_ag.xlsx;1;102;102.00
-55038_arceoCajaBs_ag.xlsx;0.50;2;1.00
-55038_arceoCajaBs_ag.xlsx;0.20;62;12.40
-55038_arceoCajaBs_ag.xlsx;0.10;79;7.90
-55045_arceoCajaBs_ag.xlsx;5;64;320.00
-55045_arceoCajaBs_ag.xlsx;2;121;242.00
-55045_arceoCajaBs_ag.xlsx;1;186;186.00
-55045_arceoCajaBs_ag.xlsx;0.50;62;31.00
-55045_arceoCajaBs_ag.xlsx;0.20;172;34.40
-55045_arceoCajaBs_ag.xlsx;0.10;40;4.00
-55052_arceoCajaBs_dist.xlsx;5;116;580.00
-55052_arceoCajaBs_dist.xlsx;2;95;190.00
-55052_arceoCajaBs_dist.xlsx;1;426;426.00
-55052_arceoCajaBs_dist.xlsx;0.50;180;90.00
-55052_arceoCajaBs_dist.xlsx;0.20;238;47.60
-55052_arceoCajaBs_dist.xlsx;0.10;125;12.50
-55065_arceoCajaBs_dist.xlsx;5;;-
-55065_arceoCajaBs_dist.xlsx;2;;-
-55065_arceoCajaBs_dist.xlsx;1;3;3.00
-55065_arceoCajaBs_dist.xlsx;0.50;;-
-55065_arceoCajaBs_dist.xlsx;0.20;;-
-55065_arceoCajaBs_dist.xlsx;0.10;7;0.70
-55066_arceoCajaBs_ag.xlsx;5;14;70.00
-55066_arceoCajaBs_ag.xlsx;2;8;16.00
-55066_arceoCajaBs_ag.xlsx;1;8;8.00
-55066_arceoCajaBs_ag.xlsx;0.50;18;9.00
-55066_arceoCajaBs_ag.xlsx;0.20;8;1.60
-55066_arceoCajaBs_ag.xlsx;0.10;4;0.40
-55067_arceoCajaBs_ag.xlsx;5;90;450.00
-55067_arceoCajaBs_ag.xlsx;2;108;216.00
-55067_arceoCajaBs_ag.xlsx;1;103;103.00
-55067_arceoCajaBs_ag.xlsx;0.50;62;31.00
-55067_arceoCajaBs_ag.xlsx;0.20;50;10.00
-55067_arceoCajaBs_ag.xlsx;0.10;73;7.30
-55069_arceoCajaBs_ag.xlsx;5;131;655.00
-55069_arceoCajaBs_ag.xlsx;2;57;114.00
-55069_arceoCajaBs_ag.xlsx;1;166;166.00
-55069_arceoCajaBs_ag.xlsx;0.50;146;73.00
-55069_arceoCajaBs_ag.xlsx;0.20;131;26.20
-55069_arceoCajaBs_ag.xlsx;0.10;128;12.80
-55070_arceoCajaBs_ag.xlsx;5;96;480.00
-55070_arceoCajaBs_ag.xlsx;2;56;112.00
-55070_arceoCajaBs_ag.xlsx;1;79;79.00
-55070_arceoCajaBs_ag.xlsx;0.50;76;38.00
-55070_arceoCajaBs_ag.xlsx;0.20;111;22.20
-55070_arceoCajaBs_ag.xlsx;0.10;52;5.20
+Código;Recibo;Fecha;Fecha de Cierre;Total (Bs.);Fondo (Bs.);Estado;Cajero;Auditado Por;Acciones;xlsFilesList;Medio de pago;ruta;recaudacion;coinValue;coinQuantity;Amount
+55021;CCAJ-LP02/71/2023;14/02/2023;14/02/2023;105,350.20;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55021_arceoCajaBs_dist.xlsx;distribuidora;5;91;455.00
+55021;CCAJ-LP02/71/2023;14/02/2023;14/02/2023;105,350.20;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55021_arceoCajaBs_dist.xlsx;distribuidora;2;70;140.00
+55021;CCAJ-LP02/71/2023;14/02/2023;14/02/2023;105,350.20;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55021_arceoCajaBs_dist.xlsx;distribuidora;1;88;88.00
+55021;CCAJ-LP02/71/2023;14/02/2023;14/02/2023;105,350.20;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55021_arceoCajaBs_dist.xlsx;distribuidora;0.50;123;61.50
+55021;CCAJ-LP02/71/2023;14/02/2023;14/02/2023;105,350.20;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55021_arceoCajaBs_dist.xlsx;distribuidora;0.20;213;42.60
+55021;CCAJ-LP02/71/2023;14/02/2023;14/02/2023;105,350.20;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55021_arceoCajaBs_dist.xlsx;distribuidora;0.10;31;3.10
+55026;CCAJ-LP02/72/2023;14/02/2023;14/02/2023;104,378.08;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55026_arceoCajaBs_dist.xlsx;distribuidora;5;;-
+55026;CCAJ-LP02/72/2023;14/02/2023;14/02/2023;104,378.08;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55026_arceoCajaBs_dist.xlsx;distribuidora;2;;-
+55026;CCAJ-LP02/72/2023;14/02/2023;14/02/2023;104,378.08;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55026_arceoCajaBs_dist.xlsx;distribuidora;1;7;7.00
+55026;CCAJ-LP02/72/2023;14/02/2023;14/02/2023;104,378.08;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55026_arceoCajaBs_dist.xlsx;distribuidora;0.50;;-
+55026;CCAJ-LP02/72/2023;14/02/2023;14/02/2023;104,378.08;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55026_arceoCajaBs_dist.xlsx;distribuidora;0.20;2;0.40
+55026;CCAJ-LP02/72/2023;14/02/2023;14/02/2023;104,378.08;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55026_arceoCajaBs_dist.xlsx;distribuidora;0.10;;-
+55036;CCAJ-LP01/71/23;14/02/2023;14/02/2023;4,795.80;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55036_arceoCajaBs_ag.xlsx;agencia;5;21;105.00
+55036;CCAJ-LP01/71/23;14/02/2023;14/02/2023;4,795.80;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55036_arceoCajaBs_ag.xlsx;agencia;2;2;4.00
+55036;CCAJ-LP01/71/23;14/02/2023;14/02/2023;4,795.80;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55036_arceoCajaBs_ag.xlsx;agencia;1;31;31.00
+55036;CCAJ-LP01/71/23;14/02/2023;14/02/2023;4,795.80;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55036_arceoCajaBs_ag.xlsx;agencia;0.50;31;15.50
+55036;CCAJ-LP01/71/23;14/02/2023;14/02/2023;4,795.80;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55036_arceoCajaBs_ag.xlsx;agencia;0.20;;-
+55036;CCAJ-LP01/71/23;14/02/2023;14/02/2023;4,795.80;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55036_arceoCajaBs_ag.xlsx;agencia;0.10;3;0.30
+55037;CCAJ-LP08/36/23;14/02/2023;14/02/2023;8,411.66;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55037_arceoCajaBs_ag.xlsx;agencia;5;86;430.00
+55037;CCAJ-LP08/36/23;14/02/2023;14/02/2023;8,411.66;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55037_arceoCajaBs_ag.xlsx;agencia;2;120;240.00
+55037;CCAJ-LP08/36/23;14/02/2023;14/02/2023;8,411.66;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55037_arceoCajaBs_ag.xlsx;agencia;1;111;111.00
+55037;CCAJ-LP08/36/23;14/02/2023;14/02/2023;8,411.66;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55037_arceoCajaBs_ag.xlsx;agencia;0.50;63;31.50
+55037;CCAJ-LP08/36/23;14/02/2023;14/02/2023;8,411.66;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55037_arceoCajaBs_ag.xlsx;agencia;0.20;60;12.00
+55037;CCAJ-LP08/36/23;14/02/2023;14/02/2023;8,411.66;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55037_arceoCajaBs_ag.xlsx;agencia;0.10;70;7.00
+55038;CCAJ-LP01/72/23;14/02/2023;14/02/2023;7,099.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55038_arceoCajaBs_ag.xlsx;agencia;5;25;125.00
+55038;CCAJ-LP01/72/23;14/02/2023;14/02/2023;7,099.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55038_arceoCajaBs_ag.xlsx;agencia;2;20;40.00
+55038;CCAJ-LP01/72/23;14/02/2023;14/02/2023;7,099.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55038_arceoCajaBs_ag.xlsx;agencia;1;102;102.00
+55038;CCAJ-LP01/72/23;14/02/2023;14/02/2023;7,099.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55038_arceoCajaBs_ag.xlsx;agencia;0.50;2;1.00
+55038;CCAJ-LP01/72/23;14/02/2023;14/02/2023;7,099.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55038_arceoCajaBs_ag.xlsx;agencia;0.20;62;12.40
+55038;CCAJ-LP01/72/23;14/02/2023;14/02/2023;7,099.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55038_arceoCajaBs_ag.xlsx;agencia;0.10;79;7.90
+55045;CCAJ-LP07/36/23;14/02/2023;14/02/2023;8,857.40;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55045_arceoCajaBs_ag.xlsx;agencia;5;64;320.00
+55045;CCAJ-LP07/36/23;14/02/2023;14/02/2023;8,857.40;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55045_arceoCajaBs_ag.xlsx;agencia;2;121;242.00
+55045;CCAJ-LP07/36/23;14/02/2023;14/02/2023;8,857.40;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55045_arceoCajaBs_ag.xlsx;agencia;1;186;186.00
+55045;CCAJ-LP07/36/23;14/02/2023;14/02/2023;8,857.40;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55045_arceoCajaBs_ag.xlsx;agencia;0.50;62;31.00
+55045;CCAJ-LP07/36/23;14/02/2023;14/02/2023;8,857.40;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55045_arceoCajaBs_ag.xlsx;agencia;0.20;172;34.40
+55045;CCAJ-LP07/36/23;14/02/2023;14/02/2023;8,857.40;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55045_arceoCajaBs_ag.xlsx;agencia;0.10;40;4.00
+55052;CCAJ-LP02/73/2023;15/02/2023;15/02/2023;256,286.10;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55052_arceoCajaBs_dist.xlsx;distribuidora;5;116;580.00
+55052;CCAJ-LP02/73/2023;15/02/2023;15/02/2023;256,286.10;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55052_arceoCajaBs_dist.xlsx;distribuidora;2;95;190.00
+55052;CCAJ-LP02/73/2023;15/02/2023;15/02/2023;256,286.10;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55052_arceoCajaBs_dist.xlsx;distribuidora;1;426;426.00
+55052;CCAJ-LP02/73/2023;15/02/2023;15/02/2023;256,286.10;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55052_arceoCajaBs_dist.xlsx;distribuidora;0.50;180;90.00
+55052;CCAJ-LP02/73/2023;15/02/2023;15/02/2023;256,286.10;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55052_arceoCajaBs_dist.xlsx;distribuidora;0.20;238;47.60
+55052;CCAJ-LP02/73/2023;15/02/2023;15/02/2023;256,286.10;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55052_arceoCajaBs_dist.xlsx;distribuidora;0.10;125;12.50
+55065;CCAJ-LP02/74/2023;15/02/2023;15/02/2023;547,451.61;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55065_arceoCajaBs_dist.xlsx;distribuidora;5;;-
+55065;CCAJ-LP02/74/2023;15/02/2023;15/02/2023;547,451.61;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55065_arceoCajaBs_dist.xlsx;distribuidora;2;;-
+55065;CCAJ-LP02/74/2023;15/02/2023;15/02/2023;547,451.61;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55065_arceoCajaBs_dist.xlsx;distribuidora;1;3;3.00
+55065;CCAJ-LP02/74/2023;15/02/2023;15/02/2023;547,451.61;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55065_arceoCajaBs_dist.xlsx;distribuidora;0.50;;-
+55065;CCAJ-LP02/74/2023;15/02/2023;15/02/2023;547,451.61;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55065_arceoCajaBs_dist.xlsx;distribuidora;0.20;;-
+55065;CCAJ-LP02/74/2023;15/02/2023;15/02/2023;547,451.61;0.00;CONFIRMADO;RIBANA RUTH REA RUEDA;;distribuidora;[];Efectivo;55065_arceoCajaBs_dist.xlsx;distribuidora;0.10;7;0.70
+55066;CCAJ-LP01/73/23;15/02/2023;15/02/2023;2,935.00;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55066_arceoCajaBs_ag.xlsx;agencia;5;14;70.00
+55066;CCAJ-LP01/73/23;15/02/2023;15/02/2023;2,935.00;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55066_arceoCajaBs_ag.xlsx;agencia;2;8;16.00
+55066;CCAJ-LP01/73/23;15/02/2023;15/02/2023;2,935.00;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55066_arceoCajaBs_ag.xlsx;agencia;1;8;8.00
+55066;CCAJ-LP01/73/23;15/02/2023;15/02/2023;2,935.00;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55066_arceoCajaBs_ag.xlsx;agencia;0.50;18;9.00
+55066;CCAJ-LP01/73/23;15/02/2023;15/02/2023;2,935.00;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55066_arceoCajaBs_ag.xlsx;agencia;0.20;8;1.60
+55066;CCAJ-LP01/73/23;15/02/2023;15/02/2023;2,935.00;1,000.00;CONFIRMADO;ABEL URBANO ALARCON ARROYO;;agencia;[];Efectivo;55066_arceoCajaBs_ag.xlsx;agencia;0.10;4;0.40
+55067;CCAJ-LP08/37/23;15/02/2023;15/02/2023;6,980.14;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55067_arceoCajaBs_ag.xlsx;agencia;5;90;450.00
+55067;CCAJ-LP08/37/23;15/02/2023;15/02/2023;6,980.14;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55067_arceoCajaBs_ag.xlsx;agencia;2;108;216.00
+55067;CCAJ-LP08/37/23;15/02/2023;15/02/2023;6,980.14;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55067_arceoCajaBs_ag.xlsx;agencia;1;103;103.00
+55067;CCAJ-LP08/37/23;15/02/2023;15/02/2023;6,980.14;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55067_arceoCajaBs_ag.xlsx;agencia;0.50;62;31.00
+55067;CCAJ-LP08/37/23;15/02/2023;15/02/2023;6,980.14;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55067_arceoCajaBs_ag.xlsx;agencia;0.20;50;10.00
+55067;CCAJ-LP08/37/23;15/02/2023;15/02/2023;6,980.14;1,000.00;CONFIRMADO;IBANA SOLIZ CUENTAS;;agencia;[];Efectivo;55067_arceoCajaBs_ag.xlsx;agencia;0.10;73;7.30
+55069;CCAJ-LP07/37/23;15/02/2023;15/02/2023;9,647.00;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55069_arceoCajaBs_ag.xlsx;agencia;5;131;655.00
+55069;CCAJ-LP07/37/23;15/02/2023;15/02/2023;9,647.00;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55069_arceoCajaBs_ag.xlsx;agencia;2;57;114.00
+55069;CCAJ-LP07/37/23;15/02/2023;15/02/2023;9,647.00;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55069_arceoCajaBs_ag.xlsx;agencia;1;166;166.00
+55069;CCAJ-LP07/37/23;15/02/2023;15/02/2023;9,647.00;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55069_arceoCajaBs_ag.xlsx;agencia;0.50;146;73.00
+55069;CCAJ-LP07/37/23;15/02/2023;15/02/2023;9,647.00;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55069_arceoCajaBs_ag.xlsx;agencia;0.20;131;26.20
+55069;CCAJ-LP07/37/23;15/02/2023;15/02/2023;9,647.00;1,000.00;CONFIRMADO;JHONNY IGNACIO FLORES LOPEZ;;agencia;[];Efectivo;55069_arceoCajaBs_ag.xlsx;agencia;0.10;128;12.80
+55070;CCAJ-LP01/74/23;15/02/2023;15/02/2023;7,227.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55070_arceoCajaBs_ag.xlsx;agencia;5;96;480.00
+55070;CCAJ-LP01/74/23;15/02/2023;15/02/2023;7,227.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55070_arceoCajaBs_ag.xlsx;agencia;2;56;112.00
+55070;CCAJ-LP01/74/23;15/02/2023;15/02/2023;7,227.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55070_arceoCajaBs_ag.xlsx;agencia;1;79;79.00
+55070;CCAJ-LP01/74/23;15/02/2023;15/02/2023;7,227.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55070_arceoCajaBs_ag.xlsx;agencia;0.50;76;38.00
+55070;CCAJ-LP01/74/23;15/02/2023;15/02/2023;7,227.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55070_arceoCajaBs_ag.xlsx;agencia;0.20;111;22.20
+55070;CCAJ-LP01/74/23;15/02/2023;15/02/2023;7,227.71;1,000.00;CONFIRMADO;JUAN CARLOS CAPCHA ORELLANA;;agencia;[];Efectivo;55070_arceoCajaBs_ag.xlsx;agencia;0.10;52;5.20
