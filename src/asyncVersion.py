@@ -35,7 +35,7 @@ async def download_files(playwright: Playwright) -> None:
         textoCierraCaja = textoCierraCaja.replace("/", "")
         #cierreCajatext=cierreCaja.inner_text()
         filename = f"archivo_{textoCierraCaja}.xls"
-        await asyncio.sleep(2)
+        #await asyncio.sleep(2)
         task = asyncio.create_task(download_file(page, downloadButton, filename))
         tasks.append(task)
     await asyncio.gather(*tasks)
@@ -50,9 +50,13 @@ async def download_file(page, downloadButton, filename):
     async with page.expect_download() as download_info:
         print(f"Downloading file {filename}")
         await downloadButton.click()
-        print(f"element web clicking {await downloadButton.inner_html()}")
-        print(f"element web clicking {await downloadButton.inner_text()}")
+        await asyncio.sleep(5)
+        link=await downloadButton.get_attribute("href")
+        #print(f"element web clicking {await downloadButton.inner_html()}")
+        print(f"element web clicking {link}")
         download=await download_info.value
+        await asyncio.sleep(5)
+        
     print(f"archivo descargado {filename}")
     print(await download.path())
     

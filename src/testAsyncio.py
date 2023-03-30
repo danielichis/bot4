@@ -1,20 +1,12 @@
-import asyncio
-import time
+from playwright.sync_api import sync_playwright
 
-async def function1(i):
-    print("running function ",i)
-    await asyncio.sleep(i)
-    print("finished function ",i)
-async def function2():
-    print("Hello ...")
-    await asyncio.sleep(2)
-    print("... World!")
+p=sync_playwright().start()
+browser=p.chromium.launch(headless=False)
+context=browser.new_context(record_video_dir="videos/")
+page=browser.new_page(accept_downloads=True)
+page.goto("http://sgv.grupo-venado.com/venado/login.jsf")
 
-async def main():
-    tasks=[]
-    for i in range(4):
-        task=asyncio.create_task(function1(i+1))
-        tasks.append(task)
-    await asyncio.gather(*tasks)
-
-asyncio.run(main())
+#close browser
+page.close()
+browser.close()
+p.stop()

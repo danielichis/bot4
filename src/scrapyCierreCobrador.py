@@ -1,5 +1,6 @@
 import openpyxl
 from utils import get_current_path,get_index_columns_config,get_currency,get_kwords_rowLimits_config,configToJson,get_tables_path
+from utils import convert_xls
 import os
 import re
 import json
@@ -12,9 +13,11 @@ class scraperCierreCobrador():
         self.indexColumns=get_index_columns_config()
         self.kwordsRowLimits=get_kwords_rowLimits_config()
         self.sh=openpyxl.load_workbook(self.XlsxPath).worksheets[0]
-        #self.currency=get_currency(fileName)
-        #self.distributionType=distributionType
-        #self.gap=0
+        self.recaud=None
+        self.getRecaud()
+    
+    def getRecaud(self):
+        self.recaud=re.findall(r'(.*?)_', self.fileName)[0]
     def ClientToCollectorTable(self):
 
         tableColumns=self.indexColumns['distribuidora']['Cierre de cobrador']
@@ -93,6 +96,7 @@ class scraperCierreCobrador():
         while self.sh.cell(row=i,column=clientCode).value!=lowerLimit and self.sh.cell(row=i,column=6).value!=lowerLimit:
             ditTable={
                 'ruta':self.fileName[:-5],
+                "recaudadora":self.recaud,
                 'Nro APP':self.sh.cell(row=i,column=appNumber).value,
                 'Fecha Recibo':self.sh.cell(row=i,column=recepitDate).value,
                 'Cod Cliente':self.sh.cell(row=i,column=clientCode).value,
@@ -202,6 +206,7 @@ class scraperCierreCobrador():
             
             ditTable={
                 'ruta':self.fileName[:-5],
+                "recaudadora":self.recaud,
                 "CashBs":self.sh.cell(row=i,column=cashBs).value,
                 "CashUs":self.sh.cell(row=i,column=cashUs).value,
                 "CashEqBs":self.sh.cell(row=i,column=cashEqBs).value,
@@ -235,7 +240,6 @@ class scraperCierreCobrador():
         #print(pd.DataFrame(receiptBoxTable))
         return receiptBoxTable
 def scrap_CierreCobrador():
-    print(os.path.join(get_current_path()))
     cierreCobradorFiles=os.listdir(os.path.join(get_current_path(),"Cierres de Cobrador","formatoxlsx"))
     collectorClientTable=[]
     collectorBoxTable=[]
@@ -248,10 +252,15 @@ def scrap_CierreCobrador():
             p=scob.CollectorToBoxTable()
             collectorBoxTable.extend(p)
             print("--------------------------Archivo procesado: ")
+    if len(cierreCobradorFiles)==0:
+        print("No hay archivos de cierres de cobrador para procesar")
+        return
     df1=pd.DataFrame(collectorClientTable)
     df2=pd.DataFrame(collectorBoxTable)
     df1.to_csv(os.path.join(get_tables_path(),"collectorClientTable.csv"),index=False,sep=";")
     df2.to_csv(os.path.join(get_tables_path(),"collectorBoxTable.csv"),index=False,sep=";")
 if __name__ == "__main__":
+    #collectorClosingFolder=os.path.join(get_current_path(),"Cierres de Cobrador")
+    #convert_xls(collectorClosingFolder)
     scrap_CierreCobrador()
             

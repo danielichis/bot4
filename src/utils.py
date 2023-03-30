@@ -1,11 +1,37 @@
 import sys
 import os
 from pathlib import Path
+import datetime
 import pyexcel
 import openpyxl
 import json
 import pandas as pd
 import re
+
+class pathsProyect:
+    def __init__(self) -> None:
+        self.jsonCcaj = None
+        self.jsonCcob = None
+        self.jsonCashOut = None
+        self.dirCcaj = None
+        self.dirCcob = None
+        self.dirCashOut = None
+        self.appPath=None
+        self.folderProyect=None
+        self.get_app_path()
+        self.getting_paths()
+    def get_app_path(self):
+        if getattr(sys, 'frozen', False):
+            application_path = os.path.dirname(sys.executable)
+        elif __file__:
+            application_path = os.path.dirname(__file__)
+        self.appPath =Path(application_path)
+        self.folderProyect=self.appPath.parent.absolute()
+        #return Path(application_path)
+    def getting_paths(self):
+        self.jsonCcaj=os.path.join(self.appPath.parent.absolute(),"src","target","CashClosingInfo.json")
+        self.jsonCcob=os.path.join(self.appPath.parent.absolute(),"src","target","CollectorClosingFilesDonwload.json")
+
 def get_current_path():
     config_name = 'myapp.cfg'
     # determine if application is a script file or frozen exe
@@ -34,11 +60,18 @@ def remove_files(folderPath):
                 #if path=="auszug.txt" or path=="umsatz.txt":
                 os.remove(os.path.join(folderPath, path))
                 #print("txt file deleted")
-def delete_xlsFiles(folderPath):
-    remove_files(os.path.join(folderPath,"Cierres de Caja"))
-    remove_files(os.path.join(folderPath,"Cierres de Caja","formatoxlsx"))
-    remove_files(os.path.join(folderPath,"Cierres de Cobrador"))
-    remove_files(os.path.join(folderPath,"Cierres de Cobrador","formatoxlsx"))
+def delete_xlsFiles():
+    print("Borrando archivos anteriores")
+    paths=pathsProyect()
+    data={"data":[]}
+    with open(paths.jsonCcaj,"w") as json_file:
+        json_file.write(json.dumps(data,indent=4))
+    with open(paths.jsonCcob,"w") as json_file:
+        json_file.write(json.dumps(data,indent=4))
+    remove_files(os.path.join(paths.folderProyect,"Cierres de Caja"))
+    remove_files(os.path.join(paths.folderProyect,"Cierres de Caja","formatoxlsx"))
+    remove_files(os.path.join(paths.folderProyect,"Cierres de Cobrador"))
+    remove_files(os.path.join(paths.folderProyect,"Cierres de Cobrador","formatoxlsx"))
 def convert_xls(pathFolder):    
     filesInfolder=os.listdir(pathFolder)
     e=""
@@ -85,7 +118,7 @@ def writeJson():
         json.dump(data,json_file,indent=4)
 def getSgvData(fileName):
     code=re.findall(r'(\d{5})_', fileName)[0]
-    with open(r'src\target\FullExcelData.json',"r") as json_file:
+    with open(r'src\target\CashClosinginfo.json',"r") as json_file:
         data = json.load(json_file)
     for d in data["data"]:
         if d['Código']==code:
@@ -110,7 +143,9 @@ def loginInfo():
     configDat={}
     ws=wb["login"]
     configDat['dates']={}
-    configDat['dates']['dInit']=ws["B2"].value
+    dinit=ws["B2"].value
+    dinit=dinit+datetime.timedelta(days=1)
+    configDat['dates']['dInit']=dinit
     configDat['dates']['dEnd']=ws["B3"].value
     configDat['users']={}
 
@@ -120,6 +155,8 @@ def loginInfo():
             configDat['users'][ws["G"+str(i)].value]={}
             configDat['users'][ws["G"+str(i)].value]['user']=ws["H"+str(i)].value
             configDat['users'][ws["G"+str(i)].value]['password']=ws["I"+str(i)].value
+            configDat['users'][ws["G"+str(i)].value]['recaudadora']=ws["J"+str(i)].value
+
 
     configDat['flags']={}
     configDat['flags']['flow']=ws["B5"].value
@@ -167,4 +204,4 @@ def configToJson():
     with open(kwordsRowLimitsPathJson, 'w') as outfile:
         json.dump(kwordsDict, outfile,indent=4)
 if __name__ == '__main__':
-    configData()
+    delete_xlsFiles()

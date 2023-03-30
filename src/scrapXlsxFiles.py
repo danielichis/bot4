@@ -16,7 +16,12 @@ class scrapTablesExcel:
         self.distributionType=distributionType
         self.sgvData=getSgvData(fileName)
         self.fileName=fileName
+        self.get_recauda()
         self.gap=0
+    def get_recauda(self):
+        filename=self.fileName
+        recaud=re.findall(r'(.*)_\d{5}_', filename)[0]
+        self.recaud=recaud
     def get_left_up_vertex_table(self,tableName,moneyType):
         sh=self.sh
         i=1
@@ -59,6 +64,7 @@ class scrapTablesExcel:
             billsDict={
                 **self.sgvData,
                 "Medio de pago":"Efectivo",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
@@ -69,7 +75,7 @@ class scrapTablesExcel:
             if billsDict["billQuantity"] not in filterBillsWords:
                 billsTable.append(billsDict)
             i=i+1
-        print(pd.DataFrame(billsTable))
+        #print(pd.DataFrame(billsTable))
         return billsTable
 
     def getCoinsTable(self):
@@ -90,6 +96,7 @@ class scrapTablesExcel:
             coinsDict={
                 **self.sgvData,
                 "Medio de pago":"Efectivo",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
@@ -101,7 +108,7 @@ class scrapTablesExcel:
                 coinsTable.append(coinsDict)
             i=i+1
 
-        print(pd.DataFrame(coinsTable))
+        #print(pd.DataFrame(coinsTable))
         return coinsTable
     def getChecksTable(self):
         sh=self.sh
@@ -126,6 +133,7 @@ class scrapTablesExcel:
             checkDict={
                 **self.sgvData,
                 "Medio de pago":"Cheque",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
@@ -137,7 +145,7 @@ class scrapTablesExcel:
             if checkDict["Date"] not in filterCheckWords:
                 checkTable.append(checkDict)
             i=i+1
-        print(pd.DataFrame(checkTable))
+        #print(pd.DataFrame(checkTable))
         return checkTable
     def getBankTransfersTable(self):
         sh=self.sh
@@ -162,6 +170,7 @@ class scrapTablesExcel:
             bankTransferDict={
                 **self.sgvData,
                 "Medio de pago":"Transferencia Bancaria",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "recaudacion":self.distributionType,
@@ -173,7 +182,7 @@ class scrapTablesExcel:
             if bankTransferDict["Date"] not in filterTransferWords:
                 bankTransferTable.append(bankTransferDict)
             i=i+1
-        print(pd.DataFrame(bankTransferTable))
+        #print(pd.DataFrame(bankTransferTable))
         return bankTransferTable
     def getSummaryTable(self):
         sh=self.sh
@@ -213,6 +222,7 @@ class scrapTablesExcel:
             summaryDict={
                 "uniqKey":"",
                 "ruta":self.fileName,
+                "recaudadora":self.recaud,
                 "Code":sh.cell(i,ColumCode).value,
                 "Checker":sh.cell(i,ColumChecker).value,
                 "FechaRend":sh.cell(i,ColumRendDate).value,
@@ -234,10 +244,11 @@ class scrapTablesExcel:
             }
             if summaryDict["FechaRend"] not in filterkeyWords:
                 totalFormat="{:.2f}".format(float(totalFormat))
-                summaryDict["uniqKey"]=checker+"_"+formatedDate+"_"+totalFormat
+                rec=self.recaud
+                summaryDict["uniqKey"]=rec+"_"+checker+"_"+formatedDate+"_"+totalFormat
                 summaryTable.append(summaryDict)
             i=i+1
-        print(pd.DataFrame(summaryTable))        
+        #print(pd.DataFrame(summaryTable))        
         return summaryTable
 
     def get_vouchers_table(self):
@@ -262,6 +273,7 @@ class scrapTablesExcel:
             voucherDict={
                 **self.sgvData,
                 "Medio de pago":"Voucher",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
@@ -273,7 +285,7 @@ class scrapTablesExcel:
             if voucherDict["Date"] not in kwordsFilter:
                 voucherTable.append(voucherDict)
             i=i+1
-        print(pd.DataFrame(voucherTable))
+        #print(pd.DataFrame(voucherTable))
         return voucherTable
     def get_coupon_table(self):
         sh=self.sh
@@ -298,6 +310,7 @@ class scrapTablesExcel:
             couponDict={
                 **self.sgvData,
                 "Medio de pago":"Vale",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "recaudacion":self.distributionType,
@@ -309,7 +322,7 @@ class scrapTablesExcel:
         if couponDict["Quantity"] not in keywordsFilter:
             couponTable.append(couponDict)
             
-        print(pd.DataFrame(couponTable))
+        #print(pd.DataFrame(couponTable))
         return couponTable
     def get_qr_table(self):
         sh=self.sh
@@ -335,6 +348,7 @@ class scrapTablesExcel:
             qrDict={
                 **self.sgvData,
                 "Medio de pago":"QR",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "recaudacion":self.distributionType,
@@ -346,7 +360,7 @@ class scrapTablesExcel:
             if qrDict["Date"] not in keywordsFilter:
                 qrTable.append(qrDict)
             i=i+1
-        print(pd.DataFrame(qrTable))
+        #print(pd.DataFrame(qrTable))
         return qrTable
     def get_diferences_table(self):
         typeCurrency=self.currency
@@ -376,6 +390,7 @@ class scrapTablesExcel:
             diferencesDict={
                 **self.sgvData,
                 "Medio de pago":"Diferencias",
+                "recaudadora":self.recaud,
                 "moneda":typeCurrency,
                 "ruta":self.fileName,
                 "Concept":sh.cell(i,columConcept).value,
@@ -388,7 +403,7 @@ class scrapTablesExcel:
             if diferencesDict["Concept"] not in keywordsFilter:
                 diferencesTable.append(diferencesDict)
             i=i+1
-        print(pd.DataFrame(diferencesTable))
+        #print(pd.DataFrame(diferencesTable))
         return diferencesTable
 
 def scrapXlsxFile(fileName):
@@ -484,6 +499,7 @@ def scrapFiles():
 
 
 def scrapCierresDeCaja():
+    print("Procesando archivos de cierres de caja")
     #list of .xlsx files in the directory
     xlsxFilesList=[x for x in os.listdir(r"Cierres de Caja\formatoxlsx") if x.endswith(".xlsx")]
     global billst,checkstable,bankTransferstable,coinssTable,vouchersTable,qrsTable,cuoponsTable,diferencessTable,summariesTable
@@ -500,6 +516,9 @@ def scrapCierresDeCaja():
     for xlsxFile in xlsxFilesList:
         print(xlsxFile)
         vd=scrapXlsxFile(xlsxFile)
+    if len(xlsxFilesList)==0:
+        print("No hay archivos xlsx en la carpeta Cierres de Caja")
+        return
     df_bt=pd.DataFrame(billst)
     df_bt.to_csv(os.path.join(get_tables_path(),"billsTable.csv"),index=False,sep=";")
 
@@ -525,12 +544,7 @@ def scrapCierresDeCaja():
     df_summaries.to_csv(os.path.join(get_tables_path(),"summariesTable.csv"),index=False,sep=";")
 
     normalizeTable()
-
-def scrapCierresDeCobrador():
-    #list of .xlsx files in the directory
-    xlsxFilesList=[x for x in os.listdir(r"Cierres de Cobrador") if x.endswith(".xls")]
-    for xlsxFile in xlsxFilesList:
-        print(xlsxFile)
+    print("SCRAP CIERRES DE CAJA TERMINADO")
 
 if __name__ == "__main__":
     #scrapFiles()
