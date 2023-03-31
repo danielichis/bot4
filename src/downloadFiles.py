@@ -161,7 +161,8 @@ def downloadCcaj(loginInfo,user):
     found_date(dEnd,"input#endDate")
     page.wait_for_selector("table#cashierClosings td")
     page.evaluate('window.scrollBy(0, 200)')
-    n=len(page.query_selector_all("li[class='paginate_button next'] a"))
+    #time.sleep(2)
+    n=1
     i=0
     while n>0:
         print(f"------pagina : {i+1}")        
@@ -235,7 +236,7 @@ def downloadCollectorClosing(loginInfo,user):
     page.wait_for_load_state("networkidle")
     page.evaluate('window.scrollBy(0, 200)')
     i=0
-    n=len(page.query_selector_all("li[class='paginate_button next'] a"))
+    n=1
     while n>0:
         print(f"-----pagina :{i+1}")
         globalList2.extend(tableCollectorClosing(user))

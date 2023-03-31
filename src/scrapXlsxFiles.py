@@ -16,12 +16,19 @@ class scrapTablesExcel:
         self.distributionType=distributionType
         self.sgvData=getSgvData(fileName)
         self.fileName=fileName
+        self.codeCcaj=None
+        self.currencyNeto=None
         self.get_recauda()
         self.gap=0
     def get_recauda(self):
         filename=self.fileName
         recaud=re.findall(r'(.*)_\d{5}_', filename)[0]
         self.recaud=recaud
+        self.CodeCcaj=re.findall(r'_(\d{5})_', filename)[0]
+        if self.currency.find("Bs")!=-1:
+            self.currencyNeto="Bs"
+        else:
+            self.currencyNeto=self.currency
     def get_left_up_vertex_table(self,tableName,moneyType):
         sh=self.sh
         i=1
@@ -65,7 +72,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"Efectivo",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
                 "billValue":sh.cell(i,columBill).value,
@@ -97,7 +104,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"Efectivo",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
                 "coinValue":sh.cell(i,ColumCurrency).value,
@@ -134,7 +141,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"Cheque",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
                 "Date":sh.cell(i,ColumDate).value,
@@ -171,7 +178,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"Transferencia Bancaria",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "recaudacion":self.distributionType,
                 "Date":sh.cell(i,ColumBankTransfer).value,
@@ -211,7 +218,7 @@ class scrapTablesExcel:
         downLimitWord=self.kwordsRowLimits["distribuidora"]["ambos"]["reporte"]["inferior"]
         i=1
         summaryTable=[]
-        filterkeyWords=[None,"Fecha de Rend.","Saldo Anterior"]
+        filterkeyWords=[None,"Fecha de Rend."]
         while sh.cell(i,ColumRendDate).value !=upLimitWord:
             i=i+1
 
@@ -224,6 +231,7 @@ class scrapTablesExcel:
                 "ruta":self.fileName,
                 "recaudadora":self.recaud,
                 "Code":sh.cell(i,ColumCode).value,
+                "Codigo":self.codeCcaj,
                 "Checker":sh.cell(i,ColumChecker).value,
                 "FechaRend":sh.cell(i,ColumRendDate).value,
                 "FechaRecibo":sh.cell(i,ColumReceiptDate).value,
@@ -246,7 +254,8 @@ class scrapTablesExcel:
                 totalFormat="{:.2f}".format(float(totalFormat))
                 rec=self.recaud
                 summaryDict["uniqKey"]=rec+"_"+checker+"_"+formatedDate+"_"+totalFormat
-                summaryTable.append(summaryDict)
+                if float(totalFormat)>0:
+                    summaryTable.append(summaryDict)
             i=i+1
         #print(pd.DataFrame(summaryTable))        
         return summaryTable
@@ -274,7 +283,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"Voucher",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "recaudacion":typeDistribution,
                 "Date":sh.cell(i,columDate).value,
@@ -311,7 +320,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"Vale",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "recaudacion":self.distributionType,
                 "Quantity":sh.cell(i,columQuantity).value,
@@ -349,7 +358,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"QR",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "recaudacion":self.distributionType,
                 "Date":sh.cell(i,columDate).value,
@@ -391,7 +400,7 @@ class scrapTablesExcel:
                 **self.sgvData,
                 "Medio de pago":"Diferencias",
                 "recaudadora":self.recaud,
-                "moneda":typeCurrency,
+                "moneda":self.currencyNeto,
                 "ruta":self.fileName,
                 "Concept":sh.cell(i,columConcept).value,
                 "Motive":sh.cell(i,columMotive).value,

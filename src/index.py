@@ -1,13 +1,15 @@
 from downloadFiles import donloadSgv,downloadCollectorClosing
-from utils import delete_xlsFiles, get_current_path, convert_xls,loginInfo
+from utils import delete_xlsFiles, get_current_path, convert_xls,loginInfo,get_templatesSap
 from scrapXlsxFiles import scrapCierresDeCaja
 from scrapyCierreCobrador import scrap_CierreCobrador
 import os
 def main():
     loginData=loginInfo()
     if loginData['flags']['cumulative']=="NO":
+        pass
         delete_xlsFiles()
     if loginData['flags']['flow']!="PROCESAR":
+        pass
         donloadSgv(loginData)
     if loginData['flags']['flow']!="DESCARGAR":
         boxClosingFolder=os.path.join(get_current_path(),"Cierres de Caja")
@@ -16,5 +18,6 @@ def main():
         collectorClosingFolder=os.path.join(get_current_path(),"Cierres de Cobrador")
         convert_xls(collectorClosingFolder)
         scrap_CierreCobrador()
+        get_templatesSap(loginData['dates'])
 if __name__ == "__main__":
     main()

@@ -18,6 +18,9 @@ class pathsProyect:
         self.dirCashOut = None
         self.appPath=None
         self.folderProyect=None
+        self.bot1=None
+        self.bot1_config=None
+        self.tables=None
         self.get_app_path()
         self.getting_paths()
     def get_app_path(self):
@@ -31,7 +34,12 @@ class pathsProyect:
     def getting_paths(self):
         self.jsonCcaj=os.path.join(self.appPath.parent.absolute(),"src","target","CashClosingInfo.json")
         self.jsonCcob=os.path.join(self.appPath.parent.absolute(),"src","target","CollectorClosingFilesDonwload.json")
-
+        self.bot1=os.path.join(self.appPath.parent.absolute().parent.absolute(),"Bot1","SapHunter")
+        self.bot1_extractos=os.path.join(self.bot1,"extractosBancarios")
+        self.bot1_plantillas=os.path.join(self.bot1,"plantillasSap")
+        self.bot1_config=os.path.join(self.bot1,"config.xlsx")
+        self.tables=os.path.join(self.appPath.parent.absolute(),"Tablas")
+paths=pathsProyect()
 def get_current_path():
     config_name = 'myapp.cfg'
     # determine if application is a script file or frozen exe
@@ -124,19 +132,26 @@ def getSgvData(fileName):
         if d['Código']==code:
             return d
 def normalizeTable():
-    df_bills=pd.read_csv(r'Tablas\billsTable.csv',sep=';')
-    df_coins=pd.read_csv(r'Tablas\coinsTable.csv',sep=';')
-    df_transfers=pd.read_csv(r'Tablas\banktransfersTable.csv',sep=';')
-    df_vouchers=pd.read_csv(r'Tablas\voucherTable.csv',sep=';')
+    print("Normalizando tablas")
+    dfs=[]
+    dfNames=[r'Tablas\billsTable.csv',r'Tablas\coinsTable.csv',r'Tablas\banktransfersTable.csv',r'Tablas\voucherTable.csv',r'Tablas\checksTable.csv',r'Tablas\qrTable.csv',r'Tablas\cuoponTable.csv']
+    
+    for dfName in dfNames:
+        try:
+            df=pd.read_csv(dfName,sep=';')
+            dfs.append(df)
+        except:
+            pass
+            print("No se encontro data en el archivo: ",dfName)
 
-    df_all=pd.concat([df_bills,df_coins,df_transfers,df_vouchers],ignore_index=True)
+    df_all=pd.concat(dfs,ignore_index=True)
     
     allData=df_all.to_dict('records')
     for d in allData:
         if d['Amount']=="-":
             d['Amount']=0
     df_all=pd.DataFrame(allData)
-    df_all.to_csv(r'Tablas\allTable.csv',index=False,sep=';',header=True)
+    df_all.to_csv(r'Tablas\DetalleCcajTable.csv',index=False,sep=';',header=True)
 
 def loginInfo():
     wb=openpyxl.load_workbook(os.path.join(get_current_path(),"config.xlsx"))
@@ -203,5 +218,62 @@ def configToJson():
 
     with open(kwordsRowLimitsPathJson, 'w') as outfile:
         json.dump(kwordsDict, outfile,indent=4)
+
+def get_bot1_configData():
+    df_bot1=pd.read_excel(paths.bot1_config,sheet_name="cuentas")
+    data=df_bot1.to_dict('records')
+    newData=[]
+    r={}
+    for d in data:
+        fordigits=str(d['NRO.CUENTA'])[-4:]
+        r[fordigits]={}
+        r[fordigits]['BANCO']=d['ENTIDAD FINANCIERA']
+        r[fordigits]['NRO.CUENTA']=d['NRO.CUENTA']
+    return r
+def get_templatesSap(dates):
+    d1=dates["dInit"]
+    #rest 1 day to d1
+    d1=d1+datetime.timedelta(days=-5)
+    #print(d1)
+    d2=dates["dEnd"]
+    dirs=[]
+    banksData=get_bot1_configData()
+    for f in os.scandir(paths.bot1_plantillas):
+        if f.is_dir():
+            file={
+                "name":f.name,
+                "path":f.path
+            }
+            dateName=datetime.datetime.strptime(file['name'],"%d%m%Y")
+            if dateName>=d1 and dateName<=d2:
+                dirs.append(file)
+    files=[]
+    extractInfo=[]
+    for dir in dirs:
+        for f in os.scandir(dir['path']):
+            if f.name.endswith(".xlsx"):
+                file={
+                    "name":f.name,
+                    "path":f.path
+                }
+                files.append(file)
+                df=pd.read_excel(file["path"],sheet_name='UNION',header=15)
+                values=df.values.tolist()
+                fordigits=re.findall(r'(\d{4})-',file['name'])[0]
+                for value in values:
+                    newvalue={
+                        "carpeta":"'"+str(dir['name']),
+                        "banco":banksData[fordigits]['BANCO'],
+                        "nro cuenta4digits":"'"+str(fordigits),
+                        "nro cuenta":"'"+str(banksData[fordigits]['NRO.CUENTA']),
+                        "date":value[0],
+                        "Nro Documento":"'"+str(value[1]),
+                        "Descripcion":str(value[2]).replace("=",""),
+                        "importe":value[4],
+                    }
+                    extractInfo.append(newvalue)
+    df_templatesSap=pd.DataFrame(extractInfo)
+    df_templatesSap.to_csv(os.path.join(paths.tables,"ExtractosBancarios.csv"),index=False,sep=	";",encoding="utf-8")
+
 if __name__ == '__main__':
-    delete_xlsFiles()
+    normalizeTable()
