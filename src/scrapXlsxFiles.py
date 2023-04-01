@@ -1,11 +1,12 @@
 import openpyxl
 from utils import get_current_path,get_index_columns_config,get_currency,get_kwords_rowLimits_config,configToJson,get_tables_path
-from utils import getSgvData,normalizeTable
+from utils import getSgvData,normalizeTable,pathsProyect
 import os
 import re
 import json
 import pandas as pd
 
+paths=pathsProyect()
 class scrapTablesExcel:
     def __init__(self,fileName,distributionType) -> None:
         self.XlsxPath=os.path.join(get_current_path(),"Cierres de Caja","formatoxlsx")
@@ -414,7 +415,42 @@ class scrapTablesExcel:
             i=i+1
         #print(pd.DataFrame(diferencesTable))
         return diferencesTable
+    def ventasEfectuadas(self):
+        sh=self.sh
+        ventasEfectuadas={}
+        ventasEfectuadas["Ventas al Contado"]={}
+        ventasEfectuadas["Ventas al Credito"]={}
+        i=13
+        j=1
+        while sh.cell(i,j).value !='A':
+            j=j+1
+        ventasEfectuadas["Ventas al Contado"]['EFECTIVO']=sh.cell(i,j).value
+        
+        while sh.cell(i,j).value !='B':
+            j=j+1
+        ventasEfectuadas["Ventas al Contado"]['DOCUMENTOS']=sh.cell(i,j).value
+        
+        while sh.cell(i,j).value !='C=A+B':
+            j=j+1
+        ventasEfectuadas["Ventas al Contado"]['TOTAL']=sh.cell(i,j).value
+        
+        while sh.cell(i,j).value !='D':
+            j=j+1   
+        ventasEfectuadas["Ventas al Credito"]['PERSONAL IVSA']=''
 
+        while sh.cell(i,j).value !='E':
+            j=j+1
+        ventasEfectuadas["Ventas al Credito"]['OTROS']=sh.cell(i,j).value
+        
+        while sh.cell(i,j).value !='F=D+E':
+            j=j+1
+        ventasEfectuadas["Ventas al Credito"]['TOTAL']=sh.cell(i,j).value
+        
+        while sh.cell(i,j).value !='G=C+F':
+            j=j+1
+        ventasEfectuadas['TOTALVENTAS']=''
+        
+        return ventasEfectuadas
 def scrapXlsxFile(fileName):
     dicts=[]
     billTable=None
@@ -461,9 +497,12 @@ def scrapXlsxFile(fileName):
             voucherTable=scrapyxlsx.get_vouchers_table()
             cuoponTable=scrapyxlsx.get_coupon_table()
             diferencesTable=scrapyxlsx.get_diferences_table()
+            ventas=scrapyxlsx.ventasEfectuadas()
             dictsTable={"billTable":billTable,"coinsTable":coinsTable,"voucherTable":voucherTable,"cuoponTable":cuoponTable,"diferencesTable":diferencesTable}
         else:
             print("Error en el nombre del archivo")
+
+
     if billTable!=None:
         billst.extend(billTable)
     if checkTable!=None:
@@ -484,28 +523,6 @@ def scrapXlsxFile(fileName):
         summariesTable.extend(summaryTable)
     dataReturn={"distributionType":distributionType,"data":dictsTable,"typeMoney":scrapyxlsx.currency}
     return dataReturn
-def scrapFiles():
-    configToJson()
-    with open(r'src\target\CashClosingInfo.json',"r") as json_file:
-        data = json.load(json_file)
-    for i,row in enumerate(data['data']):
-        for j,path in enumerate(row["xlsFilesList"]):
-            path=path.replace("descargas","descargasXlsx").replace("xls","xlsx")
-            vd=scrapXlsxFile(path)
-
-            data['data'][i]["xlsFilesList"][j]={}
-            data['data'][i]["xlsFilesList"][j]["file"]=path
-            data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
-            data['data'][i]["xlsFilesList"][j]["data"]=vd["data"]
-            print(row['Código'])
-            #except:
-                #pass
-    with open(r'src\target\FullExcelData.json', 'w') as outfile:
-        json.dump(data, outfile,indent=4)
-    
-    df_bills=pd.DataFrame(billst)
-    df_bills.to_csv(os.path.join(get_current_path(),"billsTable.csv"),index=False,sep=";")
-
 
 def scrapCierresDeCaja():
     print("Procesando archivos de cierres de caja")
@@ -555,8 +572,67 @@ def scrapCierresDeCaja():
     normalizeTable()
     print("SCRAP CIERRES DE CAJA TERMINADO")
 
+def scrapFiles():
+    #configToJson()
+    with open(r'src\target\CashClosingInfo.json',"r") as json_file:
+        data = json.load(json_file)
+    global billst,checkstable,bankTransferstable,coinssTable,vouchersTable,qrsTable,cuoponsTable,diferencessTable,summariesTable
+    
+    billst=[]
+    checkstable=[]
+    bankTransferstable=[]
+    vouchersTable=[]
+    coinssTable=[]
+    vouchersTable=[]
+    qrsTable=[]
+    cuoponsTable=[]
+    diferencessTable=[]
+    summariesTable=[]
+    
+    for i,row in enumerate(data['data']):
+        for j,path in enumerate(row["xlsFilesList"]):
+            if path['descargado']=="OK":
+                path=os.path.join(paths.dirCcaj,path['name']+".xlsx")
+                vd=scrapXlsxFile(path)
+                #data['data'][i]["xlsFilesList"][j]={}
+                data['data'][i]["xlsFilesList"][j]["file"]=path
+                data['data'][i]["xlsFilesList"][j]["distributionType"]=vd["distributionType"]
+                data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
+                data['data'][i]["xlsFilesList"][j]["data"]=vd["data"]
+                print(row['Código'])
+            #except:
+                #pass
+
+    df_bt=pd.DataFrame(billst)
+    df_bt.to_csv(os.path.join(get_tables_path(),"billsTable.csv"),index=False,sep=";")
+
+    df_checks=pd.DataFrame(checkstable)
+    df_checks.to_csv(os.path.join(get_tables_path(),"checksTable.csv"),index=False,sep=";")
+
+    df_bankTransfers=pd.DataFrame(bankTransferstable)
+    df_bankTransfers.to_csv(os.path.join(get_tables_path(),"bankTransfersTable.csv"),index=False,sep=";")
+
+    df_coins=pd.DataFrame(coinssTable)
+    df_coins.to_csv(os.path.join(get_tables_path(),"coinsTable.csv"),index=False,sep=";")
+
+    df_voucher=pd.DataFrame(vouchersTable)
+    df_voucher.to_csv(os.path.join(get_tables_path(),"voucherTable.csv"),index=False,sep=";")
+
+    df_qr=pd.DataFrame(qrsTable)
+    df_qr.to_csv(os.path.join(get_tables_path(),"qrTable.csv"),index=False,sep=";")
+
+    df_cuopon=pd.DataFrame(cuoponsTable)
+    df_cuopon.to_csv(os.path.join(get_tables_path(),"cuoponTable.csv"),index=False,sep=";")
+
+    df_summaries=pd.DataFrame(summariesTable)
+    df_summaries.to_csv(os.path.join(get_tables_path(),"summariesTable.csv"),index=False,sep=";")
+
+    normalizeTable()
+    print("SCRAP CIERRES DE CAJA TERMINADO")
+    with open(r'src\target\FullExcelData.json', 'w') as outfile:
+        json.dump(data, outfile,indent=4)
 if __name__ == "__main__":
-    #scrapFiles()
-    scrapCierresDeCaja()
+    scrapFiles()
+    #scrapCierresDeCaja()
     #scrapCierresDeCobrador()
     #test_scrapDolarOperationsXls()

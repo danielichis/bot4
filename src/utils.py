@@ -39,6 +39,7 @@ class pathsProyect:
         self.bot1_plantillas=os.path.join(self.bot1,"plantillasSap")
         self.bot1_config=os.path.join(self.bot1,"config.xlsx")
         self.tables=os.path.join(self.appPath.parent.absolute(),"Tablas")
+        self.dirCcaj=os.path.join(self.appPath.parent.absolute(),"Cierres de Caja","formatoxlsx")
 paths=pathsProyect()
 def get_current_path():
     config_name = 'myapp.cfg'

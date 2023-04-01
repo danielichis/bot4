@@ -27,9 +27,9 @@ def goto_bills():
 
 def set_day(dExcel,cssDate):
     if cssDate=="input#startDate":
-        dates=[x for x in page.query_selector_all("div:nth-child(10) div.datepicker-days tbody td[class='day']")]
+        dates=[x for x in page.query_selector_all("div:nth-child(10) div.datepicker-days tbody td[class*='day']")]
     elif cssDate=="input#endDate":
-        dates=[x for x in page.query_selector_all("div:nth-child(11) div.datepicker-days tbody td[class='day']")]
+        dates=[x for x in page.query_selector_all("div:nth-child(11) div.datepicker-days tbody td[class*='day']")]
     else:
         return
     for d in dates:
@@ -37,18 +37,31 @@ def set_day(dExcel,cssDate):
             d.click()
             break
 
-def download_file(nameFile,cssSelector,row):
-    try:
-        with page.expect_download() as download_info:
-            row.query_selector(cssSelector).click()
-        download = download_info.value
-        download.save_as(nameFile)
-        print(f"Descargado {nameFile}")
-    except:
-        time.sleep(2)
-        print(f"Error al descargar {nameFile}")
-        download_file(nameFile,cssSelector,row)
+def download_file(pathFile,cssSelector,row):
+    metadataFile={"path":pathFile,"descargado":"","name":os.path.splitext(os.path.basename(pathFile))[0],"retries":0}
+    retries=2
+    intentos=0
+    donwnload=False
+    while intentos<=retries and donwnload==False:
+        try:
+            with page.expect_download() as download_info:
+                row.query_selector(cssSelector).click()
+            download = download_info.value
+            download.save_as(pathFile)
+            donwnload=True
+            print(f"Descargado {pathFile}")
+            metadataFile["descargado"]="OK"
+        except:
+            time.sleep(2)
+        intentos+=1
+    
+    if donwnload==False:
+        print(f"Error al descargar {pathFile}")
+        metadataFile["descargado"]="ERROR"
 
+    metadataFile["retries"]=intentos
+    xlsFilesList.append(metadataFile)
+    
 def tableCashClosing(user):
     table=[]
     time.sleep(1)
