@@ -69,6 +69,9 @@ def tableCashClosing(user):
     headersTable=[x.inner_text() for x in page.query_selector_all("table#cashierClosings thead th")]
     rows=page.query_selector_all("table#cashierClosings tbody tr")
     print(len(rows))
+    if len(rows)==1:
+        print("No hay cierres de caja")
+        return
     global xlsFilesList
     for row in rows:
         xlsFilesList=[]
@@ -178,8 +181,10 @@ def downloadCcaj(loginInfo,user):
     n=1
     i=0
     while n>0:
-        print(f"------pagina : {i+1}")        
-        globalList.extend(tableCashClosing(user))
+        print(f"------pagina : {i+1}")
+        ccjaList=tableCashClosing(user)
+        if ccjaList:
+            globalList.extend(ccjaList)        
         #time.sleep(2)
         page.query_selector("[id='cashierClosings_next'] a").click()
         i=i+1
@@ -212,6 +217,9 @@ def tableCollectorClosing(user):
     page.wait_for_selector(sgvp.collectorClosing.dailyClosingCollectorTable['CSS'])
     time.sleep(2)
     closingTableFrame=page.query_selector_all(sgvp.collectorClosing.dailyClosingCollectorTable['CSS'])
+    if len(closingTableFrame)==1:
+        print("No hay cierre de cobrador")
+        return
     for row in closingTableFrame:
         date=row.query_selector("//td[3]").inner_text().replace("/","")
         amount=str(row.query_selector("//td[6]").inner_text()).replace(",","")
@@ -252,7 +260,9 @@ def downloadCollectorClosing(loginInfo,user):
     n=1
     while n>0:
         print(f"-----pagina :{i+1}")
-        globalList2.extend(tableCollectorClosing(user))
+        ccobList=tableCollectorClosing(user)
+        if ccobList:
+            globalList2.extend(ccobList)
         i=i+1
         page.query_selector("[id='dailyClosings_next'] a").click()
         n=len(page.query_selector_all("li[class='paginate_button next'] a"))

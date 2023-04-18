@@ -144,10 +144,12 @@ def normalizeTable():
         except:
             pass
             print("No se encontro data en el archivo: ",dfName)
-
-    df_all=pd.concat(dfs,ignore_index=True)
-    
-    allData=df_all.to_dict('records')
+    try:
+        df_all=pd.concat(dfs,ignore_index=True)
+        allData=df_all.to_dict('records')
+    except:
+        print("No se encontro data en ningun archivo")
+        allData=[]
     for d in allData:
         if d['Amount']=="-":
             d['Amount']=0
@@ -276,5 +278,104 @@ def get_templatesSap(dates):
     df_templatesSap=pd.DataFrame(extractInfo)
     df_templatesSap.to_csv(os.path.join(paths.tables,"ExtractosBancarios.csv"),index=False,sep=	";",encoding="utf-8")
 
+def concat_dfs(dfs):
+    df_list=[]
+    for df in dfs:
+        #df is not empty
+        df=pd.DataFrame(df)
+        if df.empty==False:
+            df_list.append(df)
+    df=pd.concat(df_list)
+    concat_table=df.values.tolist()
+    maxtrixConcat=[]
+    for tableValue in concat_table:
+        try:
+            fechaVoucher=tableValue['Fecha']
+        except:
+            fechaVoucher=""
+        try:
+            NroVoucher=tableValue['NroRef']
+        except:
+            NroVoucher=""
+        try:
+            NroCL=tableValue['NroClient']
+        except:
+            NroCL=""
+        try:
+            VoucherBs=tableValue['Amount']
+        except:
+            VoucherBs=""
+        try:
+            CantidadVales=tableValue['Cantidad']
+        except:
+            CantidadVales=""
+        try:
+            ClienteVales=tableValue['Cliente']
+        except:
+            ClienteVales=""
+        try:
+            valesBs=tableValue['Amount']
+        except:
+            valesBs=""
+        try:
+            FechaQr=tableValue["Date"]
+        except:
+            FechaQr=""
+        try:
+            NroRef=tableValue["NroRef"]
+        except:
+            NroRef=""
+        try:
+            NroClient=tableValue["NroClient"]
+        except:
+            NroClient=""
+        try:
+            BsQr=tableValue["Subtotal"]
+        except:
+            BsQr=""
+        try:
+            Concepto=tableValue["Concept"]
+        except:
+            Concepto=""
+        try:
+            motive=tableValue["Motive"]
+        except:
+            motive=""
+        try:
+            SubtotalUs=tableValue["SubtotalUs"]
+        except:
+            SubtotalUs=""
+        try:
+            SubtotalBs=tableValue["SubtotalBs"]
+        except:
+            SubtotalBs=""
+        try:
+            SubtotalBs=tableValue["TotalBs"]
+        except:
+            SubtotalBs=""
+
+        dictDefault={       "FechaVoucher":fechaVoucher,
+                            "NroVoucher":NroVoucher,
+                            "Nro. CL.":NroCL,
+                            "VoucherBs":VoucherBs,
+
+                            "CantidadVales":CantidadVales,
+                            "ClienteVales":ClienteVales,
+                            "valesBs":valesBs,
+
+                            "FechaQr":FechaQr,
+                            "NroRef":NroRef,
+                            "NroClient":NroClient,
+                            "BsQr":BsQr,
+
+                            "Concepto":Concepto,
+                            "Motivo":motive,
+                            "SubtotalUs":SubtotalUs,
+                            "SubtotalBs":SubtotalBs,
+                        }
+        maxtrixConcat.append(dictDefault)
+    return maxtrixConcat
 if __name__ == '__main__':
-    normalizeTable()
+    date1=datetime.datetime.strptime("10/04/2023","%d/%m/%Y")
+    date2=datetime.datetime.strptime("13/04/2023","%d/%m/%Y")
+    get_templatesSap({"dInit":date1,"dEnd":date2})
