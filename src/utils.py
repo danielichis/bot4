@@ -371,6 +371,23 @@ def concat_dfs(dfs):
                             "SubtotalBs":SubtotalBs,
                         }
         maxtrixConcat.append(dictDefault)
+
+    if len(maxtrixConcat)==0:
+        maxtrixConcat=[{"FechaVoucher":"",
+                         "NroVoucher":"",
+                           "Nro. CL.":"",
+                             "VoucherBs":"",
+                        "CantidadVales":"",
+                          "ClienteVales":"",
+                            "valesBs":"",
+                        "FechaQr":"",
+                          "NroRef":"",
+                            "NroClient":"",
+                              "BsQr":"",
+                        "Concepto":"",
+                          "Motivo":"",
+                            "SubtotalUs":"",
+                              "SubtotalBs":""}]
     return maxtrixConcat
 if __name__ == '__main__':
     date1=datetime.datetime.strptime("10/04/2023","%d/%m/%Y")

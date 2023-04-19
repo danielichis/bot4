@@ -19,6 +19,7 @@ def getMatrixAg():
             files=item["xlsFilesList"]
             for file in files:
                 if file["descargado"]=="OK" and file["moneyType"]=="Bs":
+                    print(file['file'])
                     excelData=file['data']
                     ventas=excelData['ventas']
                     otrosIngresos=excelData['otrosIngresos']
@@ -29,10 +30,9 @@ def getMatrixAg():
                     cuoponTable=excelData['cuoponTable']
                     diferencesTable=excelData['diferencesTable']
                     #list of tables 
-                    matrixConcat=concat_dfs([billTable,coinsTable,voucherTable,cuoponTable,diferencesTable])
+                    matrixConcat=concat_dfs([voucherTable,cuoponTable,diferencesTable])
                     #concatenate all tables
                     for row in matrixConcat:
-
                         newFrame={
                         "Código":item['Código'],
                         "Recibo":item['Recibo'],

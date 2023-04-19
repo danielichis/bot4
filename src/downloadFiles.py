@@ -195,8 +195,10 @@ def downloadCcaj(loginInfo,user):
     with open(paths.jsonCcaj, "r") as json_file: 
         data=json.load(json_file)
     if data['data']:
+        print("data already exists, acumulando...")
         data['data'].extend(globalList)
     else:
+        print("data not exists, creating...")
         data['data']=globalList
 
     with open (paths.jsonCcaj,"w") as json_file:
