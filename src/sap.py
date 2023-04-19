@@ -76,7 +76,7 @@ def superTable():
     session.findById("wnd[0]").sendVKey(0)
 
     fi = login['fechaInicio']
-    ff = login['fechaInicio']
+    ff = login['fechaFin']
 
     fi = f"{add0(fi.day)}.{add0(fi.month)}.{add0(fi.year)}"
     ff = f"{add0(ff.day)}.{add0(ff.month)}.{add0(ff.year)}"
