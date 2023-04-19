@@ -62,7 +62,7 @@ def getMatrixAg():
 
 #convert to dataframe
     df_final=pd.DataFrame(matrixList)
-    df_final.to_csv(os.path.join(paths.folderProyect,'Tablas',"finalMatrix.csv"),index=False)
+    df_final.to_csv(os.path.join(paths.folderProyect,'Tablas',"finalMatrix.csv"),index=False,sep=";")
 
 if __name__ == "__main__":
     getMatrixAg()

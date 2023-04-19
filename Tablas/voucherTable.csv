@@ -1,4 +1,4 @@
-Date;NroRef;NroClient;Amount
+DateVoucher;NroRefVoucher;NroClientVoucher;AmountVoucher
 12/04/2023;007387;452478 LP;101.36
 12/04/2023;007386;2370717 LP;438.0
 12/04/2023;007382;2624278 LP;78.2

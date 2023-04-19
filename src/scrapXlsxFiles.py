@@ -71,9 +71,13 @@ class scrapTablesExcel:
         while sh.cell(i,columTotalBill).value !=downLimitWord:
             billsDict={
                 "billValue":sh.cell(i,columBill).value,
-                "billQuantity":sh.cell(i,columQantityBill).value,
-                "Amount":sh.cell(i,ColumnAmountBill).value
+                "billQuantity":sh.cell(i,columQantityBill).value
             }
+            if sh.cell(i,ColumnAmountBill).value=="-":
+                billsDict["AmountBill"]=0
+            else:
+                billsDict["AmountBill"]=sh.cell(i,ColumnAmountBill).value
+
             if billsDict["billQuantity"] not in filterBillsWords:
                 billsTable.append(billsDict)
             i=i+1
@@ -97,9 +101,13 @@ class scrapTablesExcel:
         while sh.cell(i,ColumnTotalCurrency).value !=downLimitWord:
             coinsDict={
                 "coinValue":sh.cell(i,ColumCurrency).value,
-                "coinQuantity":sh.cell(i,ColumnCurrencyQuantity).value,
-                "Amount":sh.cell(i,ColumnCurrencyAmount).value
+                "coinQuantity":sh.cell(i,ColumnCurrencyQuantity).value
             }
+            if sh.cell(i,ColumnCurrencyAmount).value=="-":
+                coinsDict["AmountCoin"]=0
+            else:
+                coinsDict["AmountCoin"]=sh.cell(i,ColumnCurrencyAmount).value
+
             if coinsDict["coinValue"] not in filterCoinsWords:
                 coinsTable.append(coinsDict)
             i=i+1
@@ -127,12 +135,16 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumCheckTotal).value !=downLimitWord:
             checkDict={
-                "Date":sh.cell(i,ColumDate).value,
+                "DateCheck":sh.cell(i,ColumDate).value,
                 "DocumentNumber":sh.cell(i,ColumCheckDocument).value,
-                "Bank":sh.cell(i,ColumnCheckBank).value,
-                "Amount":sh.cell(i,ColumCheckAmount).value
+                "CheckBank":sh.cell(i,ColumnCheckBank).value,
+                "AmountCheck":""
             }
-            if checkDict["Date"] not in filterCheckWords:
+            if checkDict["AmountCheck"]=="-":
+                checkDict["AmountCheck"]=0
+            else:
+                checkDict["AmountCheck"]=sh.cell(i,ColumCheckAmount).value
+            if checkDict["DateCheck"] not in filterCheckWords:
                 checkTable.append(checkDict)
             i=i+1
         #print(pd.DataFrame(checkTable))
@@ -158,12 +170,17 @@ class scrapTablesExcel:
         bankTransferTable=[]
         while sh.cell(i,ColumBankTransferTotal).value !=downLimitWord:
             bankTransferDict={
-                "Date":sh.cell(i,ColumBankTransfer).value,
-                "DocumentNumber":sh.cell(i,ColumBankTransferDocument).value,
-                "Bank":sh.cell(i,ColumBankTransferBank).value,
-                "Amount":sh.cell(i,ColumBankTransferAmount).value
+                "DateTransfer":sh.cell(i,ColumBankTransfer).value,
+                "DocumentNumberTransfer":sh.cell(i,ColumBankTransferDocument).value,
+                "BankTransfer":sh.cell(i,ColumBankTransferBank).value,
+                "AmountTransfer":sh.cell(i,ColumBankTransferAmount).value
             }
-            if bankTransferDict["Date"] not in filterTransferWords:
+
+            if bankTransferDict["AmountTransfer"]=="-":
+                bankTransferDict["AmountTransfer"]=0
+            else:
+                bankTransferDict["AmountTransfer"]=sh.cell(i,ColumBankTransferAmount).value
+            if bankTransferDict["DateTransfer"] not in filterTransferWords:
                 bankTransferTable.append(bankTransferDict)
             i=i+1
         #print(pd.DataFrame(bankTransferTable))
@@ -254,12 +271,17 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             voucherDict={
-                "Date":sh.cell(i,columDate).value,
-                "NroRef":sh.cell(i,columnNroRef).value,
-                "NroClient":sh.cell(i,ColumNroClient).value,
-                "Amount":sh.cell(i,ColumSubtotal).value,
+                "DateVoucher":sh.cell(i,columDate).value,
+                "NroRefVoucher":sh.cell(i,columnNroRef).value,
+                "NroClientVoucher":sh.cell(i,ColumNroClient).value,
+                "AmountVoucher":sh.cell(i,ColumSubtotal).value,
             }
-            if voucherDict["Date"] not in kwordsFilter:
+            if voucherDict["AmountVoucher"]=="-":
+                voucherDict["AmountVoucher"]=0
+            else:
+                voucherDict["AmountVoucher"]=sh.cell(i,ColumSubtotal).value
+
+            if voucherDict["DateVoucher"] not in kwordsFilter:
                 voucherTable.append(voucherDict)
             i=i+1
         #print(pd.DataFrame(voucherTable))
@@ -285,12 +307,16 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             couponDict={
-                "Quantity":sh.cell(i,columQuantity).value,
-                "Client":sh.cell(i,columClient).value,
-                "Subtotal":sh.cell(i,ColumSubtotal).value,
+                "QuantityVale":sh.cell(i,columQuantity).value,
+                "ClientVale":sh.cell(i,columClient).value,
+                "SubtotalVale":sh.cell(i,ColumSubtotal).value,
             }
             i=i+1
-        if couponDict["Quantity"] not in keywordsFilter:
+        if couponDict["SubtotalVale"]=="-":
+            couponDict["SubtotalVale"]=0
+        else:
+            couponDict["SubtotalVale"]=sh.cell(i,ColumSubtotal).value
+        if couponDict["QuantityVale"] not in keywordsFilter:
             couponTable.append(couponDict)
             
         #print(pd.DataFrame(couponTable))
@@ -317,12 +343,16 @@ class scrapTablesExcel:
         
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             qrDict={
-                "Date":sh.cell(i,columDate).value,
-                "NroRef":sh.cell(i,columNroRef).value,
-                "NroClient":sh.cell(i,ColumNroClient).value,
-                "Subtotal":sh.cell(i,ColumSubtotal).value,
+                "DateQr":sh.cell(i,columDate).value,
+                "NroRefQr":sh.cell(i,columNroRef).value,
+                "NroClientQr":sh.cell(i,ColumNroClient).value,
+                "SubtotalQr":sh.cell(i,ColumSubtotal).value,
             }
-            if qrDict["Date"] not in keywordsFilter:
+            if qrDict["SubtotalQr"]=="-":
+                qrDict["SubtotalQr"]=0
+            else:
+                qrDict["SubtotalQr"]=sh.cell(i,ColumSubtotal).value
+            if qrDict["DateQr"] not in keywordsFilter:
                 qrTable.append(qrDict)
             i=i+1
         #print(pd.DataFrame(qrTable))

@@ -25,133 +25,133 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "2",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "15",
-                                "Amount": "1,500.00"
+                                "AmountBill": "1,500.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "14",
-                                "Amount": "700.00"
+                                "AmountBill": "700.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "30",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "65",
-                                "Amount": "650.00"
+                                "AmountBill": "650.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "37",
-                                "Amount": "185.00"
+                                "AmountCoin": "185.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "114",
-                                "Amount": "228.00"
+                                "AmountCoin": "228.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "231",
-                                "Amount": "231.00"
+                                "AmountCoin": "231.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "145",
-                                "Amount": "72.50"
+                                "AmountCoin": "72.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "152",
-                                "Amount": "30.40"
+                                "AmountCoin": "30.40"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "128",
-                                "Amount": "12.80"
+                                "AmountCoin": "12.80"
                             }
                         ],
                         "voucherTable": [
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007387",
-                                "NroClient": "452478 LP",
-                                "Amount": 101.36
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007387",
+                                "NroClientVoucher": "452478 LP",
+                                "AmountVoucher": 101.36
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007386",
-                                "NroClient": "2370717 LP",
-                                "Amount": 438
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007386",
+                                "NroClientVoucher": "2370717 LP",
+                                "AmountVoucher": 438
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007382",
-                                "NroClient": "2624278 LP",
-                                "Amount": 78.2
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007382",
+                                "NroClientVoucher": "2624278 LP",
+                                "AmountVoucher": 78.2
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007392",
-                                "NroClient": "3620782 LP",
-                                "Amount": 31.71
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007392",
+                                "NroClientVoucher": "3620782 LP",
+                                "AmountVoucher": 31.71
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007385",
-                                "NroClient": "6722674 LP",
-                                "Amount": 28.38
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007385",
+                                "NroClientVoucher": "6722674 LP",
+                                "AmountVoucher": 28.38
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007384",
-                                "NroClient": "2399189 LP",
-                                "Amount": 52.55
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007384",
+                                "NroClientVoucher": "2399189 LP",
+                                "AmountVoucher": 52.55
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007391",
-                                "NroClient": "6753234 LP",
-                                "Amount": 135.36
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007391",
+                                "NroClientVoucher": "6753234 LP",
+                                "AmountVoucher": 135.36
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007388",
-                                "NroClient": "3353135 LP",
-                                "Amount": 57.6
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007388",
+                                "NroClientVoucher": "3353135 LP",
+                                "AmountVoucher": 57.6
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007390",
-                                "NroClient": "10878 LP",
-                                "Amount": 42.72
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007390",
+                                "NroClientVoucher": "10878 LP",
+                                "AmountVoucher": 42.72
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007383",
-                                "NroClient": "4815037 LP",
-                                "Amount": 108.6
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007383",
+                                "NroClientVoucher": "4815037 LP",
+                                "AmountVoucher": 108.6
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007389",
-                                "NroClient": "2371658 LP",
-                                "Amount": 30.42
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007389",
+                                "NroClientVoucher": "2371658 LP",
+                                "AmountVoucher": 30.42
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "007381",
-                                "NroClient": "6803348 LP",
-                                "Amount": 100.43
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "007381",
+                                "NroClientVoucher": "6803348 LP",
+                                "AmountVoucher": 100.43
                             }
                         ],
                         "cuoponTable": [],
@@ -227,80 +227,80 @@
                             {
                                 "billValue": "100",
                                 "billQuantity": "32",
-                                "Amount": "3,200.00"
+                                "AmountBill": "3,200.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "51",
-                                "Amount": "2,550.00"
+                                "AmountBill": "2,550.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "34",
-                                "Amount": "680.00"
+                                "AmountBill": "680.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "14",
-                                "Amount": "140.00"
+                                "AmountBill": "140.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "11",
-                                "Amount": "55.00"
+                                "AmountCoin": "55.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "153",
-                                "Amount": "306.00"
+                                "AmountCoin": "306.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "71",
-                                "Amount": "71.00"
+                                "AmountCoin": "71.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "128",
-                                "Amount": "64.00"
+                                "AmountCoin": "64.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "44",
-                                "Amount": "8.80"
+                                "AmountCoin": "8.80"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "73",
-                                "Amount": "7.30"
+                                "AmountCoin": "7.30"
                             }
                         ],
                         "voucherTable": [
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "001160",
-                                "NroClient": "4268996LP",
-                                "Amount": 47.27
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "001160",
+                                "NroClientVoucher": "4268996LP",
+                                "AmountVoucher": 47.27
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "001157",
-                                "NroClient": "6754394LP",
-                                "Amount": 68
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "001157",
+                                "NroClientVoucher": "6754394LP",
+                                "AmountVoucher": 68
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "001158",
-                                "NroClient": "6784192LP",
-                                "Amount": 153.44
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "001158",
+                                "NroClientVoucher": "6784192LP",
+                                "AmountVoucher": 153.44
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "001159",
-                                "NroClient": "472324 LP",
-                                "Amount": 90.56
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "001159",
+                                "NroClientVoucher": "472324 LP",
+                                "AmountVoucher": 90.56
                             }
                         ],
                         "cuoponTable": [],
@@ -376,59 +376,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "3",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "23",
-                                "Amount": "2,300.00"
+                                "AmountBill": "2,300.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "13",
-                                "Amount": "650.00"
+                                "AmountBill": "650.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "12",
-                                "Amount": "240.00"
+                                "AmountBill": "240.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "19",
-                                "Amount": "190.00"
+                                "AmountBill": "190.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "13",
-                                "Amount": "26.00"
+                                "AmountCoin": "26.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "19",
-                                "Amount": "19.00"
+                                "AmountCoin": "19.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "3",
-                                "Amount": "1.50"
+                                "AmountCoin": "1.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "5",
-                                "Amount": "1.00"
+                                "AmountCoin": "1.00"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             }
                         ],
                         "voucherTable": [],
@@ -505,67 +505,67 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "3",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "57",
-                                "Amount": "5,700.00"
+                                "AmountBill": "5,700.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "32",
-                                "Amount": "1,600.00"
+                                "AmountBill": "1,600.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "21",
-                                "Amount": "420.00"
+                                "AmountBill": "420.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "45",
-                                "Amount": "450.00"
+                                "AmountBill": "450.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "87",
-                                "Amount": "435.00"
+                                "AmountCoin": "435.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "48",
-                                "Amount": "96.00"
+                                "AmountCoin": "96.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "124",
-                                "Amount": "124.00"
+                                "AmountCoin": "124.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "92",
-                                "Amount": "46.00"
+                                "AmountCoin": "46.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "154",
-                                "Amount": "30.80"
+                                "AmountCoin": "30.80"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "110",
-                                "Amount": "11.00"
+                                "AmountCoin": "11.00"
                             }
                         ],
                         "voucherTable": [
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "001980",
-                                "NroClient": "2301904 LP",
-                                "Amount": 53.28
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "001980",
+                                "NroClientVoucher": "2301904 LP",
+                                "AmountVoucher": 53.28
                             }
                         ],
                         "cuoponTable": [],
@@ -641,125 +641,125 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "25",
-                                "Amount": "5,000.00"
+                                "AmountBill": "5,000.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "7",
-                                "Amount": "70.00"
+                                "AmountBill": "70.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "2",
-                                "Amount": "2.00"
+                                "AmountCoin": "2.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "2",
-                                "Amount": "0.20"
+                                "AmountCoin": "0.20"
                             }
                         ],
                         "checkTable": [],
                         "bankTransferTable": [
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "462786",
-                                "Bank": "BISA",
-                                "Amount": 6390.02
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "462786",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 6390.02
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "249015",
-                                "Bank": "BISA",
-                                "Amount": 12945.3
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "249015",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 12945.3
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "462789",
-                                "Bank": "BISA",
-                                "Amount": 14980.3
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "462789",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 14980.3
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "249008",
-                                "Bank": "BISA",
-                                "Amount": 957.6
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "249008",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 957.6
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133327180",
-                                "Bank": "BISA",
-                                "Amount": 975
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133327180",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 975
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133327241",
-                                "Bank": "BISA",
-                                "Amount": 781.76
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133327241",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 781.76
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133328764",
-                                "Bank": "BISA",
-                                "Amount": 267.25
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133328764",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 267.25
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113481464",
-                                "Bank": "BISA",
-                                "Amount": 1076.5
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113481464",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 1076.5
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45123466252",
-                                "Bank": "BISA",
-                                "Amount": 224.3
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45123466252",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 224.3
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153320908",
-                                "Bank": "BISA",
-                                "Amount": 564.9
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153320908",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 564.9
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45173383029",
-                                "Bank": "BISA",
-                                "Amount": 54
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45173383029",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 54
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45163415043",
-                                "Bank": "BISA",
-                                "Amount": 938.24
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45163415043",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 938.24
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "462787",
-                                "Bank": "BISA",
-                                "Amount": 11445.9
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "462787",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 11445.9
                             }
                         ]
                     }
@@ -923,59 +923,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "58",
-                                "Amount": "11,600.00"
+                                "AmountBill": "11,600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "797",
-                                "Amount": "79,700.00"
+                                "AmountBill": "79,700.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "489",
-                                "Amount": "24,450.00"
+                                "AmountBill": "24,450.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "1031",
-                                "Amount": "20,620.00"
+                                "AmountBill": "20,620.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "716",
-                                "Amount": "7,160.00"
+                                "AmountBill": "7,160.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "110",
-                                "Amount": "550.00"
+                                "AmountCoin": "550.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "69",
-                                "Amount": "138.00"
+                                "AmountCoin": "138.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "148",
-                                "Amount": "148.00"
+                                "AmountCoin": "148.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "159",
-                                "Amount": "79.50"
+                                "AmountCoin": "79.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "402",
-                                "Amount": "80.40"
+                                "AmountCoin": "80.40"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "391",
-                                "Amount": "39.10"
+                                "AmountCoin": "39.10"
                             }
                         ],
                         "checkTable": [],
@@ -1309,67 +1309,67 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "2",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "18",
-                                "Amount": "1,800.00"
+                                "AmountBill": "1,800.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "17",
-                                "Amount": "850.00"
+                                "AmountBill": "850.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "37",
-                                "Amount": "740.00"
+                                "AmountBill": "740.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "50",
-                                "Amount": "500.00"
+                                "AmountBill": "500.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "14",
-                                "Amount": "70.00"
+                                "AmountCoin": "70.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "144",
-                                "Amount": "288.00"
+                                "AmountCoin": "288.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "515",
-                                "Amount": "515.00"
+                                "AmountCoin": "515.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "431",
-                                "Amount": "215.50"
+                                "AmountCoin": "215.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "297",
-                                "Amount": "59.40"
+                                "AmountCoin": "59.40"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "250",
-                                "Amount": "25.00"
+                                "AmountCoin": "25.00"
                             }
                         ],
                         "voucherTable": [
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "002153",
-                                "NroClient": "5793554 TJA",
-                                "Amount": 81.17
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "002153",
+                                "NroClientVoucher": "5793554 TJA",
+                                "AmountVoucher": 81.17
                             }
                         ],
                         "cuoponTable": [],
@@ -1445,87 +1445,87 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "38",
-                                "Amount": "7,600.00"
+                                "AmountBill": "7,600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "441",
-                                "Amount": "44,100.00"
+                                "AmountBill": "44,100.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "437",
-                                "Amount": "21,850.00"
+                                "AmountBill": "21,850.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "1475",
-                                "Amount": "29,500.00"
+                                "AmountBill": "29,500.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "1696",
-                                "Amount": "16,960.00"
+                                "AmountBill": "16,960.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "24",
-                                "Amount": "120.00"
+                                "AmountCoin": "120.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "16",
-                                "Amount": "32.00"
+                                "AmountCoin": "32.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "37",
-                                "Amount": "37.00"
+                                "AmountCoin": "37.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "42",
-                                "Amount": "21.00"
+                                "AmountCoin": "21.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "83",
-                                "Amount": "16.60"
+                                "AmountCoin": "16.60"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "7",
-                                "Amount": "0.70"
+                                "AmountCoin": "0.70"
                             }
                         ],
                         "checkTable": [
                             {
-                                "Date": "08/04/2023",
+                                "DateCheck": "08/04/2023",
                                 "DocumentNumber": "7802819",
-                                "Bank": "BANCO NACIONAL DE BOLIVIA S.A.",
-                                "Amount": 2121.9
+                                "CheckBank": "BANCO NACIONAL DE BOLIVIA S.A.",
+                                "AmountCheck": 2121.9
                             }
                         ],
                         "bankTransferTable": [
                             {
-                                "Date": "11/04/2023",
-                                "DocumentNumber": "63415472",
-                                "Bank": "BISA",
-                                "Amount": 2742.84
+                                "DateTransfer": "11/04/2023",
+                                "DocumentNumberTransfer": "63415472",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 2742.84
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "10789930",
-                                "Bank": "BISA",
-                                "Amount": 500.4
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "10789930",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 500.4
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "3411242",
-                                "Bank": "BISA",
-                                "Amount": 1045.44
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "3411242",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 1045.44
                             }
                         ]
                     }
@@ -1710,79 +1710,79 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "2",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "4",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "18",
-                                "Amount": "900.00"
+                                "AmountBill": "900.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "22",
-                                "Amount": "440.00"
+                                "AmountBill": "440.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "4",
-                                "Amount": "40.00"
+                                "AmountBill": "40.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "3",
-                                "Amount": "15.00"
+                                "AmountCoin": "15.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "10",
-                                "Amount": "20.00"
+                                "AmountCoin": "20.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "7",
-                                "Amount": "7.00"
+                                "AmountCoin": "7.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "37",
-                                "Amount": "18.50"
+                                "AmountCoin": "18.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "28",
-                                "Amount": "5.60"
+                                "AmountCoin": "5.60"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "3",
-                                "Amount": "0.30"
+                                "AmountCoin": "0.30"
                             }
                         ],
                         "voucherTable": [
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "MARCELA JIMENEZ",
-                                "NroClient": "2834356",
-                                "Amount": 274.75
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "MARCELA JIMENEZ",
+                                "NroClientVoucher": "2834356",
+                                "AmountVoucher": 274.75
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "SR LUIS ARCE ",
-                                "NroClient": "4865158",
-                                "Amount": 53.5
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "SR LUIS ARCE ",
+                                "NroClientVoucher": "4865158",
+                                "AmountVoucher": 53.5
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "CAROLINA URIOSTE",
-                                "NroClient": "4092482",
-                                "Amount": 221.78
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "CAROLINA URIOSTE",
+                                "NroClientVoucher": "4092482",
+                                "AmountVoucher": 221.78
                             }
                         ],
                         "cuoponTable": [],
@@ -1858,59 +1858,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "2",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "15",
-                                "Amount": "1,500.00"
+                                "AmountBill": "1,500.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "6",
-                                "Amount": "300.00"
+                                "AmountBill": "300.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "10",
-                                "Amount": "200.00"
+                                "AmountBill": "200.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "7",
-                                "Amount": "70.00"
+                                "AmountBill": "70.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "3",
-                                "Amount": "15.00"
+                                "AmountCoin": "15.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "58",
-                                "Amount": "116.00"
+                                "AmountCoin": "116.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "107",
-                                "Amount": "107.00"
+                                "AmountCoin": "107.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "22",
-                                "Amount": "11.00"
+                                "AmountCoin": "11.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             }
                         ],
                         "voucherTable": [],
@@ -1987,54 +1987,54 @@
                             {
                                 "billValue": "100",
                                 "billQuantity": "1",
-                                "Amount": "100.00"
+                                "AmountBill": "100.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "2",
-                                "Amount": "100.00"
+                                "AmountBill": "100.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "16",
-                                "Amount": "320.00"
+                                "AmountBill": "320.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "40",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "53",
-                                "Amount": "265.00"
+                                "AmountCoin": "265.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "7",
-                                "Amount": "14.00"
+                                "AmountCoin": "14.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "12",
-                                "Amount": "12.00"
+                                "AmountCoin": "12.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "92",
-                                "Amount": "46.00"
+                                "AmountCoin": "46.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "26",
-                                "Amount": "5.20"
+                                "AmountCoin": "5.20"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "1",
-                                "Amount": "0.10"
+                                "AmountCoin": "0.10"
                             }
                         ],
                         "voucherTable": [],
@@ -2111,200 +2111,200 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "42",
-                                "Amount": "8,400.00"
+                                "AmountBill": "8,400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "327",
-                                "Amount": "32,700.00"
+                                "AmountBill": "32,700.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "323",
-                                "Amount": "16,150.00"
+                                "AmountBill": "16,150.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "328",
-                                "Amount": "6,560.00"
+                                "AmountBill": "6,560.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "201",
-                                "Amount": "2,010.00"
+                                "AmountBill": "2,010.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "16",
-                                "Amount": "80.00"
+                                "AmountCoin": "80.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "15",
-                                "Amount": "30.00"
+                                "AmountCoin": "30.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "25",
-                                "Amount": "25.00"
+                                "AmountCoin": "25.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "20",
-                                "Amount": "10.00"
+                                "AmountCoin": "10.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "22",
-                                "Amount": "4.40"
+                                "AmountCoin": "4.40"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "1",
-                                "Amount": "0.10"
+                                "AmountCoin": "0.10"
                             }
                         ],
                         "checkTable": [],
                         "bankTransferTable": [
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113482440",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 120
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113482440",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 120
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153323105",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 944
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153323105",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 944
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143689616",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 847
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143689616",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 847
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153323188",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 665.64
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153323188",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 665.64
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133329206",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 292.8
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133329206",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 292.8
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113483103",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 195
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113483103",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 195
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133329718",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 340.56
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133329718",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 340.56
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113483350",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 135.56
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113483350",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 135.56
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "53412387300",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 317.4
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "53412387300",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 317.4
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153324295",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 440
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153324295",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 440
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113483715",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 722
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113483715",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 722
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143690828",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 244.8
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143690828",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 244.8
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113483954",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 195
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113483954",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 195
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "423478",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 197767.8
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "423478",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 197767.8
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "152905",
-                                "Bank": "BANCO DE CREDITO",
-                                "Amount": 145.11
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "152905",
+                                "BankTransfer": "BANCO DE CREDITO",
+                                "AmountTransfer": 145.11
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "648928",
-                                "Bank": "BANCO DE CREDITO",
-                                "Amount": 575.92
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "648928",
+                                "BankTransfer": "BANCO DE CREDITO",
+                                "AmountTransfer": 575.92
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "417814",
-                                "Bank": "BANCO DE CREDITO",
-                                "Amount": 2166
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "417814",
+                                "BankTransfer": "BANCO DE CREDITO",
+                                "AmountTransfer": 2166
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143687247",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 104.4
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143687247",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 104.4
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153321057",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 120
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153321057",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 120
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153321497",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 120
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153321497",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 120
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143688214",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 1200
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143688214",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 1200
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133327999",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 213.96
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133327999",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 213.96
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113481675",
-                                "Bank": "BANCO INDUSTRIAL",
-                                "Amount": 237.23
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113481675",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 237.23
                             }
                         ]
                     }
@@ -2489,73 +2489,73 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "127",
-                                "Amount": "25,400.00"
+                                "AmountBill": "25,400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "1360",
-                                "Amount": "136,000.00"
+                                "AmountBill": "136,000.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "1320",
-                                "Amount": "66,000.00"
+                                "AmountBill": "66,000.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "1866",
-                                "Amount": "37,320.00"
+                                "AmountBill": "37,320.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "1636",
-                                "Amount": "16,360.00"
+                                "AmountBill": "16,360.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "40",
-                                "Amount": "200.00"
+                                "AmountCoin": "200.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "35",
-                                "Amount": "70.00"
+                                "AmountCoin": "70.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "74",
-                                "Amount": "74.00"
+                                "AmountCoin": "74.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "84",
-                                "Amount": "42.00"
+                                "AmountCoin": "42.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "61",
-                                "Amount": "12.20"
+                                "AmountCoin": "12.20"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "13",
-                                "Amount": "1.30"
+                                "AmountCoin": "1.30"
                             }
                         ],
                         "checkTable": [
                             {
-                                "Date": "11/04/2023",
+                                "DateCheck": "11/04/2023",
                                 "DocumentNumber": "842",
-                                "Bank": "BANCO GANADERO S.A.",
-                                "Amount": 775.43
+                                "CheckBank": "BANCO GANADERO S.A.",
+                                "AmountCheck": 775.43
                             },
                             {
-                                "Date": "11/04/2023",
+                                "DateCheck": "11/04/2023",
                                 "DocumentNumber": "1638",
-                                "Bank": "BANCO GANADERO S.A.",
-                                "Amount": 1653.5
+                                "CheckBank": "BANCO GANADERO S.A.",
+                                "AmountCheck": 1653.5
                             }
                         ],
                         "bankTransferTable": []
@@ -2804,59 +2804,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "5",
-                                "Amount": "1,000.00"
+                                "AmountBill": "1,000.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "14",
-                                "Amount": "1,400.00"
+                                "AmountBill": "1,400.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "12",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "11",
-                                "Amount": "220.00"
+                                "AmountBill": "220.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "44",
-                                "Amount": "440.00"
+                                "AmountBill": "440.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "50",
-                                "Amount": "250.00"
+                                "AmountCoin": "250.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "132",
-                                "Amount": "264.00"
+                                "AmountCoin": "264.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "272",
-                                "Amount": "272.00"
+                                "AmountCoin": "272.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "117",
-                                "Amount": "58.50"
+                                "AmountCoin": "58.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "104",
-                                "Amount": "20.80"
+                                "AmountCoin": "20.80"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             }
                         ],
                         "voucherTable": [],
@@ -2933,59 +2933,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "64",
-                                "Amount": "12,800.00"
+                                "AmountBill": "12,800.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "443",
-                                "Amount": "44,300.00"
+                                "AmountBill": "44,300.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "672",
-                                "Amount": "33,600.00"
+                                "AmountBill": "33,600.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "1146",
-                                "Amount": "22,920.00"
+                                "AmountBill": "22,920.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "1164",
-                                "Amount": "11,640.00"
+                                "AmountBill": "11,640.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "15",
-                                "Amount": "75.00"
+                                "AmountCoin": "75.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "12",
-                                "Amount": "24.00"
+                                "AmountCoin": "24.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "25",
-                                "Amount": "25.00"
+                                "AmountCoin": "25.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "29",
-                                "Amount": "14.50"
+                                "AmountCoin": "14.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "23",
-                                "Amount": "4.60"
+                                "AmountCoin": "4.60"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "10",
-                                "Amount": "1.00"
+                                "AmountCoin": "1.00"
                             }
                         ],
                         "checkTable": [],
@@ -3109,59 +3109,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "16",
-                                "Amount": "3,200.00"
+                                "AmountBill": "3,200.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "67",
-                                "Amount": "6,700.00"
+                                "AmountBill": "6,700.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "27",
-                                "Amount": "1,350.00"
+                                "AmountBill": "1,350.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "14",
-                                "Amount": "280.00"
+                                "AmountBill": "280.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "56",
-                                "Amount": "560.00"
+                                "AmountBill": "560.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "7",
-                                "Amount": "35.00"
+                                "AmountCoin": "35.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "4",
-                                "Amount": "8.00"
+                                "AmountCoin": "8.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "43",
-                                "Amount": "43.00"
+                                "AmountCoin": "43.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "26",
-                                "Amount": "13.00"
+                                "AmountCoin": "13.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "39",
-                                "Amount": "7.80"
+                                "AmountCoin": "7.80"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             }
                         ],
                         "voucherTable": [],
@@ -3238,80 +3238,80 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "32",
-                                "Amount": "6,400.00"
+                                "AmountBill": "6,400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "183",
-                                "Amount": "18,300.00"
+                                "AmountBill": "18,300.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "151",
-                                "Amount": "7,550.00"
+                                "AmountBill": "7,550.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "78",
-                                "Amount": "1,560.00"
+                                "AmountBill": "1,560.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "77",
-                                "Amount": "770.00"
+                                "AmountBill": "770.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "1",
-                                "Amount": "5.00"
+                                "AmountCoin": "5.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "3",
-                                "Amount": "6.00"
+                                "AmountCoin": "6.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "1",
-                                "Amount": "1.00"
+                                "AmountCoin": "1.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "3",
-                                "Amount": "1.50"
+                                "AmountCoin": "1.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "28",
-                                "Amount": "5.60"
+                                "AmountCoin": "5.60"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "1",
-                                "Amount": "0.10"
+                                "AmountCoin": "0.10"
                             }
                         ],
                         "checkTable": [],
                         "bankTransferTable": [
                             {
-                                "Date": "11/04/2023",
-                                "DocumentNumber": "45113478934",
-                                "Bank": "BISA",
-                                "Amount": 240
+                                "DateTransfer": "11/04/2023",
+                                "DocumentNumberTransfer": "45113478934",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 240
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "511000",
-                                "Bank": "BISA",
-                                "Amount": 44230.7
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "511000",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 44230.7
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "484220",
-                                "Bank": "BISA",
-                                "Amount": 32588
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "484220",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 32588
                             }
                         ]
                     }
@@ -3454,68 +3454,68 @@
                             {
                                 "billValue": "100",
                                 "billQuantity": "19",
-                                "Amount": "1,900.00"
+                                "AmountBill": "1,900.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "10",
-                                "Amount": "500.00"
+                                "AmountBill": "500.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "19",
-                                "Amount": "380.00"
+                                "AmountBill": "380.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "13",
-                                "Amount": "130.00"
+                                "AmountBill": "130.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "3",
-                                "Amount": "15.00"
+                                "AmountCoin": "15.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "50",
-                                "Amount": "100.00"
+                                "AmountCoin": "100.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "45",
-                                "Amount": "45.00"
+                                "AmountCoin": "45.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "65",
-                                "Amount": "32.50"
+                                "AmountCoin": "32.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "100",
-                                "Amount": "20.00"
+                                "AmountCoin": "20.00"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "206",
-                                "Amount": "20.60"
+                                "AmountCoin": "20.60"
                             }
                         ],
                         "voucherTable": [
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "1013",
-                                "NroClient": "2231865 LPZ",
-                                "Amount": 85.96
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "1013",
+                                "NroClientVoucher": "2231865 LPZ",
+                                "AmountVoucher": 85.96
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "1012",
-                                "NroClient": "2068877 LPZ",
-                                "Amount": 68.97
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "1012",
+                                "NroClientVoucher": "2068877 LPZ",
+                                "AmountVoucher": 68.97
                             }
                         ],
                         "cuoponTable": [],
@@ -3591,86 +3591,86 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "2",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "22",
-                                "Amount": "2,200.00"
+                                "AmountBill": "2,200.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "20",
-                                "Amount": "1,000.00"
+                                "AmountBill": "1,000.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "65",
-                                "Amount": "1,300.00"
+                                "AmountBill": "1,300.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "71",
-                                "Amount": "710.00"
+                                "AmountBill": "710.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "1",
-                                "Amount": "2.00"
+                                "AmountCoin": "2.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             }
                         ],
                         "checkTable": [],
                         "bankTransferTable": [
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "16570102417",
-                                "Bank": "BISA",
-                                "Amount": 1400
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "16570102417",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 1400
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "423558",
-                                "Bank": "BISA",
-                                "Amount": 39088
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "423558",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 39088
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "481785",
-                                "Bank": "BISA",
-                                "Amount": 65289.6
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "481785",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 65289.6
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "481763",
-                                "Bank": "BISA",
-                                "Amount": 50151.2
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "481763",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 50151.2
                             }
                         ]
                     }
@@ -3792,59 +3792,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "102",
-                                "Amount": "20,400.00"
+                                "AmountBill": "20,400.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "749",
-                                "Amount": "74,900.00"
+                                "AmountBill": "74,900.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "640",
-                                "Amount": "32,000.00"
+                                "AmountBill": "32,000.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "1702",
-                                "Amount": "34,040.00"
+                                "AmountBill": "34,040.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "2335",
-                                "Amount": "23,350.00"
+                                "AmountBill": "23,350.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "445",
-                                "Amount": "2,225.00"
+                                "AmountCoin": "2,225.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "851",
-                                "Amount": "1,702.00"
+                                "AmountCoin": "1,702.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "1757",
-                                "Amount": "1,757.00"
+                                "AmountCoin": "1,757.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "436",
-                                "Amount": "218.00"
+                                "AmountCoin": "218.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "593",
-                                "Amount": "118.60"
+                                "AmountCoin": "118.60"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "83",
-                                "Amount": "8.30"
+                                "AmountCoin": "8.30"
                             }
                         ],
                         "checkTable": [],
@@ -4157,219 +4157,219 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "381",
-                                "Amount": "76,200.00"
+                                "AmountBill": "76,200.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "3000",
-                                "Amount": "300,000.00"
+                                "AmountBill": "300,000.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "2196",
-                                "Amount": "109,800.00"
+                                "AmountBill": "109,800.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "3273",
-                                "Amount": "65,460.00"
+                                "AmountBill": "65,460.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "2574",
-                                "Amount": "25,740.00"
+                                "AmountBill": "25,740.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "101",
-                                "Amount": "505.00"
+                                "AmountCoin": "505.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "50",
-                                "Amount": "100.00"
+                                "AmountCoin": "100.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "64",
-                                "Amount": "64.00"
+                                "AmountCoin": "64.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "104",
-                                "Amount": "52.00"
+                                "AmountCoin": "52.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "150",
-                                "Amount": "30.00"
+                                "AmountCoin": "30.00"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "28",
-                                "Amount": "2.80"
+                                "AmountCoin": "2.80"
                             }
                         ],
                         "checkTable": [
                             {
-                                "Date": "12/04/2023",
+                                "DateCheck": "12/04/2023",
                                 "DocumentNumber": "475",
-                                "Bank": "BANCO DE CREDITO",
-                                "Amount": 1774.43
+                                "CheckBank": "BANCO DE CREDITO",
+                                "AmountCheck": 1774.43
                             },
                             {
-                                "Date": "10/04/2023",
+                                "DateCheck": "10/04/2023",
                                 "DocumentNumber": "391",
-                                "Bank": "BANCO UNION S.A.",
-                                "Amount": 3808
+                                "CheckBank": "BANCO UNION S.A.",
+                                "AmountCheck": 3808
                             }
                         ],
                         "bankTransferTable": [
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "13750323222",
-                                "Bank": "BISA",
-                                "Amount": 3073.6
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "13750323222",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 3073.6
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153320128",
-                                "Bank": "BISA",
-                                "Amount": 273.89
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153320128",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 273.89
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "53512397554",
-                                "Bank": "BISA",
-                                "Amount": 99.91
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "53512397554",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 99.91
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153321163",
-                                "Bank": "BISA",
-                                "Amount": 479.6
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153321163",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 479.6
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133327305",
-                                "Bank": "BISA",
-                                "Amount": 280.91
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133327305",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 280.91
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45173383718",
-                                "Bank": "BISA",
-                                "Amount": 245.99
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45173383718",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 245.99
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153323198",
-                                "Bank": "BISA",
-                                "Amount": 233.11
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153323198",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 233.11
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153323239",
-                                "Bank": "BISA",
-                                "Amount": 2009.43
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153323239",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 2009.43
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45163419180",
-                                "Bank": "BISA",
-                                "Amount": 892.86
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45163419180",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 892.86
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143691263",
-                                "Bank": "BISA",
-                                "Amount": 115.91
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143691263",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 115.91
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113484340",
-                                "Bank": "BISA",
-                                "Amount": 1304.92
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113484340",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 1304.92
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143691570",
-                                "Bank": "BISA",
-                                "Amount": 199.81
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143691570",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 199.81
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153325137",
-                                "Bank": "BISA",
-                                "Amount": 607.87
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153325137",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 607.87
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143691612",
-                                "Bank": "BISA",
-                                "Amount": 158.98
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143691612",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 158.98
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45163419596",
-                                "Bank": "BISA",
-                                "Amount": 5000
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45163419596",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 5000
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113481053",
-                                "Bank": "BISA",
-                                "Amount": 5000
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113481053",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 5000
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113482244",
-                                "Bank": "BISA",
-                                "Amount": 5354.91
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113482244",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 5354.91
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45133327705",
-                                "Bank": "BISA",
-                                "Amount": 557.9
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45133327705",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 557.9
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "52117315640",
-                                "Bank": "BISA",
-                                "Amount": 131.32
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "52117315640",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 131.32
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "52517221803",
-                                "Bank": "BISA",
-                                "Amount": 1981
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "52517221803",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 1981
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45113484289",
-                                "Bank": "BISA",
-                                "Amount": 13000
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45113484289",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 13000
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45123467280",
-                                "Bank": "BISA",
-                                "Amount": 271.12
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45123467280",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 271.12
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45173382570",
-                                "Bank": "BISA",
-                                "Amount": 271.12
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45173382570",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 271.12
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45143691131",
-                                "Bank": "BISA",
-                                "Amount": 42.46
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45143691131",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 42.46
                             }
                         ]
                     }
@@ -4806,73 +4806,73 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "4",
-                                "Amount": "800.00"
+                                "AmountBill": "800.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "43",
-                                "Amount": "4,300.00"
+                                "AmountBill": "4,300.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "23",
-                                "Amount": "1,150.00"
+                                "AmountBill": "1,150.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "25",
-                                "Amount": "500.00"
+                                "AmountBill": "500.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "30",
-                                "Amount": "300.00"
+                                "AmountBill": "300.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "27",
-                                "Amount": "135.00"
+                                "AmountCoin": "135.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "7",
-                                "Amount": "14.00"
+                                "AmountCoin": "14.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "25",
-                                "Amount": "25.00"
+                                "AmountCoin": "25.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "3",
-                                "Amount": "1.50"
+                                "AmountCoin": "1.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "17",
-                                "Amount": "3.40"
+                                "AmountCoin": "3.40"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "31",
-                                "Amount": "3.10"
+                                "AmountCoin": "3.10"
                             }
                         ],
                         "voucherTable": [
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "1488",
-                                "NroClient": "3770645",
-                                "Amount": 320.01
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "1488",
+                                "NroClientVoucher": "3770645",
+                                "AmountVoucher": 320.01
                             },
                             {
-                                "Date": "12/04/2023",
-                                "NroRef": "1489",
-                                "NroClient": "3732449",
-                                "Amount": 49
+                                "DateVoucher": "12/04/2023",
+                                "NroRefVoucher": "1489",
+                                "NroClientVoucher": "3732449",
+                                "AmountVoucher": 49
                             }
                         ],
                         "cuoponTable": [],
@@ -4948,59 +4948,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "3",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "45",
-                                "Amount": "4,500.00"
+                                "AmountBill": "4,500.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "28",
-                                "Amount": "1,400.00"
+                                "AmountBill": "1,400.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "55",
-                                "Amount": "1,100.00"
+                                "AmountBill": "1,100.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "29",
-                                "Amount": "290.00"
+                                "AmountBill": "290.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "38",
-                                "Amount": "190.00"
+                                "AmountCoin": "190.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "61",
-                                "Amount": "61.00"
+                                "AmountCoin": "61.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "9",
-                                "Amount": "4.50"
+                                "AmountCoin": "4.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "39",
-                                "Amount": "7.80"
+                                "AmountCoin": "7.80"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "2",
-                                "Amount": "0.20"
+                                "AmountCoin": "0.20"
                             }
                         ],
                         "voucherTable": [],
@@ -5077,59 +5077,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "3",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "40",
-                                "Amount": "4,000.00"
+                                "AmountBill": "4,000.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "13",
-                                "Amount": "650.00"
+                                "AmountBill": "650.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "21",
-                                "Amount": "420.00"
+                                "AmountBill": "420.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "118",
-                                "Amount": "1,180.00"
+                                "AmountBill": "1,180.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "40",
-                                "Amount": "200.00"
+                                "AmountCoin": "200.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "2",
-                                "Amount": "2.00"
+                                "AmountCoin": "2.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "7",
-                                "Amount": "3.50"
+                                "AmountCoin": "3.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "132",
-                                "Amount": "26.40"
+                                "AmountCoin": "26.40"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "1",
-                                "Amount": "0.10"
+                                "AmountCoin": "0.10"
                             }
                         ],
                         "voucherTable": [],
@@ -5206,59 +5206,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "3",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "23",
-                                "Amount": "2,300.00"
+                                "AmountBill": "2,300.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "11",
-                                "Amount": "550.00"
+                                "AmountBill": "550.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "36",
-                                "Amount": "720.00"
+                                "AmountBill": "720.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "45",
-                                "Amount": "450.00"
+                                "AmountBill": "450.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "40",
-                                "Amount": "200.00"
+                                "AmountCoin": "200.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "50",
-                                "Amount": "50.00"
+                                "AmountCoin": "50.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "195",
-                                "Amount": "97.50"
+                                "AmountCoin": "97.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": null,
-                                "Amount": "-"
+                                "AmountCoin": 0
                             }
                         ],
                         "voucherTable": [],
@@ -5335,59 +5335,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "1",
-                                "Amount": "200.00"
+                                "AmountBill": "200.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "12",
-                                "Amount": "1,200.00"
+                                "AmountBill": "1,200.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "7",
-                                "Amount": "350.00"
+                                "AmountBill": "350.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "35",
-                                "Amount": "700.00"
+                                "AmountBill": "700.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "32",
-                                "Amount": "320.00"
+                                "AmountBill": "320.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "28",
-                                "Amount": "140.00"
+                                "AmountCoin": "140.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "81",
-                                "Amount": "162.00"
+                                "AmountCoin": "162.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "151",
-                                "Amount": "151.00"
+                                "AmountCoin": "151.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "42",
-                                "Amount": "21.00"
+                                "AmountCoin": "21.00"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "38",
-                                "Amount": "7.60"
+                                "AmountCoin": "7.60"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "21",
-                                "Amount": "2.10"
+                                "AmountCoin": "2.10"
                             }
                         ],
                         "voucherTable": [],
@@ -5464,74 +5464,74 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "23",
-                                "Amount": "4,600.00"
+                                "AmountBill": "4,600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "176",
-                                "Amount": "17,600.00"
+                                "AmountBill": "17,600.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "116",
-                                "Amount": "5,800.00"
+                                "AmountBill": "5,800.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "252",
-                                "Amount": "5,040.00"
+                                "AmountBill": "5,040.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "597",
-                                "Amount": "5,970.00"
+                                "AmountBill": "5,970.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "7",
-                                "Amount": "35.00"
+                                "AmountCoin": "35.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "7",
-                                "Amount": "14.00"
+                                "AmountCoin": "14.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "6",
-                                "Amount": "6.00"
+                                "AmountCoin": "6.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "3",
-                                "Amount": "1.50"
+                                "AmountCoin": "1.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "11",
-                                "Amount": "2.20"
+                                "AmountCoin": "2.20"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "3",
-                                "Amount": "0.30"
+                                "AmountCoin": "0.30"
                             }
                         ],
                         "checkTable": [],
                         "bankTransferTable": [
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "45153323085",
-                                "Bank": "BISA",
-                                "Amount": 1375.48
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "45153323085",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 1375.48
                             },
                             {
-                                "Date": "12/04/2023",
-                                "DocumentNumber": "54710712178",
-                                "Bank": "BISA",
-                                "Amount": 222
+                                "DateTransfer": "12/04/2023",
+                                "DocumentNumberTransfer": "54710712178",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 222
                             }
                         ]
                     }
@@ -5653,59 +5653,59 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "1",
-                                "Amount": "200.00"
+                                "AmountBill": "200.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "6",
-                                "Amount": "600.00"
+                                "AmountBill": "600.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "6",
-                                "Amount": "300.00"
+                                "AmountBill": "300.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "13",
-                                "Amount": "260.00"
+                                "AmountBill": "260.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "23",
-                                "Amount": "230.00"
+                                "AmountBill": "230.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "99",
-                                "Amount": "495.00"
+                                "AmountCoin": "495.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "3",
-                                "Amount": "6.00"
+                                "AmountCoin": "6.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "60",
-                                "Amount": "60.00"
+                                "AmountCoin": "60.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "43",
-                                "Amount": "21.50"
+                                "AmountCoin": "21.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "4",
-                                "Amount": "0.80"
+                                "AmountCoin": "0.80"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "1",
-                                "Amount": "0.10"
+                                "AmountCoin": "0.10"
                             }
                         ],
                         "voucherTable": [],
@@ -5774,68 +5774,68 @@
                             {
                                 "billValue": "200",
                                 "billQuantity": "23",
-                                "Amount": "4,600.00"
+                                "AmountBill": "4,600.00"
                             },
                             {
                                 "billValue": "100",
                                 "billQuantity": "142",
-                                "Amount": "14,200.00"
+                                "AmountBill": "14,200.00"
                             },
                             {
                                 "billValue": "50",
                                 "billQuantity": "152",
-                                "Amount": "7,600.00"
+                                "AmountBill": "7,600.00"
                             },
                             {
                                 "billValue": "20",
                                 "billQuantity": "358",
-                                "Amount": "7,160.00"
+                                "AmountBill": "7,160.00"
                             },
                             {
                                 "billValue": "10",
                                 "billQuantity": "378",
-                                "Amount": "3,780.00"
+                                "AmountBill": "3,780.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
                                 "coinQuantity": "9",
-                                "Amount": "45.00"
+                                "AmountCoin": "45.00"
                             },
                             {
                                 "coinValue": "2",
                                 "coinQuantity": "9",
-                                "Amount": "18.00"
+                                "AmountCoin": "18.00"
                             },
                             {
                                 "coinValue": "1",
                                 "coinQuantity": "15",
-                                "Amount": "15.00"
+                                "AmountCoin": "15.00"
                             },
                             {
                                 "coinValue": "0.50",
                                 "coinQuantity": "17",
-                                "Amount": "8.50"
+                                "AmountCoin": "8.50"
                             },
                             {
                                 "coinValue": "0.20",
                                 "coinQuantity": "1",
-                                "Amount": "0.20"
+                                "AmountCoin": "0.20"
                             },
                             {
                                 "coinValue": "0.10",
                                 "coinQuantity": "1",
-                                "Amount": "0.10"
+                                "AmountCoin": "0.10"
                             }
                         ],
                         "checkTable": [],
                         "bankTransferTable": [
                             {
-                                "Date": "11/04/2023",
-                                "DocumentNumber": "58630138817",
-                                "Bank": "BISA",
-                                "Amount": 9663.29
+                                "DateTransfer": "11/04/2023",
+                                "DocumentNumberTransfer": "58630138817",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 9663.29
                             }
                         ]
                     }

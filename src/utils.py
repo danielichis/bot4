@@ -150,9 +150,6 @@ def normalizeTable():
     except:
         print("No se encontro data en ningun archivo")
         allData=[]
-    for d in allData:
-        if d['Amount']=="-":
-            d['Amount']=0
     df_all=pd.DataFrame(allData)
     df_all.to_csv(r'Tablas\DetalleCcajTable.csv',index=False,sep=';',header=True)
 
@@ -285,52 +282,52 @@ def concat_dfs(dfs):
         df=pd.DataFrame(df)
         if df.empty==False:
             df_list.append(df)
-    df=pd.concat(df_list)
-    concat_table=df.values.tolist()
+    df=pd.concat(df_list,axis=1)
+    concat_table=df.to_dict('records')
     maxtrixConcat=[]
     for tableValue in concat_table:
         try:
-            fechaVoucher=tableValue['Fecha']
+            fechaVoucher=tableValue['DateVoucher']
         except:
             fechaVoucher=""
         try:
-            NroVoucher=tableValue['NroRef']
+            NroVoucher=tableValue['NroRefVoucher']
         except:
             NroVoucher=""
         try:
-            NroCL=tableValue['NroClient']
+            NroCL=tableValue['NroClientVoucher']
         except:
             NroCL=""
         try:
-            VoucherBs=tableValue['Amount']
+            VoucherBs=tableValue['AmountVoucher']
         except:
             VoucherBs=""
         try:
-            CantidadVales=tableValue['Cantidad']
+            CantidadVales=tableValue['QuantityVale']
         except:
             CantidadVales=""
         try:
-            ClienteVales=tableValue['Cliente']
+            ClienteVales=tableValue['ClientVale']
         except:
             ClienteVales=""
         try:
-            valesBs=tableValue['Amount']
+            valesBs=tableValue['SubtotalVale']
         except:
             valesBs=""
         try:
-            FechaQr=tableValue["Date"]
+            FechaQr=tableValue["DateQr"]
         except:
             FechaQr=""
         try:
-            NroRef=tableValue["NroRef"]
+            NroRef=tableValue["NroRefQr"]
         except:
             NroRef=""
         try:
-            NroClient=tableValue["NroClient"]
+            NroClient=tableValue["NroClientQr"]
         except:
             NroClient=""
         try:
-            BsQr=tableValue["Subtotal"]
+            BsQr=tableValue["SubtotalQr"]
         except:
             BsQr=""
         try:

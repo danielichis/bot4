@@ -1,4 +1,4 @@
-Date;DocumentNumber;Bank;Amount
+DateTransfer;DocumentNumberTransfer;BankTransfer;AmountTransfer
 12/04/2023;462786;BISA;6390.02
 12/04/2023;249015;BISA;12945.3
 12/04/2023;462789;BISA;14980.3
