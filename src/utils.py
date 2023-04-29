@@ -13,6 +13,7 @@ class pathsProyect:
         self.jsonCcaj = None
         self.jsonCcob = None
         self.jsonCashOut = None
+        self.csvCashOut = None
         self.dirCcaj = None
         self.dirCcob = None
         self.dirCashOut = None
@@ -21,6 +22,8 @@ class pathsProyect:
         self.bot1=None
         self.bot1_config=None
         self.tables=None
+        self.jsonClientBox=None
+        self.jsonCobBox=None
         self.get_app_path()
         self.getting_paths()
     def get_app_path(self):
@@ -33,6 +36,7 @@ class pathsProyect:
         #return Path(application_path)
     def getting_paths(self):
         self.jsonCcaj=os.path.join(self.appPath.parent.absolute(),"src","target","CashClosingInfo.json")
+        self.jsonCashOut=os.path.join(self.appPath.parent.absolute(),"src","target","CashOutInfo.json")
         self.jsonCcob=os.path.join(self.appPath.parent.absolute(),"src","target","CollectorClosingFilesDonwload.json")
         self.bot1=os.path.join(self.appPath.parent.absolute().parent.absolute(),"Bot1","SapHunter")
         self.bot1_extractos=os.path.join(self.bot1,"extractosBancarios")
@@ -40,6 +44,11 @@ class pathsProyect:
         self.bot1_config=os.path.join(self.bot1,"config.xlsx")
         self.tables=os.path.join(self.appPath.parent.absolute(),"Tablas")
         self.dirCcaj=os.path.join(self.appPath.parent.absolute(),"Cierres de Caja","formatoxlsx")
+        self.csvCashOut=os.path.join(self.appPath.parent.absolute(),"Tablas","cashOut.csv")
+        self.jsonCobBox=os.path.join(self.appPath.parent.absolute(),"src","target","CcobBox.json")
+        self.jsonClientBox=os.path.join(self.appPath.parent.absolute(),"src","target","CcajBox.json")
+        self.jsonFinal=os.path.join(self.appPath.parent.absolute(),"src","target","FinalDataToExcel.json")
+
 paths=pathsProyect()
 def get_current_path():
     config_name = 'myapp.cfg'
@@ -163,7 +172,25 @@ def loginInfo():
     configDat['dates']['dInit']=dinit
     configDat['dates']['dEnd']=ws["B3"].value
     configDat['users']={}
-
+    configDat['SapLogin']={
+                'SAPPath': ws['B16'].value,
+                'user': ws['B17'].value,
+                'psw': ws['B18'].value,
+                'environment': ws['B19'].value,
+                'layout': ws['B20'].value,
+                'fechaInicio': ws['B2'].value,
+                'fechaFin': ws['B3'].value
+                }
+    listOfAccounts=[]
+    wsAccounts = wb['ctasMayores']
+    for i in range(2, wsAccounts.max_row+1):
+        accountCell = wsAccounts[f'A{i}'].value
+        accountCell = str(accountCell)
+        accountCell = accountCell.replace(" ", "")
+        if accountCell != None and accountCell != "":
+            listOfAccounts.append(accountCell)
+    
+    configDat['accounts'] = listOfAccounts
     maxRow=ws.max_row
     for i in range(2,maxRow+1):
         if ws["G"+str(i)].value!=None and ws["F"+str(i)].value=="SI":
@@ -389,6 +416,8 @@ def concat_dfs(dfs):
                             "SubtotalUs":"",
                               "SubtotalBs":""}]
     return maxtrixConcat
+
+
 if __name__ == '__main__':
     date1=datetime.datetime.strptime("10/04/2023","%d/%m/%Y")
     date2=datetime.datetime.strptime("13/04/2023","%d/%m/%Y")

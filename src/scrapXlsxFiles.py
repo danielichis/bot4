@@ -221,27 +221,27 @@ class scrapTablesExcel:
             totalFormat=str(sh.cell(i,ColumTotal).value).replace(",","")
             checker=str(sh.cell(i,ColumChecker).value)
             summaryDict={
-                "Code":sh.cell(i,ColumCode).value,
-                "Codigo":self.codeCcaj,
-                "Checker":sh.cell(i,ColumChecker).value,
-                "FechaRend":sh.cell(i,ColumRendDate).value,
-                "FechaRecibo":sh.cell(i,ColumReceiptDate).value,
-                "NroRecibo":sh.cell(i,ColumReceiptNumber).value,
-                "UsCash":sh.cell(i,ColumUsCash).value,
-                "BsCash":sh.cell(i,ColumBsCash).value,
-                "UsCheck":sh.cell(i,ColumUsCheck).value,
-                "BsCheck":sh.cell(i,ColumBsCheck).value,
-                "TotalUsCash":sh.cell(i,ColumTotalUsCash).value,
-                "TotalEqBsCash":sh.cell(i,ColumTotalEqBsCash).value,
-                "TotalBsCash":sh.cell(i,ColumTotalBsCash).value,
-                "TransferUs":sh.cell(i,ColumTransferUs).value,
-                "TransferEqBs":sh.cell(i,ColumTransferEqBs).value,
-                "TransferBs":sh.cell(i,ColumTransferBs).value,
-                "TotalUs":sh.cell(i,ColumTotalUs).value,
-                "TotalEqBs":sh.cell(i,ColumTotalEqBs).value,
-                "TotalCCAJ":sh.cell(i,ColumTotalBs).value,
+                "Code_CcajConsol":sh.cell(i,ColumCode).value,
+                "Checker_CcajConsol":sh.cell(i,ColumChecker).value,
+                "FechaRend_CcajConsol":sh.cell(i,ColumRendDate).value,
+                "FechaRecibo_CcajConsol":sh.cell(i,ColumReceiptDate).value,
+                "NroRecibo_CcajConsol":sh.cell(i,ColumReceiptNumber).value,
+                "UsCash_CcajConsol":sh.cell(i,ColumUsCash).value,
+                "BsCash_CcajConsol":sh.cell(i,ColumBsCash).value,
+                "UsCheck_CcajConsol":sh.cell(i,ColumUsCheck).value,
+                "BsCheck_CcajConsol":sh.cell(i,ColumBsCheck).value,
+                "TotalUsCash_CcajConsol":sh.cell(i,ColumTotalUsCash).value,
+                "TotalEqBsCash_CcajConsol":sh.cell(i,ColumTotalEqBsCash).value,
+                "TotalBsCash_CcajConsol":sh.cell(i,ColumTotalBsCash).value,
+                "TransferUs_CcajConsol":sh.cell(i,ColumTransferUs).value,
+                "TransferEqBs_CcajConsol":sh.cell(i,ColumTransferEqBs).value,
+                "TransferBs_CcajConsol":sh.cell(i,ColumTransferBs).value,
+                "TotalBs_CcajConsol":sh.cell(i,ColumTotalBs).value,
+                "TotalUs_CcajConsol":sh.cell(i,ColumTotalUs).value,
+                "TotalEqBs_CcajConsol":sh.cell(i,ColumTotalEqBs).value,
+                "TotalCcajConsol":sh.cell(i,ColumTotalBs).value,
             }
-            if summaryDict["FechaRend"] not in filterkeyWords:
+            if summaryDict["FechaRend_CcajConsol"] not in filterkeyWords:
                 totalFormat="{:.2f}".format(float(totalFormat))
                 rec=self.recaud
                 #summaryDict["uniqKey"]=rec+"_"+checker+"_"+formatedDate+"_"+totalFormat
@@ -363,7 +363,7 @@ class scrapTablesExcel:
         sh=self.sh
         nameTable="diferencias"
         if typeCurrency=="Bs00":
-            print(pd.DataFrame([]))
+            #print(pd.DataFrame([]))
             return []
         columnstableDict=self.indexColumns[typeDistribution]["Detalle Operaciones"][typeCurrency]["contabilidad"][nameTable]
         columConcept=columnstableDict["Concepto"]
@@ -485,7 +485,7 @@ class scrapTablesExcel:
             "importeDepositarBs":importeDepositarBs,
             "importeDepositarUs":importeDepositarUs
         }
-        print(otrosIngresos)
+        #print(otrosIngresos)
         return otrosIngresos    
 def scrapXlsxFile(fileName):
     dicts=[]

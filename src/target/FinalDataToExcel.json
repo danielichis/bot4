@@ -709,127 +709,400 @@
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45173404605",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 556.48
+                                "AmountTransfer": 556.48,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "556,48",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "79,95",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45133347609",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 645.1
+                                "AmountTransfer": 645.1,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "645,10",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "92,69",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "51317864173",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 2467.58
+                                "AmountTransfer": 2467.58,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "2.467,58",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "354,54",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45173404220",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 594.3
+                                "AmountTransfer": 594.3,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "594,30",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "85,39",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45133349547",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 3387.14
+                                "AmountTransfer": 3387.14,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "3.387,14",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "486,66",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "219012",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 820.15
+                                "AmountTransfer": 820.15,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "820,15",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "117,84",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "219011",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 1967.73
+                                "AmountTransfer": 1967.73,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "1.967,73",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "282,72",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "219005",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 6173.68
+                                "AmountTransfer": 6173.68,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "6.173,68",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "887,02",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "219013",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 2789.6
+                                "AmountTransfer": 2789.6,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "2.789,60",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "400,80",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45123479538",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 171
+                                "AmountTransfer": 171,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "171,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "24,57",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45173399989",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 191.4
+                                "AmountTransfer": 191.4,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "191,40",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "27,50",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45113498958",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 187
+                                "AmountTransfer": 187,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "187,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "26,87",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "51317861849",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 222.85
+                                "AmountTransfer": 222.85,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "222,85",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "32,02",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45173403865",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 1588.8
+                                "AmountTransfer": 1588.8,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "1.588,80",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "228,28",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45113501848",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 253
+                                "AmountTransfer": 253,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "253,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "36,35",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "51117956511",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 5150
+                                "AmountTransfer": 5150,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "5.150,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "739,94",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "45143710433",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 468.93
+                                "AmountTransfer": 468.93,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "468,93",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "67,38",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "51218003107",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 424.6
+                                "AmountTransfer": 424.6,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "424,60",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "61,01",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "51218003417",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 3278.28
+                                "AmountTransfer": 3278.28,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "3.278,28",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "471,02",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "301099",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 14713.9
+                                "AmountTransfer": 14713.9,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "14.713,90",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "2.114,07",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             },
                             {
                                 "DateTransfer": "19/04/2023",
                                 "DocumentNumberTransfer": "250004",
                                 "BankTransfer": "BISA",
-                                "AmountTransfer": 33099.6
+                                "AmountTransfer": 33099.6,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/168/20",
+                                    "N\u00ba doc.": 113072070,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "33.099,60",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "4.755,69",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
                             }
                         ]
                     }
@@ -1683,19 +1956,58 @@
                                 "DateTransfer": "17/04/2023",
                                 "DocumentNumberTransfer": "90916",
                                 "BankTransfer": "MERCANTIL SANTA CRUZ",
-                                "AmountTransfer": 20541.9
+                                "AmountTransfer": 20541.9,
+                                "SapInfo": {
+                                    "St": "CCAJ-TA43/88/202",
+                                    "N\u00ba doc.": 113071874,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "20.541,90",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "2.951,42",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101041002
+                                }
                             },
                             {
                                 "DateTransfer": "18/04/2023",
                                 "DocumentNumberTransfer": "102630",
                                 "BankTransfer": "MERCANTIL SANTA CRUZ",
-                                "AmountTransfer": 18
+                                "AmountTransfer": 18,
+                                "SapInfo": {
+                                    "St": "CCAJ-TA43/88/202",
+                                    "N\u00ba doc.": 113071874,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "18,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "2,59",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101041002
+                                }
                             },
                             {
                                 "DateTransfer": "18/04/2023",
                                 "DocumentNumberTransfer": "102156",
                                 "BankTransfer": "MERCANTIL SANTA CRUZ",
-                                "AmountTransfer": 3000
+                                "AmountTransfer": 3000,
+                                "SapInfo": {
+                                    "St": "CCAJ-TA43/88/202",
+                                    "N\u00ba doc.": 113071874,
+                                    "Fecha doc.": "19.04.2023",
+                                    "Fecha.contab": "19.04.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "3.000,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "431,03",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101041002
+                                }
                             }
                         ]
                     }

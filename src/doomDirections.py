@@ -20,6 +20,7 @@ class Calendar:
 class CollectorClosing:
     def __init__(self):
         self.dailyClosingCollectorTable = {"XPATH": "//table[@id='dailyClosings']/tbody/tr", "CSS": "table#dailyClosings tbody tr"}
+        self.dailyClosingCollectorTableTd={"XPATH": "//table[@id='dailyClosings']/tbody/tr/td", "CSS": "table#dailyClosings tbody tr td"}
         self.rowTable = {"XPATH": "//table[@id='dailyClosings']/tbody/tr", "CSS": "table#dailyClosings tbody tr"}
         self.excelDonwloadBtn = {"XPATH": "", "CSS": "a[data-original-title='Descargar EXCEL']"}
 

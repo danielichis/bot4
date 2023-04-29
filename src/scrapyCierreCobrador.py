@@ -1,11 +1,12 @@
 import openpyxl
 from utils import get_current_path,get_index_columns_config,get_currency,get_kwords_rowLimits_config,configToJson,get_tables_path
-from utils import convert_xls
+from utils import convert_xls,pathsProyect
 import os
 import re
 import json
 import pandas as pd
 
+pths=pathsProyect()
 class scraperCierreCobrador():
     def __init__(self,fileName) -> None:
         self.XlsxPath=os.path.join(get_current_path(),"Cierres de Cobrador","formatoxlsx",fileName)
@@ -95,31 +96,31 @@ class scraperCierreCobrador():
             
         while self.sh.cell(row=i,column=clientCode).value!=lowerLimit and self.sh.cell(row=i,column=6).value!=lowerLimit:
             ditTable={
-                'ruta':self.fileName[:-5],
-                "recaudadora":self.recaud,
-                'Nro APP':self.sh.cell(row=i,column=appNumber).value,
-                'Fecha Recibo':self.sh.cell(row=i,column=recepitDate).value,
-                'Cod Cliente':self.sh.cell(row=i,column=clientCode).value,
-                'Nombre cliente':self.sh.cell(row=i,column=clientName).value,
-                'CashBs':self.sh.cell(row=i,column=bsAmount).value,
-                'CashUs':self.sh.cell(row=i,column=UsAmount).value,
-                'CheckDate':self.sh.cell(row=i,column=checkDate).value,
-                'CheckNumber':self.sh.cell(row=i,column=checkNumber).value,
-                'CheckBank':self.sh.cell(row=i,column=checkBank).value,
-                'CheckBs':self.sh.cell(row=i,column=bsCheck).value,
-                'CheckUs':self.sh.cell(row=i,column=usCheck).value,
-                'TransferDate':self.sh.cell(row=i,column=dateTransfer).value,
-                'TransferBank':self.sh.cell(row=i,column=bankTransfer).value,
-                'TransferBs':self.sh.cell(row=i,column=bsTransfer).value,
-                'TransferUs':self.sh.cell(row=i,column=usTransfer).value,
-                'SubtotalBs':self.sh.cell(row=i,column=subtotalBs).value,
-                'SubtotalUs':self.sh.cell(row=i,column=subtotalUs).value,
-                'SubtotalEqBs':self.sh.cell(row=i,column=subtotalEqBs).value,
-                'TotalCCOBClient':0.00,
+                'ruta_CcajCobClient':self.fileName[:-5],
+                "recaudadora_CcajCobClient":self.recaud,
+                'Nro APP_CcajCobClient':self.sh.cell(row=i,column=appNumber).value,
+                'Fecha Recibo_CcajCobClient':self.sh.cell(row=i,column=recepitDate).value,
+                'Cod Cliente_CcajCobClient':self.sh.cell(row=i,column=clientCode).value,
+                'Nombre cliente_CcajCobClient':self.sh.cell(row=i,column=clientName).value,
+                'CashBs_CcajCobClient':self.sh.cell(row=i,column=bsAmount).value,
+                'CashUs_CcajCobClient':self.sh.cell(row=i,column=UsAmount).value,
+                'CheckDate_CcajCobClient':self.sh.cell(row=i,column=checkDate).value,
+                'CheckNumber_CcajCobClient':self.sh.cell(row=i,column=checkNumber).value,
+                'CheckBank_CcajCobClient':self.sh.cell(row=i,column=checkBank).value,
+                'CheckBs_CcajCobClient':self.sh.cell(row=i,column=bsCheck).value,
+                'CheckUs_CcajCobClient':self.sh.cell(row=i,column=usCheck).value,
+                'TransferDate_CcajCobClient':self.sh.cell(row=i,column=dateTransfer).value,
+                'TransferBank_CcajCobClient':self.sh.cell(row=i,column=bankTransfer).value,
+                'TransferBs_CcajCobClient':self.sh.cell(row=i,column=bsTransfer).value,
+                'TransferUs_CcajCobClient':self.sh.cell(row=i,column=usTransfer).value,
+                'SubtotalBs_CcajCobClient':self.sh.cell(row=i,column=subtotalBs).value,
+                'SubtotalUs_CcajCobClient':self.sh.cell(row=i,column=subtotalUs).value,
+                'SubtotalEqBs_CcajCobClient':self.sh.cell(row=i,column=subtotalEqBs).value,
+                'Total_CcajCobClient':0.00,
             }
 
             if self.sh.cell(row=i,column=appNumber).value!=None and self.sh.cell(row=i,column=appNumber).value not in filtersKwords:
-                ditTable["TotalCCOBClient"]="{:.2f}".format(float(self.sh.cell(row=i,column=totalBs).value))
+                ditTable["Total_CcajCobClient"]="{:.2f}".format(float(self.sh.cell(row=i,column=totalBs).value))
                 reciboDeCajaTable.append(ditTable)
             if self.sh.cell(row=i+1,column=appNumber+1).value=="Datos del Recibo de Cobranza":
                 appNumber+=1
@@ -205,20 +206,20 @@ class scraperCierreCobrador():
             
             
             ditTable={
-                'ruta':self.fileName[:-5],
-                "recaudadora":self.recaud,
-                "CashBs":self.sh.cell(row=i,column=cashBs).value,
-                "CashUs":self.sh.cell(row=i,column=cashUs).value,
-                "CashEqBs":self.sh.cell(row=i,column=cashEqBs).value,
-                "CheckBs":self.sh.cell(row=i,column=checkBs).value,
-                "CheckUs":self.sh.cell(row=i,column=checkUs).value,
-                "CheckEqBs":self.sh.cell(row=i,column=checkEqBs).value,
-                "TransferDate":self.sh.cell(row=i,column=dateTransfer).value,
-                "TransferBank":self.sh.cell(row=i,column=bankTransfer).value,
-                "TransferBs":self.sh.cell(row=i,column=bsTransfer).value,
-                "TransferUs":self.sh.cell(row=i,column=usTransfer).value,
-                "TransferEqBs":self.sh.cell(row=i,column=EqBsTransfer).value,
-                "TotalCCOBCAJA":0.00 
+                'ruta_CcajCobCob':self.fileName[:-5],
+                "recaudadora_CcajCobCob":self.recaud,
+                "CashBs_CcajCobCob":self.sh.cell(row=i,column=cashBs).value,
+                "CashUs_CcajCobCob":self.sh.cell(row=i,column=cashUs).value,
+                "CashEqBs_CcajCobCob":self.sh.cell(row=i,column=cashEqBs).value,
+                "CheckBs_CcajCobCob":self.sh.cell(row=i,column=checkBs).value,
+                "CheckUs_CcajCobCob":self.sh.cell(row=i,column=checkUs).value,
+                "CheckEqBs_CcajCobCob":self.sh.cell(row=i,column=checkEqBs).value,
+                "TransferDate_CcajCobCob":self.sh.cell(row=i,column=dateTransfer).value,
+                "TransferBank_CcajCobCob":self.sh.cell(row=i,column=bankTransfer).value,
+                "TransferBs_CcajCobCob":self.sh.cell(row=i,column=bsTransfer).value,
+                "TransferUs_CcajCobCob":self.sh.cell(row=i,column=usTransfer).value,
+                "TransferEqBs_CcajCobCob":self.sh.cell(row=i,column=EqBsTransfer).value,
+                "TotalCCOBCAJA_CcajCobCob":0.00 
             }
             if  self.sh.cell(row=i,column=cashBs).value!=None and self.sh.cell(row=i,column=cashBs).value not in filtersKwords:
                 ditTable['TotalCCOBCAJA']="{:.2f}".format(float(self.sh.cell(row=i,column=totalBs).value))
@@ -258,7 +259,13 @@ def scrap_CierreCobrador():
     df1=pd.DataFrame(collectorClientTable)
     df2=pd.DataFrame(collectorBoxTable)
     df1.to_csv(os.path.join(get_tables_path(),"collectorClientTable.csv"),index=False,sep=";")
+    #save to json file
+    with open(pths.jsonClientBox, 'w') as file:
+        json.dump(collectorClientTable, file,indent=4)
+
     df2.to_csv(os.path.join(get_tables_path(),"collectorBoxTable.csv"),index=False,sep=";")
+    with open(pths.jsonCobBox, 'w') as file:
+        json.dump(collectorBoxTable, file,indent=4)
 if __name__ == "__main__":
     #collectorClosingFolder=os.path.join(get_current_path(),"Cierres de Cobrador")
     #convert_xls(collectorClosingFolder)

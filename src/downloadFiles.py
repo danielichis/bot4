@@ -68,8 +68,8 @@ def tableCashClosing(user):
     page.wait_for_load_state()
     headersTable=[x.inner_text() for x in page.query_selector_all("table#cashierClosings thead th")]
     rows=page.query_selector_all("table#cashierClosings tbody tr")
-    print(len(rows))
-    if len(rows)==1:
+    rowsTd=page.query_selector_all("table#cashierClosings tbody tr td")
+    if len(rowsTd)==1:
         print("No hay cierres de caja")
         return
     global xlsFilesList
@@ -109,7 +109,8 @@ def tableCashClosing(user):
             headersTable[7]:fields[7],
             headersTable[8]:fields[8],
             headersTable[9]:tipe,
-            "xlsFilesList":xlsFilesList
+            "xlsFilesList":xlsFilesList,
+            "Recaudadora":user["recaudadora"]
         }
         table.append(rowDict)
     return table
@@ -163,8 +164,6 @@ def in_folder(nameFolder):
     folderParent=os.path.join(folderParent,nameFolder)
     return folderParent
 
-    
-
 def downloadCcaj(loginInfo,user):
     print("downloading cierres de caja")
     dinit=loginInfo['dates']['dInit']
@@ -212,6 +211,21 @@ def collectorClosingFrame():
     page.locator(sgvp.collectorClosingBtn['XPATH']).first.click()
     page.wait_for_load_state()
 
+def cashOutFrame():
+    sgvp=sgvPaths()
+    try:
+        page.locator(sgvp.collections['XPATH']).first.click()
+        page.wait_for_load_state('load')
+        page.wait_for_load_state('networkidle')
+        page.locator(sgvp.cashOut.cashOutBtn['XPATH']).click()
+        page.wait_for_load_state()
+    except:
+        page.locator(sgvp.collections['XPATH']).first.click()
+        page.wait_for_load_state('load')
+        page.wait_for_load_state('networkidle')
+        page.locator(sgvp.cashOut.cashOutBtn['XPATH']).click()
+        page.wait_for_load_state()
+        
 def tableCollectorClosing(user):
     sgvp=sgvPaths()
     closingTable=[]
@@ -219,7 +233,8 @@ def tableCollectorClosing(user):
     page.wait_for_selector(sgvp.collectorClosing.dailyClosingCollectorTable['CSS'])
     time.sleep(2)
     closingTableFrame=page.query_selector_all(sgvp.collectorClosing.dailyClosingCollectorTable['CSS'])
-    if len(closingTableFrame)==1:
+    closingTableFrameTd=page.query_selector_all(sgvp.collectorClosing.dailyClosingCollectorTableTd['CSS'])
+    if len(closingTableFrameTd)==1:
         print("No hay cierre de cobrador")
         return
     for row in closingTableFrame:
@@ -280,25 +295,91 @@ def downloadCollectorClosing(loginInfo,user):
     with open (paths.jsonCcob,"w") as outfile:
         outfile.write(json.dumps(data,indent=4))
 
+def cashOutTable(user):
+    sgvp=sgvPaths()
+    eTable=page.wait_for_selector(sgvp.cashOut.CashOutTable['CSS'])
+    rows=eTable.query_selector_all("tbody tr")
+    count_row=eTable.query_selector_all("tbody tr td")
+    if len(count_row)==1:
+        print("No hay Salidas de Efectivo para este rango de fechas")
+        #page.pause()
+        return
+    cashOutList=[]
+    for row in rows:
+        code=row.query_selector("td:nth-child(1)").inner_text()
+        date=row.query_selector("td:nth-child(2)").inner_text()
+        manager=row.query_selector("td:nth-child(3)").inner_text()
+        TotalBs=row.query_selector("td:nth-child(4)").inner_text()
+        typeEnterprise=row.query_selector("td:nth-child(5)").inner_text()
+        state=row.query_selector("td:nth-child(6)").inner_text()
+
+        cashOutDict={
+            "Código":code,
+            "Fecha":date,
+            "Encargado":manager,
+            "Total Bs.":TotalBs,
+            "Tipo":typeEnterprise,
+            "Estado":state,
+            "Recaudadora":user["recaudadora"]
+        }
+        cashOutList.append(cashOutDict)
+    return cashOutList
+def get_outOffCashSgv(loginInfo,user):
+    print("downloading cierres de cobrador")
+    sgvp=sgvPaths()
+    configInfo=loginInfo['dates']
+    dinit=configInfo["dInit"]
+    dEnd=configInfo["dEnd"]
+    locale.setlocale(locale.LC_TIME, '')
+    globalList3=[]
+    cashOutFrame()
+    found_date(dinit,"input#startDate")
+    time.sleep(1)
+    found_date(dEnd,"input#endDate")
+    page.wait_for_load_state("networkidle")
+    page.evaluate('window.scrollBy(0, 200)')
+    #page.pause()
+    i=0
+    n=1
+    while n>0:
+        time.sleep(1)
+        print(f"-----pagina :{i+1}")
+        cashTable=cashOutTable(user)
+        if cashTable:
+            globalList3.extend(cashTable)
+        i=i+1
+        page.query_selector("[id='cashOuts_next'] a").click()
+        n=len(page.query_selector_all("li[class='paginate_button next'] a"))
+    return globalList3
+def saveCashoutSgv(cashoutList):
+    with open(paths.jsonCashOut, "w") as outfile: 
+        outfile.write(json.dumps(cashoutList,indent=4))
+    df=pd.DataFrame(cashoutList)
+    df.to_csv(paths.csvCashOut,index=False,encoding="utf-8-sig",sep=";")
+
 def donloadSgv(loginInfo):
-    p=sync_playwright().start()
     print("Descargando archivos")
-    browser=p.chromium.launch(headless=False)
     #context=browser.new_context(record_video_dir="videos/")
     global page
-    page=browser.new_page(accept_downloads=True)
-    page.goto("http://sgv.grupo-venado.com/venado/login.jsf")
     users=loginInfo["users"]
-    for key,user in users.items():    
+    allCashOuts=[]
+    for key,user in users.items():
+        p=sync_playwright().start()
+        browser=p.chromium.launch(headless=False)
+        page=browser.new_page(accept_downloads=True)    
         print(f"-----------downloading {key}-----------------")
-        login_page(user)
+        page.goto("http://sgv.grupo-venado.com/venado/login.jsf")
+        login_page(user)  
         downloadCcaj(loginInfo,user)
         downloadCollectorClosing(loginInfo,user)
-        page.query_selector("a[class='dropdown-toggle user-menu'] span").click()
-        page.query_selector("i[class='dropdown-icon fa fa-power-off']").click()
-        #page.close()
-    page.close()
-    browser.close()
-    p.stop()
+        cashOutAccount=get_outOffCashSgv(loginInfo,user)
+        if cashOutAccount:
+            allCashOuts.extend(cashOutAccount)
+        page.close()
+        browser.close()
+        p.stop()
+        
+    saveCashoutSgv(allCashOuts)
+    
 if __name__ == "__main__":
     donloadSgv()
