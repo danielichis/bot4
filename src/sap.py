@@ -55,11 +55,12 @@ def superTable(configData):
 
     fi = sapLogin['fechaInicio']
     #fi = datetime.strptime(str(fi), "%d/%m/%Y")
-    fi = fi - timedelta(days=4)
+    fi = fi - timedelta(days=5)
     fi = fi.strftime("%d.%m.%Y")
 
     ff = sapLogin['fechaFin']
     #ff = datetime.strptime(str(ff), "%d/%m/%Y")
+    ff = ff + timedelta(days=5)
     ff = ff.strftime("%d.%m.%Y")
 
     session.findById("wnd[0]/usr/radX_AISEL").select()
@@ -97,10 +98,11 @@ def tableTransSap(configData):
 
     fi = sapLogin['fechaInicio']
     #fi = datetime.strptime(str(fi), "%d/%m/%Y")
-    fi = fi - timedelta(days=4)
+    fi = fi - timedelta(days=5)
     fi = fi.strftime("%d.%m.%Y")
 
     ff = sapLogin['fechaFin']
+    ff=ff+timedelta(days=5)
     #ff = datetime.strptime(str(ff), "%d/%m/%Y")
     ff = ff.strftime("%d.%m.%Y")
     fileName=f"{fi} a {ff}.txt"
@@ -163,9 +165,10 @@ def insertDataToJsonAg(configData):
     sapLogin = configData['SapLogin']
     fi=sapLogin['fechaInicio']
     #date to string format
-    fi = fi - timedelta(days=4)
+    fi = fi - timedelta(days=5)
     fi=fi.strftime("%d.%m.%Y")
     ff=sapLogin['fechaFin']
+    ff=ff+timedelta(days=5)
     ff=ff.strftime("%d.%m.%Y")
     currentPath = pths.folderProyect
     df_sap=pd.read_csv(os.path.join(currentPath,"Sapinfo",f"{fi} a {ff}.csv"),sep=";",encoding="utf-8")
@@ -207,6 +210,6 @@ def insertDataToJsonAg(configData):
     
 if __name__ == '__main__':
     configData=loginInfo()
-    #superTable(configData)
+    superTable(configData)
     tableTransSap(configData)
     insertDataToJsonAg(configData)

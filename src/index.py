@@ -21,9 +21,9 @@ def main():
         convert_xls(collectorClosingFolder)
         scrap_CierreCobrador()
         get_templatesSap(loginData['dates'])
-        getMatrixAg()
-        #superTable(loginData)
+        superTable(loginData)
         tableTransSap(loginData)
         insertDataToJsonAg(loginData)
+        getMatrixAg()
 if __name__ == "__main__":
     main()

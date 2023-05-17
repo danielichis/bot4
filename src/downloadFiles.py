@@ -45,13 +45,14 @@ def download_file(pathFile,cssSelector,row):
     while intentos<=retries and donwnload==False:
         try:
             with page.expect_download() as download_info:
-                row.query_selector(cssSelector).click()
+                row.query_selector(cssSelector).click(timeout=3000)
             download = download_info.value
             download.save_as(pathFile)
             donwnload=True
             print(f"Descargado {pathFile}")
             metadataFile["descargado"]="OK"
-        except:
+        except Exception as e:
+            print(f"{e}\n Reitentanto...")
             time.sleep(2)
         intentos+=1
     
@@ -159,7 +160,7 @@ def found_date(dExcel,cssDate):
             monthdate_obj=datetime.strptime(monthdate,"%B %Y")
 
 def in_folder(nameFolder):
-    folderParent = os.getcwd()
+    folderParent = paths.folderProyect
     #folderParent=Path(folderParent).parent
     folderParent=os.path.join(folderParent,nameFolder)
     return folderParent
@@ -325,7 +326,7 @@ def cashOutTable(user):
         cashOutList.append(cashOutDict)
     return cashOutList
 def get_outOffCashSgv(loginInfo,user):
-    print("downloading cierres de cobrador")
+    print("downloading SALIDAS DE EFECTIVO")
     sgvp=sgvPaths()
     configInfo=loginInfo['dates']
     dinit=configInfo["dInit"]

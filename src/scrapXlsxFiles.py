@@ -611,7 +611,9 @@ def scrapCierresDeCaja2():
 
 def scrapCierresDeCaja():
     #configToJson()
-    with open(r'src\target\CashClosingInfo.json',"r") as json_file:
+    pathCashClosingInfo=os.path.join(paths.folderProyect,r"src\target\CashClosingInfo.json")
+    print(pathCashClosingInfo)
+    with open(pathCashClosingInfo,"r") as json_file:
         data = json.load(json_file)
     global billst,checkstable,bankTransferstable,coinssTable,vouchersTable,qrsTable,cuoponsTable,diferencessTable,summariesTable
     

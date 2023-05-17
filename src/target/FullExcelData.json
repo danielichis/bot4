@@ -13,7 +13,7 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56606_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56606_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56606_arceoCajaBs_ag",
                     "retries": 1,
@@ -83,12 +83,6 @@
                         "voucherTable": [
                             {
                                 "DateVoucher": "19/04/2023",
-                                "NroRefVoucher": "001998",
-                                "NroClientVoucher": "1062589 CH",
-                                "AmountVoucher": 65.12
-                            },
-                            {
-                                "DateVoucher": "19/04/2023",
                                 "NroRefVoucher": "001999",
                                 "NroClientVoucher": "3396407 LP",
                                 "AmountVoucher": 128.6
@@ -98,6 +92,12 @@
                                 "NroRefVoucher": "002000",
                                 "NroClientVoucher": "467000 LP",
                                 "AmountVoucher": 56.65
+                            },
+                            {
+                                "DateVoucher": "19/04/2023",
+                                "NroRefVoucher": "001998",
+                                "NroClientVoucher": "1062589 CH",
+                                "AmountVoucher": 65.12
                             }
                         ],
                         "cuoponTable": [],
@@ -133,7 +133,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56606_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56606_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56606_arceoCajaUs_ag",
                     "retries": 1,
@@ -162,7 +162,7 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56605_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56605_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56605_arceoCajaBs_ag",
                     "retries": 1,
@@ -316,7 +316,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56605_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56605_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56605_arceoCajaUs_ag",
                     "retries": 1,
@@ -345,7 +345,7 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56603_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56603_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56603_arceoCajaBs_ag",
                     "retries": 1,
@@ -446,7 +446,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56603_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56603_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56603_arceoCajaUs_ag",
                     "retries": 1,
@@ -475,7 +475,7 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56598_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56598_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56598_arceoCajaBs_ag",
                     "retries": 1,
@@ -607,7 +607,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56598_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56598_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56598_arceoCajaUs_ag",
                     "retries": 1,
@@ -636,7 +636,7 @@
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56595_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56595_arceoCajaBs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56595_arceoCajaBs_dist",
                     "retries": 1,
@@ -835,7 +835,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56595_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56595_arceoCajaUs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56595_arceoCajaUs_dist",
                     "retries": 1,
@@ -849,7 +849,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56595_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56595_firstExcel_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56595_firstExcel_dist",
                     "retries": 1,
@@ -1087,7 +1087,7 @@
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56587_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56587_arceoCajaBs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56587_arceoCajaBs_dist",
                     "retries": 1,
@@ -1166,7 +1166,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56587_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56587_arceoCajaUs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56587_arceoCajaUs_dist",
                     "retries": 1,
@@ -1180,7 +1180,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56587_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_56587_firstExcel_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_56587_firstExcel_dist",
                     "retries": 1,
@@ -1460,7 +1460,7 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56599_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56599_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "TARIJA_56599_arceoCajaBs_ag",
                     "retries": 1,
@@ -1574,7 +1574,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56599_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56599_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "TARIJA_56599_arceoCajaUs_ag",
                     "retries": 1,
@@ -1603,7 +1603,7 @@
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56588_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56588_arceoCajaBs_dist.xls",
                     "descargado": "OK",
                     "name": "TARIJA_56588_arceoCajaBs_dist",
                     "retries": 1,
@@ -1701,7 +1701,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56588_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56588_arceoCajaUs_dist.xls",
                     "descargado": "OK",
                     "name": "TARIJA_56588_arceoCajaUs_dist",
                     "retries": 1,
@@ -1715,7 +1715,7 @@
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56588_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_56588_firstExcel_dist.xls",
                     "descargado": "OK",
                     "name": "TARIJA_56588_firstExcel_dist",
                     "retries": 1,

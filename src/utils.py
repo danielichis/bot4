@@ -1,7 +1,10 @@
 import sys
 import os
+import win32com.client as win32
 from pathlib import Path
 import datetime
+from openpyxl import load_workbook
+from openpyxl.styles import numbers
 import pyexcel
 import openpyxl
 import json
@@ -128,15 +131,15 @@ def get_currency(fileName):
     return typeCurrency
 
 def writeJson():
-    with open(r'src\target\CashClosingInfo.json',"r") as json_file:
+    with open(paths.jsonCcaj,"r") as json_file:
         data = json.load(json_file)
     for row in data['data']:
         row['NuevaData']={}
-    with open(r'src\target\CashClosingInfo.json',"w") as json_file:
+    with open(paths.jsonCcaj,"w") as json_file:
         json.dump(data,json_file,indent=4)
 def getSgvData(fileName):
     code=re.findall(r'(\d{5})_', fileName)[0]
-    with open(r'src\target\CashClosinginfo.json',"r") as json_file:
+    with open(paths.jsonCcaj,"r") as json_file:
         data = json.load(json_file)
     for d in data["data"]:
         if d['Código']==code:
@@ -302,6 +305,16 @@ def get_templatesSap(dates):
     df_templatesSap=pd.DataFrame(extractInfo)
     df_templatesSap.to_csv(os.path.join(paths.tables,"ExtractosBancarios.csv"),index=False,sep=	";",encoding="utf-8")
 
+def concat_dfs2(lists):
+    df_list=[]
+    for lista in lists:
+        #df is not empty
+        df=pd.DataFrame(lista)
+        if df.empty==False:
+            df_list.append(df)
+    dff=pd.concat(df_list,axis=1)
+    concat_table=dff.to_dict('records')
+    return concat_table
 def concat_dfs(dfs):
     df_list=[]
     for df in dfs:
@@ -417,8 +430,40 @@ def concat_dfs(dfs):
                               "SubtotalBs":""}]
     return maxtrixConcat
 
+def change_ExcelSeparators():
+    # Crear una instancia de la aplicación Exce
 
+    # Cargar el archivo de Excel
+    archivo_excel = r"C:\DanielBots\bot4\sting.xlsx"
+    libro = load_workbook(archivo_excel)
+
+    # Obtener la hoja de trabajo activa
+    hoja_activa = libro.active
+
+    hoja_activa.cell(row=1, column=3).value = 1234567890.1234567890
+    # Configurar el separador de decimales
+    hoja_activa.number_format = numbers.FORMAT_NUMBER_DOT_SEPARATED2
+
+    # Guardar los cambios en el archivo
+    libro.save(archivo_excel)
+
+    # Cerrar el libro de Excel
+    libro.close()
+def change_ExcelSeparators2():
+    # Crear una instancia de la aplicación Excel
+    excel_app = win32.gencache.EnsureDispatch('Excel.Application')
+
+    # Configurar el separador de decimales
+    excel_app.DecimalSeparator = ','
+
+    # Configurar el separador de miles
+    excel_app.ThousandsSeparator = '.'
+
+    # Guardar la configuración
+    #excel_app.Save()
+
+    # Cerrar la aplicación Excel
+    excel_app.Quit()
 if __name__ == '__main__':
-    date1=datetime.datetime.strptime("10/04/2023","%d/%m/%Y")
-    date2=datetime.datetime.strptime("13/04/2023","%d/%m/%Y")
-    get_templatesSap({"dInit":date1,"dEnd":date2})
+    #change_ExcelSeparators2()
+    print("hola, ejecutandose programa...")

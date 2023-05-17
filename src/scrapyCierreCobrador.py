@@ -15,6 +15,7 @@ class scraperCierreCobrador():
         self.kwordsRowLimits=get_kwords_rowLimits_config()
         self.sh=openpyxl.load_workbook(self.XlsxPath).worksheets[0]
         self.recaud=None
+        self.lastRow=1
         self.getRecaud()
     
     def getRecaud(self):
@@ -143,6 +144,7 @@ class scraperCierreCobrador():
                 subtotalEqBs+=1
                 totalBs+=1
             i+=1
+        self.lastRow=i
         #print(pd.DataFrame(reciboDeCajaTable))
         return reciboDeCajaTable
     def CollectorToBoxTable(self):
@@ -201,10 +203,13 @@ class scraperCierreCobrador():
             j+=1
                 
         receiptBoxTable=[]
-        
-        while self.sh.cell(row=i,column=5).value!=botomLimit and self.sh.cell(row=i,column=4).value!=botomLimit:
-            
-            
+        downRow=self.lastRow+1
+        j=1
+        while self.sh.cell(row=downRow,column=j).value!="Recepción en caja":
+            j=j+1
+        firstRowWithData=downRow+3
+        i=firstRowWithData
+        while self.sh.cell(row=i+3,column=j).value=="Cargos al Cobrador" or self.sh.cell(row=i+3,column=j+1).value=="Cargos al Cobrador":
             ditTable={
                 'ruta_CcajCobCob':self.fileName[:-5],
                 "recaudadora_CcajCobCob":self.recaud,
@@ -222,7 +227,10 @@ class scraperCierreCobrador():
                 "TotalCCOBCAJA_CcajCobCob":0.00 
             }
             if  self.sh.cell(row=i,column=cashBs).value!=None and self.sh.cell(row=i,column=cashBs).value not in filtersKwords:
-                ditTable['TotalCCOBCAJA']="{:.2f}".format(float(self.sh.cell(row=i,column=totalBs).value))
+                value=str(self.sh.cell(row=i,column=totalBs).value).replace(",","")
+                if value!="None":
+                    value=float(value)
+                    ditTable['TotalCCOBCAJA']="{:.2f}".format(value)
                 receiptBoxTable.append(ditTable)
             if self.sh.cell(row=i+1,column=cashBs+1).value=="Efectivo":
                 cashBs+=1
