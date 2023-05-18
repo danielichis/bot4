@@ -132,6 +132,11 @@ def get_kwords_rowLimits_config():
         data = json.load(json_file)
     return data
 def get_currency(fileName):
+    #print(fileName)
+    path=Path(fileName)
+    fileName=path.name
+    #get the fileName in path 
+
     if fileName.find("Us")!=-1:
         typeCurrency="dólar"
     elif fileName.find("Bs")!=-1:

@@ -33,6 +33,8 @@ class scrapTablesExcel:
     def get_left_up_vertex_table(self,tableName,moneyType):
         sh=self.sh
         i=1
+        if self.currency=="dólar":
+            pass
         columBill=self.indexColumns[self.distributionType]["Detalle Operaciones"][self.currency][moneyType][tableName]["valor"]
         kword=self.kwordsRowLimits[self.distributionType][self.currency][tableName]["superior"]
         while sh.cell(i,columBill).value !=kword:
