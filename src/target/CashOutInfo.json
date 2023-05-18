@@ -1,18 +1,90 @@
 [
     {
-        "C\u00f3digo": "8290",
-        "Fecha": "19/04/2023 13:00:30",
+        "C\u00f3digo": "8497",
+        "Fecha": "17/05/2023 14:21:12",
         "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "339,351.72",
+        "Total Bs.": "196,168.90",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
         "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8288",
-        "Fecha": "19/04/2023 12:40:29",
+        "C\u00f3digo": "8486",
+        "Fecha": "16/05/2023 14:07:13",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "154,369.80",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8471",
+        "Fecha": "15/05/2023 14:03:16",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "378,866.45",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8457",
+        "Fecha": "12/05/2023 13:28:30",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "193,154.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8446",
+        "Fecha": "11/05/2023 13:19:56",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "292,408.50",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8439",
+        "Fecha": "10/05/2023 12:52:40",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "344,215.60",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8491",
+        "Fecha": "17/05/2023 11:09:49",
         "Encargado": "NELVI JUANITA ROMERO CASTILLO",
-        "Total Bs.": "86,821.00",
+        "Total Bs.": "145,137.17",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "TARIJA"
+    },
+    {
+        "C\u00f3digo": "8468",
+        "Fecha": "15/05/2023 11:38:46",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "153,816.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "TARIJA"
+    },
+    {
+        "C\u00f3digo": "8454",
+        "Fecha": "12/05/2023 11:38:35",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "122,386.70",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "TARIJA"
+    },
+    {
+        "C\u00f3digo": "8434",
+        "Fecha": "10/05/2023 11:20:51",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "135,396.30",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
         "Recaudadora": "TARIJA"

@@ -249,18 +249,19 @@ class scraperCierreCobrador():
         #print(pd.DataFrame(receiptBoxTable))
         return receiptBoxTable
 def scrap_CierreCobrador():
+    print("-------------Procesando cierres de cobrador...")
     cierreCobradorFiles=os.listdir(os.path.join(get_current_path(),"Cierres de Cobrador","formatoxlsx"))
     collectorClientTable=[]
     collectorBoxTable=[]
     for file in cierreCobradorFiles:
         if file.endswith(".xlsx"):
-            print("Procesando archivo: ",file)
+            #print("Procesando archivo: ",file)
             scob=scraperCierreCobrador(file)
             q=scob.ClientToCollectorTable()
             collectorClientTable.extend(q)
             p=scob.CollectorToBoxTable()
             collectorBoxTable.extend(p)
-            print("--------------------------Archivo procesado: ")
+            #print("--------------------------Archivo procesado: ")
     if len(cierreCobradorFiles)==0:
         print("No hay archivos de cierres de cobrador para procesar")
         return
@@ -274,6 +275,7 @@ def scrap_CierreCobrador():
     df2.to_csv(os.path.join(get_tables_path(),"collectorBoxTable.csv"),index=False,sep=";")
     with open(pths.jsonCobBox, 'w') as file:
         json.dump(collectorBoxTable, file,indent=4)
+    print("-------------Cierres de cobrador procesados exitosamente\n")
 if __name__ == "__main__":
     #collectorClosingFolder=os.path.join(get_current_path(),"Cierres de Cobrador")
     #convert_xls(collectorClosingFolder)

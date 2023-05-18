@@ -1,6 +1,7 @@
 # playwright 
 from playwright.sync_api import sync_playwright
 from datetime import datetime
+from datetime import timedelta
 import pandas as pd
 from pathlib import Path
 import openpyxl
@@ -122,16 +123,16 @@ def evaluate_month(monthdate_obj,dExcel,cssDate):
     elif cssDate=="input#endDate":
         prevSelector="div:nth-child(11) div.datepicker-days th.prev"
     if monthdate_obj.strftime("%B %Y")==tday:
-        print("same month")
+        #print("same month")
         set_day(dExcel,cssDate)
         return True
     elif monthdate_obj<dExcel:
-        print("next month")
+        #print("next month")
         page.query_selector("div.datepicker-days th.next").click()
         return False
         #monthdate=w.find_element(By.CSS_SELECTOR,"div.datepicker-days th.datepicker-switch").text
     elif monthdate_obj>dExcel:
-        print("previous month")
+        #print("previous month")
         page.query_selector(prevSelector).click()
         return False
 def found_date(dExcel,cssDate):
@@ -146,14 +147,14 @@ def found_date(dExcel,cssDate):
         page.wait_for_selector("body > div:nth-child(11) > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch")
         monthdate=page.query_selector("body > div:nth-child(11) > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch").inner_text()
         monthdate=monthdate.replace("Septiembre","Setiembre")
-        print(monthdate)
+        #print(monthdate)
         monthdate_obj=datetime.strptime(monthdate,"%B %Y")
    
     dateNotfound=True
     while dateNotfound:
         if evaluate_month(monthdate_obj,dExcel,cssDate):
             dateNotfound=False
-            print("date found")
+            #print("date found")
         else:
             monthdate=page.query_selector(monthSelector).inner_text()
             monthdate=monthdate.replace("Septiembre","Setiembre")
@@ -166,7 +167,7 @@ def in_folder(nameFolder):
     return folderParent
 
 def downloadCcaj(loginInfo,user):
-    print("downloading cierres de caja")
+    print("DESCARGANDO ARCHIVOS DE CIERRES DE CAJA...")
     dinit=loginInfo['dates']['dInit']
     dEnd=loginInfo['dates']['dEnd']
     locale.setlocale(locale.LC_TIME, '')
@@ -261,7 +262,7 @@ def tableCollectorClosing(user):
         closingTable.append(closingTableDict)
     return closingTable
 def downloadCollectorClosing(loginInfo,user):
-    print("downloading cierres de cobrador")
+    print("DESCARGANDO ARCHIVOS DE CIERRES DE COBRADOR...")
     sgvp=sgvPaths()
     configInfo=loginInfo['dates']
     dinit=configInfo["dInit"]
@@ -330,7 +331,9 @@ def get_outOffCashSgv(loginInfo,user):
     sgvp=sgvPaths()
     configInfo=loginInfo['dates']
     dinit=configInfo["dInit"]
+    dinit=dinit-timedelta(days=5)
     dEnd=configInfo["dEnd"]
+    dEnd=dEnd+timedelta(days=5)
     locale.setlocale(locale.LC_TIME, '')
     globalList3=[]
     cashOutFrame()
@@ -359,7 +362,7 @@ def saveCashoutSgv(cashoutList):
     df.to_csv(paths.csvCashOut,index=False,encoding="utf-8-sig",sep=";")
 
 def donloadSgv(loginInfo):
-    print("Descargando archivos")
+    print("--------------------DESCARGANDO ARCHIVOS DEL SGV----------------------")
     #context=browser.new_context(record_video_dir="videos/")
     global page
     users=loginInfo["users"]
@@ -368,7 +371,7 @@ def donloadSgv(loginInfo):
         p=sync_playwright().start()
         browser=p.chromium.launch(headless=False)
         page=browser.new_page(accept_downloads=True)    
-        print(f"-----------downloading {key}-----------------")
+        print(f"-----------RECAUDADORA: {key}-----------------")
         page.goto("http://sgv.grupo-venado.com/venado/login.jsf")
         login_page(user)  
         downloadCcaj(loginInfo,user)

@@ -607,12 +607,12 @@ def scrapCierresDeCaja2():
     df_summaries.to_csv(os.path.join(get_tables_path(),"summariesTable.csv"),index=False,sep=";")
 
     normalizeTable()
-    print("SCRAP CIERRES DE CAJA TERMINADO")
+    #print("SCRAP CIERRES DE CAJA TERMINADO")
 
 def scrapCierresDeCaja():
-    #configToJson()
+    print("-------------Procesando archivos de cierres de caja...")
     pathCashClosingInfo=os.path.join(paths.folderProyect,r"src\target\CashClosingInfo.json")
-    print(pathCashClosingInfo)
+    #print(pathCashClosingInfo)
     with open(pathCashClosingInfo,"r") as json_file:
         data = json.load(json_file)
     global billst,checkstable,bankTransferstable,coinssTable,vouchersTable,qrsTable,cuoponsTable,diferencessTable,summariesTable
@@ -638,7 +638,7 @@ def scrapCierresDeCaja():
                 data['data'][i]["xlsFilesList"][j]["distributionType"]=vd["distributionType"]
                 data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
                 data['data'][i]["xlsFilesList"][j]["data"]=vd["data"]
-                print(row['Código'])
+                #print(row['Código'])
             #except:
                 #pass
 
@@ -667,8 +667,8 @@ def scrapCierresDeCaja():
     df_summaries.to_csv(os.path.join(get_tables_path(),"summariesTable.csv"),index=False,sep=";")
 
     normalizeTable()
-    print("SCRAP CIERRES DE CAJA TERMINADO")
-    with open(r'src\target\FullExcelData.json', 'w') as outfile:
+    print("-------------Proceso de archivos de cierres de caja terminado")
+    with open(paths.FullExcelDataJson, 'w') as outfile:
         json.dump(data, outfile,indent=4)
 if __name__ == "__main__":
     scrapCierresDeCaja()

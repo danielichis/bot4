@@ -9,10 +9,10 @@ from openpyxl import load_workbook
 from utils import concat_dfs,concat_dfs2
 paths=pathsProyect()
 def getMatrixAg():
-    #read FullExcelData.json
+    print("Procesando archivo final...")
     jsonExcelDataPath=os.path.join(paths.folderProyect,'src','target','FullExcelData.json')
     
-    print(jsonExcelDataPath)
+    #print(jsonExcelDataPath)
     with open(jsonExcelDataPath) as json_data:
         data = json.load(json_data)
     matrixList=[]
@@ -118,24 +118,23 @@ def get_SgvData(item):
 
 def get_SgvCashOut(cashOutInfo,ccobTable,fechaSgvSaliE):
     totalCashOut=sum([float(str(x['TotalBsCash_CcajConsol']).replace(",","")) for x in ccobTable])
-
+    totalCashOut=round(totalCashOut,4)
     sgvCashOut={
     "fecha de salida_SgvSaliE":"info no encontrada",
     "monto de salida_SgvSaliE":"info no encontrada",
     }
-    for cashOut in cashOutInfo:
-        if cashOut['Total Bs.']==totalCashOut:
-            fechaSgvCcaj=cashOut['Fecha']
-            #get object
-            dateObjec1=datetime.strptime(fechaSgvCcaj, '%d/%m/%Y %H:%M:%S')
-            fechaSgvCcaj=dateObjec1.strftime('%d/%m/%Y')
-            sgvCashOut['fecha de salida_SgvSaliE']=cashOut['Fecha_CcajConsol']
-            sgvCashOut['monto de salida_SgvSaliE']=cashOut['TotalBsCash_CcajConsol']
-            if fechaSgvCcaj==fechaSgvSaliE:
-                pass
-            else:
-                print("sin coincidencia de fechas")
-            break
+    cashOutsAmounts=[round(float(cashOut['Total Bs.'].replace(",","")),4) for cashOut in cashOutInfo]
+    if totalCashOut in cashOutsAmounts:
+        fechaSgvCcaj=cashOutInfo[cashOutsAmounts.index(totalCashOut)]['Fecha']
+        #get object
+        dateObjec1=datetime.strptime(fechaSgvCcaj, '%d/%m/%Y %H:%M:%S')
+        fechaSgvCcaj=dateObjec1.strftime('%d/%m/%Y')
+        sgvCashOut['fecha de salida_SgvSaliE']=cashOutInfo[cashOutsAmounts.index(totalCashOut)]['Fecha']
+        sgvCashOut['monto de salida_SgvSaliE']=cashOutInfo[cashOutsAmounts.index(totalCashOut)]['Total Bs.']
+        if fechaSgvCcaj==fechaSgvSaliE:
+            pass
+        else:
+            print("sin coincidencia de fechas")
 
     return sgvCashOut
 def get_CcajRecuentoTransf(CcobCobInfo,item):
@@ -364,10 +363,10 @@ def getMatrixDist():
                         **deepRow,
                     }
                     matrixList.append(finalDict)
-                    print(cobRow)
-                    print("\n")
+                    #print(cobRow)
+                    #print("\n")
     df_Distfinal=pd.DataFrame(matrixList)
-    df_Distfinal.to_csv(os.path.join(paths.folderProyect,'Tablas',"finalMatrixDist2.csv"),index=False,sep=";")            
+    #df_Distfinal.to_csv(os.path.join(paths.folderProyect,'Tablas',"finalMatrixDist2.csv"),index=False,sep=";")            
     return df_Distfinal
     #print(pd.DataFrame(concatTable))            
     #concatTable.to_csv(os.path.join(paths.folderProyect,'Tablas',"finalMatrixDist.csv"),index=False,sep=";")
@@ -376,13 +375,12 @@ def makeFinalTemplate():
     df_Distfinal=getMatrixDist()
     df_Agfinal=getMatrixAg()
     pahtTemplate=os.path.join(paths.folderProyect,'Tablas',"plantillaRecaudadora.xlsx")
-    namefile="finalTemplate.xlsx"
+    namefile="PlantillaFinal.xlsx"
     pathOutTemplate=os.path.join(paths.folderProyect,'Ouputs',namefile)
     # Leer la plantilla Excel
-    book = load_workbook(pahtTemplate)
+    wb =load_workbook(pahtTemplate)
     writer = pd.ExcelWriter(pathOutTemplate, engine='openpyxl')
-    writer.book = book
-
+    writer.book = wb
     # Escribir el DataFrame en la hoja de la plantilla
     df_Distfinal.to_excel(writer, sheet_name='PT Distribuidora', index=False, startrow=6, header=False)
     df_Agfinal.to_excel(writer, sheet_name='PT Agencia ', index=False, startrow=6, header=False)

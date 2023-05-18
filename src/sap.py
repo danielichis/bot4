@@ -16,7 +16,7 @@ listOfAccounts = []
 pths=pathsProyect()
 
 def superTable(configData):
-    
+    print("Descargando informacion de SAP...")
     SAPinfoPath = os.path.join(pths.folderProyect, "SAPinfo")
     # currentPathParentFolder = Path(currenPath).parent
     sapLogin = configData['SapLogin']           
@@ -192,13 +192,13 @@ def insertDataToJsonAg(configData):
                             if sapinfo:
                                 file['data']['bankTransferTable'][i]["SapInfo"]=sapinfo
                             else:
-                                print(rowt['AmountTransfer'])
-                                print("no se encontro con doble coincidencia en sap")
+                                #print(rowt['AmountTransfer'])
+                                #print("no se encontro con doble coincidencia en sap")
                                 sapinfo=searchInsapInfoFull(rowt,valuesSAp)
                                 if sapinfo:
                                     file['data']['bankTransferTable'][i]["SapInfo"]=sapinfo
                                 else:
-                                    print("no se encontro con coincidencia simple en sap")
+                                    #print("no se encontro con coincidencia simple en sap")
                                     file['data']['bankTransferTable'][i]["SapInfo"]={}
     with open(os.path.join(currentPath,"src","target","FinalDataToExcel.json"), "w") as write_file:
         json.dump(data, write_file, indent=4)
