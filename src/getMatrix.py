@@ -382,8 +382,9 @@ def makeFinalTemplate():
     writer = pd.ExcelWriter(pathOutTemplate, engine='openpyxl')
     writer.book = wb
     # Escribir el DataFrame en la hoja de la plantilla
-    df_Distfinal.to_excel(writer, sheet_name='PT Distribuidora', index=False, startrow=6, header=False)
     df_Agfinal.to_excel(writer, sheet_name='PT Agencia ', index=False, startrow=6, header=False)
+    df_Distfinal.to_excel(writer, sheet_name='PT Distribuidora', index=False, startrow=6, header=False)
+    
     # Guardar los cambios en el nuevo archivo Excel
     writer.close()
     pass

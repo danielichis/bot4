@@ -1,24 +1,24 @@
 {
     "data": [
         {
-            "C\u00f3digo": "57300",
-            "Recibo": "CCAJ-PN62/111/2023",
-            "Fecha": "17/05/2023",
-            "Fecha de Cierre": "17/05/2023",
-            "Total (Bs.)": "19,331.50",
-            "Fondo (Bs.)": "0.00",
+            "C\u00f3digo": "57345",
+            "Recibo": "CCAJ-LP07/112/23",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "8,484.19",
+            "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "ROBIN HASSAN - CAJA",
+            "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
             "Auditado Por": "",
-            "Acciones": "distribuidora",
+            "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57300_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57345_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57300_arceoCajaBs_dist",
+                    "name": "LA PAZ_57345_arceoCajaBs_ag",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57300_arceoCajaBs_dist.xlsx",
-                    "distributionType": "distribuidora",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57345_arceoCajaBs_ag.xlsx",
+                    "distributionType": "agencia",
                     "moneyType": "Bs",
                     "data": {
                         "billTable": [
@@ -29,35 +29,721 @@
                             },
                             {
                                 "billValue": "100",
-                                "billQuantity": "32",
-                                "AmountBill": "3,200.00"
+                                "billQuantity": "26",
+                                "AmountBill": "2,600.00"
                             },
                             {
                                 "billValue": "50",
-                                "billQuantity": "133",
-                                "AmountBill": "6,650.00"
+                                "billQuantity": "24",
+                                "AmountBill": "1,200.00"
                             },
                             {
                                 "billValue": "20",
-                                "billQuantity": "231",
-                                "AmountBill": "4,620.00"
+                                "billQuantity": "18",
+                                "AmountBill": "360.00"
                             },
                             {
                                 "billValue": "10",
-                                "billQuantity": "330",
-                                "AmountBill": "3,300.00"
+                                "billQuantity": "37",
+                                "AmountBill": "370.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
-                                "coinQuantity": "38",
-                                "AmountCoin": "190.00"
+                                "coinQuantity": "115",
+                                "AmountCoin": "575.00"
                             },
                             {
                                 "coinValue": "2",
-                                "coinQuantity": "31",
-                                "AmountCoin": "62.00"
+                                "coinQuantity": "225",
+                                "AmountCoin": "450.00"
+                            },
+                            {
+                                "coinValue": "1",
+                                "coinQuantity": "109",
+                                "AmountCoin": "109.00"
+                            },
+                            {
+                                "coinValue": "0.50",
+                                "coinQuantity": "40",
+                                "AmountCoin": "20.00"
+                            },
+                            {
+                                "coinValue": "0.20",
+                                "coinQuantity": "162",
+                                "AmountCoin": "32.40"
+                            },
+                            {
+                                "coinValue": "0.10",
+                                "coinQuantity": "149",
+                                "AmountCoin": "14.90"
+                            }
+                        ],
+                        "voucherTable": [
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "002082",
+                                "NroClientVoucher": "4126912 TJ",
+                                "AmountVoucher": 56.32
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "002081",
+                                "NroClientVoucher": "2326007 LP",
+                                "AmountVoucher": 116.05
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "002085",
+                                "NroClientVoucher": "6187916 LP",
+                                "AmountVoucher": 57.2
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "2084",
+                                "NroClientVoucher": "2497311 LP",
+                                "AmountVoucher": 43.74
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "002086",
+                                "NroClientVoucher": "5599584 BE",
+                                "AmountVoucher": 962.17
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "2080",
+                                "NroClientVoucher": "6127630 LP",
+                                "AmountVoucher": 214.55
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "2083",
+                                "NroClientVoucher": "2712965 LP",
+                                "AmountVoucher": 102.86
+                            }
+                        ],
+                        "cuoponTable": [],
+                        "diferencesTable": [
+                            {
+                                "Concept": "Sobrante",
+                                "Motive": "Por diferencia de Precios",
+                                "SubtotalUs": null,
+                                "SubtotalBs": "(0.04)",
+                                "TotalBs": "(0.04)"
+                            }
+                        ],
+                        "ventas": {
+                            "Ventas al Contado": {
+                                "EFECTIVO": 5931.26,
+                                "DOCUMENTOS": 1552.89,
+                                "TOTAL": 7484.15
+                            },
+                            "Ventas al Credito": {
+                                "PERSONAL IVSA": "",
+                                "OTROS": 0,
+                                "TOTAL": 0
+                            },
+                            "TOTALVENTAS": 7484.15
+                        },
+                        "otrosIngresos": {
+                            "totalMEBs": 0,
+                            "totalEfectivoBs": 6931.3,
+                            "fondosCambios": "1,000.00",
+                            "importeDepositarBs": "5,931.30",
+                            "importeDepositarUs": null
+                        }
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57345_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57345_arceoCajaUs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57345_arceoCajaUs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "d\u00f3lar",
+                    "data": {
+                        "billTable": [],
+                        "voucherTable": [],
+                        "qrTable": []
+                    }
+                }
+            ],
+            "Recaudadora": "LA PAZ"
+        },
+        {
+            "C\u00f3digo": "57343",
+            "Recibo": "CCAJ-LP01/220/23",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "4,631.20",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "ABEL URBANO ALARCON ARROYO",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57343_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57343_arceoCajaBs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57343_arceoCajaBs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "Bs",
+                    "data": {
+                        "billTable": [
+                            {
+                                "billValue": "200",
+                                "billQuantity": "5",
+                                "AmountBill": "1,000.00"
+                            },
+                            {
+                                "billValue": "100",
+                                "billQuantity": "11",
+                                "AmountBill": "1,100.00"
+                            },
+                            {
+                                "billValue": "50",
+                                "billQuantity": "25",
+                                "AmountBill": "1,250.00"
+                            },
+                            {
+                                "billValue": "20",
+                                "billQuantity": "26",
+                                "AmountBill": "520.00"
+                            },
+                            {
+                                "billValue": "10",
+                                "billQuantity": "13",
+                                "AmountBill": "130.00"
+                            }
+                        ],
+                        "coinsTable": [
+                            {
+                                "coinValue": "5",
+                                "coinQuantity": "48",
+                                "AmountCoin": "240.00"
+                            },
+                            {
+                                "coinValue": "2",
+                                "coinQuantity": "111",
+                                "AmountCoin": "222.00"
+                            },
+                            {
+                                "coinValue": "1",
+                                "coinQuantity": "121",
+                                "AmountCoin": "121.00"
+                            },
+                            {
+                                "coinValue": "0.50",
+                                "coinQuantity": "55",
+                                "AmountCoin": "27.50"
+                            },
+                            {
+                                "coinValue": "0.20",
+                                "coinQuantity": "74",
+                                "AmountCoin": "14.80"
+                            },
+                            {
+                                "coinValue": "0.10",
+                                "coinQuantity": "59",
+                                "AmountCoin": "5.90"
+                            }
+                        ],
+                        "voucherTable": [],
+                        "cuoponTable": [],
+                        "diferencesTable": [
+                            {
+                                "Concept": "Sobrante",
+                                "Motive": "Por diferencia de Precios",
+                                "SubtotalUs": null,
+                                "SubtotalBs": "(0.08)",
+                                "TotalBs": "(0.08)"
+                            }
+                        ],
+                        "ventas": {
+                            "Ventas al Contado": {
+                                "EFECTIVO": 3631.12,
+                                "DOCUMENTOS": 0,
+                                "TOTAL": 3631.12
+                            },
+                            "Ventas al Credito": {
+                                "PERSONAL IVSA": "",
+                                "OTROS": 0,
+                                "TOTAL": 428.46
+                            },
+                            "TOTALVENTAS": 4059.58
+                        },
+                        "otrosIngresos": {
+                            "totalMEBs": 0,
+                            "totalEfectivoBs": 4631.2,
+                            "fondosCambios": "1,000.00",
+                            "importeDepositarBs": "3,631.20",
+                            "importeDepositarUs": null
+                        }
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57343_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57343_arceoCajaUs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57343_arceoCajaUs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "d\u00f3lar",
+                    "data": {
+                        "billTable": [],
+                        "voucherTable": [],
+                        "qrTable": []
+                    }
+                }
+            ],
+            "Recaudadora": "LA PAZ"
+        },
+        {
+            "C\u00f3digo": "57342",
+            "Recibo": "CCAJ-LP08/113/23",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "6,750.90",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "IBANA SOLIZ CUENTAS",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57342_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57342_arceoCajaBs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57342_arceoCajaBs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "Bs",
+                    "data": {
+                        "billTable": [
+                            {
+                                "billValue": "100",
+                                "billQuantity": "15",
+                                "AmountBill": "1,500.00"
+                            },
+                            {
+                                "billValue": "50",
+                                "billQuantity": "13",
+                                "AmountBill": "650.00"
+                            },
+                            {
+                                "billValue": "20",
+                                "billQuantity": "50",
+                                "AmountBill": "1,000.00"
+                            },
+                            {
+                                "billValue": "10",
+                                "billQuantity": "61",
+                                "AmountBill": "610.00"
+                            }
+                        ],
+                        "coinsTable": [
+                            {
+                                "coinValue": "5",
+                                "coinQuantity": "85",
+                                "AmountCoin": "425.00"
+                            },
+                            {
+                                "coinValue": "2",
+                                "coinQuantity": "75",
+                                "AmountCoin": "150.00"
+                            },
+                            {
+                                "coinValue": "1",
+                                "coinQuantity": "146",
+                                "AmountCoin": "146.00"
+                            },
+                            {
+                                "coinValue": "0.50",
+                                "coinQuantity": "150",
+                                "AmountCoin": "75.00"
+                            },
+                            {
+                                "coinValue": "0.20",
+                                "coinQuantity": "263",
+                                "AmountCoin": "52.60"
+                            },
+                            {
+                                "coinValue": "0.10",
+                                "coinQuantity": "224",
+                                "AmountCoin": "22.40"
+                            }
+                        ],
+                        "voucherTable": [
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007866",
+                                "NroClientVoucher": "298680 LP",
+                                "AmountVoucher": 374.97
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007871",
+                                "NroClientVoucher": "59163260 LP",
+                                "AmountVoucher": 70.95
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007873",
+                                "NroClientVoucher": "2346716 LP",
+                                "AmountVoucher": 232.46
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007875",
+                                "NroClientVoucher": "2056790 LP",
+                                "AmountVoucher": 38
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007872",
+                                "NroClientVoucher": "3329960 LP",
+                                "AmountVoucher": 49
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007874",
+                                "NroClientVoucher": "6964814 LP",
+                                "AmountVoucher": 15.95
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007876",
+                                "NroClientVoucher": "2448107 LP",
+                                "AmountVoucher": 27.34
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007869",
+                                "NroClientVoucher": "5943362 LP",
+                                "AmountVoucher": 30.26
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007864",
+                                "NroClientVoucher": "5051034 LP",
+                                "AmountVoucher": 370.34
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007867",
+                                "NroClientVoucher": "298680 LP",
+                                "AmountVoucher": 22
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007868",
+                                "NroClientVoucher": "2603419 LP",
+                                "AmountVoucher": 355.1
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007877",
+                                "NroClientVoucher": "4310428 LP",
+                                "AmountVoucher": 37.64
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007880",
+                                "NroClientVoucher": "8431175 LP",
+                                "AmountVoucher": 98.45
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007881",
+                                "NroClientVoucher": "2301186 LP",
+                                "AmountVoucher": 77.55
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007878",
+                                "NroClientVoucher": "3383311 LP",
+                                "AmountVoucher": 70.07
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007879",
+                                "NroClientVoucher": "431441 LP",
+                                "AmountVoucher": 83.6
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007882",
+                                "NroClientVoucher": "4791952 LP",
+                                "AmountVoucher": 55.12
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "007883",
+                                "NroClientVoucher": "2475295 LP",
+                                "AmountVoucher": 111.1
+                            }
+                        ],
+                        "cuoponTable": [],
+                        "diferencesTable": [
+                            {
+                                "Concept": "Sobrante",
+                                "Motive": "Por diferencia de Precios",
+                                "SubtotalUs": null,
+                                "SubtotalBs": "(0.06)",
+                                "TotalBs": "(0.06)"
+                            }
+                        ],
+                        "ventas": {
+                            "Ventas al Contado": {
+                                "EFECTIVO": 3630.94,
+                                "DOCUMENTOS": 2119.9,
+                                "TOTAL": 5750.84
+                            },
+                            "Ventas al Credito": {
+                                "PERSONAL IVSA": "",
+                                "OTROS": 0,
+                                "TOTAL": 0
+                            },
+                            "TOTALVENTAS": 5750.84
+                        },
+                        "otrosIngresos": {
+                            "totalMEBs": 0,
+                            "totalEfectivoBs": 4631,
+                            "fondosCambios": "1,000.00",
+                            "importeDepositarBs": "3,631.00",
+                            "importeDepositarUs": null
+                        }
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57342_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57342_arceoCajaUs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57342_arceoCajaUs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "d\u00f3lar",
+                    "data": {
+                        "billTable": [],
+                        "voucherTable": [],
+                        "qrTable": []
+                    }
+                }
+            ],
+            "Recaudadora": "LA PAZ"
+        },
+        {
+            "C\u00f3digo": "57339",
+            "Recibo": "CCAJ-LP01/219/23",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "6,291.01",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57339_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57339_arceoCajaBs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57339_arceoCajaBs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "Bs",
+                    "data": {
+                        "billTable": [
+                            {
+                                "billValue": "200",
+                                "billQuantity": "2",
+                                "AmountBill": "400.00"
+                            },
+                            {
+                                "billValue": "100",
+                                "billQuantity": "27",
+                                "AmountBill": "2,700.00"
+                            },
+                            {
+                                "billValue": "50",
+                                "billQuantity": "30",
+                                "AmountBill": "1,500.00"
+                            },
+                            {
+                                "billValue": "20",
+                                "billQuantity": "30",
+                                "AmountBill": "600.00"
+                            },
+                            {
+                                "billValue": "10",
+                                "billQuantity": "11",
+                                "AmountBill": "110.00"
+                            }
+                        ],
+                        "coinsTable": [
+                            {
+                                "coinValue": "5",
+                                "coinQuantity": "77",
+                                "AmountCoin": "385.00"
+                            },
+                            {
+                                "coinValue": "2",
+                                "coinQuantity": "60",
+                                "AmountCoin": "120.00"
+                            },
+                            {
+                                "coinValue": "1",
+                                "coinQuantity": "122",
+                                "AmountCoin": "122.00"
+                            },
+                            {
+                                "coinValue": "0.50",
+                                "coinQuantity": "29",
+                                "AmountCoin": "14.50"
+                            },
+                            {
+                                "coinValue": "0.20",
+                                "coinQuantity": "57",
+                                "AmountCoin": "11.40"
+                            },
+                            {
+                                "coinValue": "0.10",
+                                "coinQuantity": "8",
+                                "AmountCoin": "0.80"
+                            }
+                        ],
+                        "voucherTable": [
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "001286",
+                                "NroClientVoucher": "4773199LP",
+                                "AmountVoucher": 38
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "001287",
+                                "NroClientVoucher": "3468367LP",
+                                "AmountVoucher": 167.31
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "001288",
+                                "NroClientVoucher": "3476659LP",
+                                "AmountVoucher": 122
+                            }
+                        ],
+                        "cuoponTable": [],
+                        "diferencesTable": [
+                            {
+                                "Concept": "Sobrante",
+                                "Motive": "Por diferencia de Precios",
+                                "SubtotalUs": null,
+                                "SubtotalBs": "(0.04)",
+                                "TotalBs": "(0.04)"
+                            }
+                        ],
+                        "ventas": {
+                            "Ventas al Contado": {
+                                "EFECTIVO": 4963.66,
+                                "DOCUMENTOS": 327.31,
+                                "TOTAL": 5290.97
+                            },
+                            "Ventas al Credito": {
+                                "PERSONAL IVSA": "",
+                                "OTROS": 0,
+                                "TOTAL": 0
+                            },
+                            "TOTALVENTAS": 5290.97
+                        },
+                        "otrosIngresos": {
+                            "totalMEBs": 0,
+                            "totalEfectivoBs": 5963.7,
+                            "fondosCambios": "1,000.00",
+                            "importeDepositarBs": "4,963.70",
+                            "importeDepositarUs": null
+                        }
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57339_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57339_arceoCajaUs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57339_arceoCajaUs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "d\u00f3lar",
+                    "data": {
+                        "billTable": [],
+                        "voucherTable": [],
+                        "qrTable": []
+                    }
+                }
+            ],
+            "Recaudadora": "LA PAZ"
+        },
+        {
+            "C\u00f3digo": "57332",
+            "Recibo": "CCAJ-LP02/214/2023",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "182,870.50",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57332_arceoCajaBs_dist.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57332_arceoCajaBs_dist",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57332_arceoCajaBs_dist.xlsx",
+                    "distributionType": "distribuidora",
+                    "moneyType": "Bs",
+                    "data": {
+                        "billTable": [
+                            {
+                                "billValue": "200",
+                                "billQuantity": "13",
+                                "AmountBill": "2,600.00"
+                            },
+                            {
+                                "billValue": "100",
+                                "billQuantity": "216",
+                                "AmountBill": "21,600.00"
+                            },
+                            {
+                                "billValue": "50",
+                                "billQuantity": "55",
+                                "AmountBill": "2,750.00"
+                            },
+                            {
+                                "billValue": "20",
+                                "billQuantity": "107",
+                                "AmountBill": "2,140.00"
+                            },
+                            {
+                                "billValue": "10",
+                                "billQuantity": "92",
+                                "AmountBill": "920.00"
+                            }
+                        ],
+                        "coinsTable": [
+                            {
+                                "coinValue": "5",
+                                "coinQuantity": "16",
+                                "AmountCoin": "80.00"
+                            },
+                            {
+                                "coinValue": "2",
+                                "coinQuantity": null,
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "1",
@@ -66,30 +752,392 @@
                             },
                             {
                                 "coinValue": "0.50",
-                                "coinQuantity": "63",
-                                "AmountCoin": "31.50"
+                                "coinQuantity": null,
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.20",
-                                "coinQuantity": "4",
-                                "AmountCoin": "0.80"
+                                "coinQuantity": null,
+                                "AmountCoin": 0
                             },
                             {
                                 "coinValue": "0.10",
-                                "coinQuantity": "2",
-                                "AmountCoin": "0.20"
+                                "coinQuantity": "5",
+                                "AmountCoin": "0.50"
                             }
                         ],
                         "checkTable": [],
-                        "bankTransferTable": []
+                        "bankTransferTable": [
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45163495939",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 2400.82,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "2.400,82",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "344,95",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45133411239",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 9,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "9,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "1,29",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45113568830",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 3963.16,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "3.963,16",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "569,42",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "884537",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 33960.6,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "33.960,60",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "4.879,40",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "884536",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 9559.48,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "9.559,48",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "1.373,49",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "884535",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 352,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "352,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "50,57",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "884534",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 837.2,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "837,20",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "120,29",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "51168018549",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 5720,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "5.720,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "821,84",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "150436",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 8747.3,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "8.747,30",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "1.256,80",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "484328",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 22205.6,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "22.205,60",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "3.190,46",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45163495881",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 239.05,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "239,05",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "34,35",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45113557934",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 60901.06,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "60.901,06",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "8.750,15",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45133411886",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 344,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "344,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "49,43",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45153405563",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 671,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "671,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "96,41",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45173467939",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 44.1,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "44,10",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "6,34",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "51118140297",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 521.5,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "521,50",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "74,93",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45143769544",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 548,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "548,00",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "78,74",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044012
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "45163497916",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 713.45,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "713,45",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "102,51",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044032
+                                }
+                            },
+                            {
+                                "DateTransfer": "18/05/2023",
+                                "DocumentNumberTransfer": "451634979161",
+                                "BankTransfer": "BANCO INDUSTRIAL",
+                                "AmountTransfer": 965.68,
+                                "SapInfo": {
+                                    "St": "CCAJ-LP02/214/20",
+                                    "N\u00ba doc.": 113310409,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "965,68",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "138,75",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044032
+                                }
+                            }
+                        ]
                     }
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57300_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57332_arceoCajaUs_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57300_arceoCajaUs_dist",
+                    "name": "LA PAZ_57332_arceoCajaUs_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57300_arceoCajaUs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57332_arceoCajaUs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -99,141 +1147,225 @@
                     }
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57300_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57332_firstExcel_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57300_firstExcel_dist",
+                    "name": "LA PAZ_57332_firstExcel_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57300_firstExcel_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57332_firstExcel_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "other",
                     "data": {
                         "summaryTable": [
                             {
-                                "Code_CcajConsol": "4802",
-                                "Checker_CcajConsol": "BENJAMIN QUISBERTH - T01",
-                                "FechaRend_CcajConsol": "17/05/2023",
-                                "FechaRecibo_CcajConsol": "17/05/2023",
-                                "NroRecibo_CcajConsol": "CCOB-PN62/201/2023",
+                                "Code_CcajConsol": "4276",
+                                "Checker_CcajConsol": "CARLOS MARCELO REQUENA TERAN",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2181/2023",
                                 "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 4193.9,
+                                "BsCash_CcajConsol": 0,
                                 "UsCheck_CcajConsol": 0,
                                 "BsCheck_CcajConsol": 0,
                                 "TotalUsCash_CcajConsol": 0,
                                 "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 4193.9,
+                                "TotalBsCash_CcajConsol": 0,
                                 "TransferUs_CcajConsol": 0,
                                 "TransferEqBs_CcajConsol": 0,
-                                "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 4193.9,
+                                "TransferBs_CcajConsol": 22205.6,
+                                "TotalBs_CcajConsol": 22205.6,
                                 "TotalUs_CcajConsol": 0,
                                 "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 4193.9
+                                "TotalCcajConsol": 22205.6
                             },
                             {
-                                "Code_CcajConsol": "4627",
-                                "Checker_CcajConsol": "ROBIN HASSAN - COBRANZAS",
-                                "FechaRend_CcajConsol": "17/05/2023",
-                                "FechaRecibo_CcajConsol": "17/05/2023",
-                                "NroRecibo_CcajConsol": "CCOB-PN62/200/2023",
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T03",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2180/2023",
                                 "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 15137.6,
+                                "BsCash_CcajConsol": 8139.4,
                                 "UsCheck_CcajConsol": 0,
                                 "BsCheck_CcajConsol": 0,
                                 "TotalUsCash_CcajConsol": 0,
                                 "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 15137.6,
+                                "TotalBsCash_CcajConsol": 8139.4,
                                 "TransferUs_CcajConsol": 0,
                                 "TransferEqBs_CcajConsol": 0,
                                 "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 15137.6,
+                                "TotalBs_CcajConsol": 8139.4,
                                 "TotalUs_CcajConsol": 0,
                                 "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 15137.6
+                                "TotalCcajConsol": 8139.4
+                            },
+                            {
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T06",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2182/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 21094.7,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 21094.7,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 21094.7,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 21094.7
+                            },
+                            {
+                                "Code_CcajConsol": "4190",
+                                "Checker_CcajConsol": "JESUS FELCY MENDOZA CAHUANA",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2184/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 0,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 0,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 51082.26,
+                                "TotalBs_CcajConsol": 51082.26,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 51082.26
+                            },
+                            {
+                                "Code_CcajConsol": "5103",
+                                "Checker_CcajConsol": "JOSE LUIS VARGAS SANTOS",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2185/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 0,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 0,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 14467.3,
+                                "TotalBs_CcajConsol": 14467.3,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 14467.3
+                            },
+                            {
+                                "Code_CcajConsol": "2464",
+                                "Checker_CcajConsol": "LUIS FERNANDO GUEVARA PECA",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2183/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 933.4,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 933.4,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 64947.84,
+                                "TotalBs_CcajConsol": 65881.24,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 65881.24
                             }
                         ]
                     }
                 }
             ],
-            "Recaudadora": "PANDO"
+            "Recaudadora": "LA PAZ"
         },
         {
-            "C\u00f3digo": "57265",
-            "Recibo": "CCAJ-PN62/110/2023",
-            "Fecha": "16/05/2023",
-            "Fecha de Cierre": "16/05/2023",
-            "Total (Bs.)": "11,566.50",
+            "C\u00f3digo": "57325",
+            "Recibo": "CCAJ-LP02/213/2023",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "191,786.20",
             "Fondo (Bs.)": "0.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "ROBIN HASSAN - CAJA",
+            "Cajero": "RIBANA RUTH REA RUEDA",
             "Auditado Por": "",
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57265_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57325_arceoCajaBs_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57265_arceoCajaBs_dist",
+                    "name": "LA PAZ_57325_arceoCajaBs_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57265_arceoCajaBs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57325_arceoCajaBs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "Bs",
                     "data": {
                         "billTable": [
                             {
                                 "billValue": "200",
-                                "billQuantity": "8",
-                                "AmountBill": "1,600.00"
+                                "billQuantity": "79",
+                                "AmountBill": "15,800.00"
                             },
                             {
                                 "billValue": "100",
-                                "billQuantity": "49",
-                                "AmountBill": "4,900.00"
+                                "billQuantity": "882",
+                                "AmountBill": "88,200.00"
                             },
                             {
                                 "billValue": "50",
-                                "billQuantity": "43",
-                                "AmountBill": "2,150.00"
+                                "billQuantity": "772",
+                                "AmountBill": "38,600.00"
                             },
                             {
                                 "billValue": "20",
-                                "billQuantity": "97",
-                                "AmountBill": "1,940.00"
+                                "billQuantity": "1534",
+                                "AmountBill": "30,680.00"
                             },
                             {
                                 "billValue": "10",
-                                "billQuantity": "94",
-                                "AmountBill": "940.00"
+                                "billQuantity": "1346",
+                                "AmountBill": "13,460.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
-                                "coinQuantity": "5",
-                                "AmountCoin": "25.00"
+                                "coinQuantity": "510",
+                                "AmountCoin": "2,550.00"
                             },
                             {
                                 "coinValue": "2",
-                                "coinQuantity": "5",
-                                "AmountCoin": "10.00"
+                                "coinQuantity": "565",
+                                "AmountCoin": "1,130.00"
                             },
                             {
                                 "coinValue": "1",
-                                "coinQuantity": "1",
-                                "AmountCoin": "1.00"
+                                "coinQuantity": "1119",
+                                "AmountCoin": "1,119.00"
                             },
                             {
                                 "coinValue": "0.50",
-                                "coinQuantity": "1",
-                                "AmountCoin": "0.50"
+                                "coinQuantity": "307",
+                                "AmountCoin": "153.50"
                             },
                             {
                                 "coinValue": "0.20",
-                                "coinQuantity": null,
-                                "AmountCoin": 0
+                                "coinQuantity": "398",
+                                "AmountCoin": "79.60"
                             },
                             {
                                 "coinValue": "0.10",
-                                "coinQuantity": null,
-                                "AmountCoin": 0
+                                "coinQuantity": "141",
+                                "AmountCoin": "14.10"
                             }
                         ],
                         "checkTable": [],
@@ -241,11 +1373,11 @@
                     }
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57265_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57325_arceoCajaUs_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57265_arceoCajaUs_dist",
+                    "name": "LA PAZ_57325_arceoCajaUs_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57265_arceoCajaUs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57325_arceoCajaUs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -255,148 +1387,505 @@
                     }
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57265_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57325_firstExcel_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57265_firstExcel_dist",
+                    "name": "LA PAZ_57325_firstExcel_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57265_firstExcel_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57325_firstExcel_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "other",
                     "data": {
                         "summaryTable": [
                             {
-                                "Code_CcajConsol": "4802",
-                                "Checker_CcajConsol": "BENJAMIN QUISBERTH - T01",
-                                "FechaRend_CcajConsol": "16/05/2023",
-                                "FechaRecibo_CcajConsol": "16/05/2023",
-                                "NroRecibo_CcajConsol": "CCOB-PN62/199/2023",
+                                "Code_CcajConsol": "304",
+                                "Checker_CcajConsol": "ALFREDO MENDOZA APAZA",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2174/2023",
                                 "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 4027.5,
+                                "BsCash_CcajConsol": 9568.4,
                                 "UsCheck_CcajConsol": 0,
                                 "BsCheck_CcajConsol": 0,
                                 "TotalUsCash_CcajConsol": 0,
                                 "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 4027.5,
+                                "TotalBsCash_CcajConsol": 9568.4,
                                 "TransferUs_CcajConsol": 0,
                                 "TransferEqBs_CcajConsol": 0,
                                 "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 4027.5,
+                                "TotalBs_CcajConsol": 9568.4,
                                 "TotalUs_CcajConsol": 0,
                                 "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 4027.5
+                                "TotalCcajConsol": 9568.4
                             },
                             {
-                                "Code_CcajConsol": "4627",
-                                "Checker_CcajConsol": "ROBIN HASSAN - COBRANZAS",
-                                "FechaRend_CcajConsol": "16/05/2023",
-                                "FechaRecibo_CcajConsol": "16/05/2023",
-                                "NroRecibo_CcajConsol": "CCOB-PN62/198/2023",
+                                "Code_CcajConsol": "331",
+                                "Checker_CcajConsol": "CARLOS ALFREDO GUTIERREZ HUANCA",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2167/2023",
                                 "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 7539,
+                                "BsCash_CcajConsol": 18095,
                                 "UsCheck_CcajConsol": 0,
                                 "BsCheck_CcajConsol": 0,
                                 "TotalUsCash_CcajConsol": 0,
                                 "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 7539,
+                                "TotalBsCash_CcajConsol": 18095,
                                 "TransferUs_CcajConsol": 0,
                                 "TransferEqBs_CcajConsol": 0,
                                 "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 7539,
+                                "TotalBs_CcajConsol": 18095,
                                 "TotalUs_CcajConsol": 0,
                                 "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 7539
+                                "TotalCcajConsol": 18095
+                            },
+                            {
+                                "Code_CcajConsol": "883",
+                                "Checker_CcajConsol": "FRANKLIN CARDOZO RIVERA",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2168/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 10715.6,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 10715.6,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 10715.6,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 10715.6
+                            },
+                            {
+                                "Code_CcajConsol": "584",
+                                "Checker_CcajConsol": "FREDDY FEDERICO FLORES MARIN",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2169/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 21251,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 21251,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 21251,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 21251
+                            },
+                            {
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T01",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2165/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 12144.6,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 12144.6,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 12144.6,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 12144.6
+                            },
+                            {
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T02",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2179/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 9803.9,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 9803.9,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 9803.9,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 9803.9
+                            },
+                            {
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T03",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2170/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 12410.7,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 12410.7,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 12410.7,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 12410.7
+                            },
+                            {
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T04",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2166/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 9831.3,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 9831.3,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 9831.3,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 9831.3
+                            },
+                            {
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T05",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2173/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 8272.5,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 8272.5,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 8272.5,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 8272.5
+                            },
+                            {
+                                "Code_CcajConsol": "5092",
+                                "Checker_CcajConsol": "GERSON VELASCO LP - T06",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2178/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 5909.9,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 5909.9,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 5909.9,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 5909.9
+                            },
+                            {
+                                "Code_CcajConsol": "108",
+                                "Checker_CcajConsol": "GREGORIO RAMIREZ APAZA",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2176/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 11308.9,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 11308.9,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 11308.9,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 11308.9
+                            },
+                            {
+                                "Code_CcajConsol": "1180",
+                                "Checker_CcajConsol": "JAIME RAMIRO CHACON PAREDES",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2164/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 21396.1,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 21396.1,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 21396.1,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 21396.1
+                            },
+                            {
+                                "Code_CcajConsol": "3052",
+                                "Checker_CcajConsol": "JUAN JOSE MACHACA TORREZ",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2177/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 13493.4,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 13493.4,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 13493.4,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 13493.4
+                            },
+                            {
+                                "Code_CcajConsol": "136",
+                                "Checker_CcajConsol": "OSCAR REYNALDO LIMACHI SURCO",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2175/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 6425.9,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 6425.9,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 6425.9,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 6425.9
+                            },
+                            {
+                                "Code_CcajConsol": "266",
+                                "Checker_CcajConsol": "SANTIAGO MACHACA CALCINA",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2171/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 5479.7,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 5479.7,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 5479.7,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 5479.7
+                            },
+                            {
+                                "Code_CcajConsol": "1116",
+                                "Checker_CcajConsol": "VLADIMIR FRANZ ATAHUACHI RODRIGUEZ",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-LP02/2172/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 15679.3,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 15679.3,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 15679.3,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 15679.3
                             }
                         ]
                     }
                 }
             ],
-            "Recaudadora": "PANDO"
+            "Recaudadora": "LA PAZ"
         },
         {
-            "C\u00f3digo": "57235",
-            "Recibo": "CCAJ-PN62/109/2023",
-            "Fecha": "15/05/2023",
-            "Fecha de Cierre": "15/05/2023",
-            "Total (Bs.)": "10,655.40",
+            "C\u00f3digo": "57340",
+            "Recibo": "CCAJ-TA43/115/2023",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "141,333.42",
             "Fondo (Bs.)": "0.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "ROBIN HASSAN - CAJA",
+            "Cajero": "NELVI JUANITA ROMERO CASTILLO",
             "Auditado Por": "",
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57235_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57340_arceoCajaBs_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57235_arceoCajaBs_dist",
+                    "name": "TARIJA_57340_arceoCajaBs_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57235_arceoCajaBs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57340_arceoCajaBs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "Bs",
                     "data": {
                         "billTable": [
                             {
+                                "billValue": "200",
+                                "billQuantity": "81",
+                                "AmountBill": "16,200.00"
+                            },
+                            {
                                 "billValue": "100",
-                                "billQuantity": "5",
-                                "AmountBill": "500.00"
+                                "billQuantity": "482",
+                                "AmountBill": "48,200.00"
                             },
                             {
                                 "billValue": "50",
-                                "billQuantity": "84",
-                                "AmountBill": "4,200.00"
+                                "billQuantity": "515",
+                                "AmountBill": "25,750.00"
                             },
                             {
                                 "billValue": "20",
-                                "billQuantity": "179",
-                                "AmountBill": "3,580.00"
+                                "billQuantity": "1588",
+                                "AmountBill": "31,760.00"
                             },
                             {
                                 "billValue": "10",
-                                "billQuantity": "233",
-                                "AmountBill": "2,330.00"
+                                "billQuantity": "1482",
+                                "AmountBill": "14,820.00"
                             }
                         ],
                         "coinsTable": [
                             {
                                 "coinValue": "5",
-                                "coinQuantity": "9",
-                                "AmountCoin": "45.00"
+                                "coinQuantity": "28",
+                                "AmountCoin": "140.00"
                             },
                             {
                                 "coinValue": "2",
-                                "coinQuantity": null,
-                                "AmountCoin": 0
+                                "coinQuantity": "105",
+                                "AmountCoin": "210.00"
                             },
                             {
                                 "coinValue": "1",
-                                "coinQuantity": null,
-                                "AmountCoin": 0
+                                "coinQuantity": "46",
+                                "AmountCoin": "46.00"
                             },
                             {
                                 "coinValue": "0.50",
-                                "coinQuantity": null,
-                                "AmountCoin": 0
+                                "coinQuantity": "84",
+                                "AmountCoin": "42.00"
                             },
                             {
                                 "coinValue": "0.20",
-                                "coinQuantity": "2",
-                                "AmountCoin": "0.40"
+                                "coinQuantity": "47",
+                                "AmountCoin": "9.40"
                             },
                             {
                                 "coinValue": "0.10",
-                                "coinQuantity": null,
-                                "AmountCoin": 0
+                                "coinQuantity": "16",
+                                "AmountCoin": "1.60"
                             }
                         ],
                         "checkTable": [],
-                        "bankTransferTable": []
+                        "bankTransferTable": [
+                            {
+                                "DateTransfer": "17/05/2023",
+                                "DocumentNumberTransfer": "821562",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 300.96,
+                                "SapInfo": {
+                                    "St": "CCAJ-TA43/115/20",
+                                    "N\u00ba doc.": 113310438,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "300,96",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "43,24",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044072
+                                }
+                            },
+                            {
+                                "DateTransfer": "17/05/2023",
+                                "DocumentNumberTransfer": "5685513",
+                                "BankTransfer": "BANCO UNION",
+                                "AmountTransfer": 2921.5,
+                                "SapInfo": {
+                                    "St": "CCAJ-TA43/115/20",
+                                    "N\u00ba doc.": 113310438,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "2.921,50",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "419,76",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101042022
+                                }
+                            },
+                            {
+                                "DateTransfer": "17/05/2023",
+                                "DocumentNumberTransfer": "814247",
+                                "BankTransfer": "BISA",
+                                "AmountTransfer": 931.96,
+                                "SapInfo": {
+                                    "St": "CCAJ-TA43/115/20",
+                                    "N\u00ba doc.": 113310438,
+                                    "Fecha doc.": "18.05.2023",
+                                    "Fecha.contab": "18.05.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "931,96",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "133,90",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101044072
+                                }
+                            }
+                        ]
                     }
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57235_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57340_arceoCajaUs_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57235_arceoCajaUs_dist",
+                    "name": "TARIJA_57340_arceoCajaUs_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57235_arceoCajaUs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57340_arceoCajaUs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -406,62 +1895,263 @@
                     }
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57235_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57340_firstExcel_dist.xls",
                     "descargado": "OK",
-                    "name": "PANDO_57235_firstExcel_dist",
+                    "name": "TARIJA_57340_firstExcel_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\PANDO_57235_firstExcel_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57340_firstExcel_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "other",
                     "data": {
                         "summaryTable": [
                             {
-                                "Code_CcajConsol": "4802",
-                                "Checker_CcajConsol": "BENJAMIN QUISBERTH - T01",
-                                "FechaRend_CcajConsol": "15/05/2023",
-                                "FechaRecibo_CcajConsol": "15/05/2023",
-                                "NroRecibo_CcajConsol": "CCOB-PN62/197/2023",
-                                "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 1915.4,
-                                "UsCheck_CcajConsol": 0,
-                                "BsCheck_CcajConsol": 0,
-                                "TotalUsCash_CcajConsol": 0,
-                                "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 1915.4,
-                                "TransferUs_CcajConsol": 0,
-                                "TransferEqBs_CcajConsol": 0,
-                                "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 1915.4,
-                                "TotalUs_CcajConsol": 0,
-                                "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 1915.4
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Saldo Anterior",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "73,382.20",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "73,382.20",
+                                "TransferUs_CcajConsol": null,
+                                "TransferEqBs_CcajConsol": null,
+                                "TransferBs_CcajConsol": null,
+                                "TotalBs_CcajConsol": "73,382.20",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "73,382.20"
                             },
                             {
-                                "Code_CcajConsol": "4627",
-                                "Checker_CcajConsol": "ROBIN HASSAN - COBRANZAS",
-                                "FechaRend_CcajConsol": "15/05/2023",
-                                "FechaRecibo_CcajConsol": "15/05/2023",
-                                "NroRecibo_CcajConsol": "CCOB-PN62/196/2023",
+                                "Code_CcajConsol": "2645",
+                                "Checker_CcajConsol": "ANDRES ESTEBAN SINGURI LLANOS",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/534/2023",
                                 "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 8740,
+                                "BsCash_CcajConsol": 28651,
                                 "UsCheck_CcajConsol": 0,
                                 "BsCheck_CcajConsol": 0,
                                 "TotalUsCash_CcajConsol": 0,
                                 "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 8740,
+                                "TotalBsCash_CcajConsol": 28651,
                                 "TransferUs_CcajConsol": 0,
                                 "TransferEqBs_CcajConsol": 0,
                                 "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 8740,
+                                "TotalBs_CcajConsol": 28651,
                                 "TotalUs_CcajConsol": 0,
                                 "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 8740
+                                "TotalCcajConsol": 28651
+                            },
+                            {
+                                "Code_CcajConsol": "2581",
+                                "Checker_CcajConsol": "EDGAR FLORES MARQUEZ",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/532/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 27330.8,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 27330.8,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 2921.5,
+                                "TotalBs_CcajConsol": 30252.3,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 30252.3
+                            },
+                            {
+                                "Code_CcajConsol": "2456",
+                                "Checker_CcajConsol": "JOEL MOISES RUEDA DELGADO",
+                                "FechaRend_CcajConsol": "17/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/533/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 6820.6,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 6820.6,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 1232.92,
+                                "TotalBs_CcajConsol": 8053.52,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 8053.52
+                            },
+                            {
+                                "Code_CcajConsol": "3094",
+                                "Checker_CcajConsol": "SHIRLEY HALSEY JALDIN",
+                                "FechaRend_CcajConsol": "18/05/2023",
+                                "FechaRecibo_CcajConsol": "18/05/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/535/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 994.4,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 994.4,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 994.4,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 994.4
                             }
                         ]
                     }
                 }
             ],
-            "Recaudadora": "PANDO"
+            "Recaudadora": "TARIJA"
+        },
+        {
+            "C\u00f3digo": "57336",
+            "Recibo": "CCAJ-TA06/112/23",
+            "Fecha": "18/05/2023",
+            "Fecha de Cierre": "18/05/2023",
+            "Total (Bs.)": "5,159.69",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "BELZA GUTIERREZ CONDORI",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57336_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57336_arceoCajaBs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57336_arceoCajaBs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "Bs",
+                    "data": {
+                        "billTable": [
+                            {
+                                "billValue": "100",
+                                "billQuantity": "27",
+                                "AmountBill": "2,700.00"
+                            },
+                            {
+                                "billValue": "50",
+                                "billQuantity": "22",
+                                "AmountBill": "1,100.00"
+                            },
+                            {
+                                "billValue": "20",
+                                "billQuantity": "9",
+                                "AmountBill": "180.00"
+                            },
+                            {
+                                "billValue": "10",
+                                "billQuantity": "31",
+                                "AmountBill": "310.00"
+                            }
+                        ],
+                        "coinsTable": [
+                            {
+                                "coinValue": "5",
+                                "coinQuantity": "25",
+                                "AmountCoin": "125.00"
+                            },
+                            {
+                                "coinValue": "2",
+                                "coinQuantity": "80",
+                                "AmountCoin": "160.00"
+                            },
+                            {
+                                "coinValue": "1",
+                                "coinQuantity": "261",
+                                "AmountCoin": "261.00"
+                            },
+                            {
+                                "coinValue": "0.50",
+                                "coinQuantity": "195",
+                                "AmountCoin": "97.50"
+                            },
+                            {
+                                "coinValue": "0.20",
+                                "coinQuantity": "304",
+                                "AmountCoin": "60.80"
+                            },
+                            {
+                                "coinValue": "0.10",
+                                "coinQuantity": "602",
+                                "AmountCoin": "60.20"
+                            }
+                        ],
+                        "voucherTable": [
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "002243",
+                                "NroClientVoucher": "7221734 tja",
+                                "AmountVoucher": 59.84
+                            },
+                            {
+                                "DateVoucher": "18/05/2023",
+                                "NroRefVoucher": "002242",
+                                "NroClientVoucher": "4809384 tja",
+                                "AmountVoucher": 45.35
+                            }
+                        ],
+                        "cuoponTable": [],
+                        "diferencesTable": [
+                            {
+                                "Concept": "Sobrante",
+                                "Motive": "Por diferencia de Precios",
+                                "SubtotalUs": null,
+                                "SubtotalBs": "(0.08)",
+                                "TotalBs": "(0.08)"
+                            }
+                        ],
+                        "ventas": {
+                            "Ventas al Contado": {
+                                "EFECTIVO": 4054.42,
+                                "DOCUMENTOS": 105.19,
+                                "TOTAL": 4159.61
+                            },
+                            "Ventas al Credito": {
+                                "PERSONAL IVSA": "",
+                                "OTROS": 0,
+                                "TOTAL": 0
+                            },
+                            "TOTALVENTAS": 4159.61
+                        },
+                        "otrosIngresos": {
+                            "totalMEBs": 0,
+                            "totalEfectivoBs": 5054.5,
+                            "fondosCambios": "1,000.00",
+                            "importeDepositarBs": "4,054.50",
+                            "importeDepositarUs": null
+                        }
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57336_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57336_arceoCajaUs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57336_arceoCajaUs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "d\u00f3lar",
+                    "data": {
+                        "billTable": [],
+                        "voucherTable": [],
+                        "qrTable": []
+                    }
+                }
+            ],
+            "Recaudadora": "TARIJA"
         }
     ]
 }

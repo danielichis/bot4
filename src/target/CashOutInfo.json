@@ -1,74 +1,56 @@
 [
     {
-        "C\u00f3digo": "8500",
-        "Fecha": "18/05/2023 11:23:52",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "19,331.50",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8503",
+        "Fecha": "18/05/2023 15:12:25",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "191,786.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8490",
-        "Fecha": "17/05/2023 10:52:02",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "11,566.50",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8497",
+        "Fecha": "17/05/2023 14:21:12",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "196,168.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8483",
-        "Fecha": "16/05/2023 09:52:09",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "10,655.40",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8486",
+        "Fecha": "16/05/2023 14:07:13",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "154,369.80",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8467",
-        "Fecha": "15/05/2023 11:33:02",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "13,284.50",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8471",
+        "Fecha": "15/05/2023 14:03:16",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "378,866.45",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8464",
-        "Fecha": "13/05/2023 13:34:52",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "22,162.00",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8491",
+        "Fecha": "17/05/2023 11:09:49",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "145,137.17",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
+        "Recaudadora": "TARIJA"
     },
     {
-        "C\u00f3digo": "8452",
-        "Fecha": "12/05/2023 10:42:15",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "7,596.20",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8468",
+        "Fecha": "15/05/2023 11:38:46",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "153,816.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
-    },
-    {
-        "C\u00f3digo": "8442",
-        "Fecha": "11/05/2023 11:13:09",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "3,698.00",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
-        "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
-    },
-    {
-        "C\u00f3digo": "8435",
-        "Fecha": "10/05/2023 11:23:11",
-        "Encargado": "ROBIN HASSAN - CAJA",
-        "Total Bs.": "19,583.50",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
-        "Estado": "ACTIVO",
-        "Recaudadora": "PANDO"
+        "Recaudadora": "TARIJA"
     }
 ]

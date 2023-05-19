@@ -4,6 +4,7 @@ from utils import getSgvData,normalizeTable,pathsProyect
 import os
 import re
 import json
+from pathlib import Path
 import pandas as pd
 
 paths=pathsProyect()
@@ -338,8 +339,11 @@ class scrapTablesExcel:
         i=1
         qrTable=[]
         keywordsFilter=[None,"Pagos QR","Fecha"]
+        if typeCurrency=="Bs":
+            pass
         upLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["superior"]
         downLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["inferior"]
+        print(self.fileName)
         while sh.cell(i,columDate).value !=upLimitWord:
             i=i+1
         
@@ -505,6 +509,7 @@ def scrapXlsxFile(fileName):
     elif fileName.find("ag")!=-1:
         distributionType="agencia"
     scrapyxlsx=scrapTablesExcel(fileName,distributionType)
+    fileName=Path(fileName).name
     if distributionType=="distribuidora":
         if fileName.find("first")!=-1:
             summaryTable=scrapyxlsx.getSummaryTable()

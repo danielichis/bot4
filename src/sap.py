@@ -83,8 +83,8 @@ def superTable(configData):
     session.findById("wnd[1]/tbar[0]/btn[0]").press()
     session.findById("wnd[1]/usr/ctxtDY_PATH").text = SAPinfoPath
     session.findById("wnd[1]/usr/ctxtDY_FILENAME").text = f"{fi} a {ff}.txt"
-    session.findById("wnd[1]/usr/ctxtDY_PATH").setFocus()
-    session.findById("wnd[1]/usr/ctxtDY_PATH").caretPosition = 86
+    #session.findById("wnd[1]/usr/ctxtDY_PATH").setFocus()
+    #session.findById("wnd[1]/usr/ctxtDY_PATH").caretPosition = 86
     session.findById("wnd[1]/tbar[0]/btn[0]").press()
     proc.kill()
 
