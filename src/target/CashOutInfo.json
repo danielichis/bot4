@@ -1,11 +1,119 @@
 [
     {
+        "C\u00f3digo": "8539",
+        "Fecha": "22/05/2023 19:56:57",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "288,510.30",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8538",
+        "Fecha": "22/05/2023 17:53:55",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "343,343.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8537",
+        "Fecha": "22/05/2023 17:52:54",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "220,278.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8536",
+        "Fecha": "22/05/2023 17:52:34",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "191,786.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8535",
+        "Fecha": "22/05/2023 17:51:21",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "196,168.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8534",
+        "Fecha": "22/05/2023 17:50:31",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "154,369.80",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8533",
+        "Fecha": "22/05/2023 17:50:04",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "378,866.45",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8532",
+        "Fecha": "22/05/2023 17:48:27",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "193,154.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8531",
+        "Fecha": "22/05/2023 17:46:43",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "292,408.50",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8530",
+        "Fecha": "22/05/2023 17:42:56",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "55,705.30",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8526",
+        "Fecha": "22/05/2023 14:22:42",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "343,343.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "INACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8513",
+        "Fecha": "19/05/2023 13:35:00",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "220,278.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "INACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
         "C\u00f3digo": "8503",
         "Fecha": "18/05/2023 15:12:25",
         "Encargado": "RIBANA RUTH REA RUEDA",
         "Total Bs.": "191,786.20",
         "Tipo": "EMPRESA TRANSPORTADORA",
-        "Estado": "ACTIVO",
+        "Estado": "INACTIVO",
         "Recaudadora": "LA PAZ"
     },
     {
@@ -14,7 +122,7 @@
         "Encargado": "RIBANA RUTH REA RUEDA",
         "Total Bs.": "196,168.90",
         "Tipo": "EMPRESA TRANSPORTADORA",
-        "Estado": "ACTIVO",
+        "Estado": "INACTIVO",
         "Recaudadora": "LA PAZ"
     },
     {
@@ -23,7 +131,7 @@
         "Encargado": "RIBANA RUTH REA RUEDA",
         "Total Bs.": "154,369.80",
         "Tipo": "EMPRESA TRANSPORTADORA",
-        "Estado": "ACTIVO",
+        "Estado": "INACTIVO",
         "Recaudadora": "LA PAZ"
     },
     {
@@ -32,8 +140,26 @@
         "Encargado": "RIBANA RUTH REA RUEDA",
         "Total Bs.": "378,866.45",
         "Tipo": "EMPRESA TRANSPORTADORA",
-        "Estado": "ACTIVO",
+        "Estado": "INACTIVO",
         "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8524",
+        "Fecha": "22/05/2023 11:55:31",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "191,238.80",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "TARIJA"
+    },
+    {
+        "C\u00f3digo": "8510",
+        "Fecha": "19/05/2023 12:07:34",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "137,179.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "TARIJA"
     },
     {
         "C\u00f3digo": "8491",
@@ -52,5 +178,527 @@
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
         "Recaudadora": "TARIJA"
+    },
+    {
+        "C\u00f3digo": "8523",
+        "Fecha": "22/05/2023 11:34:25",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "223,518.60",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8517",
+        "Fecha": "20/05/2023 13:09:59",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "674,673.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8511",
+        "Fecha": "19/05/2023 12:27:02",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "419,268.44",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8501",
+        "Fecha": "18/05/2023 11:51:54",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "217,555.30",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8494",
+        "Fecha": "17/05/2023 13:20:54",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "416,312.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8484",
+        "Fecha": "16/05/2023 11:15:07",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "429,784.76",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8469",
+        "Fecha": "15/05/2023 13:26:40",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "354,702.30",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8463",
+        "Fecha": "13/05/2023 10:55:33",
+        "Encargado": "EINAR CHOQUETIJLLA - COBRADOR",
+        "Total Bs.": "297,506.24",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SANTA CRUZ"
+    },
+    {
+        "C\u00f3digo": "8528",
+        "Fecha": "22/05/2023 15:54:56",
+        "Encargado": "VALERY TERCEROS - CAJA",
+        "Total Bs.": "10,731.20",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "RIBERALTA"
+    },
+    {
+        "C\u00f3digo": "8508",
+        "Fecha": "19/05/2023 10:59:46",
+        "Encargado": "VALERY TERCEROS - CAJA",
+        "Total Bs.": "22,068.60",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "RIBERALTA"
+    },
+    {
+        "C\u00f3digo": "8504",
+        "Fecha": "18/05/2023 17:45:13",
+        "Encargado": "VALERY TERCEROS - CAJA",
+        "Total Bs.": "17,587.70",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "RIBERALTA"
+    },
+    {
+        "C\u00f3digo": "8492",
+        "Fecha": "17/05/2023 11:10:11",
+        "Encargado": "VALERY TERCEROS - CAJA",
+        "Total Bs.": "16,037.00",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "RIBERALTA"
+    },
+    {
+        "C\u00f3digo": "8487",
+        "Fecha": "16/05/2023 15:57:50",
+        "Encargado": "VALERY TERCEROS - CAJA",
+        "Total Bs.": "90,124.80",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "RIBERALTA"
+    },
+    {
+        "C\u00f3digo": "8472",
+        "Fecha": "15/05/2023 16:07:21",
+        "Encargado": "VALERY TERCEROS - CAJA",
+        "Total Bs.": "13,389.50",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "RIBERALTA"
+    },
+    {
+        "C\u00f3digo": "8521",
+        "Fecha": "22/05/2023 10:10:11",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "68,710.70",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "POTOSI"
+    },
+    {
+        "C\u00f3digo": "8514",
+        "Fecha": "19/05/2023 14:28:50",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "346,478.60",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "POTOSI"
+    },
+    {
+        "C\u00f3digo": "8489",
+        "Fecha": "17/05/2023 09:28:27",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "254,053.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "POTOSI"
+    },
+    {
+        "C\u00f3digo": "8466",
+        "Fecha": "15/05/2023 09:36:23",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "96,384.60",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "POTOSI"
+    },
+    {
+        "C\u00f3digo": "8522",
+        "Fecha": "22/05/2023 11:13:30",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "26,196.70",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8518",
+        "Fecha": "20/05/2023 13:59:30",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "18,093.20",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8507",
+        "Fecha": "19/05/2023 10:46:13",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "18,561.70",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8500",
+        "Fecha": "18/05/2023 11:23:52",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "19,331.50",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8490",
+        "Fecha": "17/05/2023 10:52:02",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "11,566.50",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8483",
+        "Fecha": "16/05/2023 09:52:09",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "10,655.40",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8467",
+        "Fecha": "15/05/2023 11:33:02",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "13,284.50",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8464",
+        "Fecha": "13/05/2023 13:34:52",
+        "Encargado": "ROBIN HASSAN - CAJA",
+        "Total Bs.": "22,162.00",
+        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "Estado": "ACTIVO",
+        "Recaudadora": "PANDO"
+    },
+    {
+        "C\u00f3digo": "8527",
+        "Fecha": "22/05/2023 15:47:48",
+        "Encargado": "ADMINISTRADOR-ORURO",
+        "Total Bs.": "52,193.50",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "ORURO"
+    },
+    {
+        "C\u00f3digo": "8515",
+        "Fecha": "19/05/2023 16:31:49",
+        "Encargado": "ADMINISTRADOR-ORURO",
+        "Total Bs.": "108,667.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "ORURO"
+    },
+    {
+        "C\u00f3digo": "8498",
+        "Fecha": "17/05/2023 17:11:31",
+        "Encargado": "ADMINISTRADOR-ORURO",
+        "Total Bs.": "72,252.60",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "ORURO"
+    },
+    {
+        "C\u00f3digo": "8473",
+        "Fecha": "15/05/2023 17:05:54",
+        "Encargado": "ADMINISTRADOR-ORURO",
+        "Total Bs.": "53,925.60",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "ORURO"
+    },
+    {
+        "C\u00f3digo": "8525",
+        "Fecha": "22/05/2023 14:21:03",
+        "Encargado": "GRACIELA CASTILLO CATARI",
+        "Total Bs.": "349,830.50",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "EL ALTO"
+    },
+    {
+        "C\u00f3digo": "8512",
+        "Fecha": "19/05/2023 13:09:06",
+        "Encargado": "GRACIELA CASTILLO CATARI",
+        "Total Bs.": "249,580.27",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "EL ALTO"
+    },
+    {
+        "C\u00f3digo": "8502",
+        "Fecha": "18/05/2023 13:28:38",
+        "Encargado": "GRACIELA CASTILLO CATARI",
+        "Total Bs.": "271,933.70",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "EL ALTO"
+    },
+    {
+        "C\u00f3digo": "8495",
+        "Fecha": "17/05/2023 13:40:19",
+        "Encargado": "GRACIELA CASTILLO CATARI",
+        "Total Bs.": "323,093.83",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "EL ALTO"
+    },
+    {
+        "C\u00f3digo": "8485",
+        "Fecha": "16/05/2023 13:34:30",
+        "Encargado": "GRACIELA CASTILLO CATARI",
+        "Total Bs.": "206,769.70",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "EL ALTO"
+    },
+    {
+        "C\u00f3digo": "8470",
+        "Fecha": "15/05/2023 14:02:45",
+        "Encargado": "GRACIELA CASTILLO CATARI",
+        "Total Bs.": "493,999.30",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "EL ALTO"
+    },
+    {
+        "C\u00f3digo": "8519",
+        "Fecha": "20/05/2023 17:44:24",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "4,756.60",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8516",
+        "Fecha": "20/05/2023 08:50:44",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "471,173.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8509",
+        "Fecha": "19/05/2023 11:08:44",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "404,689.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8499",
+        "Fecha": "18/05/2023 11:16:39",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "594,131.80",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8493",
+        "Fecha": "17/05/2023 12:03:10",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "521,126.99",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8482",
+        "Fecha": "15/05/2023 20:23:23",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "677,050.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8481",
+        "Fecha": "15/05/2023 20:17:53",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "1,110,462.58",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8480",
+        "Fecha": "15/05/2023 19:03:16",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "47,098.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8479",
+        "Fecha": "15/05/2023 19:01:55",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "450,476.67",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8478",
+        "Fecha": "15/05/2023 19:00:10",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "533,465.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8477",
+        "Fecha": "15/05/2023 18:50:04",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "434,861.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8476",
+        "Fecha": "15/05/2023 18:35:27",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "533,465.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "INACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8475",
+        "Fecha": "15/05/2023 18:31:10",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "677,050.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "INACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8462",
+        "Fecha": "13/05/2023 08:47:05",
+        "Encargado": "MARCELO ROCABADO ROJAS",
+        "Total Bs.": "450,476.67",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "INACTIVO",
+        "Recaudadora": "COCHABAMBA"
+    },
+    {
+        "C\u00f3digo": "8529",
+        "Fecha": "22/05/2023 17:31:09",
+        "Encargado": "FABIOLA NAVA - CAJA",
+        "Total Bs.": "46,366.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SUCRE"
+    },
+    {
+        "C\u00f3digo": "8506",
+        "Fecha": "19/05/2023 10:45:39",
+        "Encargado": "FABIOLA NAVA - CAJA",
+        "Total Bs.": "179,225.42",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SUCRE"
+    },
+    {
+        "C\u00f3digo": "8496",
+        "Fecha": "17/05/2023 14:10:33",
+        "Encargado": "FABIOLA NAVA - CAJA",
+        "Total Bs.": "209,082.30",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SUCRE"
+    },
+    {
+        "C\u00f3digo": "8474",
+        "Fecha": "15/05/2023 18:00:13",
+        "Encargado": "FABIOLA NAVA - CAJA",
+        "Total Bs.": "103,713.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "SUCRE"
+    },
+    {
+        "C\u00f3digo": "8520",
+        "Fecha": "22/05/2023 09:41:03",
+        "Encargado": "DAVID ZABALA - CAJA",
+        "Total Bs.": "92,262.70",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "BENI"
+    },
+    {
+        "C\u00f3digo": "8505",
+        "Fecha": "19/05/2023 09:01:28",
+        "Encargado": "DAVID ZABALA - CAJA",
+        "Total Bs.": "65,799.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "BENI"
+    },
+    {
+        "C\u00f3digo": "8488",
+        "Fecha": "17/05/2023 09:23:17",
+        "Encargado": "DAVID ZABALA - CAJA",
+        "Total Bs.": "146,040.40",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "BENI"
+    },
+    {
+        "C\u00f3digo": "8465",
+        "Fecha": "15/05/2023 09:33:40",
+        "Encargado": "DAVID ZABALA - CAJA",
+        "Total Bs.": "83,020.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "BENI"
     }
 ]

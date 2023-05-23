@@ -248,7 +248,7 @@ class scrapTablesExcel:
                 totalFormat="{:.2f}".format(float(totalFormat))
                 rec=self.recaud
                 #summaryDict["uniqKey"]=rec+"_"+checker+"_"+formatedDate+"_"+totalFormat
-                if float(totalFormat)>0:
+                if float(totalFormat)>=0:
                     summaryTable.append(summaryDict)
             i=i+1
         #print(pd.DataFrame(summaryTable))        
@@ -343,7 +343,8 @@ class scrapTablesExcel:
             pass
         upLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["superior"]
         downLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["inferior"]
-        print(self.fileName)
+        #print(self.fileName)
+        #print(upLimitWord,columDate)
         while sh.cell(i,columDate).value !=upLimitWord:
             i=i+1
         
@@ -539,10 +540,11 @@ def scrapXlsxFile(fileName):
             coinsTable=scrapyxlsx.getCoinsTable()
             voucherTable=scrapyxlsx.get_vouchers_table()
             cuoponTable=scrapyxlsx.get_coupon_table()
+            qrTable=scrapyxlsx.get_qr_table()
             diferencesTable=scrapyxlsx.get_diferences_table()
             ventas=scrapyxlsx.ventasEfectuadas()
             otrosingresos=scrapyxlsx.otrosIngresos()
-            dictsTable={"billTable":billTable,"coinsTable":coinsTable,"voucherTable":voucherTable,"cuoponTable":cuoponTable,"diferencesTable":diferencesTable,"ventas":ventas,"otrosIngresos":otrosingresos}
+            dictsTable={"billTable":billTable,"coinsTable":coinsTable,"voucherTable":voucherTable,"cuoponTable":cuoponTable,"qrTable":qrTable,"diferencesTable":diferencesTable,"ventas":ventas,"otrosIngresos":otrosingresos}
         else:
             print("Error en el nombre del archivo")
 

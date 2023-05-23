@@ -22,7 +22,7 @@ def main():
         superTable(loginData)
         tableTransSap(loginData)
         insertDataToJsonAg(loginData)
-        makeFinalTemplate()
+        makeFinalTemplate(loginData)
         print("\n---------------------PROCESO FINALIZADO---------------------\n")
 if __name__ == "__main__":
     main()

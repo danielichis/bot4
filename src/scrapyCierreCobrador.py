@@ -209,7 +209,7 @@ class scraperCierreCobrador():
             j=j+1
         firstRowWithData=downRow+3
         i=firstRowWithData
-        while self.sh.cell(row=i+3,column=j).value=="Cargos al Cobrador" or self.sh.cell(row=i+3,column=j+1).value=="Cargos al Cobrador":
+        while self.sh.cell(row=i,column=j).value!="Cargos al Cobrador" and self.sh.cell(row=i,column=j+1).value!="Cargos al Cobrador":
             ditTable={
                 'ruta_CcajCobCob':self.fileName[:-5],
                 "recaudadora_CcajCobCob":self.recaud,
@@ -232,7 +232,7 @@ class scraperCierreCobrador():
                     value=float(value)
                     ditTable['TotalCCOBCAJA']="{:.2f}".format(value)
                 receiptBoxTable.append(ditTable)
-            if self.sh.cell(row=i+1,column=cashBs+1).value=="Efectivo":
+            if self.sh.cell(row=i,column=cashBs+1).value=="Efectivo":
                 cashBs+=1
                 cashUs+=1
                 cashEqBs+=1
@@ -255,7 +255,7 @@ def scrap_CierreCobrador():
     collectorBoxTable=[]
     for file in cierreCobradorFiles:
         if file.endswith(".xlsx"):
-            #print("Procesando archivo: ",file)
+            print("Procesando archivo: ",file)
             scob=scraperCierreCobrador(file)
             q=scob.ClientToCollectorTable()
             collectorClientTable.extend(q)

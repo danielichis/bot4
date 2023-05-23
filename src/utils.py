@@ -334,120 +334,15 @@ def concat_dfs2(lists):
     dff=pd.concat(df_list,axis=1)
     concat_table=dff.to_dict('records')
     return concat_table
-def concat_dfs(dfs):
+def concat_dfs(lists):
     df_list=[]
-    for df in dfs:
+    for lista in lists:
         #df is not empty
-        df=pd.DataFrame(df)
-        if df.empty==False:
-            df_list.append(df)
-    df=pd.concat(df_list,axis=1)
-    concat_table=df.to_dict('records')
-    maxtrixConcat=[]
-    for tableValue in concat_table:
-        try:
-            fechaVoucher=tableValue['DateVoucher']
-        except:
-            fechaVoucher=""
-        try:
-            NroVoucher=tableValue['NroRefVoucher']
-        except:
-            NroVoucher=""
-        try:
-            NroCL=tableValue['NroClientVoucher']
-        except:
-            NroCL=""
-        try:
-            VoucherBs=tableValue['AmountVoucher']
-        except:
-            VoucherBs=""
-        try:
-            CantidadVales=tableValue['QuantityVale']
-        except:
-            CantidadVales=""
-        try:
-            ClienteVales=tableValue['ClientVale']
-        except:
-            ClienteVales=""
-        try:
-            valesBs=tableValue['SubtotalVale']
-        except:
-            valesBs=""
-        try:
-            FechaQr=tableValue["DateQr"]
-        except:
-            FechaQr=""
-        try:
-            NroRef=tableValue["NroRefQr"]
-        except:
-            NroRef=""
-        try:
-            NroClient=tableValue["NroClientQr"]
-        except:
-            NroClient=""
-        try:
-            BsQr=tableValue["SubtotalQr"]
-        except:
-            BsQr=""
-        try:
-            Concepto=tableValue["Concept"]
-        except:
-            Concepto=""
-        try:
-            motive=tableValue["Motive"]
-        except:
-            motive=""
-        try:
-            SubtotalUs=tableValue["SubtotalUs"]
-        except:
-            SubtotalUs=""
-        try:
-            SubtotalBs=tableValue["SubtotalBs"]
-        except:
-            SubtotalBs=""
-        try:
-            SubtotalBs=tableValue["TotalBs"]
-        except:
-            SubtotalBs=""
-
-        dictDefault={       "FechaVoucher":fechaVoucher,
-                            "NroVoucher":NroVoucher,
-                            "Nro. CL.":NroCL,
-                            "VoucherBs":VoucherBs,
-
-                            "CantidadVales":CantidadVales,
-                            "ClienteVales":ClienteVales,
-                            "valesBs":valesBs,
-
-                            "FechaQr":FechaQr,
-                            "NroRef":NroRef,
-                            "NroClient":NroClient,
-                            "BsQr":BsQr,
-
-                            "Concepto":Concepto,
-                            "Motivo":motive,
-                            "SubtotalUs":SubtotalUs,
-                            "SubtotalBs":SubtotalBs,
-                        }
-        maxtrixConcat.append(dictDefault)
-
-    if len(maxtrixConcat)==0:
-        maxtrixConcat=[{"FechaVoucher":"",
-                         "NroVoucher":"",
-                           "Nro. CL.":"",
-                             "VoucherBs":"",
-                        "CantidadVales":"",
-                          "ClienteVales":"",
-                            "valesBs":"",
-                        "FechaQr":"",
-                          "NroRef":"",
-                            "NroClient":"",
-                              "BsQr":"",
-                        "Concepto":"",
-                          "Motivo":"",
-                            "SubtotalUs":"",
-                              "SubtotalBs":""}]
-    return maxtrixConcat
+        df=pd.DataFrame(lista)
+        df_list.append(df)
+    dff=pd.concat(df_list,axis=1)
+    concat_table=dff.to_dict('records')
+    return concat_table
 
 def change_ExcelSeparators():
     # Crear una instancia de la aplicación Exce
