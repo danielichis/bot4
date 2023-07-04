@@ -1,5 +1,5 @@
-from downloadFiles import donloadSgv,downloadCollectorClosing
-from utils import delete_xlsFiles, get_current_path, convert_xls,loginInfo,get_templatesSap,remove_files
+from downloadFiles import donloadSgv
+from utils import delete_xlsFiles, get_current_path, convert_xls,loginInfo,remove_files
 from scrapXlsxFiles import scrapCierresDeCaja
 from scrapyCierreCobrador import scrap_CierreCobrador
 from getMatrix import makeFinalTemplate
