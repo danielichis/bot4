@@ -1,5 +1,5 @@
 from downloadFiles import donloadSgv,downloadCollectorClosing
-from utils import delete_xlsFiles, get_current_path, convert_xls,loginInfo,get_templatesSap
+from utils import delete_xlsFiles, get_current_path, convert_xls,loginInfo,get_templatesSap,remove_files
 from scrapXlsxFiles import scrapCierresDeCaja
 from scrapyCierreCobrador import scrap_CierreCobrador
 from getMatrix import makeFinalTemplate
@@ -28,6 +28,7 @@ def main():
         donloadSgv(loginData)
     if loginData['flags']['flow']=="PROCESAR":
         print("---------------------PROCESANDO ARCHIVOS...")
+        remove_files(os.path.join(get_current_path(),"Ouputs"))
         boxClosingFolder=os.path.join(get_current_path(),"Cierres de Caja")
         convert_xls(boxClosingFolder)
         scrapCierresDeCaja()
