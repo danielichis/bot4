@@ -7,6 +7,7 @@ from sap import superTable,tableTransSap,insertDataToJsonAg
 import os
 def main():
     loginData=loginInfo()
+    
     if loginData['flags']['flow']=="COMPLETO":
         delete_xlsFiles()
         donloadSgv(loginData)

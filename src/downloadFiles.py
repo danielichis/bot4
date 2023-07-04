@@ -45,7 +45,7 @@ def download_file(pathFile,cssSelector,row):
     donwnload=False
     while intentos<=retries and donwnload==False:
         try:
-            with page.expect_download() as download_info:
+            with page.expect_download(timeout=3000) as download_info:
                 row.query_selector(cssSelector).click(timeout=3000)
             download = download_info.value
             download.save_as(pathFile)
@@ -53,7 +53,7 @@ def download_file(pathFile,cssSelector,row):
             print(f"Descargado {pathFile}")
             metadataFile["descargado"]="OK"
         except Exception as e:
-            print(f"{e}\n Reitentanto...")
+            print(f"{e}\n Reitentanto...wait 2s")
             time.sleep(2)
         intentos+=1
     

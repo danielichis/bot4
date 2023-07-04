@@ -1,377 +1,6 @@
 {
     "data": [
         {
-            "C\u00f3digo": "57699",
-            "Recibo": "CCAJ-TR50/124/23",
-            "Fecha": "01/06/2023",
-            "Fecha de Cierre": "01/06/2023",
-            "Total (Bs.)": "2,500.50",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "OSCAR LOAYZA SALVATIERRA",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57699_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57699_arceoCajaBs_ag",
-                    "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\BENI_57699_arceoCajaBs_ag.xlsx",
-                    "distributionType": "agencia",
-                    "moneyType": "Bs",
-                    "data": {
-                        "billTable": [
-                            {
-                                "billValue": "200",
-                                "billQuantity": "1",
-                                "AmountBill": "200.00"
-                            },
-                            {
-                                "billValue": "100",
-                                "billQuantity": "12",
-                                "AmountBill": "1,200.00"
-                            },
-                            {
-                                "billValue": "50",
-                                "billQuantity": "3",
-                                "AmountBill": "150.00"
-                            },
-                            {
-                                "billValue": "20",
-                                "billQuantity": "12",
-                                "AmountBill": "240.00"
-                            },
-                            {
-                                "billValue": "10",
-                                "billQuantity": "32",
-                                "AmountBill": "320.00"
-                            }
-                        ],
-                        "coinsTable": [
-                            {
-                                "coinValue": "5",
-                                "coinQuantity": "6",
-                                "AmountCoin": "30.00"
-                            },
-                            {
-                                "coinValue": "2",
-                                "coinQuantity": "33",
-                                "AmountCoin": "66.00"
-                            },
-                            {
-                                "coinValue": "1",
-                                "coinQuantity": "265",
-                                "AmountCoin": "265.00"
-                            },
-                            {
-                                "coinValue": "0.50",
-                                "coinQuantity": "58",
-                                "AmountCoin": "29.00"
-                            },
-                            {
-                                "coinValue": "0.20",
-                                "coinQuantity": "2",
-                                "AmountCoin": "0.40"
-                            },
-                            {
-                                "coinValue": "0.10",
-                                "coinQuantity": "1",
-                                "AmountCoin": "0.10"
-                            }
-                        ],
-                        "voucherTable": [],
-                        "cuoponTable": [],
-                        "qrTable": [],
-                        "diferencesTable": [
-                            {
-                                "Concept": "Sobrante",
-                                "Motive": "Por diferencia de Precios",
-                                "SubtotalUs": null,
-                                "SubtotalBs": "(0.02)",
-                                "TotalBs": "(0.02)"
-                            }
-                        ],
-                        "ventas": {
-                            "Ventas al Contado": {
-                                "EFECTIVO": 1500.48,
-                                "DOCUMENTOS": 0,
-                                "TOTAL": 1500.48
-                            },
-                            "Ventas al Credito": {
-                                "PERSONAL IVSA": "",
-                                "OTROS": 0,
-                                "TOTAL": 0
-                            },
-                            "TOTALVENTAS": 1500.48
-                        },
-                        "otrosIngresos": {
-                            "totalMEBs": 0,
-                            "totalEfectivoBs": 2500.5,
-                            "fondosCambios": "1,000.00",
-                            "importeDepositarBs": "1,500.50",
-                            "importeDepositarUs": null
-                        }
-                    }
-                },
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57699_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57699_arceoCajaUs_ag",
-                    "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\BENI_57699_arceoCajaUs_ag.xlsx",
-                    "distributionType": "agencia",
-                    "moneyType": "d\u00f3lar",
-                    "data": {
-                        "billTable": [],
-                        "voucherTable": [],
-                        "qrTable": []
-                    }
-                }
-            ],
-            "Recaudadora": "BENI"
-        },
-        {
-            "C\u00f3digo": "57687",
-            "Recibo": "CCAJ-TR47/125/2023",
-            "Fecha": "01/06/2023",
-            "Fecha de Cierre": "01/06/2023",
-            "Total (Bs.)": "49,783.70",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "DAVID ZABALA - CAJA",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57687_arceoCajaBs_dist",
-                    "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\BENI_57687_arceoCajaBs_dist.xlsx",
-                    "distributionType": "distribuidora",
-                    "moneyType": "Bs",
-                    "data": {
-                        "billTable": [
-                            {
-                                "billValue": "200",
-                                "billQuantity": "21",
-                                "AmountBill": "4,200.00"
-                            },
-                            {
-                                "billValue": "100",
-                                "billQuantity": "178",
-                                "AmountBill": "17,800.00"
-                            },
-                            {
-                                "billValue": "50",
-                                "billQuantity": "111",
-                                "AmountBill": "5,550.00"
-                            },
-                            {
-                                "billValue": "20",
-                                "billQuantity": "466",
-                                "AmountBill": "9,320.00"
-                            },
-                            {
-                                "billValue": "10",
-                                "billQuantity": "1166",
-                                "AmountBill": "11,660.00"
-                            }
-                        ],
-                        "coinsTable": [
-                            {
-                                "coinValue": "5",
-                                "coinQuantity": "177",
-                                "AmountCoin": "885.00"
-                            },
-                            {
-                                "coinValue": "2",
-                                "coinQuantity": "69",
-                                "AmountCoin": "138.00"
-                            },
-                            {
-                                "coinValue": "1",
-                                "coinQuantity": "135",
-                                "AmountCoin": "135.00"
-                            },
-                            {
-                                "coinValue": "0.50",
-                                "coinQuantity": "172",
-                                "AmountCoin": "86.00"
-                            },
-                            {
-                                "coinValue": "0.20",
-                                "coinQuantity": "46",
-                                "AmountCoin": "9.20"
-                            },
-                            {
-                                "coinValue": "0.10",
-                                "coinQuantity": "5",
-                                "AmountCoin": "0.50"
-                            }
-                        ],
-                        "checkTable": [],
-                        "bankTransferTable": []
-                    }
-                },
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57687_arceoCajaUs_dist",
-                    "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\BENI_57687_arceoCajaUs_dist.xlsx",
-                    "distributionType": "distribuidora",
-                    "moneyType": "d\u00f3lar",
-                    "data": {
-                        "billTable": [],
-                        "checkTable": [],
-                        "bankTransferTable": []
-                    }
-                },
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57687_firstExcel_dist",
-                    "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\BENI_57687_firstExcel_dist.xlsx",
-                    "distributionType": "distribuidora",
-                    "moneyType": "other",
-                    "data": {
-                        "summaryTable": [
-                            {
-                                "Code_CcajConsol": null,
-                                "Checker_CcajConsol": null,
-                                "FechaRend_CcajConsol": "Saldo Anterior",
-                                "FechaRecibo_CcajConsol": null,
-                                "NroRecibo_CcajConsol": null,
-                                "UsCash_CcajConsol": "0.00",
-                                "BsCash_CcajConsol": "35,208.60",
-                                "UsCheck_CcajConsol": "0.00",
-                                "BsCheck_CcajConsol": "0.00",
-                                "TotalUsCash_CcajConsol": "0.00",
-                                "TotalEqBsCash_CcajConsol": "0.00",
-                                "TotalBsCash_CcajConsol": "35,208.60",
-                                "TransferUs_CcajConsol": null,
-                                "TransferEqBs_CcajConsol": null,
-                                "TransferBs_CcajConsol": null,
-                                "TotalBs_CcajConsol": "35,208.60",
-                                "TotalUs_CcajConsol": "0.00",
-                                "TotalEqBs_CcajConsol": "0.00",
-                                "TotalCcajConsol": "35,208.60"
-                            },
-                            {
-                                "Code_CcajConsol": "3002",
-                                "Checker_CcajConsol": "ADRIAN JESUS CORTEZ CHAVEZ",
-                                "FechaRend_CcajConsol": "01/06/2023",
-                                "FechaRecibo_CcajConsol": "01/06/2023",
-                                "NroRecibo_CcajConsol": "CCOB-TR47/420/2023",
-                                "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 2933.6,
-                                "UsCheck_CcajConsol": 0,
-                                "BsCheck_CcajConsol": 0,
-                                "TotalUsCash_CcajConsol": 0,
-                                "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 2933.6,
-                                "TransferUs_CcajConsol": 0,
-                                "TransferEqBs_CcajConsol": 0,
-                                "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 2933.6,
-                                "TotalUs_CcajConsol": 0,
-                                "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 2933.6
-                            },
-                            {
-                                "Code_CcajConsol": "3047",
-                                "Checker_CcajConsol": "PAOLA LOAYZA ZAMBRANA",
-                                "FechaRend_CcajConsol": "01/06/2023",
-                                "FechaRecibo_CcajConsol": "01/06/2023",
-                                "NroRecibo_CcajConsol": "CCOB-TR47/421/2023",
-                                "UsCash_CcajConsol": 0,
-                                "BsCash_CcajConsol": 11641.5,
-                                "UsCheck_CcajConsol": 0,
-                                "BsCheck_CcajConsol": 0,
-                                "TotalUsCash_CcajConsol": 0,
-                                "TotalEqBsCash_CcajConsol": 0,
-                                "TotalBsCash_CcajConsol": 11641.5,
-                                "TransferUs_CcajConsol": 0,
-                                "TransferEqBs_CcajConsol": 0,
-                                "TransferBs_CcajConsol": 0,
-                                "TotalBs_CcajConsol": 11641.5,
-                                "TotalUs_CcajConsol": 0,
-                                "TotalEqBs_CcajConsol": 0,
-                                "TotalCcajConsol": 11641.5
-                            },
-                            {
-                                "Code_CcajConsol": null,
-                                "Checker_CcajConsol": null,
-                                "FechaRend_CcajConsol": "Cobranza del D\u00eda",
-                                "FechaRecibo_CcajConsol": null,
-                                "NroRecibo_CcajConsol": null,
-                                "UsCash_CcajConsol": "0.00",
-                                "BsCash_CcajConsol": "14,575.10",
-                                "UsCheck_CcajConsol": "0.00",
-                                "BsCheck_CcajConsol": "0.00",
-                                "TotalUsCash_CcajConsol": "0.00",
-                                "TotalEqBsCash_CcajConsol": "0.00",
-                                "TotalBsCash_CcajConsol": "14,575.10",
-                                "TransferUs_CcajConsol": "0.00",
-                                "TransferEqBs_CcajConsol": "0.00",
-                                "TransferBs_CcajConsol": "0.00",
-                                "TotalBs_CcajConsol": "14,575.10",
-                                "TotalUs_CcajConsol": "0.00",
-                                "TotalEqBs_CcajConsol": "0.00",
-                                "TotalCcajConsol": "14,575.10"
-                            },
-                            {
-                                "Code_CcajConsol": null,
-                                "Checker_CcajConsol": null,
-                                "FechaRend_CcajConsol": "Saldo Final",
-                                "FechaRecibo_CcajConsol": null,
-                                "NroRecibo_CcajConsol": null,
-                                "UsCash_CcajConsol": "0.00",
-                                "BsCash_CcajConsol": "49,783.70",
-                                "UsCheck_CcajConsol": "0.00",
-                                "BsCheck_CcajConsol": "0.00",
-                                "TotalUsCash_CcajConsol": "0.00",
-                                "TotalEqBsCash_CcajConsol": "0.00",
-                                "TotalBsCash_CcajConsol": "49,783.70",
-                                "TransferUs_CcajConsol": "0.00",
-                                "TransferEqBs_CcajConsol": "0.00",
-                                "TransferBs_CcajConsol": "0.00",
-                                "TotalBs_CcajConsol": "49,783.70",
-                                "TotalUs_CcajConsol": "0.00",
-                                "TotalEqBs_CcajConsol": "0.00",
-                                "TotalCcajConsol": "49,783.70"
-                            },
-                            {
-                                "Code_CcajConsol": null,
-                                "Checker_CcajConsol": null,
-                                "FechaRend_CcajConsol": "Total Seg\u00fan Arqueo",
-                                "FechaRecibo_CcajConsol": null,
-                                "NroRecibo_CcajConsol": null,
-                                "UsCash_CcajConsol": "0.00",
-                                "BsCash_CcajConsol": "49,783.70",
-                                "UsCheck_CcajConsol": "0.00",
-                                "BsCheck_CcajConsol": "0.00",
-                                "TotalUsCash_CcajConsol": "0.00",
-                                "TotalEqBsCash_CcajConsol": "0.00",
-                                "TotalBsCash_CcajConsol": "49,783.70",
-                                "TransferUs_CcajConsol": "0.00",
-                                "TransferEqBs_CcajConsol": "0.00",
-                                "TransferBs_CcajConsol": "0.00",
-                                "TotalBs_CcajConsol": "49,783.70",
-                                "TotalUs_CcajConsol": "0.00",
-                                "TotalEqBs_CcajConsol": "0.00",
-                                "TotalCcajConsol": "49,783.70"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "Recaudadora": "BENI"
-        },
-        {
             "C\u00f3digo": "57713",
             "Recibo": "CCAJ-LP02/237/2023",
             "Fecha": "01/06/2023",
@@ -384,11 +13,11 @@
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaBs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57713_arceoCajaBs_dist",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57713_arceoCajaBs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57713_arceoCajaBs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "Bs",
                     "data": {
@@ -761,11 +390,11 @@
                     }
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaUs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57713_arceoCajaUs_dist",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57713_arceoCajaUs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57713_arceoCajaUs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -775,11 +404,11 @@
                     }
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57713_firstExcel_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57713_firstExcel_dist",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57713_firstExcel_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57713_firstExcel_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "other",
                     "data": {
@@ -1160,11 +789,11 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57706_arceoCajaBs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57706_arceoCajaBs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57706_arceoCajaBs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "Bs",
                     "data": {
@@ -1230,12 +859,6 @@
                         "voucherTable": [
                             {
                                 "DateVoucher": "01/06/2023",
-                                "NroRefVoucher": "002124",
-                                "NroClientVoucher": "2351571 LP",
-                                "AmountVoucher": 61
-                            },
-                            {
-                                "DateVoucher": "01/06/2023",
                                 "NroRefVoucher": "2121",
                                 "NroClientVoucher": "3454384 LP",
                                 "AmountVoucher": 29.15
@@ -1257,6 +880,12 @@
                                 "NroRefVoucher": "2120",
                                 "NroClientVoucher": "4913059 LP",
                                 "AmountVoucher": 40.81
+                            },
+                            {
+                                "DateVoucher": "01/06/2023",
+                                "NroRefVoucher": "002124",
+                                "NroClientVoucher": "2351571 LP",
+                                "AmountVoucher": 61
                             }
                         ],
                         "cuoponTable": [],
@@ -1293,11 +922,11 @@
                     }
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57706_arceoCajaUs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57706_arceoCajaUs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57706_arceoCajaUs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -1322,11 +951,11 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57701_arceoCajaBs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57701_arceoCajaBs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57701_arceoCajaBs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "Bs",
                     "data": {
@@ -1424,11 +1053,11 @@
                     }
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57701_arceoCajaUs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57701_arceoCajaUs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57701_arceoCajaUs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -1453,11 +1082,11 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57700_arceoCajaBs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57700_arceoCajaBs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57700_arceoCajaBs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "Bs",
                     "data": {
@@ -1652,11 +1281,11 @@
                     }
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57700_arceoCajaUs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57700_arceoCajaUs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57700_arceoCajaUs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -1681,11 +1310,11 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57691_arceoCajaBs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57691_arceoCajaBs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57691_arceoCajaBs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "Bs",
                     "data": {
@@ -1821,11 +1450,11 @@
                     }
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57691_arceoCajaUs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57691_arceoCajaUs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57691_arceoCajaUs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -1850,11 +1479,11 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57683_arceoCajaBs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57683_arceoCajaBs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57683_arceoCajaBs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "Bs",
                     "data": {
@@ -1960,11 +1589,11 @@
                     }
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57683_arceoCajaUs_ag",
                     "retries": 1,
-                    "file": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57683_arceoCajaUs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\LA PAZ_57683_arceoCajaUs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "d\u00f3lar",
                     "data": {

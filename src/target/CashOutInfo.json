@@ -1,65 +1,47 @@
 [
     {
-        "C\u00f3digo": "8637",
-        "Fecha": "06/06/2023 13:01:47",
-        "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "109,437.10",
+        "C\u00f3digo": "8628",
+        "Fecha": "05/06/2023 11:22:27",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "21,297.00",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "LA PAZ"
+        "Recaudadora": "TARIJA"
     },
     {
-        "C\u00f3digo": "8631",
-        "Fecha": "05/06/2023 13:58:00",
-        "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "258,495.40",
+        "C\u00f3digo": "8623",
+        "Fecha": "03/06/2023 11:41:49",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "377,798.50",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "LA PAZ"
+        "Recaudadora": "TARIJA"
     },
     {
-        "C\u00f3digo": "8619",
-        "Fecha": "02/06/2023 14:21:28",
-        "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "272,869.60",
+        "C\u00f3digo": "8606",
+        "Fecha": "01/06/2023 10:53:05",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "209,298.97",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "LA PAZ"
+        "Recaudadora": "TARIJA"
     },
     {
-        "C\u00f3digo": "8609",
-        "Fecha": "01/06/2023 14:34:39",
-        "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "201,317.75",
+        "C\u00f3digo": "8597",
+        "Fecha": "31/05/2023 11:36:49",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "234,441.90",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "LA PAZ"
+        "Recaudadora": "TARIJA"
     },
     {
-        "C\u00f3digo": "8601",
-        "Fecha": "31/05/2023 14:34:31",
-        "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "571,461.50",
+        "C\u00f3digo": "8581",
+        "Fecha": "29/05/2023 12:02:52",
+        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
+        "Total Bs.": "138,901.90",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "LA PAZ"
-    },
-    {
-        "C\u00f3digo": "8591",
-        "Fecha": "30/05/2023 13:11:12",
-        "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "107,421.80",
-        "Tipo": "EMPRESA TRANSPORTADORA",
-        "Estado": "ACTIVO",
-        "Recaudadora": "LA PAZ"
-    },
-    {
-        "C\u00f3digo": "8584",
-        "Fecha": "29/05/2023 14:07:17",
-        "Encargado": "RIBANA RUTH REA RUEDA",
-        "Total Bs.": "338,920.50",
-        "Tipo": "EMPRESA TRANSPORTADORA",
-        "Estado": "ACTIVO",
-        "Recaudadora": "LA PAZ"
+        "Recaudadora": "TARIJA"
     }
 ]

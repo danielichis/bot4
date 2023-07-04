@@ -1,66 +1,6 @@
 {
     "data": [
         {
-            "C\u00f3digo": "57699",
-            "Recibo": "CCAJ-TR50/124/23",
-            "Fecha": "01/06/2023",
-            "Fecha de Cierre": "01/06/2023",
-            "Total (Bs.)": "2,500.50",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "OSCAR LOAYZA SALVATIERRA",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57699_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57699_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57699_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57699_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "BENI"
-        },
-        {
-            "C\u00f3digo": "57687",
-            "Recibo": "CCAJ-TR47/125/2023",
-            "Fecha": "01/06/2023",
-            "Fecha de Cierre": "01/06/2023",
-            "Total (Bs.)": "49,783.70",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "DAVID ZABALA - CAJA",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57687_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57687_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "BENI_57687_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "BENI"
-        },
-        {
             "C\u00f3digo": "57713",
             "Recibo": "CCAJ-LP02/237/2023",
             "Fecha": "01/06/2023",
@@ -73,19 +13,19 @@
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaBs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57713_arceoCajaBs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaUs_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57713_arceoCajaUs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57713_firstExcel_dist.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57713_firstExcel_dist",
                     "retries": 1
@@ -106,13 +46,13 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57706_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57706_arceoCajaUs_ag",
                     "retries": 1
@@ -133,13 +73,13 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57701_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57701_arceoCajaUs_ag",
                     "retries": 1
@@ -160,13 +100,13 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57700_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57700_arceoCajaUs_ag",
                     "retries": 1
@@ -187,13 +127,13 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57691_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57691_arceoCajaUs_ag",
                     "retries": 1
@@ -214,19 +154,139 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaBs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57683_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaUs_ag.xls",
                     "descargado": "OK",
                     "name": "LA PAZ_57683_arceoCajaUs_ag",
                     "retries": 1
                 }
             ],
             "Recaudadora": "LA PAZ"
+        },
+        {
+            "C\u00f3digo": "57695",
+            "Recibo": "CCAJ-TA43/127/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "99,812.28",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "NELVI JUANITA ROMERO CASTILLO",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaBs_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_arceoCajaBs_dist",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaUs_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_arceoCajaUs_dist",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_firstExcel_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_firstExcel_dist",
+                    "retries": 1
+                }
+            ],
+            "Recaudadora": "TARIJA"
+        },
+        {
+            "C\u00f3digo": "57694",
+            "Recibo": "CCAJ-TA06/124/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "7,344.10",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "BELZA GUTIERREZ CONDORI",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaBs_ag",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaUs_ag",
+                    "retries": 1
+                }
+            ],
+            "Recaudadora": "TARIJA"
+        },
+        {
+            "C\u00f3digo": "57695",
+            "Recibo": "CCAJ-TA43/127/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "99,812.28",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "NELVI JUANITA ROMERO CASTILLO",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaBs_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_arceoCajaBs_dist",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaUs_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_arceoCajaUs_dist",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_firstExcel_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_firstExcel_dist",
+                    "retries": 1
+                }
+            ],
+            "Recaudadora": "TARIJA"
+        },
+        {
+            "C\u00f3digo": "57694",
+            "Recibo": "CCAJ-TA06/124/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "7,344.10",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "BELZA GUTIERREZ CONDORI",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaBs_ag",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaUs_ag",
+                    "retries": 1
+                }
+            ],
+            "Recaudadora": "TARIJA"
         }
     ]
 }

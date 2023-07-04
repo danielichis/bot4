@@ -1,28 +1,6 @@
 {
     "data": [
         {
-            "codigo": "213777",
-            "Recibo": "CCOB-TR47/421/2023",
-            "Fecha de Creacion": "01/06/2023",
-            "Correspondiente al": "01/06/2023",
-            "Cobrador": "PAOLA LOAYZA ZAMBRANA",
-            "Total (Bs)": "11,641.50",
-            "Estado": "CONFIRMADO",
-            "Nombre del archivo": "BENI_PAOLA LOAYZA ZAMBRANA_01062023_11641.50.xls",
-            "UniqueID": "PAOLA LOAYZA ZAMBRANA_01062023_11641.50"
-        },
-        {
-            "codigo": "213745",
-            "Recibo": "CCOB-TR47/420/2023",
-            "Fecha de Creacion": "01/06/2023",
-            "Correspondiente al": "01/06/2023",
-            "Cobrador": "ADRIAN JESUS CORTEZ CHAVEZ",
-            "Total (Bs)": "2,933.60",
-            "Estado": "CONFIRMADO",
-            "Nombre del archivo": "BENI_ADRIAN JESUS CORTEZ CHAVEZ_01062023_2933.60.xls",
-            "UniqueID": "ADRIAN JESUS CORTEZ CHAVEZ_01062023_2933.60"
-        },
-        {
             "codigo": "213824",
             "Recibo": "CCOB-LP02/2446/2023",
             "Fecha de Creacion": "01/06/2023",
@@ -164,6 +142,50 @@
             "Estado": "CONFIRMADO",
             "Nombre del archivo": "LA PAZ_ALFREDO MENDOZA APAZA_01062023_3527.60.xls",
             "UniqueID": "ALFREDO MENDOZA APAZA_01062023_3527.60"
+        },
+        {
+            "codigo": "213788",
+            "Recibo": "CCOB-TA43/600/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "ANDRES ESTEBAN SINGURI LLANOS",
+            "Total (Bs)": "85,611.08",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
+            "UniqueID": "ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08"
+        },
+        {
+            "codigo": "213744",
+            "Recibo": "CCOB-TA43/599/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "JUAN PABLO CAMACHO QUISPE",
+            "Total (Bs)": "14,201.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
+            "UniqueID": "JUAN PABLO CAMACHO QUISPE_01062023_14201.20"
+        },
+        {
+            "codigo": "213788",
+            "Recibo": "CCOB-TA43/600/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "ANDRES ESTEBAN SINGURI LLANOS",
+            "Total (Bs)": "85,611.08",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
+            "UniqueID": "ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08"
+        },
+        {
+            "codigo": "213744",
+            "Recibo": "CCOB-TA43/599/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "JUAN PABLO CAMACHO QUISPE",
+            "Total (Bs)": "14,201.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
+            "UniqueID": "JUAN PABLO CAMACHO QUISPE_01062023_14201.20"
         }
     ]
 }
