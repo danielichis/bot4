@@ -59,6 +59,14 @@ def get_SapInfoDocs(docAmount,recepit,sapInfo):
                     "Texto_SapInfo":"info no encontrada",
                     "LibroMayor_SapInfo":"info no encontrada",
                         }
+        else:
+            sapInfoDict={
+                "NroDocumentoTransfer_SapInfo":"",
+                "FechaDocuemntoTransfer_SapInfo":"",
+                "ImporteBsTransfer_SapInfo":"",
+                "Texto_SapInfoTransfer":"",
+                "LibroMayorTransfer_SapInfo":"",
+                    }
     else:
         sapInfoDict={
                 "NroDocumentoTransfer_SapInfo":"",
@@ -187,7 +195,7 @@ def getMatrixAg(loginData):
 #convert to dataframe
     df_Agfinal=pd.DataFrame(matrixList)
     df_Agfinal.to_csv(os.path.join(paths.folderProyect,'Tablas','Agfinal.csv'),index=False)
-    print(df_Agfinal)
+    #print(df_Agfinal)
     return df_Agfinal
 def get_cobClientTable(ccobClients,cob,item):
     date_cob=cob['FechaRecibo_CcajConsol']

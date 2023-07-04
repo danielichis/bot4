@@ -34,15 +34,30 @@ def superTable(configData):
     time.sleep(2)
     try: 
         sapGuiAuto = win32com.client.GetObject('SAPGUI')
+        application = sapGuiAuto.GetScriptingEngine
+        connection = application.OpenConnection(sapLogin['environment'],True)
     except:
-        proc.kill()
-        time.sleep(2)
-        proc = subprocess.Popen([sapLogin['SAPPath'], '-new-tab'])
-        time.sleep(2)
-        sapGuiAuto = win32com.client.GetObject('SAPGUI')
+        try:
+            print("ERROR REINICIANDO WIN32LCIENT...")
+            proc.kill()
+            time.sleep(2)
+            proc = subprocess.Popen([sapLogin['SAPPath'], '-new-tab'])
+            time.sleep(2)
+            sapGuiAuto = win32com.client.GetObject('SAPGUI')
+            application = sapGuiAuto.GetScriptingEngine
+            connection = application.OpenConnection(sapLogin['environment'],True)
+        except:
+            print("ERROR REINICIANDO WIN32LCIENT...")
+            proc.kill()
+            time.sleep(2)
+            proc = subprocess.Popen([sapLogin['SAPPath'], '-new-tab'])
+            time.sleep(2)
+            sapGuiAuto = win32com.client.GetObject('SAPGUI')
+            application = sapGuiAuto.GetScriptingEngine
+            connection = application.OpenConnection(sapLogin['environment'],True)
 
-    application = sapGuiAuto.GetScriptingEngine
-    connection = application.OpenConnection(sapLogin['environment'], True)
+
+    #q=application.OpenConnection()
     session = connection.Children(0)
 
     session.findById("wnd[0]/usr/txtRSYST-BNAME").text = sapLogin['user']

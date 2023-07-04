@@ -1,11 +1,44 @@
 {
     "data": [
         {
-            "C\u00f3digo": "57345",
-            "Recibo": "CCAJ-LP07/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "8,484.19",
+            "C\u00f3digo": "57713",
+            "Recibo": "CCAJ-LP02/237/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "281,198.97",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                {
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaBs_dist.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57713_arceoCajaBs_dist",
+                    "retries": 1
+                },
+                {
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_arceoCajaUs_dist.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57713_arceoCajaUs_dist",
+                    "retries": 1
+                },
+                {
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57713_firstExcel_dist.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_57713_firstExcel_dist",
+                    "retries": 1
+                }
+            ],
+            "Recaudadora": "LA PAZ"
+        },
+        {
+            "C\u00f3digo": "57706",
+            "Recibo": "CCAJ-LP07/124/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "10,943.15",
             "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
             "Cajero": "JHONNY IGNACIO FLORES LOPEZ",
@@ -13,26 +46,26 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57345_arceoCajaBs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57345_arceoCajaBs_ag",
+                    "name": "LA PAZ_57706_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57345_arceoCajaUs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57706_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57345_arceoCajaUs_ag",
+                    "name": "LA PAZ_57706_arceoCajaUs_ag",
                     "retries": 1
                 }
             ],
             "Recaudadora": "LA PAZ"
         },
         {
-            "C\u00f3digo": "57343",
-            "Recibo": "CCAJ-LP01/220/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "4,631.20",
+            "C\u00f3digo": "57701",
+            "Recibo": "CCAJ-LP01/244/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "6,384.30",
             "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
             "Cajero": "ABEL URBANO ALARCON ARROYO",
@@ -40,26 +73,26 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57343_arceoCajaBs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57343_arceoCajaBs_ag",
+                    "name": "LA PAZ_57701_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57343_arceoCajaUs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57701_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57343_arceoCajaUs_ag",
+                    "name": "LA PAZ_57701_arceoCajaUs_ag",
                     "retries": 1
                 }
             ],
             "Recaudadora": "LA PAZ"
         },
         {
-            "C\u00f3digo": "57342",
-            "Recibo": "CCAJ-LP08/113/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "6,750.90",
+            "C\u00f3digo": "57700",
+            "Recibo": "CCAJ-LP08/125/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "8,378.51",
             "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
             "Cajero": "IBANA SOLIZ CUENTAS",
@@ -67,26 +100,26 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57342_arceoCajaBs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57342_arceoCajaBs_ag",
+                    "name": "LA PAZ_57700_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57342_arceoCajaUs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57700_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57342_arceoCajaUs_ag",
+                    "name": "LA PAZ_57700_arceoCajaUs_ag",
                     "retries": 1
                 }
             ],
             "Recaudadora": "LA PAZ"
         },
         {
-            "C\u00f3digo": "57339",
-            "Recibo": "CCAJ-LP01/219/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "6,291.01",
+            "C\u00f3digo": "57691",
+            "Recibo": "CCAJ-LP01/243/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "7,686.26",
             "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
             "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
@@ -94,299 +127,53 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57339_arceoCajaBs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57339_arceoCajaBs_ag",
+                    "name": "LA PAZ_57691_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57339_arceoCajaUs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57691_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57339_arceoCajaUs_ag",
+                    "name": "LA PAZ_57691_arceoCajaUs_ag",
                     "retries": 1
                 }
             ],
             "Recaudadora": "LA PAZ"
         },
         {
-            "C\u00f3digo": "57332",
-            "Recibo": "CCAJ-LP02/214/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "182,870.50",
-            "Fondo (Bs.)": "0.00",
+            "C\u00f3digo": "57683",
+            "Recibo": "CCAJ-LP01/242/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "26/05/2023",
+            "Total (Bs.)": "3,763.89",
+            "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "RIBANA RUTH REA RUEDA",
+            "Cajero": "JUAN CARLOS CAPCHA ORELLANA",
             "Auditado Por": "",
-            "Acciones": "distribuidora",
+            "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57332_arceoCajaBs_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57332_arceoCajaBs_dist",
+                    "name": "LA PAZ_57683_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57332_arceoCajaUs_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\LA PAZ_57683_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "LA PAZ_57332_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57332_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "LA PAZ_57332_firstExcel_dist",
+                    "name": "LA PAZ_57683_arceoCajaUs_ag",
                     "retries": 1
                 }
             ],
             "Recaudadora": "LA PAZ"
         },
         {
-            "C\u00f3digo": "57325",
-            "Recibo": "CCAJ-LP02/213/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "191,786.20",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "RIBANA RUTH REA RUEDA",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57325_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "LA PAZ_57325_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57325_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "LA PAZ_57325_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\LA PAZ_57325_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "LA PAZ_57325_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "LA PAZ"
-        },
-        {
-            "C\u00f3digo": "57340",
-            "Recibo": "CCAJ-TA43/115/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "141,333.42",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "NELVI JUANITA ROMERO CASTILLO",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57340_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_57340_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57340_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_57340_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57340_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_57340_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "TARIJA"
-        },
-        {
-            "C\u00f3digo": "57336",
-            "Recibo": "CCAJ-TA06/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "5,159.69",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "BELZA GUTIERREZ CONDORI",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57336_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_57336_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57336_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_57336_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "TARIJA"
-        },
-        {
-            "C\u00f3digo": "57354",
-            "Recibo": "CCAJ-SC39/237/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "849,214.45",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "EINAR CHOQUETIJLLA - COBRADOR",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57354_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57354_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57354_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57354_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57354_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57354_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SANTA CRUZ"
-        },
-        {
-            "C\u00f3digo": "57352",
-            "Recibo": "CCAJ-SC65/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "2,032.56",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "JOAQUIN CAMPERO SALAZAR",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57352_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57352_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57352_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57352_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SANTA CRUZ"
-        },
-        {
-            "C\u00f3digo": "57346",
-            "Recibo": "CCAJ-SC59/113/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "4,054.00",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "JUAN GILBERTO PARADA ROJAS",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57346_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57346_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57346_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57346_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SANTA CRUZ"
-        },
-        {
-            "C\u00f3digo": "57344",
-            "Recibo": "CCAJ-SC57/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "1,516.50",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "OSCAR ANDRES LEON ZAPATA",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57344_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57344_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57344_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57344_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SANTA CRUZ"
-        },
-        {
-            "C\u00f3digo": "57324",
-            "Recibo": "CCAJ-SC39/236/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "217,555.30",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "EINAR CHOQUETIJLLA - COBRADOR",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57324_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57324_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57324_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57324_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SANTA CRUZ_57324_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "SANTA CRUZ_57324_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SANTA CRUZ"
-        },
-        {
-            "C\u00f3digo": "57333",
-            "Recibo": "CCAJ-RB01/94/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "22,068.60",
+            "C\u00f3digo": "57696",
+            "Recibo": "CCAJ-RB01/104/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "7,125.00",
             "Fondo (Bs.)": "0.00",
             "Estado": "CONFIRMADO",
             "Cajero": "VALERY TERCEROS - CAJA",
@@ -394,479 +181,32 @@
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\RIBERALTA_57333_arceoCajaBs_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\RIBERALTA_57696_arceoCajaBs_dist.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_57333_arceoCajaBs_dist",
+                    "name": "RIBERALTA_57696_arceoCajaBs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\RIBERALTA_57333_arceoCajaUs_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\RIBERALTA_57696_arceoCajaUs_dist.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_57333_arceoCajaUs_dist",
+                    "name": "RIBERALTA_57696_arceoCajaUs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\RIBERALTA_57333_firstExcel_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\RIBERALTA_57696_firstExcel_dist.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_57333_firstExcel_dist",
+                    "name": "RIBERALTA_57696_firstExcel_dist",
                     "retries": 1
                 }
             ],
             "Recaudadora": "RIBERALTA"
         },
         {
-            "C\u00f3digo": "57341",
-            "Recibo": "CCAJ-PT53/97/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "371,517.76",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\POTOSI_57341_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "POTOSI_57341_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\POTOSI_57341_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "POTOSI_57341_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\POTOSI_57341_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "POTOSI_57341_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "POTOSI"
-        },
-        {
-            "C\u00f3digo": "57334",
-            "Recibo": "CCAJ-PT18/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "2,553.11",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "GUNNAR VICTOR PORTUGAL MURGUIA",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\POTOSI_57334_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "POTOSI_57334_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\POTOSI_57334_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "POTOSI_57334_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "POTOSI"
-        },
-        {
-            "C\u00f3digo": "57330",
-            "Recibo": "CCAJ-PN62/112/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "18,561.70",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "ROBIN HASSAN - CAJA",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57330_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "PANDO_57330_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57330_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "PANDO_57330_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\PANDO_57330_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "PANDO_57330_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "PANDO"
-        },
-        {
-            "C\u00f3digo": "57338",
-            "Recibo": "CCAJ-OR51/111/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "6,858.42",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_57338_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "ORURO_57338_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_57338_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "ORURO_57338_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "ORURO"
-        },
-        {
-            "C\u00f3digo": "57329",
-            "Recibo": "CCAJ-OR52/95/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "255,053.70",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "ADMINISTRADOR-ORURO",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_57329_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "ORURO_57329_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_57329_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "ORURO_57329_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_57329_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "ORURO_57329_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "ORURO"
-        },
-        {
-            "C\u00f3digo": "57348",
-            "Recibo": "CCAJ-EA58/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "3,387.44",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "ALICIA VIRGINIA QUISBERT MAMANI",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57348_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57348_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57348_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57348_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "EL ALTO"
-        },
-        {
-            "C\u00f3digo": "57331",
-            "Recibo": "CCAJ-EA10/206/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "134,273.80",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "GRACIELA CASTILLO CATARI",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57331_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57331_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57331_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57331_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57331_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57331_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "EL ALTO"
-        },
-        {
-            "C\u00f3digo": "57326",
-            "Recibo": "CCAJ-EA10/205/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "292,379.66",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "GRACIELA CASTILLO CATARI",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57326_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57326_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57326_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57326_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\EL ALTO_57326_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "EL ALTO_57326_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "EL ALTO"
-        },
-        {
-            "C\u00f3digo": "57353",
-            "Recibo": "CCAJ-CB11/118/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "443,944.24",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "MARCELO ROCABADO ROJAS",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57353_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57353_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57353_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57353_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57353_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57353_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "COCHABAMBA"
-        },
-        {
-            "C\u00f3digo": "57351",
-            "Recibo": "CCAJ-CB13/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "7,517.85",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "CELMI RIVERA CORDOVA",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57351_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57351_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57351_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57351_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "COCHABAMBA"
-        },
-        {
-            "C\u00f3digo": "57347",
-            "Recibo": "CCAJ-CB12/200/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "5,800.07",
-            "Fondo (Bs.)": "500.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "MARILYN LESLIE VIDAL RIOS",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57347_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57347_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57347_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57347_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "COCHABAMBA"
-        },
-        {
-            "C\u00f3digo": "57328",
-            "Recibo": "CCAJ-CB12/199/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "8,319.00",
-            "Fondo (Bs.)": "500.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "GIOVANNA ALCOCER PEREDO",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57328_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57328_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\COCHABAMBA_57328_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "COCHABAMBA_57328_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "COCHABAMBA"
-        },
-        {
-            "C\u00f3digo": "57349",
-            "Recibo": "CCAJ-SR24/113/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "5,099.23",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "MARCIAL ZELAYA VARGAS",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SUCRE_57349_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SUCRE_57349_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SUCRE_57349_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SUCRE_57349_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SUCRE"
-        },
-        {
-            "C\u00f3digo": "57337",
-            "Recibo": "CCAJ-SR27/95/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "191,618.94",
-            "Fondo (Bs.)": "0.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "FABIOLA NAVA - CAJA",
-            "Auditado Por": "",
-            "Acciones": "distribuidora",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SUCRE_57337_arceoCajaBs_dist.xls",
-                    "descargado": "OK",
-                    "name": "SUCRE_57337_arceoCajaBs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SUCRE_57337_arceoCajaUs_dist.xls",
-                    "descargado": "OK",
-                    "name": "SUCRE_57337_arceoCajaUs_dist",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SUCRE_57337_firstExcel_dist.xls",
-                    "descargado": "OK",
-                    "name": "SUCRE_57337_firstExcel_dist",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SUCRE"
-        },
-        {
-            "C\u00f3digo": "57335",
-            "Recibo": "CCAJ-SR54/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "2,734.60",
-            "Fondo (Bs.)": "1,000.00",
-            "Estado": "CONFIRMADO",
-            "Cajero": "ANA MARIA VEGA PEREYRA",
-            "Auditado Por": "",
-            "Acciones": "agencia",
-            "xlsFilesList": [
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SUCRE_57335_arceoCajaBs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SUCRE_57335_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\SUCRE_57335_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "SUCRE_57335_arceoCajaUs_ag",
-                    "retries": 1
-                }
-            ],
-            "Recaudadora": "SUCRE"
-        },
-        {
-            "C\u00f3digo": "57350",
-            "Recibo": "CCAJ-TR50/112/23",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "5,030.40",
+            "C\u00f3digo": "57699",
+            "Recibo": "CCAJ-TR50/124/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "2,500.50",
             "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
             "Cajero": "OSCAR LOAYZA SALVATIERRA",
@@ -874,26 +214,26 @@
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\BENI_57350_arceoCajaBs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57699_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "BENI_57350_arceoCajaBs_ag",
+                    "name": "BENI_57699_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\BENI_57350_arceoCajaUs_ag.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57699_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "BENI_57350_arceoCajaUs_ag",
+                    "name": "BENI_57699_arceoCajaUs_ag",
                     "retries": 1
                 }
             ],
             "Recaudadora": "BENI"
         },
         {
-            "C\u00f3digo": "57327",
-            "Recibo": "CCAJ-TR47/113/2023",
-            "Fecha": "18/05/2023",
-            "Fecha de Cierre": "18/05/2023",
-            "Total (Bs.)": "93,752.80",
+            "C\u00f3digo": "57687",
+            "Recibo": "CCAJ-TR47/125/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "49,783.70",
             "Fondo (Bs.)": "0.00",
             "Estado": "CONFIRMADO",
             "Cajero": "DAVID ZABALA - CAJA",
@@ -901,21 +241,21 @@
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\BENI_57327_arceoCajaBs_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_arceoCajaBs_dist.xls",
                     "descargado": "OK",
-                    "name": "BENI_57327_arceoCajaBs_dist",
+                    "name": "BENI_57687_arceoCajaBs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\BENI_57327_arceoCajaUs_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_arceoCajaUs_dist.xls",
                     "descargado": "OK",
-                    "name": "BENI_57327_arceoCajaUs_dist",
+                    "name": "BENI_57687_arceoCajaUs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\BENI_57327_firstExcel_dist.xls",
+                    "path": "C:\\Users\\Administrador.WIN-PFVEUBTS6N0\\OneDrive - industrias venado\\RPA\\bot4\\Cierres de Caja\\BENI_57687_firstExcel_dist.xls",
                     "descargado": "OK",
-                    "name": "BENI_57327_firstExcel_dist",
+                    "name": "BENI_57687_firstExcel_dist",
                     "retries": 1
                 }
             ],

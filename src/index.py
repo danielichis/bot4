@@ -7,10 +7,26 @@ from sap import superTable,tableTransSap,insertDataToJsonAg
 import os
 def main():
     loginData=loginInfo()
-    if loginData['flags']['flow']!="PROCESAR":
+    
+    if loginData['flags']['flow']=="COMPLETO":
         delete_xlsFiles()
         donloadSgv(loginData)
-    if loginData['flags']['flow']!="DESCARGAR":
+        print("---------------------PROCESANDO ARCHIVOS...")
+        boxClosingFolder=os.path.join(get_current_path(),"Cierres de Caja")
+        convert_xls(boxClosingFolder)
+        scrapCierresDeCaja()
+        collectorClosingFolder=os.path.join(get_current_path(),"Cierres de Cobrador")
+        convert_xls(collectorClosingFolder)
+        scrap_CierreCobrador()
+        #get_templatesSap(loginData['dates'])
+        superTable(loginData)
+        tableTransSap(loginData)
+        insertDataToJsonAg(loginData)
+        makeFinalTemplate(loginData)
+        print("\n---------------------PROCESO FINALIZADO---------------------\n")
+    if loginData['flags']['flow']=="DESCARGAR":
+        donloadSgv(loginData)
+    if loginData['flags']['flow']=="PROCESAR":
         print("---------------------PROCESANDO ARCHIVOS...")
         boxClosingFolder=os.path.join(get_current_path(),"Cierres de Caja")
         convert_xls(boxClosingFolder)
@@ -25,4 +41,4 @@ def main():
         makeFinalTemplate(loginData)
         print("\n---------------------PROCESO FINALIZADO---------------------\n")
 if __name__ == "__main__":
-    main()
+    main()  
