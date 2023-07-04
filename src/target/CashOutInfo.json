@@ -1,29 +1,65 @@
 [
     {
-        "C\u00f3digo": "8612",
-        "Fecha": "02/06/2023 09:03:18",
-        "Encargado": "DAVID ZABALA - CAJA",
-        "Total Bs.": "49,783.70",
+        "C\u00f3digo": "8637",
+        "Fecha": "06/06/2023 13:01:47",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "109,437.10",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "BENI"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8594",
-        "Fecha": "31/05/2023 09:32:34",
-        "Encargado": "DAVID ZABALA - CAJA",
-        "Total Bs.": "145,501.00",
+        "C\u00f3digo": "8631",
+        "Fecha": "05/06/2023 13:58:00",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "258,495.40",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "BENI"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8579",
-        "Fecha": "29/05/2023 09:56:31",
-        "Encargado": "DAVID ZABALA - CAJA",
-        "Total Bs.": "105,393.20",
+        "C\u00f3digo": "8619",
+        "Fecha": "02/06/2023 14:21:28",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "272,869.60",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "BENI"
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8609",
+        "Fecha": "01/06/2023 14:34:39",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "201,317.75",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8601",
+        "Fecha": "31/05/2023 14:34:31",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "571,461.50",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8591",
+        "Fecha": "30/05/2023 13:11:12",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "107,421.80",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8584",
+        "Fecha": "29/05/2023 14:07:17",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "338,920.50",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
     }
 ]

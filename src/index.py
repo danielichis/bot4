@@ -7,7 +7,6 @@ from sap import superTable,tableTransSap,insertDataToJsonAg
 import os
 def main():
     loginData=loginInfo()
-    
     if loginData['flags']['flow']=="COMPLETO":
         delete_xlsFiles()
         donloadSgv(loginData)
@@ -28,7 +27,7 @@ def main():
         donloadSgv(loginData)
     if loginData['flags']['flow']=="PROCESAR":
         print("---------------------PROCESANDO ARCHIVOS...")
-        remove_files(os.path.join(get_current_path(),"Ouputs"))
+        remove_files(os.path.join(get_current_path(),"SapInfo"))
         boxClosingFolder=os.path.join(get_current_path(),"Cierres de Caja")
         convert_xls(boxClosingFolder)
         scrapCierresDeCaja()

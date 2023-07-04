@@ -21,6 +21,149 @@
             "Estado": "CONFIRMADO",
             "Nombre del archivo": "BENI_ADRIAN JESUS CORTEZ CHAVEZ_01062023_2933.60.xls",
             "UniqueID": "ADRIAN JESUS CORTEZ CHAVEZ_01062023_2933.60"
+        },
+        {
+            "codigo": "213824",
+            "Recibo": "CCOB-LP02/2446/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "CARLOS MARCELO REQUENA TERAN",
+            "Total (Bs)": "12,881.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_CARLOS MARCELO REQUENA TERAN_01062023_12881.80.xls",
+            "UniqueID": "CARLOS MARCELO REQUENA TERAN_01062023_12881.80"
+        },
+        {
+            "codigo": "213783",
+            "Recibo": "CCOB-LP02/2445/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "LUIS FERNANDO GUEVARA PECA",
+            "Total (Bs)": "15,307.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_LUIS FERNANDO GUEVARA PECA_01062023_15307.00.xls",
+            "UniqueID": "LUIS FERNANDO GUEVARA PECA_01062023_15307.00"
+        },
+        {
+            "codigo": "213781",
+            "Recibo": "CCOB-LP02/2444/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "GERSON VELASCO LP - T06",
+            "Total (Bs)": "95,504.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T06_01062023_95504.80.xls",
+            "UniqueID": "GERSON VELASCO LP - T06_01062023_95504.80"
+        },
+        {
+            "codigo": "213774",
+            "Recibo": "CCOB-LP02/2443/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "GERSON VELASCO LP - T03",
+            "Total (Bs)": "10,968.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T03_01062023_10968.00.xls",
+            "UniqueID": "GERSON VELASCO LP - T03_01062023_10968.00"
+        },
+        {
+            "codigo": "213767",
+            "Recibo": "CCOB-LP02/2442/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "VLADIMIR FRANZ ATAHUACHI RODRIGUEZ",
+            "Total (Bs)": "8,697.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_VLADIMIR FRANZ ATAHUACHI RODRIGUEZ_01062023_8697.10.xls",
+            "UniqueID": "VLADIMIR FRANZ ATAHUACHI RODRIGUEZ_01062023_8697.10"
+        },
+        {
+            "codigo": "213764",
+            "Recibo": "CCOB-LP02/2441/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "JESUS FELCY MENDOZA CAHUANA",
+            "Total (Bs)": "38,780.37",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JESUS FELCY MENDOZA CAHUANA_01062023_38780.37.xls",
+            "UniqueID": "JESUS FELCY MENDOZA CAHUANA_01062023_38780.37"
+        },
+        {
+            "codigo": "213761",
+            "Recibo": "CCOB-LP02/2440/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "GERSON VELASCO LP - T02",
+            "Total (Bs)": "8,597.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T02_01062023_8597.80.xls",
+            "UniqueID": "GERSON VELASCO LP - T02_01062023_8597.80"
+        },
+        {
+            "codigo": "213758",
+            "Recibo": "CCOB-LP02/2439/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "OSCAR REYNALDO LIMACHI SURCO",
+            "Total (Bs)": "6,232.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_OSCAR REYNALDO LIMACHI SURCO_01062023_6232.60.xls",
+            "UniqueID": "OSCAR REYNALDO LIMACHI SURCO_01062023_6232.60"
+        },
+        {
+            "codigo": "213755",
+            "Recibo": "CCOB-LP02/2438/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "JOSE LUIS VARGAS SANTOS",
+            "Total (Bs)": "15,260.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JOSE LUIS VARGAS SANTOS_01062023_15260.40.xls",
+            "UniqueID": "JOSE LUIS VARGAS SANTOS_01062023_15260.40"
+        },
+        {
+            "codigo": "213753",
+            "Recibo": "CCOB-LP02/2437/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "FREDDY FEDERICO FLORES MARIN",
+            "Total (Bs)": "43,427.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_FREDDY FEDERICO FLORES MARIN_01062023_43427.00.xls",
+            "UniqueID": "FREDDY FEDERICO FLORES MARIN_01062023_43427.00"
+        },
+        {
+            "codigo": "213750",
+            "Recibo": "CCOB-LP02/2436/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "JUAN JOSE MACHACA TORREZ",
+            "Total (Bs)": "13,674.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JUAN JOSE MACHACA TORREZ_01062023_13674.00.xls",
+            "UniqueID": "JUAN JOSE MACHACA TORREZ_01062023_13674.00"
+        },
+        {
+            "codigo": "213748",
+            "Recibo": "CCOB-LP02/2435/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "GERSON VELASCO LP - T05",
+            "Total (Bs)": "8,340.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T05_01062023_8340.50.xls",
+            "UniqueID": "GERSON VELASCO LP - T05_01062023_8340.50"
+        },
+        {
+            "codigo": "213746",
+            "Recibo": "CCOB-LP02/2434/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "ALFREDO MENDOZA APAZA",
+            "Total (Bs)": "3,527.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_ALFREDO MENDOZA APAZA_01062023_3527.60.xls",
+            "UniqueID": "ALFREDO MENDOZA APAZA_01062023_3527.60"
         }
     ]
 }
