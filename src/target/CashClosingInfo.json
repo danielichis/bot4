@@ -1,62 +1,64 @@
 {
     "data": [
         {
-            "C\u00f3digo": "56157",
-            "Recibo": "CCAJ-OR52/62/2023",
-            "Fecha": "31/03/2023",
-            "Fecha de Cierre": "31/03/2023",
-            "Total (Bs.)": "232,020.83",
+            "C\u00f3digo": "57695",
+            "Recibo": "CCAJ-TA43/127/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "99,812.28",
             "Fondo (Bs.)": "0.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "ADMINISTRADOR-ORURO",
+            "Cajero": "NELVI JUANITA ROMERO CASTILLO",
             "Auditado Por": "",
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaBs_dist.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56157_arceoCajaBs_dist",
+                    "name": "TARIJA_57695_arceoCajaBs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaUs_dist.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56157_arceoCajaUs_dist",
+                    "name": "TARIJA_57695_arceoCajaUs_dist",
                     "retries": 1
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_firstExcel_dist.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56157_firstExcel_dist",
+                    "name": "TARIJA_57695_firstExcel_dist",
                     "retries": 1
                 }
-            ]
+            ],
+            "Recaudadora": "TARIJA"
         },
         {
-            "C\u00f3digo": "56156",
-            "Recibo": "CCAJ-OR51/71/23",
-            "Fecha": "31/03/2023",
-            "Fecha de Cierre": "31/03/2023",
-            "Total (Bs.)": "7,333.00",
+            "C\u00f3digo": "57694",
+            "Recibo": "CCAJ-TA06/124/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "7,344.10",
             "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
+            "Cajero": "BELZA GUTIERREZ CONDORI",
             "Auditado Por": "",
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56156_arceoCajaBs_ag",
+                    "name": "TARIJA_57694_arceoCajaBs_ag",
                     "retries": 1
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56156_arceoCajaUs_ag",
+                    "name": "TARIJA_57694_arceoCajaUs_ag",
                     "retries": 1
                 }
-            ]
+            ],
+            "Recaudadora": "TARIJA"
         }
     ]
 }

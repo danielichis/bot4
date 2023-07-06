@@ -1,59 +1,78 @@
 {
     "data": [
         {
-            "codigo": "207349",
-            "Recibo": "CCOB-OR52/312/2023",
-            "Fecha de Creacion": "31/03/2023",
-            "Correspondiente al": "31/03/2023",
-            "Cobrador": "FULVIA SIRIA GUZMAN OLIVARES",
-            "Total (Bs)": "32,483.70",
+            "codigo": "213788",
+            "Recibo": "CCOB-TA43/600/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "ANDRES ESTEBAN SINGURI LLANOS",
+            "Total (Bs)": "85,611.08",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "ORURO_FULVIA SIRIA GUZMAN OLIVARES_31032023_32483.70.xls",
-            "UniqueID": "FULVIA SIRIA GUZMAN OLIVARES_31032023_32483.70"
+            "Nombre del archivo": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
+            "UniqueID": "ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaBs_ag",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaUs_ag",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20",
+                    "retries": 1
+                }
+            ]
         },
         {
-            "codigo": "207323",
-            "Recibo": "CCOB-OR52/311/2023",
-            "Fecha de Creacion": "31/03/2023",
-            "Correspondiente al": "31/03/2023",
-            "Cobrador": "ISRAEL LUIS OCAMPO CAYOJA",
-            "Total (Bs)": "97,668.10",
+            "codigo": "213744",
+            "Recibo": "CCOB-TA43/599/2023",
+            "Fecha de Creacion": "01/06/2023",
+            "Correspondiente al": "01/06/2023",
+            "Cobrador": "JUAN PABLO CAMACHO QUISPE",
+            "Total (Bs)": "14,201.20",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "ORURO_ISRAEL LUIS OCAMPO CAYOJA_31032023_97668.10.xls",
-            "UniqueID": "ISRAEL LUIS OCAMPO CAYOJA_31032023_97668.10"
-        },
-        {
-            "codigo": "207306",
-            "Recibo": "CCOB-OR52/310/2023",
-            "Fecha de Creacion": "31/03/2023",
-            "Correspondiente al": "31/03/2023",
-            "Cobrador": "DAVID RODRIGO CHUMACERO VEGA",
-            "Total (Bs)": "36,953.62",
-            "Estado": "CONFIRMADO",
-            "Nombre del archivo": "ORURO_DAVID RODRIGO CHUMACERO VEGA_31032023_36953.62.xls",
-            "UniqueID": "DAVID RODRIGO CHUMACERO VEGA_31032023_36953.62"
-        },
-        {
-            "codigo": "207305",
-            "Recibo": "CCOB-OR52/309/2023",
-            "Fecha de Creacion": "31/03/2023",
-            "Correspondiente al": "30/03/2023",
-            "Cobrador": "MARCOS JOSUE FLORES CAYOJA",
-            "Total (Bs)": "13,923.60",
-            "Estado": "CONFIRMADO",
-            "Nombre del archivo": "ORURO_MARCOS JOSUE FLORES CAYOJA_31032023_13923.60.xls",
-            "UniqueID": "MARCOS JOSUE FLORES CAYOJA_31032023_13923.60"
-        },
-        {
-            "codigo": "207304",
-            "Recibo": "CCOB-OR52/308/2023",
-            "Fecha de Creacion": "31/03/2023",
-            "Correspondiente al": "30/03/2023",
-            "Cobrador": "CRISTIAN HUARACHI QUISPE",
-            "Total (Bs)": "50,991.81",
-            "Estado": "CONFIRMADO",
-            "Nombre del archivo": "ORURO_CRISTIAN HUARACHI QUISPE_31032023_50991.81.xls",
-            "UniqueID": "CRISTIAN HUARACHI QUISPE_31032023_50991.81"
+            "Nombre del archivo": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
+            "UniqueID": "JUAN PABLO CAMACHO QUISPE_01062023_14201.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaBs_ag",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaUs_ag",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08",
+                    "retries": 1
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20",
+                    "retries": 1
+                }
+            ]
         }
     ]
 }

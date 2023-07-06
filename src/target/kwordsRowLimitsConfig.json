@@ -35,7 +35,7 @@
         "ambos": {
             "reporte": {
                 "superior": "Saldo Anterior",
-                "inferior": "Cobranza del D\u00eda"
+                "inferior": "Diferencia"
             },
             "recibo de cobranza": {
                 "inferior": "Total Cobrado:",
@@ -58,7 +58,7 @@
                 "inferior": "Total vales"
             },
             "QR": {
-                "superior": "fecha",
+                "superior": "Fecha",
                 "inferior": "Q"
             },
             "billetes": {
@@ -106,7 +106,7 @@
                 "inferior": "Total vales"
             },
             "QR": {
-                "superior": "fecha",
+                "superior": "Fecha",
                 "inferior": "Q"
             }
         }

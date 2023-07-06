@@ -1,7 +1,10 @@
 import sys
 import os
+import win32com.client as win32
 from pathlib import Path
 import datetime
+from openpyxl import load_workbook
+from openpyxl.styles import numbers
 import pyexcel
 import openpyxl
 import json
@@ -13,6 +16,7 @@ class pathsProyect:
         self.jsonCcaj = None
         self.jsonCcob = None
         self.jsonCashOut = None
+        self.csvCashOut = None
         self.dirCcaj = None
         self.dirCcob = None
         self.dirCashOut = None
@@ -21,6 +25,10 @@ class pathsProyect:
         self.bot1=None
         self.bot1_config=None
         self.tables=None
+        self.jsonClientBox=None
+        self.jsonCobBox=None
+        self.detalleCajaCsv=None
+        self.billsTableCsv=None
         self.get_app_path()
         self.getting_paths()
     def get_app_path(self):
@@ -33,6 +41,7 @@ class pathsProyect:
         #return Path(application_path)
     def getting_paths(self):
         self.jsonCcaj=os.path.join(self.appPath.parent.absolute(),"src","target","CashClosingInfo.json")
+        self.jsonCashOut=os.path.join(self.appPath.parent.absolute(),"src","target","CashOutInfo.json")
         self.jsonCcob=os.path.join(self.appPath.parent.absolute(),"src","target","CollectorClosingFilesDonwload.json")
         self.bot1=os.path.join(self.appPath.parent.absolute().parent.absolute(),"Bot1","SapHunter")
         self.bot1_extractos=os.path.join(self.bot1,"extractosBancarios")
@@ -40,6 +49,19 @@ class pathsProyect:
         self.bot1_config=os.path.join(self.bot1,"config.xlsx")
         self.tables=os.path.join(self.appPath.parent.absolute(),"Tablas")
         self.dirCcaj=os.path.join(self.appPath.parent.absolute(),"Cierres de Caja","formatoxlsx")
+        self.csvCashOut=os.path.join(self.appPath.parent.absolute(),"Tablas","cashOut.csv")
+        self.detalleCajaCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","DetalleCcajTable.csv")
+        self.billsTableCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","billsTable.csv")
+        self.coinsTableCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","coinsTable.csv")
+        self.bankTransferTableCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","banktransfersTable.csv")
+        self.vouchersTableCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","voucherTable.csv")
+        self.checksTableCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","checksTable.csv")
+        self.qrTableCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","qrTable.csv'")
+        self.cuoponsTableCsv=os.path.join(self.appPath.parent.absolute(),"Tablas","cuoponTable.csv")
+        self.jsonCobBox=os.path.join(self.appPath.parent.absolute(),"src","target","CcobBox.json")
+        self.jsonClientBox=os.path.join(self.appPath.parent.absolute(),"src","target","CcajBox.json")
+        self.jsonFinal=os.path.join(self.appPath.parent.absolute(),"src","target","FinalDataToExcel.json")
+        self.FullExcelDataJson=os.path.join(self.appPath.parent.absolute(),"src","target","FullExcelData.json")
 paths=pathsProyect()
 def get_current_path():
     config_name = 'myapp.cfg'
@@ -65,12 +87,12 @@ def remove_files(folderPath):
     for path in os.listdir(folderPath):
     # check if current path is a file
         if os.path.isfile(os.path.join(folderPath, path)):
-            if path[-4:]==".xls" or path[-5:]==".xlsx":
+            if path[-4:]==".xls" or path[-5:]==".xlsx" or path[-4:]==".csv" or path[-4:]==".txt" :
                 #if path=="auszug.txt" or path=="umsatz.txt":
                 os.remove(os.path.join(folderPath, path))
                 #print("txt file deleted")
 def delete_xlsFiles():
-    print("Borrando archivos anteriores")
+    print("Borrando archivos anteriores...")
     paths=pathsProyect()
     data={"data":[]}
     with open(paths.jsonCcaj,"w") as json_file:
@@ -81,13 +103,15 @@ def delete_xlsFiles():
     remove_files(os.path.join(paths.folderProyect,"Cierres de Caja","formatoxlsx"))
     remove_files(os.path.join(paths.folderProyect,"Cierres de Cobrador"))
     remove_files(os.path.join(paths.folderProyect,"Cierres de Cobrador","formatoxlsx"))
+    remove_files(os.path.join(paths.folderProyect,"SapInfo"))
+    remove_files(os.path.join(paths.folderProyect,"Ouputs"))
 def convert_xls(pathFolder):    
     filesInfolder=os.listdir(pathFolder)
     e=""
     for file in filesInfolder:
         if file.endswith(".xls"):
             try:
-                print(file)
+                #print(file)
                 #name of file 
                 xls=os.path.join(pathFolder,file)
                 xlsx=os.path.join(pathFolder,"formatoxlsx",file.replace(".xls",".xlsx"))
@@ -108,6 +132,11 @@ def get_kwords_rowLimits_config():
         data = json.load(json_file)
     return data
 def get_currency(fileName):
+    #print(fileName)
+    path=Path(fileName)
+    fileName=path.name
+    #get the fileName in path 
+
     if fileName.find("Us")!=-1:
         typeCurrency="dólar"
     elif fileName.find("Bs")!=-1:
@@ -119,23 +148,25 @@ def get_currency(fileName):
     return typeCurrency
 
 def writeJson():
-    with open(r'src\target\CashClosingInfo.json',"r") as json_file:
+    with open(paths.jsonCcaj,"r") as json_file:
         data = json.load(json_file)
     for row in data['data']:
         row['NuevaData']={}
-    with open(r'src\target\CashClosingInfo.json',"w") as json_file:
+    with open(paths.jsonCcaj,"w") as json_file:
         json.dump(data,json_file,indent=4)
 def getSgvData(fileName):
     code=re.findall(r'(\d{5})_', fileName)[0]
-    with open(r'src\target\CashClosinginfo.json',"r") as json_file:
+    with open(paths.jsonCcaj,"r") as json_file:
         data = json.load(json_file)
     for d in data["data"]:
         if d['Código']==code:
             return d
 def normalizeTable():
-    print("Normalizando tablas")
+    #print("Normalizando tablas")
     dfs=[]
-    dfNames=[r'Tablas\billsTable.csv',r'Tablas\coinsTable.csv',r'Tablas\banktransfersTable.csv',r'Tablas\voucherTable.csv',r'Tablas\checksTable.csv',r'Tablas\qrTable.csv',r'Tablas\cuoponTable.csv']
+    dfNames=[paths.billsTableCsv,paths.coinsTableCsv,paths.bankTransferTableCsv
+             ,paths.vouchersTableCsv,paths.checksTableCsv,paths.qrTableCsv
+             ,paths.cuoponsTableCsv]
     
     for dfName in dfNames:
         try:
@@ -143,16 +174,15 @@ def normalizeTable():
             dfs.append(df)
         except:
             pass
-            print("No se encontro data en el archivo: ",dfName)
-
-    df_all=pd.concat(dfs,ignore_index=True)
-    
-    allData=df_all.to_dict('records')
-    for d in allData:
-        if d['Amount']=="-":
-            d['Amount']=0
+            print("-------------No se encontro data en el archivo: ",dfName)
+    try:
+        df_all=pd.concat(dfs,ignore_index=True)
+        allData=df_all.to_dict('records')
+    except:
+        print("-------------No se encontro data en ningun archivo")
+        allData=[]
     df_all=pd.DataFrame(allData)
-    df_all.to_csv(r'Tablas\DetalleCcajTable.csv',index=False,sep=';',header=True)
+    df_all.to_csv(paths.detalleCajaCsv,index=False,sep=';',header=True)
 
 def loginInfo():
     wb=openpyxl.load_workbook(os.path.join(get_current_path(),"config.xlsx"))
@@ -164,7 +194,25 @@ def loginInfo():
     configDat['dates']['dInit']=dinit
     configDat['dates']['dEnd']=ws["B3"].value
     configDat['users']={}
-
+    configDat['SapLogin']={
+                'SAPPath': ws['B16'].value,
+                'user': ws['B17'].value,
+                'psw': ws['B18'].value,
+                'environment': ws['B19'].value,
+                'layout': ws['B20'].value,
+                'fechaInicio': ws['B2'].value,
+                'fechaFin': ws['B3'].value
+                }
+    listOfAccounts=[]
+    wsAccounts = wb['ctasMayores']
+    for i in range(2, wsAccounts.max_row+1):
+        accountCell = wsAccounts[f'A{i}'].value
+        accountCell = str(accountCell)
+        accountCell = accountCell.replace(" ", "")
+        if accountCell != None and accountCell != "":
+            listOfAccounts.append(accountCell)
+    
+    configDat['accounts'] = listOfAccounts
     maxRow=ws.max_row
     for i in range(2,maxRow+1):
         if ws["G"+str(i)].value!=None and ws["F"+str(i)].value=="SI":
@@ -276,5 +324,60 @@ def get_templatesSap(dates):
     df_templatesSap=pd.DataFrame(extractInfo)
     df_templatesSap.to_csv(os.path.join(paths.tables,"ExtractosBancarios.csv"),index=False,sep=	";",encoding="utf-8")
 
+def concat_dfs2(lists):
+    df_list=[]
+    for lista in lists:
+        #df is not empty
+        df=pd.DataFrame(lista)
+        if df.empty==False:
+            df_list.append(df)
+    dff=pd.concat(df_list,axis=1)
+    concat_table=dff.to_dict('records')
+    return concat_table
+def concat_dfs(lists):
+    df_list=[]
+    for lista in lists:
+        #df is not empty
+        df=pd.DataFrame(lista)
+        df_list.append(df)
+    dff=pd.concat(df_list,axis=1)
+    concat_table=dff.to_dict('records')
+    return concat_table
+
+def change_ExcelSeparators():
+    # Crear una instancia de la aplicación Exce
+
+    # Cargar el archivo de Excel
+    archivo_excel = r"C:\DanielBots\bot4\sting.xlsx"
+    libro = load_workbook(archivo_excel)
+
+    # Obtener la hoja de trabajo activa
+    hoja_activa = libro.active
+
+    hoja_activa.cell(row=1, column=3).value = 1234567890.1234567890
+    # Configurar el separador de decimales
+    hoja_activa.number_format = numbers.FORMAT_NUMBER_DOT_SEPARATED2
+
+    # Guardar los cambios en el archivo
+    libro.save(archivo_excel)
+
+    # Cerrar el libro de Excel
+    libro.close()
+def change_ExcelSeparators2():
+    # Crear una instancia de la aplicación Excel
+    excel_app = win32.gencache.EnsureDispatch('Excel.Application')
+
+    # Configurar el separador de decimales
+    excel_app.DecimalSeparator = ','
+
+    # Configurar el separador de miles
+    excel_app.ThousandsSeparator = '.'
+
+    # Guardar la configuración
+    #excel_app.Save()
+
+    # Cerrar la aplicación Excel
+    excel_app.Quit()
 if __name__ == '__main__':
-    normalizeTable()
+    #change_ExcelSeparators2()
+    print("hola, ejecutandose programa...")

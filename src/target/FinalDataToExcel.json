@@ -1,0 +1,408 @@
+{
+    "data": [
+        {
+            "C\u00f3digo": "57695",
+            "Recibo": "CCAJ-TA43/127/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "99,812.28",
+            "Fondo (Bs.)": "0.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "NELVI JUANITA ROMERO CASTILLO",
+            "Auditado Por": "",
+            "Acciones": "distribuidora",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaBs_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_arceoCajaBs_dist",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57695_arceoCajaBs_dist.xlsx",
+                    "distributionType": "distribuidora",
+                    "moneyType": "Bs",
+                    "data": {
+                        "billTable": [
+                            {
+                                "billValue": "200",
+                                "billQuantity": "27",
+                                "AmountBill": "5,400.00"
+                            },
+                            {
+                                "billValue": "100",
+                                "billQuantity": "355",
+                                "AmountBill": "35,500.00"
+                            },
+                            {
+                                "billValue": "50",
+                                "billQuantity": "368",
+                                "AmountBill": "18,400.00"
+                            },
+                            {
+                                "billValue": "20",
+                                "billQuantity": "545",
+                                "AmountBill": "10,900.00"
+                            },
+                            {
+                                "billValue": "10",
+                                "billQuantity": "959",
+                                "AmountBill": "9,590.00"
+                            }
+                        ],
+                        "coinsTable": [
+                            {
+                                "coinValue": "5",
+                                "coinQuantity": "20",
+                                "AmountCoin": "100.00"
+                            },
+                            {
+                                "coinValue": "2",
+                                "coinQuantity": "12",
+                                "AmountCoin": "24.00"
+                            },
+                            {
+                                "coinValue": "1",
+                                "coinQuantity": "19",
+                                "AmountCoin": "19.00"
+                            },
+                            {
+                                "coinValue": "0.50",
+                                "coinQuantity": "57",
+                                "AmountCoin": "28.50"
+                            },
+                            {
+                                "coinValue": "0.20",
+                                "coinQuantity": "32",
+                                "AmountCoin": "6.40"
+                            },
+                            {
+                                "coinValue": "0.10",
+                                "coinQuantity": "1",
+                                "AmountCoin": "0.10"
+                            }
+                        ],
+                        "checkTable": [],
+                        "bankTransferTable": [
+                            {
+                                "DateTransfer": "01/06/2023",
+                                "DocumentNumberTransfer": "131926",
+                                "BankTransfer": "MERCANTIL SANTA CRUZ",
+                                "AmountTransfer": 19844.28,
+                                "SapInfo": {
+                                    "St": "CCAJ-TA43/127/20",
+                                    "N\u00ba doc.": 113397644,
+                                    "Fecha doc.": "01.06.2023",
+                                    "Fecha.contab": "01.06.2023",
+                                    "CT": 40,
+                                    "Importe en Ml": "19.844,28",
+                                    "ML": "BOB",
+                                    "Texto": "-",
+                                    "ImpteML2": "2.851,19",
+                                    "ML2": "USD",
+                                    "Libro Mayor": 101041002
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaUs_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_arceoCajaUs_dist",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57695_arceoCajaUs_dist.xlsx",
+                    "distributionType": "distribuidora",
+                    "moneyType": "d\u00f3lar",
+                    "data": {
+                        "billTable": [],
+                        "checkTable": [],
+                        "bankTransferTable": []
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_firstExcel_dist.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57695_firstExcel_dist",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57695_firstExcel_dist.xlsx",
+                    "distributionType": "distribuidora",
+                    "moneyType": "other",
+                    "data": {
+                        "summaryTable": [
+                            {
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Saldo Anterior",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "0.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "0.00",
+                                "TransferUs_CcajConsol": null,
+                                "TransferEqBs_CcajConsol": null,
+                                "TransferBs_CcajConsol": null,
+                                "TotalBs_CcajConsol": "0.00",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "0.00"
+                            },
+                            {
+                                "Code_CcajConsol": "2645",
+                                "Checker_CcajConsol": "ANDRES ESTEBAN SINGURI LLANOS",
+                                "FechaRend_CcajConsol": "01/06/2023",
+                                "FechaRecibo_CcajConsol": "01/06/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/600/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 65766.8,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 65766.8,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 19844.28,
+                                "TotalBs_CcajConsol": 85611.08,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 85611.08
+                            },
+                            {
+                                "Code_CcajConsol": "2779",
+                                "Checker_CcajConsol": "JUAN PABLO CAMACHO QUISPE",
+                                "FechaRend_CcajConsol": "01/06/2023",
+                                "FechaRecibo_CcajConsol": "01/06/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/599/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 14201.2,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 14201.2,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 14201.2,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 14201.2
+                            },
+                            {
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Cobranza del D\u00eda",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "79,968.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "79,968.00",
+                                "TransferUs_CcajConsol": "0.00",
+                                "TransferEqBs_CcajConsol": "0.00",
+                                "TransferBs_CcajConsol": "19,844.28",
+                                "TotalBs_CcajConsol": "99,812.28",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "99,812.28"
+                            },
+                            {
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Saldo Final",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "79,968.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "79,968.00",
+                                "TransferUs_CcajConsol": "0.00",
+                                "TransferEqBs_CcajConsol": "0.00",
+                                "TransferBs_CcajConsol": "19,844.28",
+                                "TotalBs_CcajConsol": "99,812.28",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "99,812.28"
+                            },
+                            {
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Total Seg\u00fan Arqueo",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "79,968.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "79,968.00",
+                                "TransferUs_CcajConsol": "0.00",
+                                "TransferEqBs_CcajConsol": "0.00",
+                                "TransferBs_CcajConsol": "19,844.28",
+                                "TotalBs_CcajConsol": "99,812.28",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "99,812.28"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Recaudadora": "TARIJA"
+        },
+        {
+            "C\u00f3digo": "57694",
+            "Recibo": "CCAJ-TA06/124/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "7,344.10",
+            "Fondo (Bs.)": "1,000.00",
+            "Estado": "CONFIRMADO",
+            "Cajero": "BELZA GUTIERREZ CONDORI",
+            "Auditado Por": "",
+            "Acciones": "agencia",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaBs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57694_arceoCajaBs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "Bs",
+                    "data": {
+                        "billTable": [
+                            {
+                                "billValue": "200",
+                                "billQuantity": "2",
+                                "AmountBill": "400.00"
+                            },
+                            {
+                                "billValue": "100",
+                                "billQuantity": "35",
+                                "AmountBill": "3,500.00"
+                            },
+                            {
+                                "billValue": "50",
+                                "billQuantity": "29",
+                                "AmountBill": "1,450.00"
+                            },
+                            {
+                                "billValue": "20",
+                                "billQuantity": "27",
+                                "AmountBill": "540.00"
+                            },
+                            {
+                                "billValue": "10",
+                                "billQuantity": "50",
+                                "AmountBill": "500.00"
+                            }
+                        ],
+                        "coinsTable": [
+                            {
+                                "coinValue": "5",
+                                "coinQuantity": "82",
+                                "AmountCoin": "410.00"
+                            },
+                            {
+                                "coinValue": "2",
+                                "coinQuantity": "126",
+                                "AmountCoin": "252.00"
+                            },
+                            {
+                                "coinValue": "1",
+                                "coinQuantity": "57",
+                                "AmountCoin": "57.00"
+                            },
+                            {
+                                "coinValue": "0.50",
+                                "coinQuantity": "111",
+                                "AmountCoin": "55.50"
+                            },
+                            {
+                                "coinValue": "0.20",
+                                "coinQuantity": "75",
+                                "AmountCoin": "15.00"
+                            },
+                            {
+                                "coinValue": "0.10",
+                                "coinQuantity": "650",
+                                "AmountCoin": "65.00"
+                            }
+                        ],
+                        "voucherTable": [
+                            {
+                                "DateVoucher": "01/06/2023",
+                                "NroRefVoucher": "002271",
+                                "NroClientVoucher": "5811377 Tja",
+                                "AmountVoucher": 60
+                            },
+                            {
+                                "DateVoucher": "01/06/2023",
+                                "NroRefVoucher": "002269",
+                                "NroClientVoucher": "7240879 tja",
+                                "AmountVoucher": 39.6
+                            }
+                        ],
+                        "cuoponTable": [],
+                        "qrTable": [],
+                        "diferencesTable": [
+                            {
+                                "Concept": "Faltante",
+                                "Motive": "Por diferencia de Precios",
+                                "SubtotalUs": null,
+                                "SubtotalBs": "0.10",
+                                "TotalBs": "0.10"
+                            }
+                        ],
+                        "ventas": {
+                            "Ventas al Contado": {
+                                "EFECTIVO": 6244.6,
+                                "DOCUMENTOS": 99.6,
+                                "TOTAL": 6344.2
+                            },
+                            "Ventas al Credito": {
+                                "PERSONAL IVSA": "",
+                                "OTROS": 0,
+                                "TOTAL": 0
+                            },
+                            "TOTALVENTAS": 6344.2
+                        },
+                        "otrosIngresos": {
+                            "totalMEBs": 0,
+                            "totalEfectivoBs": 7244.5,
+                            "fondosCambios": "1,000.00",
+                            "importeDepositarBs": "6,244.50",
+                            "importeDepositarUs": null
+                        }
+                    }
+                },
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
+                    "descargado": "OK",
+                    "name": "TARIJA_57694_arceoCajaUs_ag",
+                    "retries": 1,
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57694_arceoCajaUs_ag.xlsx",
+                    "distributionType": "agencia",
+                    "moneyType": "d\u00f3lar",
+                    "data": {
+                        "billTable": [],
+                        "voucherTable": [],
+                        "qrTable": []
+                    }
+                }
+            ],
+            "Recaudadora": "TARIJA"
+        }
+    ]
+}

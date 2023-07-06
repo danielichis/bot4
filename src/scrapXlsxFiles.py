@@ -4,6 +4,7 @@ from utils import getSgvData,normalizeTable,pathsProyect
 import os
 import re
 import json
+from pathlib import Path
 import pandas as pd
 
 paths=pathsProyect()
@@ -33,6 +34,8 @@ class scrapTablesExcel:
     def get_left_up_vertex_table(self,tableName,moneyType):
         sh=self.sh
         i=1
+        if self.currency=="dólar":
+            pass
         columBill=self.indexColumns[self.distributionType]["Detalle Operaciones"][self.currency][moneyType][tableName]["valor"]
         kword=self.kwordsRowLimits[self.distributionType][self.currency][tableName]["superior"]
         while sh.cell(i,columBill).value !=kword:
@@ -70,16 +73,14 @@ class scrapTablesExcel:
         i=self.get_left_up_vertex_table(nameTable,moneyType)
         while sh.cell(i,columTotalBill).value !=downLimitWord:
             billsDict={
-                **self.sgvData,
-                "Medio de pago":"Efectivo",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
-                "recaudacion":typeDistribution,
                 "billValue":sh.cell(i,columBill).value,
-                "billQuantity":sh.cell(i,columQantityBill).value,
-                "Amount":sh.cell(i,ColumnAmountBill).value
+                "billQuantity":sh.cell(i,columQantityBill).value
             }
+            if sh.cell(i,ColumnAmountBill).value=="-":
+                billsDict["AmountBill"]=0
+            else:
+                billsDict["AmountBill"]=sh.cell(i,ColumnAmountBill).value
+
             if billsDict["billQuantity"] not in filterBillsWords:
                 billsTable.append(billsDict)
             i=i+1
@@ -102,16 +103,14 @@ class scrapTablesExcel:
         coinsTable=[]
         while sh.cell(i,ColumnTotalCurrency).value !=downLimitWord:
             coinsDict={
-                **self.sgvData,
-                "Medio de pago":"Efectivo",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
-                "recaudacion":typeDistribution,
                 "coinValue":sh.cell(i,ColumCurrency).value,
-                "coinQuantity":sh.cell(i,ColumnCurrencyQuantity).value,
-                "Amount":sh.cell(i,ColumnCurrencyAmount).value
+                "coinQuantity":sh.cell(i,ColumnCurrencyQuantity).value
             }
+            if sh.cell(i,ColumnCurrencyAmount).value=="-":
+                coinsDict["AmountCoin"]=0
+            else:
+                coinsDict["AmountCoin"]=sh.cell(i,ColumnCurrencyAmount).value
+
             if coinsDict["coinValue"] not in filterCoinsWords:
                 coinsTable.append(coinsDict)
             i=i+1
@@ -139,18 +138,16 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumCheckTotal).value !=downLimitWord:
             checkDict={
-                **self.sgvData,
-                "Medio de pago":"Cheque",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
-                "recaudacion":typeDistribution,
-                "Date":sh.cell(i,ColumDate).value,
+                "DateCheck":sh.cell(i,ColumDate).value,
                 "DocumentNumber":sh.cell(i,ColumCheckDocument).value,
-                "Bank":sh.cell(i,ColumnCheckBank).value,
-                "Amount":sh.cell(i,ColumCheckAmount).value
+                "CheckBank":sh.cell(i,ColumnCheckBank).value,
+                "AmountCheck":""
             }
-            if checkDict["Date"] not in filterCheckWords:
+            if checkDict["AmountCheck"]=="-":
+                checkDict["AmountCheck"]=0
+            else:
+                checkDict["AmountCheck"]=sh.cell(i,ColumCheckAmount).value
+            if checkDict["DateCheck"] not in filterCheckWords:
                 checkTable.append(checkDict)
             i=i+1
         #print(pd.DataFrame(checkTable))
@@ -176,18 +173,17 @@ class scrapTablesExcel:
         bankTransferTable=[]
         while sh.cell(i,ColumBankTransferTotal).value !=downLimitWord:
             bankTransferDict={
-                **self.sgvData,
-                "Medio de pago":"Transferencia Bancaria",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
-                "recaudacion":self.distributionType,
-                "Date":sh.cell(i,ColumBankTransfer).value,
-                "DocumentNumber":sh.cell(i,ColumBankTransferDocument).value,
-                "Bank":sh.cell(i,ColumBankTransferBank).value,
-                "Amount":sh.cell(i,ColumBankTransferAmount).value
+                "DateTransfer":sh.cell(i,ColumBankTransfer).value,
+                "DocumentNumberTransfer":sh.cell(i,ColumBankTransferDocument).value,
+                "BankTransfer":sh.cell(i,ColumBankTransferBank).value,
+                "AmountTransfer":sh.cell(i,ColumBankTransferAmount).value
             }
-            if bankTransferDict["Date"] not in filterTransferWords:
+
+            if bankTransferDict["AmountTransfer"]=="-":
+                bankTransferDict["AmountTransfer"]=0
+            else:
+                bankTransferDict["AmountTransfer"]=sh.cell(i,ColumBankTransferAmount).value
+            if bankTransferDict["DateTransfer"] not in filterTransferWords:
                 bankTransferTable.append(bankTransferDict)
             i=i+1
         #print(pd.DataFrame(bankTransferTable))
@@ -228,34 +224,31 @@ class scrapTablesExcel:
             totalFormat=str(sh.cell(i,ColumTotal).value).replace(",","")
             checker=str(sh.cell(i,ColumChecker).value)
             summaryDict={
-                "uniqKey":"",
-                "ruta":self.fileName,
-                "recaudadora":self.recaud,
-                "Code":sh.cell(i,ColumCode).value,
-                "Codigo":self.codeCcaj,
-                "Checker":sh.cell(i,ColumChecker).value,
-                "FechaRend":sh.cell(i,ColumRendDate).value,
-                "FechaRecibo":sh.cell(i,ColumReceiptDate).value,
-                "NroRecibo":sh.cell(i,ColumReceiptNumber).value,
-                "UsCash":sh.cell(i,ColumUsCash).value,
-                "BsCash":sh.cell(i,ColumBsCash).value,
-                "UsCheck":sh.cell(i,ColumUsCheck).value,
-                "BsCheck":sh.cell(i,ColumBsCheck).value,
-                "TotalUsCash":sh.cell(i,ColumTotalUsCash).value,
-                "TotalEqBsCash":sh.cell(i,ColumTotalEqBsCash).value,
-                "TotalBsCash":sh.cell(i,ColumTotalBsCash).value,
-                "TransferUs":sh.cell(i,ColumTransferUs).value,
-                "TransferEqBs":sh.cell(i,ColumTransferEqBs).value,
-                "TransferBs":sh.cell(i,ColumTransferBs).value,
-                "TotalUs":sh.cell(i,ColumTotalUs).value,
-                "TotalEqBs":sh.cell(i,ColumTotalEqBs).value,
-                "TotalCCAJ":sh.cell(i,ColumTotalBs).value,
+                "Code_CcajConsol":sh.cell(i,ColumCode).value,
+                "Checker_CcajConsol":sh.cell(i,ColumChecker).value,
+                "FechaRend_CcajConsol":sh.cell(i,ColumRendDate).value,
+                "FechaRecibo_CcajConsol":sh.cell(i,ColumReceiptDate).value,
+                "NroRecibo_CcajConsol":sh.cell(i,ColumReceiptNumber).value,
+                "UsCash_CcajConsol":sh.cell(i,ColumUsCash).value,
+                "BsCash_CcajConsol":sh.cell(i,ColumBsCash).value,
+                "UsCheck_CcajConsol":sh.cell(i,ColumUsCheck).value,
+                "BsCheck_CcajConsol":sh.cell(i,ColumBsCheck).value,
+                "TotalUsCash_CcajConsol":sh.cell(i,ColumTotalUsCash).value,
+                "TotalEqBsCash_CcajConsol":sh.cell(i,ColumTotalEqBsCash).value,
+                "TotalBsCash_CcajConsol":sh.cell(i,ColumTotalBsCash).value,
+                "TransferUs_CcajConsol":sh.cell(i,ColumTransferUs).value,
+                "TransferEqBs_CcajConsol":sh.cell(i,ColumTransferEqBs).value,
+                "TransferBs_CcajConsol":sh.cell(i,ColumTransferBs).value,
+                "TotalBs_CcajConsol":sh.cell(i,ColumTotalBs).value,
+                "TotalUs_CcajConsol":sh.cell(i,ColumTotalUs).value,
+                "TotalEqBs_CcajConsol":sh.cell(i,ColumTotalEqBs).value,
+                "TotalCcajConsol":sh.cell(i,ColumTotalBs).value,
             }
-            if summaryDict["FechaRend"] not in filterkeyWords:
+            if summaryDict["FechaRend_CcajConsol"] not in filterkeyWords:
                 totalFormat="{:.2f}".format(float(totalFormat))
                 rec=self.recaud
-                summaryDict["uniqKey"]=rec+"_"+checker+"_"+formatedDate+"_"+totalFormat
-                if float(totalFormat)>0:
+                #summaryDict["uniqKey"]=rec+"_"+checker+"_"+formatedDate+"_"+totalFormat
+                if float(totalFormat)>=0:
                     summaryTable.append(summaryDict)
             i=i+1
         #print(pd.DataFrame(summaryTable))        
@@ -281,18 +274,17 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             voucherDict={
-                **self.sgvData,
-                "Medio de pago":"Voucher",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
-                "recaudacion":typeDistribution,
-                "Date":sh.cell(i,columDate).value,
-                "NroRef":sh.cell(i,columnNroRef).value,
-                "NroClient":sh.cell(i,ColumNroClient).value,
-                "Amount":sh.cell(i,ColumSubtotal).value,
+                "DateVoucher":sh.cell(i,columDate).value,
+                "NroRefVoucher":sh.cell(i,columnNroRef).value,
+                "NroClientVoucher":sh.cell(i,ColumNroClient).value,
+                "AmountVoucher":sh.cell(i,ColumSubtotal).value,
             }
-            if voucherDict["Date"] not in kwordsFilter:
+            if voucherDict["AmountVoucher"]=="-":
+                voucherDict["AmountVoucher"]=0
+            else:
+                voucherDict["AmountVoucher"]=sh.cell(i,ColumSubtotal).value
+
+            if voucherDict["DateVoucher"] not in kwordsFilter:
                 voucherTable.append(voucherDict)
             i=i+1
         #print(pd.DataFrame(voucherTable))
@@ -318,18 +310,16 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             couponDict={
-                **self.sgvData,
-                "Medio de pago":"Vale",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
-                "recaudacion":self.distributionType,
-                "Quantity":sh.cell(i,columQuantity).value,
-                "Client":sh.cell(i,columClient).value,
-                "Subtotal":sh.cell(i,ColumSubtotal).value,
+                "QuantityVale":sh.cell(i,columQuantity).value,
+                "ClientVale":sh.cell(i,columClient).value,
+                "SubtotalVale":sh.cell(i,ColumSubtotal).value,
             }
             i=i+1
-        if couponDict["Quantity"] not in keywordsFilter:
+        if couponDict["SubtotalVale"]=="-":
+            couponDict["SubtotalVale"]=0
+        else:
+            couponDict["SubtotalVale"]=sh.cell(i,ColumSubtotal).value
+        if couponDict["QuantityVale"] not in keywordsFilter:
             couponTable.append(couponDict)
             
         #print(pd.DataFrame(couponTable))
@@ -349,25 +339,27 @@ class scrapTablesExcel:
         i=1
         qrTable=[]
         keywordsFilter=[None,"Pagos QR","Fecha"]
+        if typeCurrency=="Bs":
+            pass
         upLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["superior"]
         downLimitWord=self.kwordsRowLimits[typeDistribution][typeCurrency][nameTable]["inferior"]
+        #print(self.fileName)
+        #print(upLimitWord,columDate)
         while sh.cell(i,columDate).value !=upLimitWord:
             i=i+1
         
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             qrDict={
-                **self.sgvData,
-                "Medio de pago":"QR",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
-                "recaudacion":self.distributionType,
-                "Date":sh.cell(i,columDate).value,
-                "NroRef":sh.cell(i,columNroRef).value,
-                "NroClient":sh.cell(i,ColumNroClient).value,
-                "Subtotal":sh.cell(i,ColumSubtotal).value,
+                "DateQr":sh.cell(i,columDate).value,
+                "NroRefQr":sh.cell(i,columNroRef).value,
+                "NroClientQr":sh.cell(i,ColumNroClient).value,
+                "SubtotalQr":sh.cell(i,ColumSubtotal).value,
             }
-            if qrDict["Date"] not in keywordsFilter:
+            if qrDict["SubtotalQr"]=="-":
+                qrDict["SubtotalQr"]=0
+            else:
+                qrDict["SubtotalQr"]=sh.cell(i,ColumSubtotal).value
+            if qrDict["DateQr"] not in keywordsFilter:
                 qrTable.append(qrDict)
             i=i+1
         #print(pd.DataFrame(qrTable))
@@ -378,7 +370,7 @@ class scrapTablesExcel:
         sh=self.sh
         nameTable="diferencias"
         if typeCurrency=="Bs00":
-            print(pd.DataFrame([]))
+            #print(pd.DataFrame([]))
             return []
         columnstableDict=self.indexColumns[typeDistribution]["Detalle Operaciones"][typeCurrency]["contabilidad"][nameTable]
         columConcept=columnstableDict["Concepto"]
@@ -398,11 +390,6 @@ class scrapTablesExcel:
             i=i+1
         while sh.cell(i,ColumTotal).value !=downLimitWord:
             diferencesDict={
-                **self.sgvData,
-                "Medio de pago":"Diferencias",
-                "recaudadora":self.recaud,
-                "moneda":self.currencyNeto,
-                "ruta":self.fileName,
                 "Concept":sh.cell(i,columConcept).value,
                 "Motive":sh.cell(i,columMotive).value,
                 "SubtotalUs":sh.cell(i,ColumSubtotalUs).value,
@@ -424,15 +411,15 @@ class scrapTablesExcel:
         j=1
         while sh.cell(i,j).value !='A':
             j=j+1
-        ventasEfectuadas["Ventas al Contado"]['EFECTIVO']=sh.cell(i,j).value
+        ventasEfectuadas["Ventas al Contado"]['EFECTIVO']=sh.cell(i+1,j).value
         
         while sh.cell(i,j).value !='B':
             j=j+1
-        ventasEfectuadas["Ventas al Contado"]['DOCUMENTOS']=sh.cell(i,j).value
+        ventasEfectuadas["Ventas al Contado"]['DOCUMENTOS']=sh.cell(i+1,j).value
         
         while sh.cell(i,j).value !='C=A+B':
             j=j+1
-        ventasEfectuadas["Ventas al Contado"]['TOTAL']=sh.cell(i,j).value
+        ventasEfectuadas["Ventas al Contado"]['TOTAL']=sh.cell(i+1,j).value
         
         while sh.cell(i,j).value !='D':
             j=j+1   
@@ -440,17 +427,73 @@ class scrapTablesExcel:
 
         while sh.cell(i,j).value !='E':
             j=j+1
-        ventasEfectuadas["Ventas al Credito"]['OTROS']=sh.cell(i,j).value
+        ventasEfectuadas["Ventas al Credito"]['OTROS']=sh.cell(i+1,j).value
         
         while sh.cell(i,j).value !='F=D+E':
             j=j+1
-        ventasEfectuadas["Ventas al Credito"]['TOTAL']=sh.cell(i,j).value
+        ventasEfectuadas["Ventas al Credito"]['TOTAL']=sh.cell(i+1,j).value
         
         while sh.cell(i,j).value !='G=C+F':
             j=j+1
-        ventasEfectuadas['TOTALVENTAS']=''
-        
+        ventasEfectuadas['TOTALVENTAS']=sh.cell(i+1,j).value
+
         return ventasEfectuadas
+    def otrosIngresos(self):
+        sh=self.sh
+        Nofounded=True
+        counter=0
+        i=21
+        j=16
+        b1=False
+        b2=False
+        b3=False
+        while i<=sh.max_row and Nofounded:
+            j=13
+            while j<=20:
+                #print(i,j)
+                counter+=1
+                if sh.cell(row=i,column=j).value=="Total Recuento Moneda Extranjera en Bs.:":
+                    b1=True
+                    totalMEBs=sh.cell(row=i,column=j+12).value
+                if sh.cell(row=i,column=j).value=="Total Efectivo en Bs.(J=H+I):":
+                    b2=True
+                    totalEfectivoBs=sh.cell(row=i,column=j+12).value
+                if b1 and b2:
+                    Nofounded=False
+                    break
+                j+=1
+            i+=1
+        i=16
+        b1=False
+        Nofounded=True
+        b2=False
+        while i<=sh.max_row and Nofounded:
+            j=16
+            while j<=sh.max_column:
+                #print(i,j)
+                counter+=1
+                if sh.cell(row=i,column=j).value=="M":
+                    fondoCambios=sh.cell(row=i+1,column=j).value
+                    b1=True
+                if sh.cell(row=i,column=j).value=="N=J-M":
+                    b2=True
+                    importeDepositarBs=sh.cell(row=i+1,column=j).value
+                    importeDepositarUs=sh.cell(row=i+1,column=j+4).value
+                if b1 and b2:
+                    Nofounded=False
+                    break
+                j+=1
+            i+=1
+            
+        otrosIngresos={
+            "totalMEBs":totalMEBs,
+            "totalEfectivoBs":totalEfectivoBs,
+            "fondosCambios":fondoCambios,
+            "importeDepositarBs":importeDepositarBs,
+            "importeDepositarUs":importeDepositarUs
+        }
+        #print(otrosIngresos)
+        return otrosIngresos    
 def scrapXlsxFile(fileName):
     dicts=[]
     billTable=None
@@ -467,6 +510,7 @@ def scrapXlsxFile(fileName):
     elif fileName.find("ag")!=-1:
         distributionType="agencia"
     scrapyxlsx=scrapTablesExcel(fileName,distributionType)
+    fileName=Path(fileName).name
     if distributionType=="distribuidora":
         if fileName.find("first")!=-1:
             summaryTable=scrapyxlsx.getSummaryTable()
@@ -496,9 +540,11 @@ def scrapXlsxFile(fileName):
             coinsTable=scrapyxlsx.getCoinsTable()
             voucherTable=scrapyxlsx.get_vouchers_table()
             cuoponTable=scrapyxlsx.get_coupon_table()
+            qrTable=scrapyxlsx.get_qr_table()
             diferencesTable=scrapyxlsx.get_diferences_table()
             ventas=scrapyxlsx.ventasEfectuadas()
-            dictsTable={"billTable":billTable,"coinsTable":coinsTable,"voucherTable":voucherTable,"cuoponTable":cuoponTable,"diferencesTable":diferencesTable}
+            otrosingresos=scrapyxlsx.otrosIngresos()
+            dictsTable={"billTable":billTable,"coinsTable":coinsTable,"voucherTable":voucherTable,"cuoponTable":cuoponTable,"qrTable":qrTable,"diferencesTable":diferencesTable,"ventas":ventas,"otrosIngresos":otrosingresos}
         else:
             print("Error en el nombre del archivo")
 
@@ -524,7 +570,7 @@ def scrapXlsxFile(fileName):
     dataReturn={"distributionType":distributionType,"data":dictsTable,"typeMoney":scrapyxlsx.currency}
     return dataReturn
 
-def scrapCierresDeCaja():
+def scrapCierresDeCaja2():
     print("Procesando archivos de cierres de caja")
     #list of .xlsx files in the directory
     xlsxFilesList=[x for x in os.listdir(r"Cierres de Caja\formatoxlsx") if x.endswith(".xlsx")]
@@ -570,11 +616,13 @@ def scrapCierresDeCaja():
     df_summaries.to_csv(os.path.join(get_tables_path(),"summariesTable.csv"),index=False,sep=";")
 
     normalizeTable()
-    print("SCRAP CIERRES DE CAJA TERMINADO")
+    #print("SCRAP CIERRES DE CAJA TERMINADO")
 
-def scrapFiles():
-    #configToJson()
-    with open(r'src\target\CashClosingInfo.json',"r") as json_file:
+def scrapCierresDeCaja():
+    print("-------------Procesando archivos de cierres de caja...")
+    pathCashClosingInfo=os.path.join(paths.folderProyect,r"src\target\CashClosingInfo.json")
+    #print(pathCashClosingInfo)
+    with open(pathCashClosingInfo,"r") as json_file:
         data = json.load(json_file)
     global billst,checkstable,bankTransferstable,coinssTable,vouchersTable,qrsTable,cuoponsTable,diferencessTable,summariesTable
     
@@ -599,7 +647,7 @@ def scrapFiles():
                 data['data'][i]["xlsFilesList"][j]["distributionType"]=vd["distributionType"]
                 data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
                 data['data'][i]["xlsFilesList"][j]["data"]=vd["data"]
-                print(row['Código'])
+                #print(row['Código'])
             #except:
                 #pass
 
@@ -628,11 +676,11 @@ def scrapFiles():
     df_summaries.to_csv(os.path.join(get_tables_path(),"summariesTable.csv"),index=False,sep=";")
 
     normalizeTable()
-    print("SCRAP CIERRES DE CAJA TERMINADO")
-    with open(r'src\target\FullExcelData.json', 'w') as outfile:
+    print("-------------Proceso de archivos de cierres de caja terminado")
+    with open(paths.FullExcelDataJson, 'w') as outfile:
         json.dump(data, outfile,indent=4)
 if __name__ == "__main__":
-    scrapFiles()
+    scrapCierresDeCaja()
     #scrapCierresDeCaja()
     #scrapCierresDeCobrador()
     #test_scrapDolarOperationsXls()

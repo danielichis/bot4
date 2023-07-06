@@ -1,1399 +1,385 @@
 {
     "data": [
         {
-            "C\u00f3digo": "56157",
-            "Recibo": "CCAJ-OR52/62/2023",
-            "Fecha": "31/03/2023",
-            "Fecha de Cierre": "31/03/2023",
-            "Total (Bs.)": "232,020.83",
+            "C\u00f3digo": "57695",
+            "Recibo": "CCAJ-TA43/127/2023",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "99,812.28",
             "Fondo (Bs.)": "0.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "ADMINISTRADOR-ORURO",
+            "Cajero": "NELVI JUANITA ROMERO CASTILLO",
             "Auditado Por": "",
             "Acciones": "distribuidora",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaBs_dist.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56157_arceoCajaBs_dist",
+                    "name": "TARIJA_57695_arceoCajaBs_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57695_arceoCajaBs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "Bs",
                     "data": {
                         "billTable": [
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "billValue": "200",
-                                "billQuantity": "19",
-                                "Amount": "3,800.00"
+                                "billQuantity": "27",
+                                "AmountBill": "5,400.00"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "billValue": "100",
-                                "billQuantity": "222",
-                                "Amount": "22,200.00"
+                                "billQuantity": "355",
+                                "AmountBill": "35,500.00"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "billValue": "50",
-                                "billQuantity": "152",
-                                "Amount": "7,600.00"
+                                "billQuantity": "368",
+                                "AmountBill": "18,400.00"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "billValue": "20",
-                                "billQuantity": "142",
-                                "Amount": "2,840.00"
+                                "billQuantity": "545",
+                                "AmountBill": "10,900.00"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "billValue": "10",
-                                "billQuantity": "228",
-                                "Amount": "2,280.00"
+                                "billQuantity": "959",
+                                "AmountBill": "9,590.00"
                             }
                         ],
                         "coinsTable": [
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "coinValue": "5",
-                                "coinQuantity": null,
-                                "Amount": "-"
+                                "coinQuantity": "20",
+                                "AmountCoin": "100.00"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "coinValue": "2",
-                                "coinQuantity": "3",
-                                "Amount": "6.00"
+                                "coinQuantity": "12",
+                                "AmountCoin": "24.00"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "coinValue": "1",
-                                "coinQuantity": "33",
-                                "Amount": "33.00"
+                                "coinQuantity": "19",
+                                "AmountCoin": "19.00"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "coinValue": "0.50",
-                                "coinQuantity": "1",
-                                "Amount": "0.50"
+                                "coinQuantity": "57",
+                                "AmountCoin": "28.50"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "coinValue": "0.20",
-                                "coinQuantity": "1",
-                                "Amount": "0.20"
+                                "coinQuantity": "32",
+                                "AmountCoin": "6.40"
                             },
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
                                 "coinValue": "0.10",
                                 "coinQuantity": "1",
-                                "Amount": "0.10"
+                                "AmountCoin": "0.10"
                             }
                         ],
                         "checkTable": [],
                         "bankTransferTable": [
                             {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "31/03/2023",
-                                "DocumentNumber": "45173353693",
-                                "Bank": "BISA",
-                                "Amount": 4725.12
-                            },
-                            {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "31/03/2023",
-                                "DocumentNumber": "434172",
-                                "Bank": "BISA",
-                                "Amount": 90000
-                            },
-                            {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "30/03/2023",
-                                "DocumentNumber": "45153290888",
-                                "Bank": "BISA",
-                                "Amount": 10592.01
-                            },
-                            {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "30/03/2023",
-                                "DocumentNumber": "578900",
-                                "Bank": "BISA",
-                                "Amount": 40399.8
-                            },
-                            {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "30/03/2023",
-                                "DocumentNumber": "578902",
-                                "Bank": "BISA",
-                                "Amount": 13923.6
-                            },
-                            {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "31/03/2023",
-                                "DocumentNumber": "45153291969",
-                                "Bank": "BISA",
-                                "Amount": 4841.5
-                            },
-                            {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaBs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "31/03/2023",
-                                "DocumentNumber": "578923",
-                                "Bank": "BISA",
-                                "Amount": 27387
+                                "DateTransfer": "01/06/2023",
+                                "DocumentNumberTransfer": "131926",
+                                "BankTransfer": "MERCANTIL SANTA CRUZ",
+                                "AmountTransfer": 19844.28
                             }
                         ]
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_arceoCajaUs_dist.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56157_arceoCajaUs_dist",
+                    "name": "TARIJA_57695_arceoCajaUs_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaUs_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57695_arceoCajaUs_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "d\u00f3lar",
                     "data": {
                         "billTable": [],
                         "checkTable": [],
-                        "bankTransferTable": [
-                            {
-                                "C\u00f3digo": "56157",
-                                "Recibo": "CCAJ-OR52/62/2023",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "232,020.83",
-                                "Fondo (Bs.)": "0.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ADMINISTRADOR-ORURO",
-                                "Auditado Por": "",
-                                "Acciones": "distribuidora",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaBs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaBs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_arceoCajaUs_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_arceoCajaUs_dist",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56157_firstExcel_dist",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Transferencia Bancaria",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "d\u00f3lar",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_arceoCajaUs_dist.xlsx",
-                                "recaudacion": "distribuidora",
-                                "Date": "31/03/2023",
-                                "DocumentNumber": "434173",
-                                "Bank": "BISA",
-                                "Amount": 200
-                            }
-                        ]
+                        "bankTransferTable": []
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56157_firstExcel_dist.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57695_firstExcel_dist.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56157_firstExcel_dist",
+                    "name": "TARIJA_57695_firstExcel_dist",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_firstExcel_dist.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57695_firstExcel_dist.xlsx",
                     "distributionType": "distribuidora",
                     "moneyType": "other",
                     "data": {
                         "summaryTable": [
                             {
-                                "uniqKey": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_CRISTIAN HUARACHI QUISPE_31032023_50991.81",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_firstExcel_dist.xlsx",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "Code": "3412",
-                                "Codigo": null,
-                                "Checker": "CRISTIAN HUARACHI QUISPE",
-                                "FechaRend": "30/03/2023",
-                                "FechaRecibo": "31/03/2023",
-                                "NroRecibo": "CCOB-OR52/308/2023",
-                                "UsCash": 0,
-                                "BsCash": 0,
-                                "UsCheck": 0,
-                                "BsCheck": 0,
-                                "TotalUsCash": 0,
-                                "TotalEqBsCash": 0,
-                                "TotalBsCash": 0,
-                                "TransferUs": 0,
-                                "TransferEqBs": 0,
-                                "TransferBs": 50991.81,
-                                "TotalUs": 0,
-                                "TotalEqBs": 0,
-                                "TotalCCAJ": 50991.81
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Saldo Anterior",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "0.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "0.00",
+                                "TransferUs_CcajConsol": null,
+                                "TransferEqBs_CcajConsol": null,
+                                "TransferBs_CcajConsol": null,
+                                "TotalBs_CcajConsol": "0.00",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "0.00"
                             },
                             {
-                                "uniqKey": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_DAVID RODRIGO CHUMACERO VEGA_31032023_36953.62",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_firstExcel_dist.xlsx",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "Code": "3090",
-                                "Codigo": null,
-                                "Checker": "DAVID RODRIGO CHUMACERO VEGA",
-                                "FechaRend": "31/03/2023",
-                                "FechaRecibo": "31/03/2023",
-                                "NroRecibo": "CCOB-OR52/310/2023",
-                                "UsCash": 0,
-                                "BsCash": 0,
-                                "UsCheck": 0,
-                                "BsCheck": 0,
-                                "TotalUsCash": 0,
-                                "TotalEqBsCash": 0,
-                                "TotalBsCash": 0,
-                                "TransferUs": 0,
-                                "TransferEqBs": 0,
-                                "TransferBs": 36953.62,
-                                "TotalUs": 0,
-                                "TotalEqBs": 0,
-                                "TotalCCAJ": 36953.62
+                                "Code_CcajConsol": "2645",
+                                "Checker_CcajConsol": "ANDRES ESTEBAN SINGURI LLANOS",
+                                "FechaRend_CcajConsol": "01/06/2023",
+                                "FechaRecibo_CcajConsol": "01/06/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/600/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 65766.8,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 65766.8,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 19844.28,
+                                "TotalBs_CcajConsol": 85611.08,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 85611.08
                             },
                             {
-                                "uniqKey": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_FULVIA SIRIA GUZMAN OLIVARES_31032023_32483.70",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_firstExcel_dist.xlsx",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "Code": "3062",
-                                "Codigo": null,
-                                "Checker": "FULVIA SIRIA GUZMAN OLIVARES",
-                                "FechaRend": "31/03/2023",
-                                "FechaRecibo": "31/03/2023",
-                                "NroRecibo": "CCOB-OR52/312/2023",
-                                "UsCash": 0,
-                                "BsCash": 32483.7,
-                                "UsCheck": 0,
-                                "BsCheck": 0,
-                                "TotalUsCash": 0,
-                                "TotalEqBsCash": 0,
-                                "TotalBsCash": 32483.7,
-                                "TransferUs": 0,
-                                "TransferEqBs": 0,
-                                "TransferBs": 0,
-                                "TotalUs": 0,
-                                "TotalEqBs": 0,
-                                "TotalCCAJ": 32483.7
+                                "Code_CcajConsol": "2779",
+                                "Checker_CcajConsol": "JUAN PABLO CAMACHO QUISPE",
+                                "FechaRend_CcajConsol": "01/06/2023",
+                                "FechaRecibo_CcajConsol": "01/06/2023",
+                                "NroRecibo_CcajConsol": "CCOB-TA43/599/2023",
+                                "UsCash_CcajConsol": 0,
+                                "BsCash_CcajConsol": 14201.2,
+                                "UsCheck_CcajConsol": 0,
+                                "BsCheck_CcajConsol": 0,
+                                "TotalUsCash_CcajConsol": 0,
+                                "TotalEqBsCash_CcajConsol": 0,
+                                "TotalBsCash_CcajConsol": 14201.2,
+                                "TransferUs_CcajConsol": 0,
+                                "TransferEqBs_CcajConsol": 0,
+                                "TransferBs_CcajConsol": 0,
+                                "TotalBs_CcajConsol": 14201.2,
+                                "TotalUs_CcajConsol": 0,
+                                "TotalEqBs_CcajConsol": 0,
+                                "TotalCcajConsol": 14201.2
                             },
                             {
-                                "uniqKey": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_ISRAEL LUIS OCAMPO CAYOJA_31032023_97668.10",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_firstExcel_dist.xlsx",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "Code": "3091",
-                                "Codigo": null,
-                                "Checker": "ISRAEL LUIS OCAMPO CAYOJA",
-                                "FechaRend": "31/03/2023",
-                                "FechaRecibo": "31/03/2023",
-                                "NroRecibo": "CCOB-OR52/311/2023",
-                                "UsCash": 0,
-                                "BsCash": 6276.1,
-                                "UsCheck": 0,
-                                "BsCheck": 0,
-                                "TotalUsCash": 0,
-                                "TotalEqBsCash": 0,
-                                "TotalBsCash": 6276.1,
-                                "TransferUs": 200,
-                                "TransferEqBs": 1392,
-                                "TransferBs": 90000,
-                                "TotalUs": 200,
-                                "TotalEqBs": 1392,
-                                "TotalCCAJ": 96276.1
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Cobranza del D\u00eda",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "79,968.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "79,968.00",
+                                "TransferUs_CcajConsol": "0.00",
+                                "TransferEqBs_CcajConsol": "0.00",
+                                "TransferBs_CcajConsol": "19,844.28",
+                                "TotalBs_CcajConsol": "99,812.28",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "99,812.28"
                             },
                             {
-                                "uniqKey": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_MARCOS JOSUE FLORES CAYOJA_31032023_13923.60",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56157_firstExcel_dist.xlsx",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "Code": "3796",
-                                "Codigo": null,
-                                "Checker": "MARCOS JOSUE FLORES CAYOJA",
-                                "FechaRend": "30/03/2023",
-                                "FechaRecibo": "31/03/2023",
-                                "NroRecibo": "CCOB-OR52/309/2023",
-                                "UsCash": 0,
-                                "BsCash": 0,
-                                "UsCheck": 0,
-                                "BsCheck": 0,
-                                "TotalUsCash": 0,
-                                "TotalEqBsCash": 0,
-                                "TotalBsCash": 0,
-                                "TransferUs": 0,
-                                "TransferEqBs": 0,
-                                "TransferBs": 13923.6,
-                                "TotalUs": 0,
-                                "TotalEqBs": 0,
-                                "TotalCCAJ": 13923.6
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Saldo Final",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "79,968.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "79,968.00",
+                                "TransferUs_CcajConsol": "0.00",
+                                "TransferEqBs_CcajConsol": "0.00",
+                                "TransferBs_CcajConsol": "19,844.28",
+                                "TotalBs_CcajConsol": "99,812.28",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "99,812.28"
+                            },
+                            {
+                                "Code_CcajConsol": null,
+                                "Checker_CcajConsol": null,
+                                "FechaRend_CcajConsol": "Total Seg\u00fan Arqueo",
+                                "FechaRecibo_CcajConsol": null,
+                                "NroRecibo_CcajConsol": null,
+                                "UsCash_CcajConsol": "0.00",
+                                "BsCash_CcajConsol": "79,968.00",
+                                "UsCheck_CcajConsol": "0.00",
+                                "BsCheck_CcajConsol": "0.00",
+                                "TotalUsCash_CcajConsol": "0.00",
+                                "TotalEqBsCash_CcajConsol": "0.00",
+                                "TotalBsCash_CcajConsol": "79,968.00",
+                                "TransferUs_CcajConsol": "0.00",
+                                "TransferEqBs_CcajConsol": "0.00",
+                                "TransferBs_CcajConsol": "19,844.28",
+                                "TotalBs_CcajConsol": "99,812.28",
+                                "TotalUs_CcajConsol": "0.00",
+                                "TotalEqBs_CcajConsol": "0.00",
+                                "TotalCcajConsol": "99,812.28"
                             }
                         ]
                     }
                 }
-            ]
+            ],
+            "Recaudadora": "TARIJA"
         },
         {
-            "C\u00f3digo": "56156",
-            "Recibo": "CCAJ-OR51/71/23",
-            "Fecha": "31/03/2023",
-            "Fecha de Cierre": "31/03/2023",
-            "Total (Bs.)": "7,333.00",
+            "C\u00f3digo": "57694",
+            "Recibo": "CCAJ-TA06/124/23",
+            "Fecha": "01/06/2023",
+            "Fecha de Cierre": "01/06/2023",
+            "Total (Bs.)": "7,344.10",
             "Fondo (Bs.)": "1,000.00",
             "Estado": "CONFIRMADO",
-            "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
+            "Cajero": "BELZA GUTIERREZ CONDORI",
             "Auditado Por": "",
             "Acciones": "agencia",
             "xlsFilesList": [
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56156_arceoCajaBs_ag",
+                    "name": "TARIJA_57694_arceoCajaBs_ag",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57694_arceoCajaBs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "Bs",
                     "data": {
                         "billTable": [
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "billValue": "200",
                                 "billQuantity": "2",
-                                "Amount": "400.00"
+                                "AmountBill": "400.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "billValue": "100",
-                                "billQuantity": "31",
-                                "Amount": "3,100.00"
+                                "billQuantity": "35",
+                                "AmountBill": "3,500.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "billValue": "50",
-                                "billQuantity": "45",
-                                "Amount": "2,250.00"
+                                "billQuantity": "29",
+                                "AmountBill": "1,450.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "billValue": "20",
-                                "billQuantity": "37",
-                                "Amount": "740.00"
+                                "billQuantity": "27",
+                                "AmountBill": "540.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "billValue": "10",
-                                "billQuantity": "45",
-                                "Amount": "450.00"
+                                "billQuantity": "50",
+                                "AmountBill": "500.00"
                             }
                         ],
                         "coinsTable": [
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "coinValue": "5",
-                                "coinQuantity": "34",
-                                "Amount": "170.00"
+                                "coinQuantity": "82",
+                                "AmountCoin": "410.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "coinValue": "2",
-                                "coinQuantity": "100",
-                                "Amount": "200.00"
+                                "coinQuantity": "126",
+                                "AmountCoin": "252.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "coinValue": "1",
-                                "coinQuantity": "10",
-                                "Amount": "10.00"
+                                "coinQuantity": "57",
+                                "AmountCoin": "57.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "coinValue": "0.50",
-                                "coinQuantity": null,
-                                "Amount": "-"
+                                "coinQuantity": "111",
+                                "AmountCoin": "55.50"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "coinValue": "0.20",
-                                "coinQuantity": "65",
-                                "Amount": "13.00"
+                                "coinQuantity": "75",
+                                "AmountCoin": "15.00"
                             },
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Efectivo",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
-                                "recaudacion": "agencia",
                                 "coinValue": "0.10",
-                                "coinQuantity": null,
-                                "Amount": "-"
+                                "coinQuantity": "650",
+                                "AmountCoin": "65.00"
                             }
                         ],
-                        "voucherTable": [],
+                        "voucherTable": [
+                            {
+                                "DateVoucher": "01/06/2023",
+                                "NroRefVoucher": "002271",
+                                "NroClientVoucher": "5811377 Tja",
+                                "AmountVoucher": 60
+                            },
+                            {
+                                "DateVoucher": "01/06/2023",
+                                "NroRefVoucher": "002269",
+                                "NroClientVoucher": "7240879 tja",
+                                "AmountVoucher": 39.6
+                            }
+                        ],
                         "cuoponTable": [],
+                        "qrTable": [],
                         "diferencesTable": [
                             {
-                                "C\u00f3digo": "56156",
-                                "Recibo": "CCAJ-OR51/71/23",
-                                "Fecha": "31/03/2023",
-                                "Fecha de Cierre": "31/03/2023",
-                                "Total (Bs.)": "7,333.00",
-                                "Fondo (Bs.)": "1,000.00",
-                                "Estado": "CONFIRMADO",
-                                "Cajero": "ENRIQUE XAVIER RODRIGUEZ CUETO",
-                                "Auditado Por": "",
-                                "Acciones": "agencia",
-                                "xlsFilesList": [
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaBs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaBs_ag",
-                                        "retries": 1
-                                    },
-                                    {
-                                        "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
-                                        "descargado": "OK",
-                                        "name": "ORURO_56156_arceoCajaUs_ag",
-                                        "retries": 1
-                                    }
-                                ],
-                                "Medio de pago": "Diferencias",
-                                "recaudadora": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO",
-                                "moneda": "Bs",
-                                "ruta": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaBs_ag.xlsx",
                                 "Concept": "Faltante",
                                 "Motive": "Por diferencia de Precios",
                                 "SubtotalUs": null,
-                                "SubtotalBs": "0.01",
-                                "TotalBs": "0.01"
+                                "SubtotalBs": "0.10",
+                                "TotalBs": "0.10"
                             }
-                        ]
+                        ],
+                        "ventas": {
+                            "Ventas al Contado": {
+                                "EFECTIVO": 6244.6,
+                                "DOCUMENTOS": 99.6,
+                                "TOTAL": 6344.2
+                            },
+                            "Ventas al Credito": {
+                                "PERSONAL IVSA": "",
+                                "OTROS": 0,
+                                "TOTAL": 0
+                            },
+                            "TOTALVENTAS": 6344.2
+                        },
+                        "otrosIngresos": {
+                            "totalMEBs": 0,
+                            "totalEfectivoBs": 7244.5,
+                            "fondosCambios": "1,000.00",
+                            "importeDepositarBs": "6,244.50",
+                            "importeDepositarUs": null
+                        }
                     }
                 },
                 {
-                    "path": "C:\\DanielBots\\bot4\\Cierres de Caja\\ORURO_56156_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
                     "descargado": "OK",
-                    "name": "ORURO_56156_arceoCajaUs_ag",
+                    "name": "TARIJA_57694_arceoCajaUs_ag",
                     "retries": 1,
-                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\ORURO_56156_arceoCajaUs_ag.xlsx",
+                    "file": "c:\\DanielBots\\bot4\\Cierres de Caja\\formatoxlsx\\TARIJA_57694_arceoCajaUs_ag.xlsx",
                     "distributionType": "agencia",
                     "moneyType": "d\u00f3lar",
                     "data": {
@@ -1402,7 +388,8 @@
                         "qrTable": []
                     }
                 }
-            ]
+            ],
+            "Recaudadora": "TARIJA"
         }
     ]
 }
