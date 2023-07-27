@@ -12,6 +12,7 @@ from utils import get_current_path,pathsProyect
 from doomDirections import sgvPaths
 import locale
 paths=pathsProyect()
+
 def login_page(user):
     page.locator("[placeholder=\"Usuario\"]").click()
     page.locator("[placeholder=\"Usuario\"]").fill(user["user"])
@@ -28,9 +29,9 @@ def goto_bills():
 
 def set_day(dExcel,cssDate):
     if cssDate=="input#startDate":
-        dates=[x for x in page.query_selector_all("div:nth-child(10) div.datepicker-days tbody td[class*='day']")]
+        dates=[x for x in page.query_selector_all("div:nth-child(10) div.datepicker-days tbody td[class='day'],td[class='today day']")]
     elif cssDate=="input#endDate":
-        dates=[x for x in page.query_selector_all("div:nth-child(11) div.datepicker-days tbody td[class*='day']")]
+        dates=[x for x in page.query_selector_all("div:nth-child(11) div.datepicker-days tbody td[class='day'],td[class='today day']")]
     else:
         return
     for d in dates:
@@ -38,43 +39,62 @@ def set_day(dExcel,cssDate):
             d.click()
             break
 
-def download_file(pathFile,cssSelector,row):
+def download_file(pathFile,cssSelector,row,j,test=False):
     metadataFile={"path":pathFile,"descargado":"","name":os.path.splitext(os.path.basename(pathFile))[0],"retries":0}
-    retries=2
+    retries=1
     intentos=0
     donwnload=False
-    while intentos<=retries and donwnload==False:
+    
+    while intentos<retries and donwnload==False:
         try:
             with page.expect_download(timeout=10000) as download_info:
-                row.query_selector(cssSelector).click(timeout=3000)
+                row.query_selector(cssSelector).click()
             download = download_info.value
             download.save_as(pathFile)
-            donwnload=True
-            print(f"Descargado {pathFile}")
-            metadataFile["descargado"]="OK"
+            if test==True:
+                if j%5==0 and j!=0:
+                    pass
+                else:
+                    print(f"Descargado {pathFile}")
+                    metadataFile["descargado"]="OK"
+                    donwnload=True
+            else:
+                print(f"Descargado {pathFile}")
+                metadataFile["descargado"]="OK"
+                donwnload=True
+
         except Exception as e:
-            print(f"{e}\n Reitentanto...wait 2s")
-            time.sleep(2)
+            print(f"{e}\n error al descargar {pathFile}")
         intentos+=1
-    
     if donwnload==False:
         print(f"Error al descargar {pathFile}")
         metadataFile["descargado"]="ERROR"
 
     metadataFile["retries"]=intentos
-    xlsFilesList.append(metadataFile)
+
+    return metadataFile
     
-def tableCashClosing(user):
+def tableCashClosing(user,test=False):
     table=[]
     time.sleep(1)
     page.wait_for_load_state()
     headersTable=[x.inner_text() for x in page.query_selector_all("table#cashierClosings thead th")]
     rows=page.query_selector_all("table#cashierClosings tbody tr")
     rowsTd=page.query_selector_all("table#cashierClosings tbody tr td")
-    if len(rowsTd)==1:
+    dataLoaded=False
+    k=1
+    while dataLoaded==False and k<3:
+        if len(rows)>0:
+            dataLoaded=True
+            break
+        time.sleep(1)
+        print(f"Esperando datos {k}s")    
+        k=k+1
+    if dataLoaded==False:
         print("No hay cierres de caja")
         return
-    global xlsFilesList
+    xlsFilesList=[]
+    j=0
     for row in rows:
         xlsFilesList=[]
         if len(row.query_selector_all("a"))==7:
@@ -89,14 +109,20 @@ def tableCashClosing(user):
         fields=[y.inner_text() for y in row.query_selector_all("td")]
         cashCode=fields[0]
         recau=user['recaudadora']
+
         if tipe=="distribuidora":
-            download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaBs_dist.xls"),xpathArceoCajaBs,row)
-            download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaUs_dist.xls"),xpathArceoCajaUs,row)
-            download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_firstExcel_dist.xls"),xpathFirstExcel,row)
+            fileInfoD1=download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaBs_dist.xls"),xpathArceoCajaBs,row,j,test=test)
+            fileInfoD2=download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaUs_dist.xls"),xpathArceoCajaUs,row,j,test=test)
+            fileInfoD3=download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_firstExcel_dist.xls"),xpathFirstExcel,row,j,test=test)
+            xlsFilesList.append(fileInfoD1)
+            xlsFilesList.append(fileInfoD2)
+            xlsFilesList.append(fileInfoD3)
         elif tipe=="agencia":
-            download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaBs_ag.xls"),xpathArceoCajaBs,row)
-            download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaUs_ag.xls"),xpathArceoCajaUs,row)
-            
+            fileInfoA1=download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaBs_ag.xls"),xpathArceoCajaBs,row,j,test=test)
+            fileInfoA2=download_file(os.path.join(in_folder("Cierres de Caja"),f"{recau}_{cashCode}_arceoCajaUs_ag.xls"),xpathArceoCajaUs,row,j,test=test)
+            xlsFilesList.append(fileInfoA1)
+            xlsFilesList.append(fileInfoA2)
+
         else:
             pass 
         
@@ -114,7 +140,9 @@ def tableCashClosing(user):
             "xlsFilesList":xlsFilesList,
             "Recaudadora":user["recaudadora"]
         }
+        j=j+1
         table.append(rowDict)
+
     return table
 def evaluate_month(monthdate_obj,dExcel,cssDate):
     tday=dExcel.strftime("%B %Y")
@@ -165,19 +193,62 @@ def in_folder(nameFolder):
     #folderParent=Path(folderParent).parent
     folderParent=os.path.join(folderParent,nameFolder)
     return folderParent
-def pageFilesDownloaded(ccjaList):
-    boolPage=True
+def get_errorList(ccjaList):
+    errorList=[]
     for row in ccjaList:
         for file in row["xlsFilesList"]:
             if file['descargado']!="OK":
-                boolPage=False
-                break
-    return boolPage
+                errorList.append(row["Código"])
+    #get unique values
+    errorList=list(set(errorList))
+
+    return errorList
+
+def updateJsonInfo(code,flow,globalList,retrieInfo):
+
+    status=retrieInfo[0]["xlsFilesList"][0]["descargado"]
+    if status=="OK":
+        for row in globalList:
+            if row["Código"]==code:
+                for file in row["xlsFilesList"]:
+                    file["descargado"]="OK"
+                    file["retries"]=file["retries"]+1
+                 
+    return globalList
+        
+def donwloadErros(errorList,user,flow,globalList,test=False):  
+    print("DESCARGANDO ERRORES...")
+    page.reload()
+    for code in errorList:
+        page.query_selector("input[class='form-control input-sm']").click()
+        page.query_selector("input[class='form-control input-sm']").fill(code)
+        page.keyboard.press("Enter")
+        #page.wait_for_selector("td[class='sorting_1']",timeout=3000)
+        #wait for locator
+    
+        page.wait_for_selector("xpath=//div[contains(text(),'Mostrando registros del 1 al 1 de un total de 1 registros')]",timeout=10000)
+        results=page.query_selector_all("td[class='sorting_1']")
+
+        if len(results)==0:
+            print(f"No se encontro el codigo {code}")
+            break
+        else:
+            
+            if flow=="cobradores":
+                print("descargando errores de cierre de cobradores...")
+                retrieInfo=tableCollectorClosing(user, test=test)
+            else:
+                print("descargando errores de cierres de caja...")
+                retrieInfo=tableCashClosing(user,test=test)
+            globalListUpdated=updateJsonInfo(code,flow,globalList,retrieInfo)
+            
+    return globalListUpdated
+
 def downloadCcaj(loginInfo,user):
+    locale.setlocale(locale.LC_TIME, '')
     print("DESCARGANDO ARCHIVOS DE CIERRES DE CAJA...")
     dinit=loginInfo['dates']['dInit']
     dEnd=loginInfo['dates']['dEnd']
-    locale.setlocale(locale.LC_TIME, '')
     globalList=[]
     goto_bills()
     found_date(dinit,"input#startDate")
@@ -191,19 +262,23 @@ def downloadCcaj(loginInfo,user):
     pageBool=False
     maxRetriesPage=3
     retryPage=0
+    listOfErrors=[]
     while n>0:
         print(f"------pagina : {i+1}")
-        ccjaList=tableCashClosing(user)
-        pageBool=pageFilesDownloaded(ccjaList)
-        if ccjaList:
-            globalList.extend(ccjaList)        
-        #time.sleep(2)
-        if pageBool or retryPage==maxRetriesPage:
-            page.query_selector("[id='cashierClosings_next'] a").click()
-            i=i+1
-            retryPage+=1
+        ccjaList=tableCashClosing(user,test=paths.testMode)
+        errosPage=get_errorList(ccjaList)
+        if len(errosPage)>0:
+            listOfErrors.extend(errosPage)
+        if len(ccjaList)>=0:
+            globalList.extend(ccjaList)  
+        page.query_selector("[id='cashierClosings_next'] a").click()
+        i=i+1
         n=len(page.query_selector_all("li[class='paginate_button next'] a"))
-
+    if len(listOfErrors)>0:
+        globalList=donwloadErros(listOfErrors,user,"cajeros",globalList,test=paths.testMode)
+    else:
+        print("Sin errores de descarga de cierre de caja")
+       
     listofFilesData={}
     listofFilesData["data"]=globalList
     with open(paths.jsonCcaj, "r") as json_file: 
@@ -241,7 +316,7 @@ def cashOutFrame():
         page.locator(sgvp.cashOut.cashOutBtn['XPATH']).click()
         page.wait_for_load_state()
         
-def tableCollectorClosing(user):
+def tableCollectorClosing(user,test=False):
     sgvp=sgvPaths()
     closingTable=[]
     recaud=user['recaudadora']
@@ -249,16 +324,23 @@ def tableCollectorClosing(user):
     time.sleep(2)
     closingTableFrame=page.query_selector_all(sgvp.collectorClosing.dailyClosingCollectorTable['CSS'])
     closingTableFrameTd=page.query_selector_all(sgvp.collectorClosing.dailyClosingCollectorTableTd['CSS'])
+    print(f"Numero de filas: {len(closingTableFrame)}")
     if len(closingTableFrameTd)==1:
         print("No hay cierre de cobrador")
         return
-    for row in closingTableFrame:
+    
+    j=1
+    for row in closingTableFrame: 
+        xlsFilesList=[]
         date=row.query_selector("//td[3]").inner_text().replace("/","")
         amount=str(row.query_selector("//td[6]").inner_text()).replace(",","")
         uniqueId=row.query_selector("//td[5]").inner_text()+"_"+date+"_"+amount
         nameFile=f"{recaud}_{uniqueId}.xls"
+        pathFile=os.path.join(in_folder("Cierres de cobrador"),nameFile)
+        fileInfo=download_file(pathFile,sgvp.collectorClosing.excelDonwloadBtn["CSS"],row,j,test=test)
+        xlsFilesList.append(fileInfo)
         closingTableDict={
-            "codigo":row.query_selector("//td[1]").inner_text(),
+            "Código":row.query_selector("//td[1]").inner_text(),
             "Recibo":row.query_selector("//td[2]").inner_text(),
             "Fecha de Creacion":row.query_selector("//td[3]").inner_text(),
             "Correspondiente al":row.query_selector("//td[4]").inner_text(),
@@ -269,11 +351,9 @@ def tableCollectorClosing(user):
             "UniqueID":uniqueId,
             "xlsFilesList":xlsFilesList   
         }
-        #row.query_selector(sgvp.collectorClosing.excelDonwloadBtn["CSS"]).click(timeout=5000)
-        
-        pathFile=os.path.join(in_folder("Cierres de cobrador"),nameFile)
-        download_file(pathFile,sgvp.collectorClosing.excelDonwloadBtn["CSS"],row)
+
         closingTable.append(closingTableDict)
+        j=j+1
     return closingTable
 def downloadCollectorClosing(loginInfo,user):
     print("DESCARGANDO ARCHIVOS DE CIERRES DE COBRADOR...")
@@ -289,23 +369,30 @@ def downloadCollectorClosing(loginInfo,user):
     found_date(dEnd,"input#endDate")
     page.wait_for_load_state("networkidle")
     page.evaluate('window.scrollBy(0, 200)')
+
     i=0
     n=1
     pageBool=False
     maxRetriesPage=3
     retryPage=0
+    listOfErrors=[]
+    
     while n>0:
         print(f"-----pagina :{i+1}")
-        ccobList=tableCollectorClosing(user)
-        pageBool=pageFilesDownloaded(ccobList)
-        if ccobList:
+        ccobList=tableCollectorClosing(user,test=paths.testMode)
+        errosPage=get_errorList(ccobList)
+        if len(errosPage)>0:
+            listOfErrors.extend(errosPage)
+        if len(ccobList)>0:
             globalList2.extend(ccobList)
-        if pageBool or retryPage==maxRetriesPage:
-            i=i+1
-            page.query_selector("[id='dailyClosings_next'] a").click()
-            retryPage=+1
+        i=i+1
+        page.query_selector("[id='dailyClosings_next'] a").click()
         n=len(page.query_selector_all("li[class='paginate_button next'] a"))
 
+    if len(listOfErrors)>0:
+        globalList2=donwloadErros(listOfErrors,user,"cobradores",globalList2,test=paths.testMode)
+    else:
+        print("Sin errores de descarga de cierre de cobradores")
     listofFilesData={}
     listofFilesData["data"]=globalList2
     with open(paths.jsonCcob, "r") as outfile: 
@@ -346,6 +433,7 @@ def cashOutTable(user):
         }
         cashOutList.append(cashOutDict)
     return cashOutList
+
 def get_outOffCashSgv(loginInfo,user):
     print("downloading SALIDAS DE EFECTIVO")
     sgvp=sgvPaths()

@@ -1,47 +1,56 @@
 [
     {
-        "C\u00f3digo": "8628",
-        "Fecha": "05/06/2023 11:22:27",
-        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
-        "Total Bs.": "21,297.00",
+        "C\u00f3digo": "8969",
+        "Fecha": "26/07/2023 13:42:15",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "200,724.10",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "TARIJA"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8623",
-        "Fecha": "03/06/2023 11:41:49",
-        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
-        "Total Bs.": "377,798.50",
+        "C\u00f3digo": "8961",
+        "Fecha": "25/07/2023 17:43:21",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "187,331.20",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "TARIJA"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8606",
-        "Fecha": "01/06/2023 10:53:05",
-        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
-        "Total Bs.": "209,298.97",
+        "C\u00f3digo": "8951",
+        "Fecha": "24/07/2023 13:56:54",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "339,590.60",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "TARIJA"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8597",
-        "Fecha": "31/05/2023 11:36:49",
-        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
-        "Total Bs.": "234,441.90",
+        "C\u00f3digo": "8939",
+        "Fecha": "21/07/2023 14:01:58",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "175,016.10",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "TARIJA"
+        "Recaudadora": "LA PAZ"
     },
     {
-        "C\u00f3digo": "8581",
-        "Fecha": "29/05/2023 12:02:52",
-        "Encargado": "NELVI JUANITA ROMERO CASTILLO",
-        "Total Bs.": "138,901.90",
+        "C\u00f3digo": "8932",
+        "Fecha": "20/07/2023 14:29:27",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "279,121.20",
         "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "TARIJA"
+        "Recaudadora": "LA PAZ"
+    },
+    {
+        "C\u00f3digo": "8925",
+        "Fecha": "19/07/2023 12:49:10",
+        "Encargado": "RIBANA RUTH REA RUEDA",
+        "Total Bs.": "327,620.72",
+        "Tipo": "EMPRESA TRANSPORTADORA",
+        "Estado": "ACTIVO",
+        "Recaudadora": "LA PAZ"
     }
 ]

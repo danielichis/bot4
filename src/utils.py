@@ -29,6 +29,7 @@ class pathsProyect:
         self.jsonCobBox=None
         self.detalleCajaCsv=None
         self.billsTableCsv=None
+        self.testMode=False
         self.get_app_path()
         self.getting_paths()
     def get_app_path(self):

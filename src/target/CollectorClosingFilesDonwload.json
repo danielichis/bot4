@@ -1,75 +1,666 @@
 {
     "data": [
         {
-            "codigo": "213788",
-            "Recibo": "CCOB-TA43/600/2023",
-            "Fecha de Creacion": "01/06/2023",
-            "Correspondiente al": "01/06/2023",
-            "Cobrador": "ANDRES ESTEBAN SINGURI LLANOS",
-            "Total (Bs)": "85,611.08",
+            "C\u00f3digo": "219465",
+            "Recibo": "CCOB-LP02/3319/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "CARLOS MARCELO REQUENA TERAN",
+            "Total (Bs)": "20,881.80",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
-            "UniqueID": "ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08",
+            "Nombre del archivo": "LA PAZ_CARLOS MARCELO REQUENA TERAN_24072023_20881.80.xls",
+            "UniqueID": "CARLOS MARCELO REQUENA TERAN_24072023_20881.80",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_CARLOS MARCELO REQUENA TERAN_24072023_20881.80.xls",
                     "descargado": "OK",
-                    "name": "TARIJA_57694_arceoCajaBs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_57694_arceoCajaUs_ag",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08",
-                    "retries": 1
-                },
-                {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
-                    "descargado": "OK",
-                    "name": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20",
+                    "name": "LA PAZ_CARLOS MARCELO REQUENA TERAN_24072023_20881.80",
                     "retries": 1
                 }
             ]
         },
         {
-            "codigo": "213744",
-            "Recibo": "CCOB-TA43/599/2023",
-            "Fecha de Creacion": "01/06/2023",
-            "Correspondiente al": "01/06/2023",
-            "Cobrador": "JUAN PABLO CAMACHO QUISPE",
-            "Total (Bs)": "14,201.20",
+            "C\u00f3digo": "219463",
+            "Recibo": "CCOB-LP02/3318/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "JESUS FELCY MENDOZA CAHUANA",
+            "Total (Bs)": "19,962.60",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
-            "UniqueID": "JUAN PABLO CAMACHO QUISPE_01062023_14201.20",
+            "Nombre del archivo": "LA PAZ_JESUS FELCY MENDOZA CAHUANA_24072023_19962.60.xls",
+            "UniqueID": "JESUS FELCY MENDOZA CAHUANA_24072023_19962.60",
             "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaBs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_JESUS FELCY MENDOZA CAHUANA_24072023_19962.60.xls",
                     "descargado": "OK",
-                    "name": "TARIJA_57694_arceoCajaBs_ag",
+                    "name": "LA PAZ_JESUS FELCY MENDOZA CAHUANA_24072023_19962.60",
                     "retries": 1
-                },
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219462",
+            "Recibo": "CCOB-LP02/3317/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T01",
+            "Total (Bs)": "3,688.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T01_24072023_3688.40.xls",
+            "UniqueID": "GERSON VELASCO LP - T01_24072023_3688.40",
+            "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de Caja\\TARIJA_57694_arceoCajaUs_ag.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T01_24072023_3688.40.xls",
                     "descargado": "OK",
-                    "name": "TARIJA_57694_arceoCajaUs_ag",
+                    "name": "LA PAZ_GERSON VELASCO LP - T01_24072023_3688.40",
                     "retries": 1
-                },
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219460",
+            "Recibo": "CCOB-LP02/3316/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T03",
+            "Total (Bs)": "6,030.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T03_24072023_6030.50.xls",
+            "UniqueID": "GERSON VELASCO LP - T03_24072023_6030.50",
+            "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T03_24072023_6030.50.xls",
                     "descargado": "OK",
-                    "name": "TARIJA_ANDRES ESTEBAN SINGURI LLANOS_01062023_85611.08",
+                    "name": "LA PAZ_GERSON VELASCO LP - T03_24072023_6030.50",
                     "retries": 1
-                },
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219459",
+            "Recibo": "CCOB-LP02/3315/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "LUIS FERNANDO GUEVARA PECA",
+            "Total (Bs)": "208,535.73",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_LUIS FERNANDO GUEVARA PECA_24072023_208535.73.xls",
+            "UniqueID": "LUIS FERNANDO GUEVARA PECA_24072023_208535.73",
+            "xlsFilesList": [
                 {
-                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_LUIS FERNANDO GUEVARA PECA_24072023_208535.73.xls",
                     "descargado": "OK",
-                    "name": "TARIJA_JUAN PABLO CAMACHO QUISPE_01062023_14201.20",
+                    "name": "LA PAZ_LUIS FERNANDO GUEVARA PECA_24072023_208535.73",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219457",
+            "Recibo": "CCOB-LP02/3314/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "JUAN JOSE MACHACA TORREZ",
+            "Total (Bs)": "4,811.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JUAN JOSE MACHACA TORREZ_24072023_4811.00.xls",
+            "UniqueID": "JUAN JOSE MACHACA TORREZ_24072023_4811.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_JUAN JOSE MACHACA TORREZ_24072023_4811.00.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_JUAN JOSE MACHACA TORREZ_24072023_4811.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219456",
+            "Recibo": "CCOB-LP02/3313/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T02",
+            "Total (Bs)": "5,446.70",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T02_24072023_5446.70.xls",
+            "UniqueID": "GERSON VELASCO LP - T02_24072023_5446.70",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T02_24072023_5446.70.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T02_24072023_5446.70",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219454",
+            "Recibo": "CCOB-LP02/3312/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T01",
+            "Total (Bs)": "6,893.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T01_24072023_6893.50.xls",
+            "UniqueID": "GERSON VELASCO LP - T01_24072023_6893.50",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T01_24072023_6893.50.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T01_24072023_6893.50",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219451",
+            "Recibo": "CCOB-LP02/3311/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T04",
+            "Total (Bs)": "8,541.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T04_24072023_8541.00.xls",
+            "UniqueID": "GERSON VELASCO LP - T04_24072023_8541.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T04_24072023_8541.00.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T04_24072023_8541.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219439",
+            "Recibo": "CCOB-LP02/3310/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "WILLIAMS EDSON SANCHEZ SILVA",
+            "Total (Bs)": "2.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_WILLIAMS EDSON SANCHEZ SILVA_24072023_2.00.xls",
+            "UniqueID": "WILLIAMS EDSON SANCHEZ SILVA_24072023_2.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_WILLIAMS EDSON SANCHEZ SILVA_24072023_2.00.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_WILLIAMS EDSON SANCHEZ SILVA_24072023_2.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219438",
+            "Recibo": "CCOB-LP02/3309/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T05",
+            "Total (Bs)": "4,014.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T05_24072023_4014.30.xls",
+            "UniqueID": "GERSON VELASCO LP - T05_24072023_4014.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T05_24072023_4014.30.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T05_24072023_4014.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219432",
+            "Recibo": "CCOB-LP02/3308/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "FERNANDO POMA ESCOBAR",
+            "Total (Bs)": "64,785.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_FERNANDO POMA ESCOBAR_24072023_64785.10.xls",
+            "UniqueID": "FERNANDO POMA ESCOBAR_24072023_64785.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_FERNANDO POMA ESCOBAR_24072023_64785.10.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_FERNANDO POMA ESCOBAR_24072023_64785.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219430",
+            "Recibo": "CCOB-LP02/3307/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "JOSE LUIS VARGAS SANTOS",
+            "Total (Bs)": "27,341.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JOSE LUIS VARGAS SANTOS_24072023_27341.50.xls",
+            "UniqueID": "JOSE LUIS VARGAS SANTOS_24072023_27341.50",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_JOSE LUIS VARGAS SANTOS_24072023_27341.50.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_JOSE LUIS VARGAS SANTOS_24072023_27341.50",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219426",
+            "Recibo": "CCOB-LP02/3306/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "24/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T06",
+            "Total (Bs)": "9,442.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T06_24072023_9442.20.xls",
+            "UniqueID": "GERSON VELASCO LP - T06_24072023_9442.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T06_24072023_9442.20.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T06_24072023_9442.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219400",
+            "Recibo": "CCOB-LP02/3305/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "21/07/2023",
+            "Cobrador": "OSCAR REYNALDO LIMACHI SURCO",
+            "Total (Bs)": "11,731.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_OSCAR REYNALDO LIMACHI SURCO_24072023_11731.20.xls",
+            "UniqueID": "OSCAR REYNALDO LIMACHI SURCO_24072023_11731.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_OSCAR REYNALDO LIMACHI SURCO_24072023_11731.20.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_OSCAR REYNALDO LIMACHI SURCO_24072023_11731.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219399",
+            "Recibo": "CCOB-LP02/3304/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "21/07/2023",
+            "Cobrador": "FREDDY FEDERICO FLORES MARIN",
+            "Total (Bs)": "10,594.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_FREDDY FEDERICO FLORES MARIN_24072023_10594.00.xls",
+            "UniqueID": "FREDDY FEDERICO FLORES MARIN_24072023_10594.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_FREDDY FEDERICO FLORES MARIN_24072023_10594.00.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_FREDDY FEDERICO FLORES MARIN_24072023_10594.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219398",
+            "Recibo": "CCOB-LP02/3303/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "21/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T04",
+            "Total (Bs)": "12,392.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T04_24072023_12392.60.xls",
+            "UniqueID": "GERSON VELASCO LP - T04_24072023_12392.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T04_24072023_12392.60.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T04_24072023_12392.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219394",
+            "Recibo": "CCOB-LP02/3302/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "GREGORIO RAMIREZ APAZA",
+            "Total (Bs)": "9,619.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GREGORIO RAMIREZ APAZA_24072023_9619.00.xls",
+            "UniqueID": "GREGORIO RAMIREZ APAZA_24072023_9619.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GREGORIO RAMIREZ APAZA_24072023_9619.00.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GREGORIO RAMIREZ APAZA_24072023_9619.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219393",
+            "Recibo": "CCOB-LP02/3301/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "21/07/2023",
+            "Cobrador": "CARLOS ALFREDO GUTIERREZ HUANCA",
+            "Total (Bs)": "14,290.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_CARLOS ALFREDO GUTIERREZ HUANCA_24072023_14290.50.xls",
+            "UniqueID": "CARLOS ALFREDO GUTIERREZ HUANCA_24072023_14290.50",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_CARLOS ALFREDO GUTIERREZ HUANCA_24072023_14290.50.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_CARLOS ALFREDO GUTIERREZ HUANCA_24072023_14290.50",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219391",
+            "Recibo": "CCOB-LP02/3300/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "21/07/2023",
+            "Cobrador": "SANTIAGO MACHACA CALCINA",
+            "Total (Bs)": "4,105.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_SANTIAGO MACHACA CALCINA_24072023_4105.60.xls",
+            "UniqueID": "SANTIAGO MACHACA CALCINA_24072023_4105.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_SANTIAGO MACHACA CALCINA_24072023_4105.60.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_SANTIAGO MACHACA CALCINA_24072023_4105.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219390",
+            "Recibo": "CCOB-LP02/3299/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T04",
+            "Total (Bs)": "11,846.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T04_24072023_11846.20.xls",
+            "UniqueID": "GERSON VELASCO LP - T04_24072023_11846.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T04_24072023_11846.20.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T04_24072023_11846.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219387",
+            "Recibo": "CCOB-LP02/3298/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "21/07/2023",
+            "Cobrador": "JAIME RAMIRO CHACON PAREDES",
+            "Total (Bs)": "11,558.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JAIME RAMIRO CHACON PAREDES_24072023_11558.00.xls",
+            "UniqueID": "JAIME RAMIRO CHACON PAREDES_24072023_11558.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_JAIME RAMIRO CHACON PAREDES_24072023_11558.00.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_JAIME RAMIRO CHACON PAREDES_24072023_11558.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219386",
+            "Recibo": "CCOB-LP02/3297/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T06",
+            "Total (Bs)": "8,715.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T06_24072023_8715.40.xls",
+            "UniqueID": "GERSON VELASCO LP - T06_24072023_8715.40",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T06_24072023_8715.40.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T06_24072023_8715.40",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219385",
+            "Recibo": "CCOB-LP02/3296/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T03",
+            "Total (Bs)": "6,982.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T03_24072023_6982.30.xls",
+            "UniqueID": "GERSON VELASCO LP - T03_24072023_6982.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T03_24072023_6982.30.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T03_24072023_6982.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219384",
+            "Recibo": "CCOB-LP02/3295/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "CARLOS ALFREDO GUTIERREZ HUANCA",
+            "Total (Bs)": "5,662.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_CARLOS ALFREDO GUTIERREZ HUANCA_24072023_5662.20.xls",
+            "UniqueID": "CARLOS ALFREDO GUTIERREZ HUANCA_24072023_5662.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_CARLOS ALFREDO GUTIERREZ HUANCA_24072023_5662.20.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_CARLOS ALFREDO GUTIERREZ HUANCA_24072023_5662.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219381",
+            "Recibo": "CCOB-LP02/3294/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "VLADIMIR FRANZ ATAHUACHI RODRIGUEZ",
+            "Total (Bs)": "10,960.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_VLADIMIR FRANZ ATAHUACHI RODRIGUEZ_24072023_10960.80.xls",
+            "UniqueID": "VLADIMIR FRANZ ATAHUACHI RODRIGUEZ_24072023_10960.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_VLADIMIR FRANZ ATAHUACHI RODRIGUEZ_24072023_10960.80.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_VLADIMIR FRANZ ATAHUACHI RODRIGUEZ_24072023_10960.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219376",
+            "Recibo": "CCOB-LP02/3293/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "ALFREDO MENDOZA APAZA",
+            "Total (Bs)": "15,546.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_ALFREDO MENDOZA APAZA_24072023_15546.20.xls",
+            "UniqueID": "ALFREDO MENDOZA APAZA_24072023_15546.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_ALFREDO MENDOZA APAZA_24072023_15546.20.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_ALFREDO MENDOZA APAZA_24072023_15546.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219370",
+            "Recibo": "CCOB-LP02/3292/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "FREDDY FEDERICO FLORES MARIN",
+            "Total (Bs)": "5,352.70",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_FREDDY FEDERICO FLORES MARIN_24072023_5352.70.xls",
+            "UniqueID": "FREDDY FEDERICO FLORES MARIN_24072023_5352.70",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_FREDDY FEDERICO FLORES MARIN_24072023_5352.70.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_FREDDY FEDERICO FLORES MARIN_24072023_5352.70",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219368",
+            "Recibo": "CCOB-LP02/3291/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T02",
+            "Total (Bs)": "9,892.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T02_24072023_9892.30.xls",
+            "UniqueID": "GERSON VELASCO LP - T02_24072023_9892.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T02_24072023_9892.30.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T02_24072023_9892.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219367",
+            "Recibo": "CCOB-LP02/3290/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "JUAN JOSE MACHACA TORREZ",
+            "Total (Bs)": "5,163.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JUAN JOSE MACHACA TORREZ_24072023_5163.80.xls",
+            "UniqueID": "JUAN JOSE MACHACA TORREZ_24072023_5163.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_JUAN JOSE MACHACA TORREZ_24072023_5163.80.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_JUAN JOSE MACHACA TORREZ_24072023_5163.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219364",
+            "Recibo": "CCOB-LP02/3289/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "SANTIAGO MACHACA CALCINA",
+            "Total (Bs)": "4,525.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_SANTIAGO MACHACA CALCINA_24072023_4525.30.xls",
+            "UniqueID": "SANTIAGO MACHACA CALCINA_24072023_4525.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_SANTIAGO MACHACA CALCINA_24072023_4525.30.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_SANTIAGO MACHACA CALCINA_24072023_4525.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219361",
+            "Recibo": "CCOB-LP02/3288/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "OSCAR REYNALDO LIMACHI SURCO",
+            "Total (Bs)": "8,357.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_OSCAR REYNALDO LIMACHI SURCO_24072023_8357.30.xls",
+            "UniqueID": "OSCAR REYNALDO LIMACHI SURCO_24072023_8357.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_OSCAR REYNALDO LIMACHI SURCO_24072023_8357.30.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_OSCAR REYNALDO LIMACHI SURCO_24072023_8357.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219357",
+            "Recibo": "CCOB-LP02/3287/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "JAIME RAMIRO CHACON PAREDES",
+            "Total (Bs)": "17,091.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_JAIME RAMIRO CHACON PAREDES_24072023_17091.40.xls",
+            "UniqueID": "JAIME RAMIRO CHACON PAREDES_24072023_17091.40",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_JAIME RAMIRO CHACON PAREDES_24072023_17091.40.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_JAIME RAMIRO CHACON PAREDES_24072023_17091.40",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219355",
+            "Recibo": "CCOB-LP02/3286/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "FRANKLIN CARDOZO RIVERA",
+            "Total (Bs)": "5,659.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_FRANKLIN CARDOZO RIVERA_24072023_5659.30.xls",
+            "UniqueID": "FRANKLIN CARDOZO RIVERA_24072023_5659.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_FRANKLIN CARDOZO RIVERA_24072023_5659.30.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_FRANKLIN CARDOZO RIVERA_24072023_5659.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "219353",
+            "Recibo": "CCOB-LP02/3285/2023",
+            "Fecha de Creacion": "24/07/2023",
+            "Correspondiente al": "22/07/2023",
+            "Cobrador": "GERSON VELASCO LP - T05",
+            "Total (Bs)": "8,455.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "LA PAZ_GERSON VELASCO LP - T05_24072023_8455.20.xls",
+            "UniqueID": "GERSON VELASCO LP - T05_24072023_8455.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\LA PAZ_GERSON VELASCO LP - T05_24072023_8455.20.xls",
+                    "descargado": "OK",
+                    "name": "LA PAZ_GERSON VELASCO LP - T05_24072023_8455.20",
                     "retries": 1
                 }
             ]
