@@ -215,7 +215,7 @@ def insertDataToJsonAg(configData):
                                 else:
                                     #print("no se encontro con coincidencia simple en sap")
                                     file['data']['bankTransferTable'][i]["SapInfo"]={}
-    with open(os.path.join(currentPath,"src","target","FinalDataToExcel.json"), "w") as write_file:
+    with open(os.path.join(currentPath,"src","target","FinalDataToExcel.json"), "w",encoding="utf-8") as write_file:
         json.dump(data, write_file, indent=4)
 
     
@@ -225,6 +225,7 @@ def insertDataToJsonAg(configData):
     
 if __name__ == '__main__':
     configData=loginInfo()
-    superTable(configData)
+    #superTable(configData)
+    print("holaaa")
     tableTransSap(configData)
     insertDataToJsonAg(configData)

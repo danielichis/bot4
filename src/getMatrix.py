@@ -270,7 +270,8 @@ def get_SgvCashOut(cashOutInfo,ccobTable,fechaSgvSaliE):
         if fechaSgvCcaj==fechaSgvSaliE:
             pass
         else:
-            print("sin coincidencia de fechas")
+            pass
+            #print("sin coincidencia de fechas")
 
     return sgvCashOut
 def get_CcajRecuentoTransf(CcobCobInfo,item):
@@ -406,35 +407,32 @@ def get_CcajRecuentoChecks2(CajaRecuentoChecksTable):
 def get_SapInfoTransfer(CcajRecuentoTransfTable):
     transferTable=[]
     validInfo=False
-
-    if CcajRecuentoTransfTable:
-        for row in CcajRecuentoTransfTable:
-            if "SapInfo" in row.keys():
-                sapInfo=row['SapInfo']
-                sapInfoDict={
-                        "NroDocumentoTransfer_SapInfo":sapInfo['Nº doc.'],
-                        "FechaDocuemntoTransfer_SapInfo":sapInfo['Fecha doc.'],
-                        "ImporteBsTransfer_SapInfo":sapInfo['Importe en Ml'],
-                        "TextoTransfer_SapInfo":sapInfo['Texto'],
-                        "LibroMayorTransfer_SapInfo":sapInfo['Libro Mayor'],
-                            }
-            else:
-                sapInfoDict={
-                        "NroDocumentoTransfer_SapInfo":"info no encontrada",
-                        "FechaDocuemntoTransfer_SapInfo":"info no encontrada",
-                        "ImporteBsTransfer_SapInfo":"info no encontrada",
-                        "Texto_SapInfoTransfer":"info no encontrada",
-                        "LibroMayorTransfer_SapInfo":"info no encontrada",
-                            }
-            transferTable.append(sapInfoDict)
-    else:
-        sapInfoDict={
+    emptySapInfo={
                 "NroDocumentoTransfer_SapInfo":"info no encontrada",
                 "FechaDocuemntoTransfer_SapInfo":"info no encontrada",
                 "ImporteBsTransfer_SapInfo":"info no encontrada",
                 "Texto_SapInfoTransfer":"info no encontrada",
                 "LibroMayorTransfer_SapInfo":"info no encontrada",
                     }
+    if CcajRecuentoTransfTable:
+        for row in CcajRecuentoTransfTable:
+            if "SapInfo" in list(row.keys()):
+                sapInfo=row['SapInfo']
+                if len(sapInfo)>0:
+                    sapInfoDict={
+                            "NroDocumentoTransfer_SapInfo":sapInfo['Nº doc.'],
+                            "FechaDocuemntoTransfer_SapInfo":sapInfo['Fecha doc.'],
+                            "ImporteBsTransfer_SapInfo":sapInfo['Importe en Ml'],
+                            "TextoTransfer_SapInfo":sapInfo['Texto'],
+                            "LibroMayorTransfer_SapInfo":sapInfo['Libro Mayor'],
+                                }
+                else:
+                    sapInfoDict=emptySapInfo    
+            else:
+                sapInfoDict=emptySapInfo
+            transferTable.append(sapInfoDict)
+    else:
+        sapInfoDict=emptySapInfo
         transferTable.append(sapInfoDict)
     return transferTable
 
@@ -467,7 +465,7 @@ def get_SapInfoChecks(CcajRecuentoChecksTable):
     return checksTable
 
 def getMatrixDist():
-    with open(paths.jsonFinal) as json_data:
+    with open(paths.jsonFinal,encoding="utf-8") as json_data:
         data = json.load(json_data)
     matrixList=[]
     with open(paths.jsonCobBox) as json_data:
