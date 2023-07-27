@@ -285,31 +285,36 @@ def get_CcajRecuentoTransf(CcobCobInfo,item):
     amounts_recuent=[x['AmountTransfer'] for x in bankTransferTable_recuento]
     if len(amounts_recuent)==0:
         transferRecuento={
-                        "fechaTransf_CcajRecuen":"info no encontrada",
-                        "NroTransf_CcajRecuen":"info no encontrada",
-                        "BancoTransf_CcajRecuen":"info no encontrada",
-                        "BsTransf_CcajRecuen":"info no encontrada",
+                        "DateTransfer":"info no encontrada",
+                        "DocumentNumberTransfer":"info no encontrada",
+                        "BankTransfer":"info no encontrada",
+                        "AmountTransfer":"info no encontrada",
                             }
         transferRecuentoTable.append(transferRecuento)
         return transferRecuentoTable
     
     for row in CcobCobInfo:
+        if row['TransferBs_CcajCobCob']==21140:
+            print("encontrado")
+            pass
+        
         if row['TransferBs_CcajCobCob'] in amounts_recuent:
             transferRecuento=bankTransferTable_recuento[amounts_recuent.index(row['TransferBs_CcajCobCob'])]
+
         else:
             if row['TransferBs_CcajCobCob']==0:
                 transferRecuento={
-                        "fechaTransf_CcajRecuen":0,
-                        "NroTransf_CcajRecuen":0,
-                        "BancoTransf_CcajRecuen":0,
-                        "BsTransf_CcajRecuen":0,
+                        "DateTransfer":0,
+                        "DocumentNumberTransfer":0,
+                        "BankTransfer":0,
+                        "AmountTransfer":0,
                             }
             else:
                 transferRecuento={
-                        "fechaTransf_CcajRecuen":"info no encontrada",
-                        "NroTransf_CcajRecuen":"info no encontrada",
-                        "BancoTransf_CcajRecuen":"info no encontrada",
-                        "BsTransf_CcajRecuen":"info no encontrada",
+                        "DateTransfer":"info no encontrada",
+                        "DocumentNumberTransfer":"info no encontrada",
+                        "BankTransfer":"info no encontrada",
+                        "AmountTransfer":"info no encontrada",
                             }
         transferRecuentoTable.append(transferRecuento)
     return transferRecuentoTable
@@ -509,8 +514,9 @@ def getMatrixDist():
                                       CcajRecuentoChecksTable,
                                       CcajRecuentoTransfTable,
                                       CobClientsTable,
-                                      sapInfoTableBankTransfer,
-                                      sapInfoTableCheckTable]
+                                      sapInfoTableCheckTable,
+                                      sapInfoTableBankTransfer
+                                      ]
                 concatTable=concat_dfs2(listOfTablesToConcat)
 
                 for deepRow in concatTable:
