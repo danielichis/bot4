@@ -640,13 +640,16 @@ def scrapCierresDeCaja():
     for i,row in enumerate(data['data']):
         for j,path in enumerate(row["xlsFilesList"]):
             if path['descargado']=="OK":
-                path=os.path.join(paths.dirCcaj,path['name']+".xlsx")
-                vd=scrapXlsxFile(path)
-                #data['data'][i]["xlsFilesList"][j]={}
-                data['data'][i]["xlsFilesList"][j]["file"]=path
-                data['data'][i]["xlsFilesList"][j]["distributionType"]=vd["distributionType"]
-                data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
-                data['data'][i]["xlsFilesList"][j]["data"]=vd["data"]
+                try:
+                    path=os.path.join(paths.dirCcaj,path['name']+".xlsx")
+                    vd=scrapXlsxFile(path)
+                    #data['data'][i]["xlsFilesList"][j]={}
+                    data['data'][i]["xlsFilesList"][j]["file"]=path
+                    data['data'][i]["xlsFilesList"][j]["distributionType"]=vd["distributionType"]
+                    data['data'][i]["xlsFilesList"][j]["moneyType"]=vd["typeMoney"]
+                    data['data'][i]["xlsFilesList"][j]["data"]=vd["data"]
+                except Exception as e:
+                    print(e)
                 #print(row['Código'])
             #except:
                 #pass

@@ -52,7 +52,7 @@ def download_file(pathFile,cssSelector,row,j,test=False):
             download = download_info.value
             download.save_as(pathFile)
             if test==True:
-                if j%5==0 and j!=0:
+                if j==1:
                     pass
                 else:
                     print(f"Descargado {pathFile}")
@@ -74,7 +74,7 @@ def download_file(pathFile,cssSelector,row,j,test=False):
 
     return metadataFile
     
-def tableCashClosing(user,test=False):
+def tableCashClosing(user,test):
     table=[]
     time.sleep(1)
     page.wait_for_load_state()
@@ -216,8 +216,9 @@ def updateJsonInfo(code,flow,globalList,retrieInfo):
                  
     return globalList
         
-def donwloadErros(errorList,user,flow,globalList,test=False):  
+def donwloadErros(errorList,user,flow,globalList,test):  
     print("DESCARGANDO ERRORES...")
+    test=False
     page.reload()
     for code in errorList:
         page.query_selector("input[class='form-control input-sm']").click()

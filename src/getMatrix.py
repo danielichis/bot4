@@ -485,12 +485,17 @@ def getMatrixDist():
             files=item["xlsFilesList"]
             for file in files:
                 if file["descargado"]=="OK":
-                    if file["moneyType"]=="Bs" or file["moneyType"]=="Us":
-                        pass
-                        #get the data of recuento
-                    if file["moneyType"]=="other":
-                        ccobTable=file["data"]['summaryTable']
-                        #get the data of cierre de cobrador
+                    if "moneyType" in list(file.keys()):
+                        if file["moneyType"]=="Bs" or file["moneyType"]=="Us":
+                            pass
+                            #get the data of recuento
+                        if file["moneyType"]=="other":
+                            ccobTable=file["data"]['summaryTable']
+                            #get the data of cierre de cobrador
+                    else:
+                        ccobTable=[]
+                else:
+                    ccobTable=[]
             for cobRow in ccobTable:
                 if cobRow['Code_CcajConsol']=="136":
                     pass

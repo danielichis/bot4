@@ -197,24 +197,29 @@ def insertDataToJsonAg(configData):
         if row['Acciones']=="distribuidora":
             files=row['xlsFilesList']
             for file in files:
-                if file["descargado"]=="OK" and file["moneyType"]=="Bs":
-                    checktable=file['data']['checkTable']
-                    bankTransferTable=file['data']['bankTransferTable']
-                    if len(bankTransferTable)>0:
-                        for i,rowt in enumerate(bankTransferTable):
-                            sapinfo=searchInSapInfo(rowt,valuesSAp)
-                            file['data']['bankTransferTable'][i]["SapInfo"]={}
-                            if sapinfo:
-                                file['data']['bankTransferTable'][i]["SapInfo"]=sapinfo
-                            else:
-                                #print(rowt['AmountTransfer'])
-                                #print("no se encontro con doble coincidencia en sap")
-                                sapinfo=searchInsapInfoFull(rowt,valuesSAp)
+                fieldsIn=["descargado","moneyType"]
+                if set(fieldsIn).issubset(list(file.keys())):
+                    if file["descargado"]=="OK" and file["moneyType"]=="Bs":
+                        checktable=file['data']['checkTable']
+                        bankTransferTable=file['data']['bankTransferTable']
+                        if len(bankTransferTable)>0:
+                            for i,rowt in enumerate(bankTransferTable):
+                                sapinfo=searchInSapInfo(rowt,valuesSAp)
+                                file['data']['bankTransferTable'][i]["SapInfo"]={}
                                 if sapinfo:
                                     file['data']['bankTransferTable'][i]["SapInfo"]=sapinfo
                                 else:
-                                    #print("no se encontro con coincidencia simple en sap")
-                                    file['data']['bankTransferTable'][i]["SapInfo"]={}
+                                    #print(rowt['AmountTransfer'])
+                                    #print("no se encontro con doble coincidencia en sap")
+                                    sapinfo=searchInsapInfoFull(rowt,valuesSAp)
+                                    if sapinfo:
+                                        file['data']['bankTransferTable'][i]["SapInfo"]=sapinfo
+                                    else:
+                                        #print("no se encontro con coincidencia simple en sap")
+                                        file['data']['bankTransferTable'][i]["SapInfo"]={}
+                else:
+                    print(f"ADVERTENGIA el archivo {file['name']} no tiene campo de moneda")
+
     with open(os.path.join(currentPath,"src","target","FinalDataToExcel.json"), "w",encoding="utf-8") as write_file:
         json.dump(data, write_file, indent=4)
 
