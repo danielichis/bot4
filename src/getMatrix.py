@@ -279,9 +279,13 @@ def get_CcajRecuentoTransf(CcobCobInfo,item):
     files=item["xlsFilesList"]
     for file in files:
         if file["descargado"]=="OK":
-            if file["moneyType"]=="Bs" or file["moneyType"]=="Us":
-                bankTransferTable_recuento=file['data']['bankTransferTable']
-                checkTable_recuento=file['data']['checkTable']
+            if "moneyType" in list(file.keys()):
+                if file["moneyType"]=="Bs" or file["moneyType"]=="Us":
+                    bankTransferTable_recuento=file['data']['bankTransferTable']
+                    checkTable_recuento=file['data']['checkTable']
+            else:
+                bankTransferTable_recuento=[]
+                checkTable_recuento=[]
     amounts_recuent=[x['AmountTransfer'] for x in bankTransferTable_recuento]
     if len(amounts_recuent)==0:
         transferRecuento={
@@ -323,9 +327,13 @@ def get_CcajRecuentoChecks(CcobCobInfo,item):
     checksRecuentoTable=[]
     for file in files:
         if file["descargado"]=="OK":
-            if file["moneyType"]=="Bs" or file["moneyType"]=="Us":
-                bankTransferTable_recuento=file['data']['bankTransferTable']
-                checkTable_recuento=file['data']['checkTable']
+            if "moneyType" in list(file.keys()):
+                if file["moneyType"]=="Bs" or file["moneyType"]=="Us":
+                    bankTransferTable_recuento=file['data']['bankTransferTable']
+                    checkTable_recuento=file['data']['checkTable']
+            else:
+                bankTransferTable_recuento=[]
+                checkTable_recuento=[]
     amounts_recuent=[x['AmountCheck'] for x in checkTable_recuento]
     if len(amounts_recuent)==0:
         checkRecuento={

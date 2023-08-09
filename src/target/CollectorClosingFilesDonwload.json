@@ -1,134 +1,1768 @@
 {
     "data": [
         {
-            "C\u00f3digo": "220274",
-            "Recibo": "CCOB-RB01/404/2023",
+            "C\u00f3digo": "220317",
+            "Recibo": "CCOB-PT53/782/2023",
             "Fecha de Creacion": "31/07/2023",
             "Correspondiente al": "31/07/2023",
-            "Cobrador": "ELI RIBERA COIMBRA",
-            "Total (Bs)": "5,632.10",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "1,612.40",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "RIBERALTA_ELI RIBERA COIMBRA_31072023_5632.10.xls",
-            "UniqueID": "ELI RIBERA COIMBRA_31072023_5632.10",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
             "xlsFilesList": [
                 {
-                    "path": "C:\\Users\\Administrador\\Documents\\bot4\\Cierres de cobrador\\RIBERALTA_ELI RIBERA COIMBRA_31072023_5632.10.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_ELI RIBERA COIMBRA_31072023_5632.10",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220316",
+            "Recibo": "CCOB-PT53/781/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "8,595.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220314",
+            "Recibo": "CCOB-PT53/780/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "102,472.07",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220282",
+            "Recibo": "CCOB-PT53/779/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "BLANCA ROXANA SUBIETA RAMIREZ",
+            "Total (Bs)": "3,781.02",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+            "UniqueID": "BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220278",
+            "Recibo": "CCOB-PT53/778/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "66,859.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220202",
+            "Recibo": "CCOB-PT53/777/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "877.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220201",
+            "Recibo": "CCOB-PT53/776/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "83,208.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220200",
+            "Recibo": "CCOB-PT53/775/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "2,833.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220199",
+            "Recibo": "CCOB-PT53/774/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "32,691.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+            "UniqueID": "ESTEBAN JAITA_31072023_32691.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_31072023_32691.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220198",
+            "Recibo": "CCOB-PT53/773/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "29,016.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220197",
+            "Recibo": "CCOB-PT53/772/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,842.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220317",
+            "Recibo": "CCOB-PT53/782/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "1,612.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
                     "retries": 2
                 }
             ]
         },
         {
-            "C\u00f3digo": "220242",
-            "Recibo": "CCOB-RB01/403/2023",
+            "C\u00f3digo": "220316",
+            "Recibo": "CCOB-PT53/781/2023",
             "Fecha de Creacion": "31/07/2023",
             "Correspondiente al": "31/07/2023",
-            "Cobrador": "ERICK EDUARDO IBA\u00d1EZ ZAPATA",
-            "Total (Bs)": "9,604.90",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "8,595.80",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "RIBERALTA_ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_9604.90.xls",
-            "UniqueID": "ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_9604.90",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
             "xlsFilesList": [
                 {
-                    "path": "C:\\Users\\Administrador\\Documents\\bot4\\Cierres de cobrador\\RIBERALTA_ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_9604.90.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_9604.90",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
                     "retries": 1
                 }
             ]
         },
         {
-            "C\u00f3digo": "220168",
-            "Recibo": "CCOB-RB01/402/2023",
+            "C\u00f3digo": "220314",
+            "Recibo": "CCOB-PT53/780/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "102,472.07",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220282",
+            "Recibo": "CCOB-PT53/779/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "BLANCA ROXANA SUBIETA RAMIREZ",
+            "Total (Bs)": "3,781.02",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+            "UniqueID": "BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220278",
+            "Recibo": "CCOB-PT53/778/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "66,859.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220202",
+            "Recibo": "CCOB-PT53/777/2023",
             "Fecha de Creacion": "31/07/2023",
             "Correspondiente al": "28/07/2023",
-            "Cobrador": "ALVARO GARCIA - T02",
-            "Total (Bs)": "5,334.60",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "877.50",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "RIBERALTA_ALVARO GARCIA - T02_31072023_5334.60.xls",
-            "UniqueID": "ALVARO GARCIA - T02_31072023_5334.60",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
             "xlsFilesList": [
                 {
-                    "path": "C:\\Users\\Administrador\\Documents\\bot4\\Cierres de cobrador\\RIBERALTA_ALVARO GARCIA - T02_31072023_5334.60.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_ALVARO GARCIA - T02_31072023_5334.60",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
                     "retries": 1
                 }
             ]
         },
         {
-            "C\u00f3digo": "220165",
-            "Recibo": "CCOB-RB01/401/2023",
+            "C\u00f3digo": "220201",
+            "Recibo": "CCOB-PT53/776/2023",
             "Fecha de Creacion": "31/07/2023",
             "Correspondiente al": "29/07/2023",
-            "Cobrador": "ALVARO GARCIA - T02",
-            "Total (Bs)": "8,602.60",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "83,208.20",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "RIBERALTA_ALVARO GARCIA - T02_31072023_8602.60.xls",
-            "UniqueID": "ALVARO GARCIA - T02_31072023_8602.60",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
             "xlsFilesList": [
                 {
-                    "path": "C:\\Users\\Administrador\\Documents\\bot4\\Cierres de cobrador\\RIBERALTA_ALVARO GARCIA - T02_31072023_8602.60.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_ALVARO GARCIA - T02_31072023_8602.60",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
                     "retries": 1
                 }
             ]
         },
         {
-            "C\u00f3digo": "220158",
-            "Recibo": "CCOB-RB01/400/2023",
+            "C\u00f3digo": "220200",
+            "Recibo": "CCOB-PT53/775/2023",
             "Fecha de Creacion": "31/07/2023",
             "Correspondiente al": "29/07/2023",
-            "Cobrador": "ERICK EDUARDO IBA\u00d1EZ ZAPATA",
-            "Total (Bs)": "18,273.50",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "2,833.60",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "RIBERALTA_ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_18273.50.xls",
-            "UniqueID": "ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_18273.50",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
             "xlsFilesList": [
                 {
-                    "path": "C:\\Users\\Administrador\\Documents\\bot4\\Cierres de cobrador\\RIBERALTA_ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_18273.50.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_ERICK EDUARDO IBA\u00d1EZ ZAPATA_31072023_18273.50",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
                     "retries": 1
                 }
             ]
         },
         {
-            "C\u00f3digo": "220152",
-            "Recibo": "CCOB-RB01/399/2023",
+            "C\u00f3digo": "220199",
+            "Recibo": "CCOB-PT53/774/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "32,691.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+            "UniqueID": "ESTEBAN JAITA_31072023_32691.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_31072023_32691.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220198",
+            "Recibo": "CCOB-PT53/773/2023",
             "Fecha de Creacion": "31/07/2023",
             "Correspondiente al": "28/07/2023",
-            "Cobrador": "ALVARO GARCIA - T01",
-            "Total (Bs)": "29,464.50",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "29,016.30",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "RIBERALTA_ALVARO GARCIA - T01_31072023_29464.50.xls",
-            "UniqueID": "ALVARO GARCIA - T01_31072023_29464.50",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
             "xlsFilesList": [
                 {
-                    "path": "C:\\Users\\Administrador\\Documents\\bot4\\Cierres de cobrador\\RIBERALTA_ALVARO GARCIA - T01_31072023_29464.50.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_ALVARO GARCIA - T01_31072023_29464.50",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
                     "retries": 1
                 }
             ]
         },
         {
-            "C\u00f3digo": "220146",
-            "Recibo": "CCOB-RB01/398/2023",
+            "C\u00f3digo": "220197",
+            "Recibo": "CCOB-PT53/772/2023",
             "Fecha de Creacion": "31/07/2023",
-            "Correspondiente al": "27/07/2023",
-            "Cobrador": "ALVARO GARCIA - T01",
-            "Total (Bs)": "12,774.80",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,842.80",
             "Estado": "CONFIRMADO",
-            "Nombre del archivo": "RIBERALTA_ALVARO GARCIA - T01_31072023_12774.80.xls",
-            "UniqueID": "ALVARO GARCIA - T01_31072023_12774.80",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
             "xlsFilesList": [
                 {
-                    "path": "C:\\Users\\Administrador\\Documents\\bot4\\Cierres de cobrador\\RIBERALTA_ALVARO GARCIA - T01_31072023_12774.80.xls",
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
                     "descargado": "OK",
-                    "name": "RIBERALTA_ALVARO GARCIA - T01_31072023_12774.80",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+                    "retries": 2
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220670",
+            "Recibo": "CCOB-PT53/792/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "32,213.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220664",
+            "Recibo": "CCOB-PT53/791/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "29,627.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220663",
+            "Recibo": "CCOB-PT53/790/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "324.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_03082023_324.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220662",
+            "Recibo": "CCOB-PT53/789/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "20,760.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_03082023_20760.20.xls",
+            "UniqueID": "ESTEBAN JAITA_03082023_20760.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_03082023_20760.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_03082023_20760.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220549",
+            "Recibo": "CCOB-PT53/788/2023",
+            "Fecha de Creacion": "02/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "10,706.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_02082023_10706.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220536",
+            "Recibo": "CCOB-PT53/787/2023",
+            "Fecha de Creacion": "02/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "37,023.90",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220416",
+            "Recibo": "CCOB-PT53/786/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,428.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_01082023_16428.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220414",
+            "Recibo": "CCOB-PT53/785/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "298.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_01082023_298.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220413",
+            "Recibo": "CCOB-PT53/784/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "21,442.90",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_01082023_21442.90.xls",
+            "UniqueID": "ESTEBAN JAITA_01082023_21442.90",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_01082023_21442.90.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_01082023_21442.90",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220412",
+            "Recibo": "CCOB-PT53/783/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "26,540.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220317",
+            "Recibo": "CCOB-PT53/782/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "1,612.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220316",
+            "Recibo": "CCOB-PT53/781/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "8,595.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220314",
+            "Recibo": "CCOB-PT53/780/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "102,472.07",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220282",
+            "Recibo": "CCOB-PT53/779/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "BLANCA ROXANA SUBIETA RAMIREZ",
+            "Total (Bs)": "3,781.02",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+            "UniqueID": "BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220278",
+            "Recibo": "CCOB-PT53/778/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "66,859.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220202",
+            "Recibo": "CCOB-PT53/777/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "877.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220201",
+            "Recibo": "CCOB-PT53/776/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "83,208.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220200",
+            "Recibo": "CCOB-PT53/775/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "2,833.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220199",
+            "Recibo": "CCOB-PT53/774/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "32,691.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+            "UniqueID": "ESTEBAN JAITA_31072023_32691.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_31072023_32691.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220198",
+            "Recibo": "CCOB-PT53/773/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "29,016.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220197",
+            "Recibo": "CCOB-PT53/772/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,842.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220801",
+            "Recibo": "CCOB-PT53/796/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "29,422.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_04082023_29422.60.xls",
+            "UniqueID": "ESTEBAN JAITA_04082023_29422.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_04082023_29422.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_04082023_29422.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220800",
+            "Recibo": "CCOB-PT53/795/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "1,107.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220798",
+            "Recibo": "CCOB-PT53/794/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "13,907.70",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_04082023_13907.70.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_04082023_13907.70",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_04082023_13907.70.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_04082023_13907.70",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220778",
+            "Recibo": "CCOB-PT53/793/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "04/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "32,019.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220670",
+            "Recibo": "CCOB-PT53/792/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "32,213.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220664",
+            "Recibo": "CCOB-PT53/791/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "29,627.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220663",
+            "Recibo": "CCOB-PT53/790/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "324.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_03082023_324.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220662",
+            "Recibo": "CCOB-PT53/789/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "20,760.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_03082023_20760.20.xls",
+            "UniqueID": "ESTEBAN JAITA_03082023_20760.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_03082023_20760.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_03082023_20760.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220549",
+            "Recibo": "CCOB-PT53/788/2023",
+            "Fecha de Creacion": "02/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "10,706.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_02082023_10706.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220536",
+            "Recibo": "CCOB-PT53/787/2023",
+            "Fecha de Creacion": "02/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "37,023.90",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220416",
+            "Recibo": "CCOB-PT53/786/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,428.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_01082023_16428.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220414",
+            "Recibo": "CCOB-PT53/785/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "298.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_01082023_298.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220413",
+            "Recibo": "CCOB-PT53/784/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "21,442.90",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_01082023_21442.90.xls",
+            "UniqueID": "ESTEBAN JAITA_01082023_21442.90",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_01082023_21442.90.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_01082023_21442.90",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220412",
+            "Recibo": "CCOB-PT53/783/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "26,540.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220317",
+            "Recibo": "CCOB-PT53/782/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "1,612.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220316",
+            "Recibo": "CCOB-PT53/781/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "8,595.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220314",
+            "Recibo": "CCOB-PT53/780/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "102,472.07",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220282",
+            "Recibo": "CCOB-PT53/779/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "BLANCA ROXANA SUBIETA RAMIREZ",
+            "Total (Bs)": "3,781.02",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+            "UniqueID": "BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220278",
+            "Recibo": "CCOB-PT53/778/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "66,859.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220202",
+            "Recibo": "CCOB-PT53/777/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "877.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220201",
+            "Recibo": "CCOB-PT53/776/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "83,208.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220200",
+            "Recibo": "CCOB-PT53/775/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "2,833.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220199",
+            "Recibo": "CCOB-PT53/774/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "32,691.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+            "UniqueID": "ESTEBAN JAITA_31072023_32691.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_31072023_32691.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220198",
+            "Recibo": "CCOB-PT53/773/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "29,016.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220197",
+            "Recibo": "CCOB-PT53/772/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,842.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220801",
+            "Recibo": "CCOB-PT53/796/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "29,422.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_04082023_29422.60.xls",
+            "UniqueID": "ESTEBAN JAITA_04082023_29422.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_04082023_29422.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_04082023_29422.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220800",
+            "Recibo": "CCOB-PT53/795/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "1,107.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_04082023_1107.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220798",
+            "Recibo": "CCOB-PT53/794/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "13,907.70",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_04082023_13907.70.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_04082023_13907.70",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_04082023_13907.70.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_04082023_13907.70",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220778",
+            "Recibo": "CCOB-PT53/793/2023",
+            "Fecha de Creacion": "04/08/2023",
+            "Correspondiente al": "04/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "32,019.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_04082023_32019.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220670",
+            "Recibo": "CCOB-PT53/792/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "32,213.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_03082023_32213.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220664",
+            "Recibo": "CCOB-PT53/791/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "03/08/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "29,627.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_03082023_29627.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220663",
+            "Recibo": "CCOB-PT53/790/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "324.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_03082023_324.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_03082023_324.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220662",
+            "Recibo": "CCOB-PT53/789/2023",
+            "Fecha de Creacion": "03/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "20,760.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_03082023_20760.20.xls",
+            "UniqueID": "ESTEBAN JAITA_03082023_20760.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_03082023_20760.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_03082023_20760.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220549",
+            "Recibo": "CCOB-PT53/788/2023",
+            "Fecha de Creacion": "02/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "10,706.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_02082023_10706.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_02082023_10706.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220536",
+            "Recibo": "CCOB-PT53/787/2023",
+            "Fecha de Creacion": "02/08/2023",
+            "Correspondiente al": "02/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "37,023.90",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_02082023_37023.90",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220416",
+            "Recibo": "CCOB-PT53/786/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,428.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_01082023_16428.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_01082023_16428.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220414",
+            "Recibo": "CCOB-PT53/785/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "298.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_01082023_298.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_01082023_298.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220413",
+            "Recibo": "CCOB-PT53/784/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "21,442.90",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_01082023_21442.90.xls",
+            "UniqueID": "ESTEBAN JAITA_01082023_21442.90",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_01082023_21442.90.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_01082023_21442.90",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220412",
+            "Recibo": "CCOB-PT53/783/2023",
+            "Fecha de Creacion": "01/08/2023",
+            "Correspondiente al": "01/08/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "26,540.00",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_01082023_26540.00",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220317",
+            "Recibo": "CCOB-PT53/782/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "1,612.40",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_1612.40",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220316",
+            "Recibo": "CCOB-PT53/781/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "8,595.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_8595.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220314",
+            "Recibo": "CCOB-PT53/780/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "JIMMY JHIOMAR PAXI HUAYTA",
+            "Total (Bs)": "102,472.07",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+            "UniqueID": "JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JIMMY JHIOMAR PAXI HUAYTA_31072023_102472.07",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220282",
+            "Recibo": "CCOB-PT53/779/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "BLANCA ROXANA SUBIETA RAMIREZ",
+            "Total (Bs)": "3,781.02",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+            "UniqueID": "BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_BLANCA ROXANA SUBIETA RAMIREZ_31072023_3781.02",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220278",
+            "Recibo": "CCOB-PT53/778/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "31/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "66,859.10",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_66859.10",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220202",
+            "Recibo": "CCOB-PT53/777/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "877.50",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_877.50",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220201",
+            "Recibo": "CCOB-PT53/776/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "MAURO EZEQUIEL GUTIERREZ PACHECO",
+            "Total (Bs)": "83,208.20",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+            "UniqueID": "MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_MAURO EZEQUIEL GUTIERREZ PACHECO_31072023_83208.20",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220200",
+            "Recibo": "CCOB-PT53/775/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ARIEL CHECKA AYAVIRI",
+            "Total (Bs)": "2,833.60",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+            "UniqueID": "JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ARIEL CHECKA AYAVIRI_31072023_2833.60",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220199",
+            "Recibo": "CCOB-PT53/774/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "ESTEBAN JAITA",
+            "Total (Bs)": "32,691.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+            "UniqueID": "ESTEBAN JAITA_31072023_32691.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_ESTEBAN JAITA_31072023_32691.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_ESTEBAN JAITA_31072023_32691.80",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220198",
+            "Recibo": "CCOB-PT53/773/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "28/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "29,016.30",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_29016.30",
+                    "retries": 1
+                }
+            ]
+        },
+        {
+            "C\u00f3digo": "220197",
+            "Recibo": "CCOB-PT53/772/2023",
+            "Fecha de Creacion": "31/07/2023",
+            "Correspondiente al": "29/07/2023",
+            "Cobrador": "JOSE ADRIAN ORCKO CHECA",
+            "Total (Bs)": "16,842.80",
+            "Estado": "CONFIRMADO",
+            "Nombre del archivo": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+            "UniqueID": "JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
+            "xlsFilesList": [
+                {
+                    "path": "c:\\DanielBots\\bot4\\Cierres de cobrador\\POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80.xls",
+                    "descargado": "OK",
+                    "name": "POTOSI_JOSE ADRIAN ORCKO CHECA_31072023_16842.80",
                     "retries": 1
                 }
             ]

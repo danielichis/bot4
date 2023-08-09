@@ -1,74 +1,65 @@
 [
     {
-        "C\u00f3digo": "9040",
-        "Fecha": "03/08/2023 12:03:16",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "13,309.60",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "9068",
+        "Fecha": "09/08/2023 09:55:48",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "249,235.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
+        "Recaudadora": "POTOSI"
     },
     {
-        "C\u00f3digo": "9035",
-        "Fecha": "02/08/2023 15:59:40",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "6,889.00",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "9046",
+        "Fecha": "04/08/2023 10:16:20",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "101,608.90",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
+        "Recaudadora": "POTOSI"
     },
     {
-        "C\u00f3digo": "9025",
-        "Fecha": "01/08/2023 17:11:27",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "5,632.10",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "9027",
+        "Fecha": "02/08/2023 09:49:57",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "111,067.00",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
+        "Recaudadora": "POTOSI"
     },
     {
-        "C\u00f3digo": "9006",
-        "Fecha": "31/07/2023 16:39:55",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "84,054.90",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "9005",
+        "Fecha": "31/07/2023 15:04:36",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "141,470.20",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
+        "Recaudadora": "POTOSI"
     },
     {
-        "C\u00f3digo": "9003",
-        "Fecha": "31/07/2023 14:59:44",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "15,414.50",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8999",
+        "Fecha": "31/07/2023 11:42:54",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "83,248.70",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
+        "Recaudadora": "POTOSI"
     },
     {
-        "C\u00f3digo": "8989",
-        "Fecha": "28/07/2023 15:14:41",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "25,911.40",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8986",
+        "Fecha": "28/07/2023 12:43:38",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "420,571.10",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
+        "Recaudadora": "POTOSI"
     },
     {
-        "C\u00f3digo": "8978",
-        "Fecha": "27/07/2023 13:20:56",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "26,977.30",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
+        "C\u00f3digo": "8963",
+        "Fecha": "26/07/2023 08:48:42",
+        "Encargado": "BLANCA ROXANA SUBIETA RAMIREZ - CAJA",
+        "Total Bs.": "124,950.10",
+        "Tipo": "EMPRESA TRANSPORTADORA",
         "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
-    },
-    {
-        "C\u00f3digo": "8971",
-        "Fecha": "26/07/2023 15:31:17",
-        "Encargado": "VALERY TERCEROS - CAJA",
-        "Total Bs.": "14,776.40",
-        "Tipo": "DEP\u00d3SITO BANCARIO",
-        "Estado": "ACTIVO",
-        "Recaudadora": "RIBERALTA"
+        "Recaudadora": "POTOSI"
     }
 ]

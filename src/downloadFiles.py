@@ -85,6 +85,7 @@ def tableCashClosing(user,test):
     k=1
     while dataLoaded==False and k<3:
         if len(rows)>0:
+            rows=page.query_selector_all("table#cashierClosings tbody tr")
             dataLoaded=True
             break
         time.sleep(1)
@@ -268,8 +269,12 @@ def downloadCcaj(loginInfo,user):
         print(f"------pagina : {i+1}")
         ccjaList=tableCashClosing(user,test=paths.testMode)
         errosPage=get_errorList(ccjaList)
-        if len(errosPage)>0:
-            listOfErrors.extend(errosPage)
+        while len(errosPage)>0:
+            #listOfErrors.extend(errosPage)
+            page.evaluate(f"document.querySelectorAll(\"li[aria-controls='cashierClosings']:not([id])\")[{i}].click()")
+            page.wait_for_selector("table#cashierClosings td")
+            ccjaList=tableCashClosing(user,test=False)
+            errosPage=get_errorList(ccjaList)
         if len(ccjaList)>=0:
             globalList.extend(ccjaList)  
         page.query_selector("[id='cashierClosings_next'] a").click()
@@ -382,8 +387,11 @@ def downloadCollectorClosing(loginInfo,user):
         print(f"-----pagina :{i+1}")
         ccobList=tableCollectorClosing(user,test=paths.testMode)
         errosPage=get_errorList(ccobList)
-        if len(errosPage)>0:
-            listOfErrors.extend(errosPage)
+        while len(errosPage)>0:
+            #listOfErrors.extend(errosPage)
+            page.evaluate(f"document.querySelectorAll(\"li[aria-controls='dailyClosings']:not([id])\")[{i}].click()")
+            ccobList=tableCollectorClosing(user,test=False)
+            errosPage=get_errorList(ccobList)
         if len(ccobList)>0:
             globalList2.extend(ccobList)
         i=i+1
